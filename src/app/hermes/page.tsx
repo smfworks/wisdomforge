@@ -58,6 +58,43 @@ export default function HermesPage() {
         </ul>
       </section>
 
+      <section className="mt-12">
+        <h2 className="font-display text-2xl text-fg">Hermes profile templates</h2>
+        <p className="mt-3 text-sm text-muted">
+          Two public repos hold the profile templates. Clone, customize, and pair with the sittings.
+        </p>
+        <ul className="mt-6 space-y-4">
+          <li className="rounded-lg bg-raised p-4 shadow-[var(--shadow-border)]">
+            <p className="text-xs text-accent uppercase">Adult · Lifelong Learners</p>
+            <p className="mt-1 text-sm text-fg">
+              The SMF Works Hermes AI team template — the adult profile parents use to operate the academy and run sittings.
+            </p>
+            <a
+              className="mt-2 inline-flex text-sm text-accent hover:underline"
+              href="https://github.com/smfworks/hermes-ai-team"
+              rel="noreferrer"
+              target="_blank"
+            >
+              github.com/smfworks/hermes-ai-team →
+            </a>
+          </li>
+          <li className="rounded-lg bg-raised p-4 shadow-[var(--shadow-border)]">
+            <p className="text-xs text-accent uppercase">Little Thinkers · Young Minds · Emerging Adults</p>
+            <p className="mt-1 text-sm text-fg">
+              Band-locked child profiles for ages 5–10, 11–14, and 15–18. Fresh profiles only — never clone an adult profile. Includes START-HERE.md, BANDS.md, and DECISIONS.md.
+            </p>
+            <a
+              className="mt-2 inline-flex text-sm text-accent hover:underline"
+              href="https://github.com/smfworks/wisdomforge-kids-Hermes-profiles"
+              rel="noreferrer"
+              target="_blank"
+            >
+              github.com/smfworks/wisdomforge-kids-Hermes-profiles →
+            </a>
+          </li>
+        </ul>
+      </section>
+
       <section className="mt-12 space-y-3 text-muted">
         <h2 className="font-display text-2xl text-fg">Pairing rules</h2>
         <p>Name only the lesson or booklet title in USER.md. Do not paste the PDF. Do not dump the library into memory.</p>
@@ -65,17 +102,6 @@ export default function HermesPage() {
         <p>A Hermes profile is not an OS sandbox. Review credentials, spend, messaging, independent access.</p>
         <p>Official Hermes docs win if a command goes stale.</p>
       </section>
-
-      <p className="mt-10 text-sm">
-        <a
-          className="text-accent hover:underline"
-          href="https://github.com/smfworks/wisdomforge-kids-Hermes-profiles"
-          rel="noreferrer"
-          target="_blank"
-        >
-          smfworks/wisdomforge-kids-Hermes-profiles
-        </a>
-      </p>
 
       <div className="mt-10">
         <Button asChild variant="ghost">
