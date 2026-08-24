@@ -1,0 +1,67 @@
+import { aiLessons } from "./lessons/ai";
+import { aiMoreLessons } from "./lessons/ai-more";
+import { thinkingLessons } from "./lessons/thinking";
+import { philosophyLessons } from "./lessons/philosophy";
+import { coreLessons } from "./lessons/core";
+import type { BandId, Lesson, SubjectId } from "./types";
+import { lessonKey } from "./types";
+
+export * from "./types";
+export { bands, bandById } from "./bands";
+export { subjects, subjectById, paths, pathById } from "./subjects";
+export { catalog } from "./catalog";
+export { lessonKey };
+
+const groups: Lesson[][] = [
+  aiLessons,
+  aiMoreLessons as Lesson[],
+  thinkingLessons as Lesson[],
+  philosophyLessons as Lesson[],
+  coreLessons as Lesson[],
+];
+
+const merged = new Map<string, Lesson>();
+for (const group of groups) {
+  for (const lesson of group) {
+    if (!lesson) continue;
+    merged.set(lessonKey(lesson), lesson);
+  }
+}
+
+export const lessons: Lesson[] = [...merged.values()];
+
+export function lessonsByBand(band: BandId) {
+  return lessons
+    .filter((l) => l.band === band)
+    .sort((a, b) => a.subject.localeCompare(b.subject) || a.number - b.number);
+}
+
+export function lessonsBySubject(subject: SubjectId, band?: BandId) {
+  return lessons
+    .filter((l) => l.subject === subject && (!band || l.band === band))
+    .sort((a, b) => a.number - b.number);
+}
+
+export function findLesson(band: string, subject: string, slug: string) {
+  return lessons.find((l) => l.band === band && l.subject === subject && l.slug === slug);
+}
+
+export function nextInUnit(lesson: Lesson) {
+  return lessons
+    .filter(
+      (l) =>
+        l.band === lesson.band &&
+        l.subject === lesson.subject &&
+        l.unit === lesson.unit,
+    )
+    .sort((a, b) => a.number - b.number)
+    .find((l) => l.number === lesson.number + 1);
+}
+
+export function firstLesson(band: BandId, subject: SubjectId) {
+  return lessonsBySubject(subject, band)[0];
+}
+
+export function readySubjectsForBand(band: BandId): SubjectId[] {
+  return [...new Set(lessonsByBand(band).map((l) => l.subject))];
+}
