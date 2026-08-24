@@ -13,7 +13,7 @@ export default function Home() {
           <img
             src="/images/wisdomforge-hero.png"
             alt="Socrates in the forge"
-            className="h-full w-full object-cover opacity-30"
+            className="h-full w-full object-cover opacity-30 object-top"
           />
         </div>
         <div className="relative mx-auto max-w-6xl px-4 pt-14 pb-16 sm:pt-20 sm:pb-24">
