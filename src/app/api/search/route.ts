@@ -1,6 +1,5 @@
 import { readFileSync } from "node:fs";
-import { join, dirname } from "node:path";
-import { fileURLToPath } from "node:url";
+import { join } from "node:path";
 
 /**
  * GET /api/search
@@ -22,11 +21,13 @@ let cachedIndex: any = null;
 function getIndex(): any {
   if (cachedIndex) return cachedIndex;
 
-  // Resolve public/search-index.json relative to the project root
-  const thisDir = dirname(fileURLToPath(import.meta.url));
-  // From src/app/api/search/route.ts → project root is 4 levels up
-  const projectRoot = join(thisDir, "..", "..", "..", "..");
-  const indexPath = join(projectRoot, "public", "search-index.json");
+  // On Vercel, fileURLToPath(import.meta.url) resolves to the bundled
+  // function location, not the source tree — so relative traversal from
+  // the route file does not land on the project root. process.cwd() is
+  // the documented working directory for Next.js route handlers on both
+  // local dev and Vercel serverless, and the public/ directory is
+  // available relative to it in both environments.
+  const indexPath = join(process.cwd(), "public", "search-index.json");
 
   const raw = readFileSync(indexPath, "utf-8");
   cachedIndex = JSON.parse(raw);
