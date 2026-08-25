@@ -52,8 +52,8 @@ export const catalog: CatalogUnit[] = [
     title: "Zeno — The Founder",
     status: "ready",
     bands: ["little", "young", "emerging", "adult"],
-    weeks: "2 sittings (4 more from booklet chapters in progress)",
-    blurb: "Virtue as the only good. Shipwreck as curriculum. Two sittings live; four more from the existing booklet chapters in progress.",
+    weeks: "6 sittings",
+    blurb: "Virtue as the only good. Shipwreck as curriculum. Seeds of reason, the world city, living according to nature, and the founder's legacy.",
   },
   {
     id: "greeks",
