@@ -5,6 +5,7 @@ import { csEvalLessons } from "./lessons/cs-eval";
 import { thinkingLessons } from "./lessons/thinking";
 import { thinkingBiasLessons } from "./lessons/thinking-bias";
 import { philosophyLessons } from "./lessons/philosophy";
+import { greeksLessons } from "./lessons/greeks";
 import { englishRhetoricLessons } from "./lessons/english-rhetoric";
 import { scienceMeasureLessons } from "./lessons/science-measure";
 import { mathProofLessons } from "./lessons/math-proof";
@@ -30,6 +31,7 @@ const groups: Lesson[][] = [
   thinkingLessons as Lesson[],
   thinkingBiasLessons as Lesson[],
   philosophyLessons as Lesson[],
+  greeksLessons as Lesson[],
   englishRhetoricLessons as Lesson[],
   scienceMeasureLessons as Lesson[],
   mathProofLessons as Lesson[],

@@ -59,10 +59,10 @@ export const catalog: CatalogUnit[] = [
     id: "greeks",
     subject: "philosophy",
     title: "How the Greeks Thought",
-    status: "in-forge",
+    status: "ready",
     bands: ["young", "emerging", "adult"],
-    weeks: "16–20 weeks",
-    blurb: "Socrates, Plato, Aristotle, the Pre-Socratics — question, form, cause.",
+    weeks: "10 sittings",
+    blurb: "Socrates, Plato, Aristotle, the Pre-Socratics — question, form, cause. From method to metaphysics.",
   },
   {
     id: "fathers",
