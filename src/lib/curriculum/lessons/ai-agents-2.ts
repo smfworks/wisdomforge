@@ -48,7 +48,7 @@ export const aiAgents2Lessons = [
         dinnerQuestion:
           "What is one thing an agent in our house would do wrong if nobody checked?",
         transfer: [
-          { label: "CS", note: "Eval or it did not happen. Same discipline." },
+          { label: "CS", note: "Eval or it did not happen. The cs-eval unit ('Eval or It Did Not Happen') takes this deeper: five cases, expected behavior written first, the case you don't want to write." },
           { label: "Science", note: "Test before claim. A hypothesis is a synthetic case for the universe." },
         ],
         ifTheySay: [
@@ -114,7 +114,7 @@ export const aiAgents2Lessons = [
           "When did we last test the agent in this house, and what did it fail?",
         transfer: [
           { label: "Work", note: "You already do this in production. Apply it at the desk." },
-          { label: "Security", note: "Penetration testing is a harness with a different name." },
+          { label: "Security", note: "Penetration testing is a harness with a different name. The cs-eval unit ('Eval or It Did Not Happen') is the deeper version of this same discipline — five cases, a gate, eval-first design." },
         ],
         ifTheySay: [
           {

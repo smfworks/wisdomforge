@@ -49,7 +49,7 @@ export const csEvalLessons = [
           "What is the one test case you did not want to write, and what would happen if you ran it?",
         transfer: [
           { label: "Science", note: "A hypothesis is a synthetic case for the universe. You write the guess and the disproof before you look." },
-          { label: "AI", note: "The eval harness from the agents unit is the same discipline, applied to a different system." },
+          { label: "AI", note: "The ai-agents unit ('Building a Week with an Agent') introduced the harness in three cases. This sitting takes it deeper: five cases, expected behavior first, the case you don't want to write." },
         ],
         ifTheySay: [
           {
@@ -114,7 +114,7 @@ export const csEvalLessons = [
           "When did we last run the harness, and what did it catch?",
         transfer: [
           { label: "Work", note: "You already do this in production. The desk version is smaller and cheaper, and the stakes are higher." },
-          { label: "Security", note: "Penetration testing is a harness with a different name and a bigger budget." },
+          { label: "Security", note: "Penetration testing is a harness with a different name and a bigger budget. The ai-agents unit ('Building a Week with an Agent') covers the same harness discipline for parents who do not code." },
         ],
         ifTheySay: [
           {

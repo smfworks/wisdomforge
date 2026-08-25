@@ -10,6 +10,7 @@ import { lessonKey } from "@/lib/curriculum/types";
 import { ritualLabel } from "@/lib/labels";
 import { useForge } from "@/lib/progress";
 import { useHydrated } from "@/lib/use-hydrated";
+import { bookletLinksForLesson, figureDisplayName } from "@/lib/curriculum/booklets";
 
 export function LessonView({ lesson }: { lesson: Lesson }) {
   const band = bandById(lesson.band);
@@ -124,6 +125,46 @@ export function LessonView({ lesson }: { lesson: Lesson }) {
           ))}
         </ul>
       </section>
+
+      {(() => {
+        const links = bookletLinksForLesson(lesson.slug, lesson.band);
+        if (!links) return null;
+        const figure = figureDisplayName(links[0].figure);
+        const currentLabel =
+          lesson.band === "little" ? "Elementary" :
+          lesson.band === "young" ? "Middle" :
+          lesson.band === "emerging" ? "High School" :
+          "Adult";
+        return (
+          <section className="mt-10 rounded-lg bg-surface p-5 shadow-[var(--shadow-border)]">
+            <p className="text-xs font-medium tracking-wide text-accent uppercase">Booklet</p>
+            <h2 className="mt-1 font-display text-2xl text-fg">Download the {figure} booklet</h2>
+            <p className="mt-2 text-sm text-muted">
+              The full text behind this sitting, in a printable PDF. Pick the level that fits.
+            </p>
+            <ul className="mt-4 flex flex-wrap gap-3">
+              {links.map((link) => {
+                const isCurrent = link.label === currentLabel;
+                return (
+                  <li key={link.href}>
+                    <a
+                      href={link.href}
+                      download
+                      className={`inline-flex items-center gap-2 rounded-md px-4 py-2 text-sm shadow-[var(--shadow-border)] transition-colors ${
+                        isCurrent
+                          ? "bg-accent text-bg font-medium"
+                          : "bg-raised text-fg hover:bg-surface"
+                      }`}
+                    >
+                      {link.label} PDF
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          </section>
+        );
+      })()}
 
       <p className="mt-10 rounded-lg bg-raised p-4 text-sm text-muted shadow-[var(--shadow-border)]">
         <span className="font-medium text-fg">Integrity. </span>

@@ -17,7 +17,7 @@ export const catalog: CatalogUnit[] = [
     status: "ready",
     bands: ["emerging", "adult"],
     weeks: "4 sittings",
-    blurb: "Eval harnesses, memory hygiene, and when to turn the agent off.",
+    blurb: "Eval harnesses, memory hygiene, permissions audit, and when to turn the agent off.",
   },
   {
     id: "think-how",
@@ -188,7 +188,7 @@ export const catalog: CatalogUnit[] = [
     status: "ready",
     bands: ["emerging", "adult"],
     weeks: "4 sittings",
-    blurb: "Synthetic tests before a child sits down. The kit's EVALS.md is the model.",
+    blurb: "Synthetic tests, CI gates, eval-driven development, and the full eval cycle. The kit's EVALS.md is the model.",
   },
   {
     id: "lang-say",
