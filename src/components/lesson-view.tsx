@@ -47,17 +47,32 @@ export function LessonView({ lesson }: { lesson: Lesson }) {
         <li className="rounded-md bg-raised px-3 py-2 shadow-[var(--shadow-border)]">{band?.ages}</li>
       </ul>
 
-      <details className="mt-8 rounded-lg bg-surface p-4 shadow-[var(--shadow-border)]" open>
-        <summary className="cursor-pointer font-medium text-fg">Parent briefing · 5 minutes, before they sit</summary>
+      {/* 1. Parent briefing — prominent card, not collapsible */}
+      <section className="mt-8 rounded-lg bg-surface p-5 shadow-[var(--shadow-border)]">
+        <p className="text-xs font-medium tracking-wide text-accent uppercase">Parent briefing · 5 minutes, before they sit</p>
         <p className="mt-3 text-sm leading-relaxed text-muted">{lesson.parentBriefing}</p>
-        <p className="mt-4 text-xs font-medium tracking-wide text-faint uppercase">Hard edges</p>
+        <p className="mt-4 text-xs font-medium tracking-wide text-accent uppercase">Hard edges</p>
         <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-muted">
           {lesson.hardEdges.map((h) => (
             <li key={h}>{h}</li>
           ))}
         </ul>
-      </details>
+      </section>
 
+      {/* 2. If they say — moved up, accent-bordered callout for parental utility */}
+      <section className="mt-6 rounded-lg border-l-2 border-accent bg-surface p-5 shadow-[var(--shadow-border)]">
+        <h2 className="font-display text-2xl text-fg">If they say</h2>
+        <dl className="mt-4 space-y-4">
+          {lesson.ifTheySay.map((row) => (
+            <div key={row.heard} className="rounded-lg bg-raised p-4 shadow-[var(--shadow-border)]">
+              <dt className="text-sm font-medium text-fg">&ldquo;{row.heard}&rdquo;</dt>
+              <dd className="mt-2 text-sm text-muted">{row.reply}</dd>
+            </div>
+          ))}
+        </dl>
+      </section>
+
+      {/* 3. Objective */}
       <p className="mt-10 text-xs font-medium tracking-wide text-faint uppercase">Objective</p>
       <p className="mt-2 text-fg">{lesson.objective}</p>
 
@@ -76,7 +91,12 @@ export function LessonView({ lesson }: { lesson: Lesson }) {
       </section>
 
       <section className="mt-10">
-        <h2 className="font-display text-2xl text-fg">Try this</h2>
+        <h2 className="font-display text-2xl text-fg">
+          Try this
+          <span className="ml-3 text-sm font-sans font-normal text-faint">
+            ~{lesson.tryThis.reduce((sum, act) => sum + act.minutes, 0)} min total
+          </span>
+        </h2>
         <div className="mt-4 space-y-4">
           {lesson.tryThis.map((act) => (
             <div key={act.title} className="rounded-lg bg-raised p-4 shadow-[var(--shadow-border)]">
@@ -101,18 +121,6 @@ export function LessonView({ lesson }: { lesson: Lesson }) {
       <section className="mt-10">
         <h2 className="font-display text-2xl text-fg">Dinner table</h2>
         <p className="mt-3 text-lg text-fg">{lesson.dinnerQuestion}</p>
-      </section>
-
-      <section className="mt-10">
-        <h2 className="font-display text-2xl text-fg">If they say</h2>
-        <dl className="mt-4 space-y-4">
-          {lesson.ifTheySay.map((row) => (
-            <div key={row.heard} className="rounded-lg bg-surface p-4 shadow-[var(--shadow-border)]">
-              <dt className="text-sm font-medium text-fg">&ldquo;{row.heard}&rdquo;</dt>
-              <dd className="mt-2 text-sm text-muted">{row.reply}</dd>
-            </div>
-          ))}
-        </dl>
       </section>
 
       <section className="mt-10">
