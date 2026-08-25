@@ -68,9 +68,9 @@ export const catalog: CatalogUnit[] = [
     id: "fathers",
     subject: "philosophy",
     title: "Faith & Reason",
-    status: "in-forge",
+    status: "ready",
     bands: ["emerging", "adult"],
-    weeks: "16–20 weeks",
+    weeks: "10 sittings",
     blurb: "Church Fathers through Aquinas. Belief that can think. Parent theological humility notes.",
   },
   {
