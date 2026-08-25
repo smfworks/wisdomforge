@@ -11,6 +11,7 @@ import { mathProofLessons } from "./lessons/math-proof";
 import { artTasteLessons } from "./lessons/art-taste";
 import { historyCivicsLessons } from "./lessons/history-civics";
 import { languageDeepLessons } from "./lessons/language-deep";
+import { aiHistoryLessons } from "./lessons/ai-history";
 import { coreLessons } from "./lessons/core";
 import type { BandId, Lesson, SubjectId } from "./types";
 import { lessonKey } from "./types";
@@ -35,6 +36,7 @@ const groups: Lesson[][] = [
   artTasteLessons as Lesson[],
   historyCivicsLessons as Lesson[],
   languageDeepLessons as Lesson[],
+  aiHistoryLessons as Lesson[],
   coreLessons as Lesson[],
 ];
 

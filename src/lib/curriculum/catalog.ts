@@ -74,6 +74,15 @@ export const catalog: CatalogUnit[] = [
     blurb: "Church Fathers through Aquinas. Belief that can think. Parent theological humility notes.",
   },
   {
+    id: "ai-history",
+    subject: "philosophy",
+    title: "The Intellectual History of AI",
+    status: "ready",
+    bands: ["young", "emerging", "adult"],
+    weeks: "3 sittings",
+    blurb: "Turing's question, Searle's Chinese Room, Wiener's genie. The three ideas every AI user should know.",
+  },
+  {
     id: "math-estimate",
     subject: "math",
     title: "Estimate Before the Oracle",
