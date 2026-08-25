@@ -3,6 +3,7 @@
 import { useState } from "react";
 import type { Lesson } from "@/lib/curriculum/types";
 import { Button } from "@/components/ui/button";
+import { SittingBridge } from "@/components/sitting-bridge";
 
 type Msg = { role: "user" | "assistant"; content: string };
 
@@ -11,7 +12,6 @@ export function GuidePanel({ lesson }: { lesson: Lesson }) {
   const [draft, setDraft] = useState("");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [copied, setCopied] = useState(false);
   const remaining = 8 - messages.filter((m) => m.role === "user").length;
   const little = lesson.band === "little";
 
@@ -31,16 +31,6 @@ export function GuidePanel({ lesson }: { lesson: Lesson }) {
       setError("The guide could not be reached. Try again, or use the Hermes prompt instead.");
     } finally {
       setBusy(false);
-    }
-  }
-
-  async function copyPrompt() {
-    try {
-      await navigator.clipboard.writeText(lesson.hermes.prompt);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 1600);
-    } catch {
-      setCopied(false);
     }
   }
 
@@ -105,13 +95,8 @@ export function GuidePanel({ lesson }: { lesson: Lesson }) {
       </form>
       <p className="mt-2 text-xs text-faint">{remaining} turns left this sitting. User-started only. Never on page load.</p>
 
-      <div className="mt-6 border-t border-border pt-4">
-        <p className="text-sm font-medium text-fg">Pair with Hermes</p>
-        <p className="mt-1 text-sm text-muted">{lesson.hermes.pairingLine}</p>
-        <p className="mt-1 text-xs text-faint">Tools on: {lesson.hermes.allowedTools.join(" · ")}</p>
-        <Button variant="secondary" className="mt-3" type="button" onClick={() => void copyPrompt()}>
-          {copied ? "Copied" : "Copy Hermes prompt"}
-        </Button>
+      <div className="mt-6">
+        <SittingBridge lesson={lesson} />
       </div>
     </section>
   );
