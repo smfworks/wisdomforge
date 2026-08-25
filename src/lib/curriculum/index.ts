@@ -1,7 +1,16 @@
 import { aiLessons } from "./lessons/ai";
 import { aiMoreLessons } from "./lessons/ai-more";
+import { aiAgents2Lessons } from "./lessons/ai-agents-2";
+import { csEvalLessons } from "./lessons/cs-eval";
 import { thinkingLessons } from "./lessons/thinking";
+import { thinkingBiasLessons } from "./lessons/thinking-bias";
 import { philosophyLessons } from "./lessons/philosophy";
+import { englishRhetoricLessons } from "./lessons/english-rhetoric";
+import { scienceMeasureLessons } from "./lessons/science-measure";
+import { mathProofLessons } from "./lessons/math-proof";
+import { artTasteLessons } from "./lessons/art-taste";
+import { historyCivicsLessons } from "./lessons/history-civics";
+import { languageDeepLessons } from "./lessons/language-deep";
 import { coreLessons } from "./lessons/core";
 import type { BandId, Lesson, SubjectId } from "./types";
 import { lessonKey } from "./types";
@@ -15,8 +24,17 @@ export { lessonKey };
 const groups: Lesson[][] = [
   aiLessons,
   aiMoreLessons as Lesson[],
+  aiAgents2Lessons as Lesson[],
+  csEvalLessons as Lesson[],
   thinkingLessons as Lesson[],
+  thinkingBiasLessons as Lesson[],
   philosophyLessons as Lesson[],
+  englishRhetoricLessons as Lesson[],
+  scienceMeasureLessons as Lesson[],
+  mathProofLessons as Lesson[],
+  artTasteLessons as Lesson[],
+  historyCivicsLessons as Lesson[],
+  languageDeepLessons as Lesson[],
   coreLessons as Lesson[],
 ];
 

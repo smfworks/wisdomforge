@@ -52,9 +52,11 @@ export function expand(meta: {
   subject: SubjectId;
   unit: string;
   number: number;
-  variants: Record<BandId, Variant>;
+  bands?: BandId[];
+  variants: Partial<Record<BandId, Variant>>;
 }): Lesson[] {
-  return ALL_BANDS.map((band): Lesson => {
+  const bands = meta.bands ?? ALL_BANDS;
+  return bands.map((band): Lesson => {
     const v = meta.variants[band];
     if (!v) {
       throw new Error(`Missing ${band} variant for ${meta.slug}`);
