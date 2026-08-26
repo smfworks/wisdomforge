@@ -166,11 +166,11 @@ export const catalog: CatalogUnit[] = [
   {
     id: "hist-constitution",
     subject: "history",
-    title: "The Constitution — Design and Compromise",
+    title: "The Constitution — Designed, Not Extracted",
     status: "ready",
     bands: ["young", "emerging", "adult"],
-    weeks: "4 sittings",
-    blurb: "Power against power, the three-fifths deal, and 27 amendments that expanded who counts.",
+    weeks: "6 sittings",
+    blurb: "Power against power, the losers' legacy, the three-fifths sin, and the amendment chain. How the Constitution grows.",
   },
   {
     id: "hist-declaration",
@@ -178,8 +178,8 @@ export const catalog: CatalogUnit[] = [
     title: "The Declaration — The Promise and the Gap",
     status: "ready",
     bands: ["young", "emerging", "adult"],
-    weeks: "4 sittings",
-    blurb: "Natural rights, the right of revolution, and the gap between 'all men' and everyone.",
+    weeks: "6 sittings",
+    blurb: "Self-evident truths, the right of revolution, and the gap between the promise and the practice. The chain from 1776 to today.",
   },
   {
     id: "art-hand",

@@ -1,177 +1,216 @@
 import { expand } from "./factory";
 
 export const constitutionLessons = [
-  // ── 1. Philadelphia: The Closed Room ──────────────────────────────
+  // ── 1. Philadelphia, Summer of 1787 ────────────────────────────────
   ...expand({
-    slug: "philadelphia-closed-room",
+    slug: "philadelphia-1787",
     subject: "history",
-    unit: "The Constitution — Design and Compromise",
+    unit: "The Constitution — Designed, Not Extracted",
     number: 1,
     bands: ["young", "emerging", "adult"],
     variants: {
       young: {
-        title: "The Closed Room in Philadelphia",
-        dek: "55 men locked the doors and argued all summer. What they wrote changed the world. What they argued about might surprise you.",
+        title: "The Room No One Could Leave",
+        dek: "Fifty-five men shut the doors and argued for a whole summer. They were supposed to fix the old government. They built a new one.",
         objective:
-          "The student can tell the story of the Constitutional Convention: who was there, what they argued about, and what they produced.",
+          "The student can tell the story of the Constitutional Convention: why it was called, what happened behind closed doors, and what it produced.",
         parentBriefing:
-          "This sitting tells the story of the Constitutional Convention of 1787. The key facts: 55 men met in Philadelphia in secret. They argued for four months. They were not unified — they disagreed about almost everything. The result was a document that barely passed ratification. The student should understand that the Constitution was not a smooth, unified effort. It was a fight — between large states and small states, North and South, Federalists and Anti-Federalists. The compromises they made (the Great Compromise, the three-fifths compromise) were not elegant solutions. They were the deals they had to make to get anything passed.",
+          "This sitting tells the story of the Constitutional Convention honestly. The delegates went to Philadelphia to fix the Articles of Confederation, not to write a new Constitution. The Articles had failed: the national government could not tax, could not enforce laws, could not pay its debts, could not defend the country. Shays' Rebellion — an armed uprising in Massachusetts — showed everyone the system was broken. But the delegates were not supposed to start over. They were supposed to amend the Articles. Instead, they locked the doors, took an oath of secrecy, and designed an entirely new government. That was a kind of quiet revolution — not against a king, but against their own first attempt at self-government. The student should understand that the Constitution was designed, debated, and compromised into existence. It was not handed down. It was not inevitable. It nearly did not happen.",
         hardEdges: [
-          "Do not present the founders as unified. They were two camps who disagreed about almost everything.",
-          "Do not skip the three-fifths compromise or the slavery compromises. They are not footnotes. They are the design.",
+          "Do not present the Convention as a smooth, unified effort. The delegates disagreed bitterly about representation, slavery, and executive power.",
+          "Do not skip the secrecy. The doors were locked and the windows were shuttered. The delegates took an oath. This was not a public process.",
         ],
         reading: [
           {
-            heading: "The locked doors",
-            body: "In the summer of 1787, 55 men met in Philadelphia. They locked the doors. They kept no official record of the debates. They did not want their arguments used against them. They argued for four months about how to build a government. They disagreed about almost everything: how powerful the president should be, how states should be represented, whether slavery should be protected. The result was a compromise that barely passed. The Constitution was not a gift from wise men who agreed. It was a fight that ended in a deal.",
+            heading: "Why they were there",
+            body: "In 1787, the United States was not really a nation. It was thirteen states in a loose alliance called the Articles of Confederation. The Articles had no President, no courts, no power to tax. Congress could ask states for money, but states could refuse — and often did. The country owed money from the Revolutionary War it could not pay. States were taxing each other's goods and fighting over trade. Then a farmer named Daniel Shays led an armed rebellion in Massachusetts, and the national government could not raise an army to stop it. Something had to change.",
+          },
+          {
+            heading: "What happened in the room",
+            body: "Twelve states sent delegates to Philadelphia (Rhode Island refused to come). They were told to revise the Articles. Instead, they decided the Articles could not be fixed. They locked the doors, swore an oath of secrecy, and started over. George Washington presided. James Madison took notes. Benjamin Franklin, 81 years old, had to be carried in on a chair. They argued for four months about how to build a government strong enough to work but not strong enough to tyrannize. The result was the Constitution — seven articles, four pages, the oldest written national constitution still in force.",
           },
         ],
         bigIdea:
-          "The Constitution was not a unified effort by men who agreed. It was a fight in a closed room that ended in a series of deals.",
+          "The Constitution was designed, not extracted. Men sat in a locked room and argued for a summer. What they produced was not inevitable — it nearly failed.",
         tryThis: [
           {
-            title: "The arguments",
+            title: "The locked room",
             minutes: 20,
             steps: [
-              "List three things the founders argued about: how to represent states, how to count slaves, how powerful the president should be.",
-              "For each, write the two sides. Who wanted what? What was the deal?",
-              "Talk About It: if they disagreed so much, how did they produce a document at all?",
+              "Draw the room: 55 delegates, doors locked, windows shut. Label who is there (Washington presiding, Madison taking notes, Franklin in a chair).",
+              "Write three problems the Articles had: no power to tax, no power to enforce, no power to defend. These are the reasons they started over.",
+              "Talk About It: they were told to fix the old government and they built a new one instead. Was that legal? Was it right? What gives a group the authority to start over?",
             ],
           },
         ],
-        dinnerQuestion: "If the founders disagreed about almost everything, what does it mean that they produced a document anyway?",
+        dinnerQuestion:
+          "If you were locked in a room for four months and told to design a government, what would be the first rule you would write?",
         transfer: [
-          { label: "Thinking", note: "Source before summary: read the Convention notes (Madison's). The legend smooths the disagreements." },
+          { label: "Thinking", note: "Source before summary: the Convention notes are Madison's. The Constitution is the product. Read the product first, then the notes." },
+          { label: "AI", note: "Ask the model to summarize the Constitutional Convention. Then ask: 'What did the summary leave out?' The secrecy, the lockout, the starting over — these are the story." },
         ],
         ifTheySay: [
           {
-            heard: "The founders all agreed on the Constitution.",
-            reply: "They did not. The convention was a fight between large states and small states, North and South, Federalists and Anti-Federalists. Ratification was close — the Constitution passed by a few votes in several states. The 'founding fathers' were not a team. They were two camps who barely found common ground. The common ground was a series of compromises, not a shared vision.",
+            heard: "The Founding Fathers all agreed on the Constitution.",
+            reply: "They did not. The Convention was a battle. Large states wanted proportional representation. Small states wanted equal representation. The South wanted slaves counted for representation. The North did not. Some wanted a strong President. Others feared monarchy. The final document was a series of compromises — the Great Compromise (House by population, Senate equal), the three-fifths compromise, the Electoral College. Rhode Island did not even come. The Constitution passed by narrow margins in several states.",
+          },
+          {
+            heard: "They went there to write the Constitution.",
+            reply: "They did not. They went to fix the Articles of Confederation. The Articles were the first American government, and they were failing. The delegates were authorized to amend the Articles, not to replace them. They decided the Articles could not be fixed and started over. That decision was a quiet revolution — a group of men deciding to ignore their instructions and design a new government. Whether that was legal is still debated. Whether it was necessary is clearer: the country was falling apart.",
           },
         ],
-        integrity: "Do not cite a model's summary of the Convention. Read Madison's notes. The summary will smooth the fights.",
+        integrity:
+          "Do not let the model present the Convention as a smooth, unified effort. Read Madison's notes (or a summary). The disagreements are the story. The compromises are the product.",
         aiLab: {
-          setup: "After reading.",
-          childDoes: "Ask the model: 'What happened at the Constitutional Convention?' Then ask: 'What did the model smooth?' The model will present unity. The reality was disagreement.",
+          setup: "After the reading.",
+          childDoes:
+            "Ask the model: 'What happened at the Constitutional Convention?' If it says 'the Founders created the Constitution,' that is a summary. Ask: 'What did they actually disagree about?' The disagreements — representation, slavery, executive power — are the Constitution.",
           evaluate: [
-            "Can they name at least three disagreements?",
-            "Do they understand the Convention was not unified?",
+            "Can they tell the story of the Convention: why it was called, what happened, what it produced?",
+            "Do they know the Articles failed and the delegates started over?",
+            "Do they understand the Convention was behind closed doors with sworn secrecy?",
           ],
         },
       },
       emerging: {
-        title: "Philadelphia: The Fight Behind the Design",
-        dek: "The Constitution was not a unified effort. It was a four-month argument in a locked room that ended in a series of compromises — some brilliant, some brutal.",
+        title: "Philadelphia: Designed, Not Extracted",
+        dek: "The Constitution is the oldest written national constitution in the world. It was drafted in secret by men who exceeded their authority, produced through compromise, and ratified by narrow margins.",
         objective:
-          "The student can explain the major disagreements at the Constitutional Convention, the compromises that resolved them, and the legacy of those compromises — including the three-fifths clause and the slavery concessions.",
+          "The student can explain the historical context of the Constitutional Convention, why the Articles of Confederation failed, and how the Constitution was designed through compromise behind closed doors.",
         parentBriefing:
-          "This sitting takes the Convention seriously as a political fight, not a civics lesson. The student needs to understand that the Constitution's design was driven by disagreement, not consensus. The Great Compromise (bicameral legislature) resolved large states vs small states. The three-fifths compromise resolved the representation of enslaved people. The Electoral College was a concession to small states and the fear of mob rule. The 20-year ban on banning the slave trade was a concession to the South. Each compromise was a deal, not a principle. The student should be able to distinguish the design from the deals — and see that some of the deals were brutal.",
+          "This sitting grounds the Constitution in its actual history. The student needs to understand three things. First, the Articles of Confederation failed because they were too weak — no taxing power, no executive, no judiciary, no ability to enforce laws or defend the nation. Shays' Rebellion (1786) was the catalyst: an armed uprising the national government could not stop. Second, the Convention exceeded its authority. Delegates were sent to amend the Articles. They locked the doors, swore secrecy, and designed a new government. This was a quiet revolution — legal or not, it was a deliberate choice to start over. Third, the Constitution was a series of compromises: the Great Compromise (bicameral legislature), the three-fifths compromise (slaves counted as three-fifths for representation), the Electoral College (indirect presidential election), and the Commerce Clause compromise (20-year ban on banning the slave trade). Each compromise resolved one dispute and created new problems. The student should understand that the Constitution was designed — not discovered, not handed down, not inevitable.",
         hardEdges: [
-          "The three-fifths compromise was about representation and taxation, not human worth. But it embedded slavery in the Constitution's structure. Name both.",
-          "The Constitution protected the slave trade for 20 years (Article I, Section 9). That is not a footnote. It is a concession that traded human lives for political union.",
+          "Do not present the Convention as authorized. The delegates were sent to amend the Articles, not to replace them. Starting over was a decision, not a mandate.",
+          "Do not skip the compromises. The Great Compromise, the three-fifths compromise, and the Electoral College were political deals, not philosophical principles. Each deal had consequences.",
+          "Do not present ratification as easy. The Constitution passed 187-168 in Massachusetts, 89-79 in Virginia, 30-27 in New York. It barely won.",
         ],
         reading: [
           {
-            heading: "The fights",
-            body: "The Convention had four major fights. Large states vs small states: should representation be proportional (Virginia Plan) or equal (New Jersey Plan)? The Great Compromise: a House apportioned by population and a Senate with equal representation per state. North vs South on slavery: should enslaved people count for representation? The three-fifths compromise: count them as three-fifths of a person for apportionment — not for worth, but for seats and taxes. The slave trade: the South wanted protection for the trade. The North wanted to ban it. The deal: a 20-year ban on banning the trade (Article I, Section 9). Executive power: some wanted a strong president. Others feared monarchy. The Electoral College was the compromise — not a principle, but a deal between those who wanted Congress to choose the president and those who wanted direct election.",
+            heading: "The failure of the Articles",
+            body: "The Articles of Confederation (1781) created a government so weak it could not function. No President, no courts, no power to tax. Congress could request money from states but could not compel payment. States taxed each other's goods, fought over trade, and ignored federal law. The national debt from the Revolutionary War was unpaid. Foreign policy was impossible: the British occupied forts in the Northwest Territory, the Spanish closed the Mississippi to American shipping, and the national government had no army and no money to respond. Shays' Rebellion (1786) — an armed uprising of farmers in Massachusetts facing debt and foreclosure — was put down by state militia, not federal forces. The national government stood by, unable to act. The lesson was clear: a government that cannot enforce its laws, defend its borders, or pay its debts is not a government.",
           },
           {
-            heading: "The Anti-Federalists",
-            body: "The Constitution was not universally loved. The Anti-Federalists — Patrick Henry, George Mason, and others — opposed it. They feared a strong central government would become a tyranny. They demanded a Bill of Rights as the price of ratification. The Federalists (Madison, Hamilton) argued that a Bill of Rights was unnecessary — the Constitution already limited government. The Anti-Federalists won the argument. The Bill of Rights was added in 1791. But the deeper Anti-Federalist fear — that a distant central government would become unaccountable — has never fully gone away. The fight at Philadelphia did not end with the Convention. It continued through ratification, through the first Congress, and through every constitutional debate since.",
+            heading: "The Convention that exceeded its mandate",
+            body: "The delegates who arrived in Philadelphia in May 1787 were sent by their states to revise the Articles of Confederation. That was their instruction. Instead, they locked the doors of the Pennsylvania State House, took an oath of secrecy, and decided the Articles could not be fixed. They would design a new government. James Madison had arrived with a plan — the Virginia Plan — before the Convention began. The plan proposed a national government with three branches, a bicameral legislature with proportional representation, and a national executive and judiciary. It was a wholesale replacement of the Articles, not a revision. Whether the delegates had the authority to do this is debatable. Whether the country needed it is clearer: the Articles were failing, and everyone knew it. The Constitution was the product of men who decided their instructions were inadequate and acted on their own judgment.",
+          },
+          {
+            heading: "The compromises that made it possible",
+            body: "The Convention's biggest fights were about representation and slavery. Large states wanted representation proportional to population (the Virginia Plan). Small states wanted equal representation per state (the New Jersey Plan). The Great Compromise: a House of Representatives apportioned by population, and a Senate with two members per state regardless of size. The South wanted enslaved people counted for representation; the North did not. The three-fifths compromise: each enslaved person counted as three-fifths of a person for both representation and taxation. The South wanted protection for the slave trade; the North wanted to ban it. The compromise: a 20-year ban on banning the slave trade (until 1808). The President was to be chosen by an Electoral College, not by direct vote — a compromise between election by Congress and election by the people. Each compromise resolved a fight and created a legacy. The three-fifths compromise gave the slave states extra power for 80 years. The Electoral College has elected Presidents who lost the popular vote five times. The Senate's equal representation means Wyoming's 580,000 people have the same Senate power as California's 39 million. The compromises were political deals, not philosophical principles. Their consequences are still with us.",
           },
         ],
         bigIdea:
-          "The Constitution was driven by disagreement, not consensus. The compromises that resolved the fights — some brilliant, some brutal — are the design. Read the fights, not just the result.",
+          "The Constitution was designed through compromise behind closed doors by men who exceeded their instructions. It was not inevitable, not unified, and not easy to ratify.",
         tryThis: [
           {
-            title: "Read the compromises",
+            title: "Map the compromises",
             minutes: 35,
             steps: [
-              "Read Article I, Section 2, Clause 3 (the three-fifths clause). Write what it says in plain English.",
-              "Read Article I, Section 9 (the slave trade clause). What did it protect, and for how long?",
-              "Read Federalist 51 (Madison on checks and balances). What problem was he solving?",
-              "Reflect: the three-fifths compromise was about seats and taxes, not human worth. But it embedded slavery in the Constitution's structure. How do you hold both truths: the clause was not about human value, and it protected slavery?",
+              "List the three major compromises: Great Compromise (House proportional, Senate equal), three-fifths compromise (slaves counted as 3/5 for representation and taxation), Electoral College (indirect presidential election).",
+              "For each compromise, write: what was the fight? What was the deal? What was the consequence?",
+              "Find the ratification votes: Massachusetts 187-168, Virginia 89-79, New York 30-27. These are narrow margins. If one or two states had voted no, the Constitution might not have been adopted.",
+              "Reflect: the delegates were sent to amend the Articles. They built a new government instead. Was that legitimate? What gives a group the authority to exceed its instructions?",
             ],
           },
         ],
-        dinnerQuestion: "The Constitution protected the slave trade for 20 years. Was that a necessary compromise or a moral failure? Can it be both?",
+        dinnerQuestion:
+          "The Constitution was a series of political compromises. Which compromise had the most lasting consequences — and were those consequences good or bad?",
         transfer: [
-          { label: "Thinking", note: "Source before summary: Madison's Convention notes are the source. The Constitution is the result. The legend smooths the fights." },
-          { label: "AI", note: "Ask the model: 'What were the major compromises at the Constitutional Convention?' Then ask: 'What did the model soften?' The three-fifths clause and the slave trade protection should be named, not smoothed." },
+          { label: "Thinking", note: "Source before summary: the Constitution is four pages. Read it. Madison's notes are the Convention. The Federalist Papers are the argument for ratification." },
+          { label: "AI", note: "Ask the model to summarize the Constitutional Convention. Then ask: 'What compromises did it skip?' The model will smooth the disagreements. The disagreements are the story." },
+          { label: "History", note: "Magna Carta was extracted from a king. The Constitution was designed by a convention. The charter was a list of limits. The Constitution is a structure. Both are responses to crisis." },
         ],
         ifTheySay: [
           {
-            heard: "The three-fifths clause meant slaves were three-fifths of a person.",
-            reply: "It meant they were counted as three-fifths of a person for representation and taxation — not that they were three-fifths of a human being. The distinction matters. The North wanted slaves to not count at all (less power for the South). The South wanted them to count fully (more power for the South). The compromise was three-fifths — a deal about seats and taxes. It was not a statement about human worth. But it did embed slavery in the Constitution's structure, giving slave states extra representation based on people they treated as property. Both things are true: the clause was about apportionment, not value, and it protected slavery by giving slave states more power.",
+            heard: "The Founding Fathers were geniuses who agreed on everything.",
+            reply: "They were smart men who disagreed about almost everything. Large states vs. small states. National government vs. states' rights. Strong executive vs. weak executive. Slavery: count the enslaved for representation or not. The slave trade: protect it or ban it. The Convention was four months of arguments, not a gentleman's agreement. The Constitution that emerged was a series of compromises that every delegate had to accept something they did not want to get something they did. That is not genius. That is politics. The genius, if there is any, is in the design — the structure that has held for 230 years despite the compromises that almost broke it.",
           },
           {
-            heard: "The founders were all on the same side.",
-            reply: "They were not. The Convention was a fight. Federalists wanted a strong central government. Anti-Federalists feared it would become tyranny. Ratification was close — the Constitution passed by a few votes in several states. The Bill of Rights was the Anti-Federalists' price. The 'founding fathers' were not a team. They were two camps who barely found common ground, and the common ground was a series of compromises — some of which protected slavery for political convenience. Do not smooth the fight into a legend. The fight is the history.",
+            heard: "They had the right to throw out the Articles and start over.",
+            reply: "They did not. They were instructed to amend the Articles of Confederation, not to replace them. The Articles required unanimous consent for amendment. The Convention produced a document that required only nine states to ratify — a deliberate lowering of the bar to make adoption possible. Whether the Convention had the authority to do this is a question that has never been fully settled. The answer most historians give is: they did not have the legal authority, but they had the practical necessity. The country was falling apart. The Articles could not fix it. Starting over was a gamble. It worked — barely. The Constitution passed by narrow margins in state conventions that excluded women, slaves, Native Americans, and the propertyless. The founding was not clean. It was a messy, contested, political act.",
           },
         ],
-        integrity: "Do not cite the model's summary of the Convention. Read Article I, Sections 2 and 9. Read Federalist 51. The model will smooth. The text does not.",
+        integrity:
+          "Do not let the model present the Convention as a smooth, unified effort or the Constitution as inevitable. Read Madison's notes. The disagreements are the story. The compromises are the product.",
         aiLab: {
-          setup: "After the try-this.",
-          childDoes: "Ask the model: 'Summarize the three-fifths compromise in one sentence.' Then ask: 'What did you leave out?' The model will say it was about counting slaves. It will likely not mention that the North wanted them to not count and the South wanted them to count fully. The politics of the compromise is the lesson.",
+          setup: "After the reading.",
+          childDoes:
+            "Ask the model: 'Summarize the Constitutional Convention in one paragraph.' Then ask: 'What did you leave out?' The model will skip the secrecy, the exceeded mandate, the compromises, the narrow ratification. Each omission is a piece of the story.",
           evaluate: [
-            "Can they explain what the three-fifths compromise actually said?",
-            "Do they understand it was about representation, not human worth?",
-            "Can they name the slave trade protection (Article I, Section 9)?",
-            "Do they understand the Convention was a fight, not a unified effort?",
+            "Can they explain why the Articles failed?",
+            "Do they understand the Convention exceeded its instructions?",
+            "Can they name at least two compromises and their consequences?",
+            "Do they know ratification was close in several states?",
           ],
         },
       },
       adult: {
-        title: "Philadelphia: The Design and the Deals",
-        dek: "The Constitution is the most durable written constitution in the world. It was built from four months of argument in a locked room, by men who disagreed about almost everything and compromised on some things they should not have.",
+        title: "Philadelphia: The Quiet Revolution",
+        dek: "The Constitutional Convention was a quiet revolution — men who exceeded their instructions, locked the doors, and designed a new government. Understanding how it happened and what it produced is the foundation of constitutional literacy.",
         objective:
-          "The parent can explain the major disagreements at the Constitutional Convention, the compromises that resolved them, the legacy of those compromises (including the slavery concessions), and the ongoing tension between the Constitution's design and its deals.",
+          "The parent can explain the historical context of the Constitutional Convention, the failure of the Articles, the compromises that made the Constitution possible, and the narrow margins through which it was ratified.",
         parentBriefing:
-          "This sitting is for the parent who wants to teach the Constitution honestly — as a political achievement built from disagreement, not as a sacred text handed down by unified wise men. The parent should understand the four major fights (large vs small states, North vs South on slavery, executive power, federalism), the compromises that resolved them, and the moral cost of the slavery concessions. The three-fifths clause and the 20-year slave trade protection were not unfortunate footnotes. They were design choices — deals that traded human lives for political union. The Constitution is both a brilliant design and a document with moral compromises built into its structure. Both things are true. Teaching only one is dishonest.",
+          "This sitting is for the parent who wants to teach the founding honestly. The story has three layers. First, the Articles of Confederation failed because a government that cannot tax, enforce, or defend is not a government. Shays' Rebellion was the proof. Second, the Convention was a quiet revolution. Delegates instructed to amend the Articles locked the doors, swore secrecy, and designed a new government. The legality is debatable. The necessity is clearer. Third, the Constitution was a series of political compromises — the Great Compromise, the three-fifths compromise, the Electoral College, the 20-year ban on banning the slave trade — each of which resolved a dispute and created a legacy. The parent should understand that the Constitution is not a sacred text. It is a political document, produced through negotiation, ratified by narrow margins, and designed to be amended. Teaching it as sacred makes it harder to change. Teaching it as political — designed by fallible men through compromise — makes it possible to evaluate honestly, amend when needed, and defend when necessary.",
         hardEdges: [
-          "The slavery compromises were not minor. The three-fifths clause gave slave states extra representation. The slave trade protection lasted 20 years. Both were structural, not incidental.",
-          "The Anti-Federalists were not wrong about everything. Their fear of unaccountable central power has shaped American politics for 230 years.",
+          "Do not teach the Constitution as sacred or inevitable. It was a political document produced through compromise, ratified by narrow margins in conventions that excluded most of the population.",
+          "Do not skip the three-fifths compromise or the slave trade compromise. These are not footnotes. They are the Constitution's original sin, and their consequences shaped American politics for 80 years.",
+          "The delegates exceeded their instructions. This is not a minor point — it is the foundational question of constitutional authority. The Constitution was produced by men who decided their mandate was too small for the problem.",
         ],
         reading: [
           {
-            heading: "The design and the deals",
-            body: "The Constitution's design is separation of powers, checks and balances, and federalism. The deals are the compromises that made the design possible. The Great Compromise (bicameral legislature) resolved large vs small states. The three-fifths compromise resolved the representation of enslaved people — giving slave states extra seats in the House based on people they treated as property. The slave trade clause (Article I, Section 9) protected the international slave trade for 20 years, until 1808. The Electoral College was a compromise between election by Congress and direct popular election. Each of these was a deal, not a principle. The design is principled: divide power, check power, limit power. The deals are political: the South got protection for slavery in exchange for joining the union. The Constitution is both. The design has survived for 230 years. The deals left a legacy that took the Civil War to begin to undo.",
+            heading: "The Articles and the crisis",
+            body: "The Articles of Confederation (1781) created a 'firm league of friendship' among sovereign states — not a nation. There was no executive, no judiciary, no standing army, no power to tax, no power to regulate commerce. Congress could request money from states but could not compel payment. States imposed tariffs on each other's goods, fought over trade policy, and ignored federal law. The national debt from the Revolutionary War was mounting, and creditors were losing confidence. Foreign policy was impossible: the British occupied forts in the Northwest Territory, the Spanish closed the Mississippi, and the national government had no army and no money to respond. Shays' Rebellion (1786) was the breaking point: an armed uprising of farmers in Massachusetts, facing debt and foreclosure, that the national government could not stop. State militia put it down. The lesson was clear: a government that cannot enforce its laws or defend its people is not a government. The Philadelphia Convention was called to fix the Articles. It did something else.",
+          },
+          {
+            heading: "The Convention and the compromises",
+            body: "Fifty-five delegates from twelve states (Rhode Island refused to attend) arrived in Philadelphia in May 1787. They were instructed to amend the Articles. Instead, they locked the doors of the Pennsylvania State House, took an oath of secrecy, and designed a new government. The Convention was not public. The debates were not recorded officially (Madison's notes, published posthumously, are our primary source). The delegates argued for four months about representation, executive power, slavery, and the relationship between federal and state authority. The major compromises: the Great Compromise (House proportional, Senate equal — resolving the large-state/small-state fight), the three-fifths compromise (enslaved persons counted as three-fifths for representation and taxation — resolving the North/South fight at the cost of embedding slavery in the constitutional structure), the Electoral College (indirect presidential election — a compromise between election by Congress and direct popular vote), and the 20-year ban on banning the slave trade (a compromise with the slave states that delayed abolition). Each compromise was a political deal. Each had consequences that outlasted the men who made them. The three-fifths compromise gave slave states approximately 20 extra seats in the first Congress and extra Electoral College votes that helped Thomas Jefferson win the presidency in 1800. The Electoral College has elected Presidents who lost the popular vote five times. The Senate's equal representation means the smallest state has the same Senate power as the largest. These are not design flaws. They are political deals. Their consequences are the American constitutional tradition.",
+          },
+          {
+            heading: "The ratification fight",
+            body: "The Constitution was not popular. The Anti-Federalists — opponents of the new government — argued it gave too much power to the federal government, lacked a bill of rights, and created a President who was 'a king in everything but name.' The Federalist Papers (85 essays by Hamilton, Madison, and Jay) were written to persuade New York to ratify. The vote was 30-27 — a margin of three. In Massachusetts, it was 187-168. In Virginia, 89-79. Rhode Island did not ratify until 1790, after the new government was already operating, by a vote of 34-32. The Constitution was ratified by narrow margins in conventions that excluded women, slaves, Native Americans, and (in most states) the propertyless. It was not a popular mandate. It was a political victory — hard-won and narrow. The Bill of Rights was the price of that victory: Madison promised to add amendments to secure the individual rights the Anti-Federalists demanded. The Bill of Rights is therefore the Anti-Federalists' legacy — the product of the losing side in the ratification debate.",
           },
         ],
         bigIdea:
-          "The Constitution is a brilliant design built from brutal deals. The design (separation of powers, checks and balances, federalism) has survived 230 years. The deals (three-fifths, slave trade protection) left a legacy that took the Civil War to begin to undo. Both are the Constitution.",
+          "The Constitution was a political document, not a sacred text. It was designed through compromise by men who exceeded their instructions, ratified by narrow margins in exclusionary conventions, and designed to be amended. Teaching it as sacred makes it harder to change. Teaching it honestly makes it possible to defend.",
         tryThis: [
           {
-            title: "Separate design from deals",
+            title: "Read the document, then the compromises",
             minutes: 40,
             steps: [
-              "List the design elements: separation of powers (Articles I-III), checks and balances, federalism (Tenth Amendment), judicial review (Marbury v. Madison).",
-              "List the deals: three-fifths clause (Article I, Section 2), slave trade protection (Article I, Section 9), Electoral College (Article II).",
-              "Ask: which design elements were principled? Which deals were political? Can you separate them, or are they woven together?",
-              "Reflect: the Constitution protected slavery for 20 years. It also created the framework that eventually abolished slavery (the Thirteenth Amendment). Both are the Constitution. How do you hold both?",
+              "Read the Constitution. It is four pages. The Preamble, seven articles, and the amendments. Read it before reading about it.",
+              "List the four major compromises: Great Compromise, three-fifths, Electoral College, slave trade. For each: what was the fight, what was the deal, what was the consequence?",
+              "Find the ratification margins: Massachusetts 187-168, Virginia 89-79, New York 30-27, Rhode Island 34-32. These are narrow. If two states had voted no, the Constitution might not have been adopted.",
+              "Reflect: the delegates exceeded their instructions. The Constitution requires nine states to ratify (Article VII), but the Articles required unanimous consent. The Convention deliberately lowered the bar. Was that legitimate? What gives a group the authority to change the rules for adopting a government?",
             ],
           },
         ],
-        dinnerQuestion: "The Constitution is a brilliant design built from brutal deals. How do you teach both without either dismissing the design or excusing the deals?",
+        dinnerQuestion:
+          "If the Constitution was a series of political compromises, ratified by narrow margins in conventions that excluded most of the population, what is its claim to authority? Is it the document, the process, or the principle?",
         transfer: [
-          { label: "AI", note: "Ask the model: 'Was the Constitution a success?' Then ask: 'For whom?' The answer depends on whether you were a free white man, an enslaved person, a woman, or Indigenous. The Constitution's success was not universal." },
-          { label: "Philosophy", note: "Magna Carta told the king he had limits. The Constitution told the government it derived its power from the people. The chain from Runnymede to Philadelphia is real — but so is the gap between 'We the People' and who 'the People' actually included." },
+          { label: "Thinking", note: "Source before summary: the Constitution is four pages. Read it. Madison's notes are the Convention. The Federalist Papers are the argument for ratification. Each is a different kind of source." },
+          { label: "AI", note: "Ask the model: 'Was the Constitutional Convention legal?' Then ask: 'What did your answer assume?' The model will give a position. The honest answer is: debatable, but practically necessary. The gap between legal and necessary is the story." },
+          { label: "History", note: "Magna Carta was extracted from a king at swordpoint. The Constitution was designed by a convention behind closed doors. The charter was forced. The Constitution was chosen. Both responded to crisis. Both produced documents that outlasted their creators." },
         ],
         ifTheySay: [
           {
-            heard: "The Constitution is perfect.",
-            reply: "It is not. It is the most durable written constitution in the world, and it contains moral compromises that protected slavery for decades. The three-fifths clause gave slave states extra power. The slave trade was protected for 20 years. The Electoral College was a political deal, not a principled design. The Constitution is brilliant and flawed, and both of those are structural, not incidental. The design — separation of powers, checks and balances, federalism — is principled. The deals — slavery concessions, the Electoral College — are political. The Thirteenth, Fourteenth, and Fifteenth Amendments were needed to begin to undo the deals. The Constitution is not perfect. It is a living document that has been amended 27 times. The amendments are the proof that the original was not enough.",
+            heard: "The Constitution is a sacred document that should never be changed.",
+            reply: "The framers did not think it was sacred. Jefferson wrote that laws and institutions must go hand in hand with the progress of the human mind. Madison expected the Constitution to be amended regularly — that is why he built Article V. The document has been changed 27 times. The 13th Amendment abolished slavery. The 14th granted equal protection. The 19th enfranchised women. Each amendment corrected a flaw in the original. Treating the Constitution as sacred makes it harder to amend — which is exactly what those who benefit from the status quo want. The framers designed a document to be amended, not worshipped. Honoring the framers means using the tools they gave us, not freezing the document in 1787.",
+          },
+          {
+            heard: "The Founding Fathers had the authority to write the Constitution.",
+            reply: "They did not. They were instructed to amend the Articles, not to replace them. The Articles required unanimous consent for any change. The Convention produced a document requiring only nine states to ratify — a deliberate lowering of the bar to make adoption possible. Whether this was legal is debatable. Whether it was necessary is clearer: the Articles had failed, and the country was falling apart. The framers made a judgment call: follow the rules and let the country fail, or break the rules and build something that works. They chose the latter. That choice is the foundation of constitutional authority — not legal purity, but practical necessity accepted by enough people to make it stick. The Constitution's authority does not come from the process that produced it. It comes from 230 years of people accepting it as legitimate. That acceptance is the real foundation. And it can be withdrawn.",
           },
         ],
-        integrity: "Do not let the model present the Constitution as either perfect or irredeemable. It is a design with deals, and the deals have a moral cost. Read Articles I and II. Read the Thirteenth Amendment. The gap between them is the story.",
+        integrity:
+          "Do not let the model present the Constitution as sacred, inevitable, or uniformly supported. Read the document. Read Madison's notes. Read the ratification margins. The Constitution is a political document, produced through compromise, ratified narrowly. Its authority comes from acceptance, not from the process that created it.",
         aiLab: {
-          setup: "After the try-this.",
-          childDoes: "Ask the model: 'Was the Constitution a success?' Then ask: 'What did your answer assume about who 'the People' were?' The model will assume universal inclusion. The original Constitution included about 6% of the population (white male property owners). The expansion took centuries.",
+          setup: "After the reading.",
+          childDoes:
+            "Ask the model: 'Was the Constitutional Convention legitimate?' Then ask: 'What did your answer assume?' The model will take a position. The honest answer is: legally debatable, practically necessary. The gap between legal and necessary is the founding. Then ask: 'What compromises did the Convention make?' The model will list some. Ask: 'What consequences did each have?' The consequences are the story.",
           evaluate: [
-            "Can they separate the design from the deals?",
-            "Can they name the slavery compromises and explain their structural impact?",
-            "Do they understand that the Constitution's success was not universal — that it excluded most of the population?",
-            "Can they hold both: the design is brilliant, and the deals have a moral cost?",
+            "Can they explain why the Articles failed and why the Convention was called?",
+            "Do they understand the Convention exceeded its instructions and that this is the foundational question of constitutional authority?",
+            "Can they name the major compromises and trace their consequences?",
+            "Do they know the ratification margins and understand the Constitution was not a popular mandate?",
           ],
         },
       },
@@ -182,501 +221,988 @@ export const constitutionLessons = [
   ...expand({
     slug: "power-against-power",
     subject: "history",
-    unit: "The Constitution — Design and Compromise",
+    unit: "The Constitution — Designed, Not Extracted",
     number: 2,
     bands: ["young", "emerging", "adult"],
     variants: {
       young: {
-        title: "Power Against Power",
-        dek: "The founders divided the government into three parts so no one part could take over. The idea is simple. The system is not.",
+        title: "Ambition Against Ambition",
+        dek: "If men were angels, no government would be needed. They are not angels. So the Constitution makes power fight power.",
         objective:
-          "The student can explain what separation of powers means and why the founders designed it that way.",
+          "The student can explain what separation of powers means and why the Constitution divides government into three branches that can check each other.",
         parentBriefing:
-          "This sitting is about the core structural idea of the Constitution: divide power so no one branch can dominate. Three branches: Congress makes laws, the president enforces them, courts interpret them. Each can check the others. The president can veto Congress. Congress can override the veto. The president appoints judges. The Senate confirms them. Courts can strike down laws. The system is not efficient — it was not designed to be. It was designed to prevent tyranny.",
+          "This sitting is about the Constitution's central design: power divided so that no single branch can dominate. The framers did not trust government. They did not trust people. They trusted structure. Madison wrote in Federalist 51: 'If men were angels, no government would be necessary.' Since men are not angels, government is necessary — and since the people in government are not angels either, government must be designed so that its parts check each other. The result: three branches (Congress makes laws, the President enforces them, the courts interpret them), each with tools to resist the others. The President can veto Congress. Congress can override the veto, impeach the President, and confirm or reject appointments. The courts can strike down unconstitutional laws. The system is designed so that 'ambition must be made to counteract ambition.' Each branch guards its own power, and in doing so, limits the others. The student should understand that the Constitution's design is not about trust. It is about distrust — structured so that competing ambitions produce balance.",
         hardEdges: [
-          "The system is intentionally inefficient. The founders feared concentrated power more than they valued efficiency.",
-          "Judicial review (courts striking down laws) is not in the Constitution. It was established by the Supreme Court itself in Marbury v. Madison (1803).",
+          "Do not present separation of powers as perfectly clean. The branches share powers: the President can legislate through executive orders, Congress can investigate, the courts can make policy through interpretation.",
+          "The system is slow by design. The framers preferred slowness to tyranny. A government that cannot act quickly is less dangerous than one that can.",
         ],
         reading: [
           {
-            heading: "Three branches",
-            body: "The government has three parts. Congress makes the laws. The president carries them out. The courts decide what the laws mean. No part can do the other's job. And each part can stop the others: the president can veto a law. Congress can override the veto. The president picks judges. Congress approves them. Courts can say a law is unconstitutional. The system is slow. That is on purpose. The founders wanted to make it hard to pass laws, because laws that are hard to pass are hard to abuse.",
+            heading: "Three branches, three powers",
+            body: "The Constitution divides government into three branches. Congress (Article I) makes the laws. The President (Article II) enforces the laws and commands the military. The courts (Article III) interpret the laws and decide if they are constitutional. Each branch has its own power. No branch can do everything. Congress cannot enforce laws — that is the President's job. The President cannot make laws — that is Congress's job. The courts cannot make laws or enforce them — they can only interpret. This division is the separation of powers.",
+          },
+          {
+            heading: "Why they check each other",
+            body: "Separation alone is not enough. Each branch also has tools to stop the others. The President can veto a law Congress passed. Congress can override the veto with a two-thirds vote. Congress can impeach the President. The President appoints judges, but the Senate must approve. The courts can strike down laws that violate the Constitution. This is called checks and balances. Madison wrote: 'Ambition must be made to counteract ambition.' Each branch wants more power. The design uses that ambition — each branch guards its own power by stopping the others from taking it.",
           },
         ],
         bigIdea:
-          "Divide power so no one part can take over. The system is slow on purpose — because slow is safer than fast when power is involved.",
+          "The Constitution divides power so that no branch can dominate. Each branch checks the others. The design is based on distrust, not trust.",
         tryThis: [
           {
-            title: "Draw the three branches",
+            title: "Draw the checks",
             minutes: 18,
             steps: [
-              "Draw three boxes: Congress, President, Courts. Label what each does.",
-              "Draw arrows showing how each can stop the others. President → veto → Congress. Congress → override → President. Courts → strike down → Congress.",
-              "Talk About It: why did the founders make it hard to pass laws? What happens if it is too easy?",
+              "Draw three boxes: Congress, President, Courts. Draw arrows between them showing who can stop whom.",
+              "Write one check for each branch: President can veto Congress, Congress can impeach the President, Courts can strike down unconstitutional laws.",
+              "Talk About It: why does the system need checks? What would happen if one branch had all the power? Name a country where one person has all the power. What is different?",
             ],
           },
         ],
-        dinnerQuestion: "If the government is designed to be slow, what happens when someone finds a way to make it fast?",
+        dinnerQuestion:
+          "If 'ambition must be made to counteract ambition,' what happens when the branches stop checking each other and start cooperating too much?",
         transfer: [
-          { label: "Thinking", note: "Claim and check: the claim is 'divided power prevents tyranny.' The check is whether the divisions hold." },
+          { label: "Thinking", note: "Claim and check: the claim is 'power is divided.' The check is whether the division actually prevents concentration." },
         ],
         ifTheySay: [
           {
-            heard: "The system is too slow.",
-            reply: "It is slow on purpose. The founders feared concentrated power more than they valued efficiency. A government that can pass laws quickly can also abuse them quickly. The slowness is the safety. The question is whether the safety is worth the cost — and whether the safety holds when someone figures out how to go around it.",
+            heard: "The government is too slow. We should just let the President act.",
+            reply: "The government is slow by design. The framers wanted it slow. A government that can act quickly can also tyrannize quickly. The checks and balances — the veto, the override, the confirmation process, judicial review — are speed bumps. They make it hard to pass laws, hard to enforce them without oversight, and hard to change the rules. That is not a bug. It is the design. The framers had just fought a king who could act quickly. They did not want another one.",
           },
         ],
-        integrity: "Do not let the model summarize checks and balances in one sentence. Read Article I, II, and III. The specific powers matter.",
+        integrity: "Do not let the model summarize checks and balances in one sentence. Read Federalist 51. Madison's argument is specific: ambition counteracts ambition.",
         aiLab: {
           setup: "After reading.",
-          childDoes: "Ask the model: 'What are the three branches of government?' Then ask: 'How does each check the others?' Compare the model's summary to the actual Constitution articles.",
+          childDoes:
+            "Ask the model: 'What are the checks and balances in the Constitution?' Then ask: 'Which check is the most important, and why?' Compare the model's answer to Federalist 51. What did it add? What did it smooth?",
           evaluate: [
-            "Can they name the three branches and their powers?",
-            "Can they give at least one check per branch?",
+            "Can they name the three branches and what each does?",
+            "Can they give one example of a check each branch has on the others?",
+            "Do they understand the system is designed for slowness, not speed?",
           ],
         },
       },
       emerging: {
-        title: "Power Against Power: The Design and Its Weakness",
-        dek: "Separation of powers is the Constitution's central structural idea. It is also a system with known weaknesses — weaknesses the founders acknowledged and accepted.",
+        title: "Power Against Power: The Structural Design",
+        dek: "The Constitution limits government not by listing prohibitions (like Magna Carta) but by dividing power so that each branch guards its own authority against the others. 'Ambition must be made to counteract ambition.'",
         objective:
-          "The student can explain the constitutional design of separation of powers, the system of checks and balances, and the known weaknesses the founders accepted — including the risk of gridlock and the problem of enforcement.",
+          "The student can explain the separation of powers and checks and balances, trace the constitutional design to Montesquieu and Madison, and evaluate the modern challenges to the system.",
         parentBriefing:
-          "This sitting takes the design seriously, including its weaknesses. Madison designed a system of checks and balances because he did not trust anyone with unchecked power. Federalist 51: 'If men were angels, no government would be necessary.' The system is intentionally inefficient. But the inefficiency has costs: gridlock, the difficulty of responding to crises, and the problem of enforcement when a branch exceeds its power. Judicial review (Marbury v. Madison) was the courts' answer to enforcement — but the Court has no army. Its power depends on the other branches' willingness to comply. The student should understand both the design's brilliance and its structural vulnerabilities.",
+          "This sitting takes the separation of powers seriously as a design choice. The student needs to understand three things. First, the principle: government power is divided among three branches so that no single branch can dominate. The source is Montesquieu's The Spirit of the Laws (1748), adapted by Madison in Federalist 47 and 51. Second, the mechanism: checks and balances. Each branch has tools to resist the others — veto, override, impeachment, confirmation, judicial review. Madison's argument in Federalist 51 is that 'ambition must be made to counteract ambition' — the design uses the self-interest of each branch to produce balance. Third, the tension: the system is slow by design. The framers preferred inefficiency to tyranny. The modern challenge is the growth of executive power — the administrative state, executive orders, military action without congressional declaration — which tests whether the structural design can contain a branch that has grown beyond what the framers anticipated.",
         hardEdges: [
-          "Judicial review is not in the Constitution. It was established by the Supreme Court itself. The Court gave itself the power to strike down laws.",
-          "The system's inefficiency is a feature, not a bug. But features have costs. The cost of gridlock is that problems go unsolved.",
+          "Do not present separation of powers as absolute. The branches share powers: the President legislates through executive orders, Congress investigates and adjudicates through hearings, courts make policy through interpretation.",
+          "Do not skip the Anti-Federalist critique. They warned that the branches would not stay separate — that the President would become a king, the Senate an aristocracy, and the courts an oligarchy. The system has held, but the warnings were not baseless.",
+          "The modern administrative state — federal agencies that combine legislative, executive, and judicial functions — is the most serious challenge to separation of powers. Whether it is constitutional is a live debate.",
         ],
         reading: [
           {
-            heading: "Madison's design",
-            body: "Federalist 51 is the clearest statement of the design: 'The accumulation of all powers, legislative, executive, and judiciary, in the same hands... may justly be pronounced the very definition of tyranny.' Madison's solution: divide power among three branches and give each the means to resist the others. 'Ambition must be made to counteract ambition.' The design assumes that people in power will try to expand their power. It uses that assumption as a feature: each branch's ambition checks the others. The system is a machine that runs on self-interest. It is not a machine that runs on virtue.",
+            heading: "Montesquieu and Madison",
+            body: "The separation of powers traces to Montesquieu's The Spirit of the Laws (1748): 'When the legislative and executive powers are united in the same person or body, there can be no liberty.' Madison adapted Montesquieu in Federalist 47 and 51. He argued that the Constitution's structure — not just the formal separation, but the system of checks and balances — would prevent tyranny. The key passage is Federalist 51: 'If men were angels, no government would be necessary. If angels were to govern men, neither external nor internal controls on government would be necessary. In framing a government which is to be administered by men over men, the great difficulty lies in this: you must first enable the government to control the governed; and in the next place oblige it to control itself. A dependence on the people is, no doubt, the primary control on the government; but experience has taught mankind the necessity of auxiliary precautions.' Those 'auxiliary precautions' are the checks and balances.",
           },
           {
-            heading: "The enforcement problem",
-            body: "The Constitution's enforcement mechanism is the separation of powers itself — each branch resists the others. But what happens when a branch exceeds its power and the other branches do not resist? Andrew Jackson reportedly said of a Supreme Court decision: 'John Marshall has made his decision, now let him enforce it.' Jackson ignored the Court. The Court has no army. Its power depends on the other branches' willingness to comply. Judicial review was established by the Court itself in Marbury v. Madison (1803) — the Court gave itself the power to strike down laws. That power is not in the Constitution. It is an act of interpretation that the other branches have accepted, but acceptance is not guaranteed. The enforcement of constitutional limits is not self-executing. It requires people — in government, in the courts, and in the public — who believe the limits mean something.",
+            heading: "The checks",
+            body: "The checks and balances are specific tools. The President checks Congress: veto. Congress checks the President: override veto (two-thirds), impeachment, control of spending, Senate confirmation of appointments and treaties. The President checks the judiciary: appoints judges. Congress checks the judiciary: establishes inferior courts, confirms judges, can impeach judges, can propose constitutional amendments to override judicial decisions. The judiciary checks both: judicial review — striking down unconstitutional laws and executive actions. The system is designed so that each branch has the tools and the incentive to resist encroachment by the others. 'Ambition must be made to counteract ambition' (Federalist 51). Each branch guards its own authority. In doing so, it limits the others. The result is not perfect separation — it is 'mixed government,' where each branch participates in the others' functions.",
           },
         ],
         bigIdea:
-          "Separation of powers runs on self-interest, not virtue. It is a machine that uses ambition to check ambition. Its weakness is enforcement — what happens when a branch exceeds its power and no one resists.",
+          "The Constitution limits government not by listing prohibitions but by dividing power. Each branch checks the others. The design uses ambition — each branch's desire for its own power — to produce balance. The system is slow by design.",
         tryThis: [
           {
-            title: "Read Federalist 51",
+            title: "Map the checks",
             minutes: 30,
             steps: [
-              "Read Federalist 51 (Madison). Find the key sentence: 'If men were angels, no government would be necessary.' Write what it means.",
-              "Find: 'Ambition must be made to counteract ambition.' What design does this imply?",
-              "Ask: what happens when ambition does not counteract ambition? When one branch does not resist another? The Jackson story is the example.",
-              "Reflect: judicial review is the Court's self-assigned power. Is that legitimate? What makes it legitimate — the text, the practice, or the acceptance?",
+              "Read Federalist 51. Find the passage: 'If men were angels, no government would be necessary.' Write what Madison means.",
+              "List the checks: President on Congress (veto), Congress on President (override, impeachment, confirmation, spending), President on judiciary (appointments), Congress on judiciary (court creation, confirmation, impeachment, amendment), judiciary on both (judicial review).",
+              "Find one modern example where a check was used: a presidential veto, a congressional impeachment, a Supreme Court decision striking down a law. What happened?",
+              "Reflect: Madison wrote 'ambition must be made to counteract ambition.' Is that how the system works today? Or have the branches learned to cooperate in ways the framers did not intend?",
             ],
           },
         ],
-        dinnerQuestion: "If the system runs on ambition checking ambition, what happens when ambition cooperates instead of checks?",
+        dinnerQuestion:
+          "If the separation of powers is designed for slowness, what happens when the country faces a crisis that requires speed? Is there a way to be fast and safe?",
         transfer: [
-          { label: "AI", note: "Ask the model: 'What is the purpose of checks and balances?' Then ask: 'What happens when the checks fail?' The model will explain the design. The failure is the harder question." },
+          { label: "Thinking", note: "Source before summary: Federalist 51 is the source. The model's summary of checks and balances is the summary. Read the source." },
+          { label: "AI", note: "Ask the model: 'What are the checks and balances?' Then ask: 'Which check has weakened since 1787?' The model may not know. The honest answer is: some checks have eroded through practice, custom, and political norms." },
+          { label: "History", note: "Magna Carta limited the king by listing prohibitions. The Constitution limits government by dividing power. The charter's approach was negative: 'the king shall not.' The Constitution's approach is structural: power is divided so that each branch guards its own authority against the others." },
         ],
         ifTheySay: [
           {
-            heard: "The system works because the branches check each other.",
-            reply: "It works when the branches check each other. When they do not — when one branch acquiesces to another, or when ambition cooperates instead of checks — the system breaks. The design assumes conflict between branches. When the conflict stops, the checks stop. Gridlock is the cost of the design working. Acquiescence is the sign of the design failing. The founders knew this. They designed for a world where people in power would resist each other. They did not design for a world where people in power would cooperate to expand it. That is the system's structural vulnerability, and it is the one the founders acknowledged but could not solve.",
+            heard: "The system is broken because nothing gets done.",
+            reply: "The system is working as designed. The framers wanted it to be hard to pass laws. They had just fought a king who could pass whatever he wanted. The checks and balances — veto, override, confirmation, judicial review — are speed bumps. They make legislation difficult. That is not a bug; it is the design. The question is not whether the system is too slow. The question is whether the system is so slow that it cannot respond to real crises. The framers built emergency mechanisms — the President's commander-in-chief power, Congress's war power, the amendment process. The question is whether those mechanisms are sufficient for modern crises, or whether the system needs adjustment. That is a legitimate debate. But do not confuse slowness with brokenness. The slowness is the design.",
+          },
+          {
+            heard: "The President has too much power now.",
+            reply: "The Anti-Federalists predicted this. They warned that the President would become a king. The growth of executive power — through the administrative state (federal agencies), executive orders, and military action without a congressional declaration of war — is the most serious challenge to the separation of powers. The framers designed the President as an executor of laws, not a maker of them. But modern Presidents legislate through executive orders, regulate through agencies, and make war through military action. Whether this expansion violates the constitutional design is the central constitutional debate of the 21st century. The Anti-Federalists were not wrong to worry. They were early.",
           },
         ],
-        integrity: "Do not cite the model's summary of checks and balances. Read Federalist 51. Read Marbury v. Madison. The design is in the text. The enforcement problem is in the practice.",
+        integrity:
+          "Do not let the model summarize checks and balances without citing Federalist 51. Madison's argument — ambition counteracts ambition — is the design. The model will list the checks. Madison explained why they work. Read both.",
         aiLab: {
           setup: "After the try-this.",
-          childDoes: "Ask the model: 'How does the Constitution prevent tyranny?' Then ask: 'What did the model assume?' The model assumes the checks work. Ask: 'What happens when they don't?' That is the question the model's summary will not answer.",
+          childDoes:
+            "Ask the model: 'Summarize the checks and balances in the Constitution.' Then ask: 'What did Federalist 51 add that your summary did not?' The model lists checks. Madison explains the theory. The gap between the list and the theory is the lesson.",
           evaluate: [
-            "Can they explain Madison's design (ambition counteracting ambition)?",
-            "Do they understand judicial review was self-assigned by the Court?",
-            "Can they identify the enforcement problem?",
+            "Can they explain the separation of powers and checks and balances?",
+            "Can they trace the design to Montesquieu and Madison?",
+            "Do they understand the system is designed for slowness, not speed?",
+            "Can they identify a modern challenge to the separation of powers?",
           ],
         },
       },
       adult: {
-        title: "Power Against Power: The Machine and Its Maintenance",
-        dek: "The Constitution is a machine that runs on self-interest. It is also a machine that requires maintenance — the willingness of each generation to enforce the limits the design assumes.",
+        title: "Power Against Power: The Design and Its Discontents",
+        dek: "The separation of powers is the Constitution's central structural innovation. It has held for 230 years, but the growth of executive power and the administrative state tests whether the design can contain a branch that has grown beyond what the framers anticipated.",
         objective:
-          "The parent can explain the constitutional design of separation of powers, the enforcement problem (judicial review, compliance, acquiescence), and the ongoing question of whether the system's checks hold when they are most needed.",
+          "The parent can explain the separation of powers and checks and balances, trace the design to Montesquieu and Madison, and engage the modern debate about executive power and the administrative state.",
         parentBriefing:
-          "This sitting is for the parent who wants to teach the Constitution as a living system, not a static design. The parent should understand that the system's brilliance (ambition checking ambition) is also its vulnerability (what happens when ambition cooperates). The enforcement problem — courts with no army, presidents who ignore rulings, legislatures that abdicate oversight — is not a theoretical concern. It is a recurring feature of constitutional crises. The parent should teach that the Constitution is not self-enforcing. It requires people — in every branch, in every generation — who believe the limits mean something and are willing to enforce them. The design is necessary but not sufficient. The maintenance is the practice.",
+          "This sitting is for the parent who wants to teach the Constitution's structural design honestly. The principle is simple: power divided so that no branch can dominate. The history is not simple. The framers adapted Montesquieu's theory into a system of 'mixed government' — not pure separation, but shared power and mutual restraint. The Anti-Federalists warned that the branches would not stay separate: the President would become a king, the Senate an aristocracy, the courts an oligarchy. The system has held for 230 years, but the Anti-Federalist warnings were not baseless. The growth of executive power — through the administrative state, executive orders, and military action without congressional declaration — is the most serious challenge to the design. The parent should understand that the separation of powers is not a finished system. It is an ongoing experiment in whether structure can contain ambition. The framers designed it. Every generation has to maintain it.",
         hardEdges: [
-          "The Constitution's enforcement depends on norms — unwritten rules about compliance, comity, and restraint — that the text does not mandate. When the norms break, the text is not enough.",
-          "Judicial review is self-assigned. The Court's authority depends on the other branches' acceptance. Acceptance is a norm, not a law.",
+          "Do not present the separation of powers as perfectly maintained. The administrative state — federal agencies that combine legislative, executive, and judicial functions — is a structural challenge the framers did not anticipate.",
+          "Do not let the Anti-Federalist warnings disappear. They predicted executive overreach, and their prediction has been partly borne out. The warnings are part of the constitutional tradition, not just opposition.",
+          "The system is slow by design. The framers preferred inefficiency to tyranny. But the question of whether the system can respond to modern crises — pandemics, climate change, national security — without sacrificing the checks is a live debate.",
         ],
         reading: [
           {
-            heading: "The machine and its maintenance",
-            body: "The Constitution is a machine: divide power, check power, limit power. The machine runs on self-interest — each branch's ambition checks the others. But machines need maintenance. The maintenance of constitutional government is not mechanical. It is cultural. The system works when people in power believe in the limits and enforce them. When a president ignores a court ruling, the ruling does not enforce itself. When a legislature abdicates oversight, the oversight does not happen on its own. When the norms of compliance break — when the unwritten rules about restraint, comity, and institutional respect erode — the written Constitution is not enough. The text is necessary but not sufficient. The practice — the willingness of each generation to enforce the limits the design assumes — is what makes the Constitution real. Magna Carta survived because people kept picking it up and using it. The Constitution survives the same way. The text is 230 years old. The practice is ongoing. When the practice stops, the text is just paper.",
+            heading: "The design and its limits",
+            body: "The separation of powers is the Constitution's central structural innovation. Montesquieu argued that 'when the legislative and executive powers are united in the same person or body, there can be no liberty.' Madison adapted this in Federalist 51: 'If men were angels, no government would be necessary.' The design: three branches, each with its own power, each with tools to check the others. The veto, the override, impeachment, confirmation, judicial review — these are the 'auxiliary precautions' Madison described. The design has held for 230 years. But it has never been perfectly maintained. The branches share powers: the President legislates through executive orders, Congress investigates and adjudicates through hearings, courts make policy through interpretation. The administrative state — federal agencies (FDA, EPA, OSHA, SEC) that combine legislative, executive, and judicial functions — is the most serious modern challenge. An agency writes regulations (legislative), enforces them (executive), and adjudicates violations (judicial) — all within the executive branch. Whether this is constitutional is a live debate. The Anti-Federalists predicted the President would become a king. The prediction was not wrong. It was early.",
           },
         ],
         bigIdea:
-          "The Constitution is a machine that runs on self-interest and requires cultural maintenance. The text is necessary but not sufficient. The practice — the willingness to enforce the limits — is what makes the Constitution real.",
+          "The separation of powers is an ongoing experiment in whether structure can contain ambition. The framers designed it. Every generation has to maintain it. The modern challenge is executive power and the administrative state — the most serious test of the design since the Civil War.",
         tryThis: [
           {
-            title: "Find the norms",
-            minutes: 40,
+            title: "Read Federalist 51 and find the limits",
+            minutes: 35,
             steps: [
-              "List three constitutional norms — unwritten rules the text does not mandate. Examples: the president complies with court rulings. The Senate holds hearings on Supreme Court nominees. The legislature exercises oversight of the executive.",
-              "For each, ask: what happens when the norm breaks? Is there a textual enforcement mechanism? Or does the system depend on the norm?",
-              "Reflect: the Constitution is 230 years old. The text has changed 27 times (amendments). The norms have changed many more times. Which matters more — the text or the norms?",
+              "Read Federalist 51 in full. Find: 'If men were angels, no government would be necessary... A dependence on the people is, no doubt, the primary control on the government; but experience has taught mankind the necessity of auxiliary precautions.' Write what Madison means by 'auxiliary precautions.'",
+              "List the checks and balances. Then find one that has weakened or eroded through practice or custom. (Example: the congressional declaration of war has not been used since 1942; Presidents now use military force through authorization or unilateral action.)",
+              "Find one example of the administrative state: a federal agency that writes, enforces, and adjudicates regulations. Is this separation of powers? Or is it concentration of power within the executive branch?",
+              "Reflect: the Anti-Federalists predicted the President would become a king. Has the prediction come true? In what ways? In what ways has it not?",
             ],
           },
         ],
-        dinnerQuestion: "If the Constitution's enforcement depends on norms the text does not mandate, what happens when the norms break? Is the text enough?",
+        dinnerQuestion:
+          "If the separation of powers has held for 230 years but the executive branch has grown beyond what the framers anticipated, is the design failing or adapting? And who decides?",
         transfer: [
-          { label: "AI", note: "Ask the model: 'How is the Constitution enforced?' The model will say 'through the courts and checks and balances.' Ask: 'What happens when those mechanisms fail?' The answer is: norms. The model will not say norms. The norms are the unwritten constitution." },
-          { label: "Thinking", note: "The Magna Carta chain: a text survives through use. The Constitution is the same. The text is necessary. The practice — the people who enforce it — is sufficient. Without both, the Constitution is just paper." },
+          { label: "AI", note: "Ask the model: 'Is the administrative state constitutional?' Then ask: 'What did your answer assume?' The model will take a position. The honest answer is: it depends on how you read the Necessary and Proper Clause and the separation of powers. The debate is the lesson." },
+          { label: "History", note: "Magna Carta limited the king by listing prohibitions. The Constitution limits government by dividing power. The charter was a list of 'thou shalt nots.' The Constitution is a structure. The structural approach is more durable — a king can ignore a list, but a President cannot legislate without Congress. But the administrative state tests whether the structure can hold when the executive branch grows." },
         ],
         ifTheySay: [
           {
-            heard: "The Constitution protects our rights automatically.",
-            reply: "It does not. The text is 230 years old. The protection of rights depends on the practice — courts that enforce them, legislatures that respect them, executives who comply with them, and citizens who demand them. The text is necessary but not sufficient. The Magna Carta survived because people kept picking it up and using it. The Constitution is the same. When the practice stops — when courts are ignored, when legislatures abdicate, when citizens stop demanding — the text is just paper with a seal. The Constitution does not protect itself. People protect it. That is the deepest lesson of the charter chain: law is a practice, not just a text.",
+            heard: "The separation of powers is outdated. We need a more efficient government.",
+            reply: "The Anti-Federalists wanted a more efficient government too — one that could not deadlock. The Federalists responded that efficiency is the path to tyranny. The separation of powers is slow by design. The question is not whether the design is efficient. The question is whether it is safe. A government that can act quickly can also oppress quickly. The framers had just fought a king who could act quickly. They built a system that cannot. If you want efficiency, you are asking for the thing the framers designed against. That is a legitimate position — but you should know what you are asking for. The Anti-Federalists warned about this too: they said the system would be too slow to respond to crises. They were right about the slowness. Whether the slowness is a feature or a bug is the permanent debate.",
           },
         ],
-        integrity: "Do not let the model present the Constitution as self-enforcing. It requires people. Read Federalist 51 and ask: who enforces the checks? The answer is: the branches, through their ambition. When the ambition cooperates instead of checks, the enforcement fails. That is not a theoretical concern. It is a recurring feature of constitutional crises.",
+        integrity:
+          "Do not let the model present the separation of powers as a clean, settled system. Read Federalist 51. Find the limits. The administrative state, executive orders, and military action without declaration of war are live challenges to the design. The design is not failing — it is being tested. The question is whether the checks can hold.",
         aiLab: {
           setup: "After the try-this.",
-          childDoes: "Ask the model: 'Does the Constitution protect itself?' Then ask: 'What does your answer assume?' The model assumes the checks work. The checks require people. Ask: 'What happened when Jackson ignored the Supreme Court?' The answer is: nothing. The Court had no army. The enforcement failed. That is the lesson.",
+          childDoes:
+            "Ask the model: 'Is the separation of powers still working?' Then ask: 'What evidence did you use?' The model will give a position. Ask: 'What would the Anti-Federalists say?' The Anti-Federalist warnings — President as king, courts as oligarchy — are the test the design is still undergoing.",
           evaluate: [
-            "Can they distinguish the text from the norms?",
-            "Do they understand that the Constitution requires cultural maintenance, not just textual fidelity?",
-            "Can they identify the enforcement problem and connect it to Magna Carta's chain?",
+            "Can they explain the separation of powers and checks and balances, citing Federalist 51?",
+            "Can they identify at least one check that has weakened or eroded?",
+            "Do they understand the administrative state as a challenge to the design?",
+            "Can they engage the Anti-Federalist warnings as part of the constitutional tradition, not just opposition?",
           ],
         },
       },
     },
   }),
 
-  // ── 3. The Three-Fifths Compromise ─────────────────────────────────
+  // ── 3. The Bill of Rights: The Losers' Legacy ──────────────────────
   ...expand({
-    slug: "three-fifths-compromise",
+    slug: "bill-of-rights-losers-legacy",
     subject: "history",
-    unit: "The Constitution — Design and Compromise",
+    unit: "The Constitution — Designed, Not Extracted",
     number: 3,
     bands: ["young", "emerging", "adult"],
     variants: {
       young: {
-        title: "The Three-Fifths Deal",
-        dek: "The Constitution counted enslaved people as three-fifths of a person — not for their worth, but for seats and taxes. The deal protected slavery. The history is ugly. Name it.",
+        title: "The Losers' List",
+        dek: "The Bill of Rights exists because the people who lost the argument won the demand. The Constitution almost failed. The price of passing it was a list of things the government cannot do to you.",
         objective:
-          "The student can explain what the three-fifths clause said, what it meant, and why it matters that slavery was embedded in the Constitution's structure.",
+          "The student can explain why the Bill of Rights was added to the Constitution and what it protects.",
         parentBriefing:
-          "This sitting names the hardest truth about the Constitution: it embedded slavery in its structure. The three-fifths clause (Article I, Section 2) counted enslaved people as three-fifths of a person for representation and taxation. It was not a statement about human worth. It was a deal: the South wanted enslaved people to count fully (more seats). The North wanted them to not count at all (less power for the South). The compromise was three-fifths. The effect was to give slave states extra representation based on people they treated as property. The student should understand that this was not a minor flaw. It was a structural choice that protected slavery and gave slave states disproportionate power for decades.",
+          "This sitting tells a surprising story: the Bill of Rights was the demand of the losing side. The Anti-Federalists opposed the Constitution. They argued it gave the federal government too much power and did not protect individual rights. The Federalists said a bill of rights was unnecessary — the government only had the powers listed in the Constitution, so it could not violate rights it did not have. The Anti-Federalists lost the ratification fight. But their demand for a bill of rights was politically irresistible. Madison promised to add amendments during the First Congress. The result was the first ten amendments — the Bill of Rights. The student should understand that the Bill of Rights is the Anti-Federalists' legacy. The people who opposed the Constitution gave it its most famous part. The lesson is that losing a political fight does not mean losing the argument. Sometimes the losers shape the document more than the winners.",
         hardEdges: [
-          "Do not soften the clause. It was not about human worth, but it protected slavery. Both are true.",
-          "Do not skip the slave trade clause (Article I, Section 9), which protected the international slave trade for 20 years.",
+          "Do not present the Bill of Rights as something the Federalists wanted. They argued against it. It was the Anti-Federalists' price for ratification.",
+          "The Bill of Rights originally applied only to the federal government, not the states. States could restrict speech, establish religions, and deny due process. The Fourteenth Amendment (1868) changed this.",
         ],
         reading: [
           {
-            heading: "What the clause said",
-            body: "Article I, Section 2 of the Constitution says: 'Representatives and direct Taxes shall be apportioned among the several States... by adding to the whole Number of free Persons... three fifths of all other Persons.' 'All other persons' means enslaved people. They were counted as three-fifths of a person — not for their worth, but for how many seats their state got in Congress and how much their state paid in taxes. The South wanted them to count fully. The North wanted them to not count at all. The deal was three-fifths. The effect: slave states got extra power in Congress based on people they treated as property.",
+            heading: "Why it exists",
+            body: "The Constitution was almost not ratified. Several states only agreed to pass it because Madison promised to add a list of individual rights. The Anti-Federalists — the people who opposed the Constitution — said the new government was too powerful. They wanted explicit protections: freedom of speech, freedom of religion, the right to a trial, protection from unreasonable searches. The Federalists said these were unnecessary. But the demand was too strong to ignore. Madison drafted the amendments. The first ten became the Bill of Rights in 1791.",
+          },
+          {
+            heading: "What it says",
+            body: "The First Amendment protects freedom of speech, religion, press, assembly, and petition. The Fourth Amendment protects against unreasonable searches. The Fifth Amendment says the government cannot take your freedom without due process — the direct descendant of Magna Carta clause 39. The Sixth Amendment guarantees a fair trial. The Eighth Amendment bans cruel and unusual punishment. These are the rights the Anti-Federalists demanded as the price of ratification.",
           },
         ],
         bigIdea:
-          "The three-fifths clause counted enslaved people as three-fifths of a person for seats and taxes. It was not about human worth. It protected slavery by giving slave states extra power. Both are true.",
+          "The Bill of Rights is the losers' legacy. The people who opposed the Constitution gave it its most famous part.",
         tryThis: [
           {
-            title: "Read the clause",
+            title: "Read the First Amendment",
             minutes: 18,
             steps: [
-              "Read Article I, Section 2, Clause 3. Find 'three fifths of all other Persons.'",
-              "Write: what does 'all other persons' mean? (Enslaved people. The Constitution does not use the word 'slave.')",
-              "Talk About It: why did the South want enslaved people to count fully? Why did the North want them to not count at all? What was at stake?",
+              "Read the First Amendment: 'Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.'",
+              "Count the protections: religion (two), speech, press, assembly, petition. That is five in one sentence.",
+              "Talk About It: the Federalists said a bill of rights was unnecessary. Were they wrong? If the government only has the powers listed in the Constitution, why did the Anti-Federalists want a list of rights too?",
             ],
           },
         ],
-        dinnerQuestion: "The three-fifths clause was not about human worth, but it protected slavery. How do you hold both truths?",
+        dinnerQuestion:
+          "If the Bill of Rights is the losers' legacy, what does that tell you about how political fights work? Do the winners always get to decide everything?",
         transfer: [
-          { label: "Thinking", note: "Source before summary: read the actual clause. The legend says it was about worth. The text says it was about seats and taxes." },
+          { label: "Thinking", note: "Source before summary: the Bill of Rights is ten amendments. Read them. They are short. The model's summary will skip the ones that matter most to you." },
         ],
         ifTheySay: [
           {
-            heard: "The clause said slaves were three-fifths of a person.",
-            reply: "It said they were counted as three-fifths of a person for representation and taxation — not that they were three-fifths of a human being. The distinction matters. The North wanted them to not count at all (less power for the South). The South wanted them to count fully (more power). The compromise was three-fifths. It was a deal about seats, not a statement about value. But the deal protected slavery by giving slave states extra power based on people they treated as property. Both things are true.",
+            heard: "The Founding Fathers wanted the Bill of Rights.",
+            reply: "Most of them did not. The Federalists — Hamilton, Madison, Jay — argued against a bill of rights. They said the Constitution only gave the government specific powers, so it could not violate rights it did not have. The Anti-Federalists disagreed. They said: list the rights, or the government will take them. The Anti-Federalists lost the ratification vote. But their demand for a bill of rights was so strong that Madison had to promise it to get the Constitution passed. The Bill of Rights is the losers' legacy — the product of the people who opposed the Constitution.",
           },
         ],
-        integrity: "Do not let the model say the clause was about human worth. Read Article I, Section 2. It says 'all other Persons.' The word 'slave' does not appear in the Constitution. The omission is the design.",
+        integrity: "Do not let the model present the Bill of Rights as universally supported. It was the Anti-Federalists' demand. Read the First Amendment. The five protections are the price of ratification.",
         aiLab: {
           setup: "After reading.",
-          childDoes: "Ask the model: 'What did the three-fifths clause mean?' If it says 'slaves were three-fifths of a person,' that is the misconception. If it says 'enslaved people were counted as three-fifths for representation,' that is honest. The gap is the lesson.",
+          childDoes:
+            "Ask the model: 'Why was the Bill of Rights added?' If it says 'the Founders wanted to protect rights,' that is simplified. Ask: 'Who demanded it, and why?' The Anti-Federalists demanded it as the price of ratification. The losers shaped the document.",
           evaluate: [
-            "Can they explain what the clause actually said?",
-            "Do they understand it was about representation, not worth?",
+            "Can they explain why the Bill of Rights was added?",
+            "Do they know it was the Anti-Federalists' demand, not the Federalists' idea?",
+            "Can they name at least three protections in the Bill of Rights?",
           ],
         },
       },
       emerging: {
-        title: "The Three-Fifths Compromise: The Deal and the Cost",
-        dek: "The three-fifths clause was not about human worth. It was about power. And the cost of the deal was decades of slavery embedded in the Constitution's structure.",
+        title: "The Bill of Rights: The Anti-Federalist Legacy",
+        dek: "The most famous part of the Constitution was written by the people who opposed it. The Bill of Rights is the Anti-Federalists' price for ratification — and the most cited part of the document.",
         objective:
-          "The student can explain the three-fifths compromise in full: what it said, what the two sides wanted, what the deal protected, and the structural legacy of embedding slavery in the Constitution's apportionment system.",
+          "The student can explain the origin of the Bill of Rights as the Anti-Federalists' demand, its key provisions, and the fact that it originally applied only to the federal government.",
         parentBriefing:
-          "This sitting takes the three-fifths compromise seriously as both a political deal and a structural choice with lasting consequences. The student needs to understand that the clause was not a statement about human worth — it was a deal about seats and taxes. But the deal protected slavery by giving slave states extra representation based on people they treated as property. The slave trade clause (Article I, Section 9) protected the international slave trade for 20 years. Together, these two clauses embedded slavery in the Constitution's structure. The Thirteenth Amendment (1865) abolished slavery. The Fourteenth (1868) replaced the three-fifths clause with full counting. But the legacy of the compromise — decades of slave state overrepresentation — shaped American politics from 1789 to the Civil War.",
+          "This sitting takes the Bill of Rights seriously as a political product, not a sacred text. The student needs to understand three things. First, the Bill of Rights was the Anti-Federalists' demand. The Federalists argued it was unnecessary (the government only has enumerated powers, so it cannot violate rights it does not have). The Anti-Federalists argued it was essential (without explicit protections, the government will infringe rights). The Anti-Federalists lost the ratification fight but won the demand: Madison promised amendments during the First Congress. Second, the key provisions: the First Amendment (speech, religion, press, assembly, petition), the Fourth (unreasonable searches), the Fifth (due process — the direct descendant of Magna Carta clause 39), the Sixth (fair trial), the Eighth (cruel and unusual punishment). Third, the original limitation: the Bill of Rights applied only to the federal government. States could restrict speech, establish religions, and deny due process. The Fourteenth Amendment (1868) incorporated most of the Bill of Rights against the states through the doctrine of incorporation — a process that took nearly a century to complete. The student should understand that the Bill of Rights was not handed down as a package of universal protections. It was a political demand, originally limited to the federal government, and extended to the states through a later amendment and a century of Supreme Court decisions.",
         hardEdges: [
-          "The Constitution does not use the word 'slave.' It says 'all other Persons.' The euphemism is the design — the founders built slavery into the structure without naming it.",
-          "The slave trade clause (Article I, Section 9) is as important as the three-fifths clause. It protected the international slave trade for 20 years, until 1808.",
+          "Do not present the Bill of Rights as applying to the states from the beginning. It did not. States could and did restrict speech, establish religions, and deny due process. The Fourteenth Amendment (1868) changed this, but the incorporation process took nearly a century.",
+          "Do not skip the Federalist argument against a bill of rights. Hamilton argued in Federalist 84 that a bill of rights was unnecessary and even dangerous — because listing some rights might imply that the government has any powers not listed. The Ninth Amendment was the response to this concern.",
         ],
         reading: [
           {
-            heading: "The deal and the cost",
-            body: "The three-fifths compromise resolved a fight about power. The South wanted enslaved people to count fully for representation — more seats, more power. The North wanted them to not count at all — less power for the South. The logic: if slaves are property, not citizens, counting them for representation gives slave states power based on people they treat as property. The compromise was three-fifths. The effect: slave states got extra representation in Congress and the Electoral College based on enslaved people who could not vote, had no rights, and were treated as property. The compromise protected slavery by making it politically advantageous. The slave trade clause (Article I, Section 9) went further: it prohibited Congress from banning the international slave trade for 20 years. Together, these two clauses embedded slavery in the Constitution's structure — not as a footnote, but as a design choice. The word 'slave' does not appear in the Constitution. The founders built slavery in without naming it.",
+            heading: "The demand and the debate",
+            body: "The Anti-Federalists opposed the Constitution because it gave the federal government too much power and did not protect individual rights. Their demand: a bill of rights, listing explicit protections that the federal government could not violate. The Federalists resisted. Hamilton argued in Federalist 84 that a bill of rights was unnecessary: the Constitution only gives the government specific, enumerated powers. The government cannot violate freedom of speech because it was never given the power to regulate speech. A bill of rights, Hamilton argued, could even be dangerous: by listing some rights, it might imply that the government has any power not listed. The Anti-Federalists were not persuaded. They said: list the rights, or the government will take them. The demand was politically irresistible. Several states ratified only because Madison promised amendments. The Bill of Rights (the first ten amendments, ratified 1791) was the price of ratification.",
+          },
+          {
+            heading: "What the Bill of Rights did — and did not — do",
+            body: "The Bill of Rights protects: freedom of speech, religion, press, assembly, and petition (First); the right to bear arms (Second); protection from quartering soldiers (Third); protection from unreasonable searches (Fourth); due process, no self-incrimination, just compensation (Fifth); fair trial rights (Sixth); jury trial in civil cases (Seventh); no cruel and unusual punishment (Eighth); unenumerated rights retained by the people (Ninth); powers reserved to the states (Tenth). But the Bill of Rights originally applied only to the federal government. States could restrict speech, establish religions, and deny due process. The Fourteenth Amendment (1868) extended due process and equal protection to the states, and the Supreme Court gradually 'incorporated' most of the Bill of Rights against the states through the due process clause — a process that took from the 1890s to the 1960s to complete. The Bill of Rights as we know it — a set of universal protections that applies to all government — is the product of the Fourteenth Amendment and a century of judicial interpretation, not the 1791 text alone.",
           },
         ],
         bigIdea:
-          "The three-fifths clause was a deal about power, not worth. But the deal embedded slavery in the Constitution's structure, giving slave states extra representation for decades. The word 'slave' does not appear in the text. The euphemism is the design.",
+          "The Bill of Rights is the Anti-Federalists' legacy — the product of the losing side in the ratification debate. It originally applied only to the federal government. The universal protections we know today are the product of the Fourteenth Amendment and a century of incorporation.",
         tryThis: [
           {
-            title: "Read both clauses",
+            title: "Read the amendments and find the limits",
             minutes: 30,
             steps: [
-              "Read Article I, Section 2, Clause 3 (three-fifths). Find 'all other Persons.' The word 'slave' is not there. The euphemism is the design.",
-              "Read Article I, Section 9 (slave trade). What did it protect, and for how long?",
-              "Ask: the Thirteenth Amendment (1865) abolished slavery. The Fourteenth (1868) replaced three-fifths with full counting. Why did it take two amendments and a Civil War to undo what the compromise built in?",
-              "Reflect: the Constitution embedded slavery without naming it. The euphemism — 'all other Persons' — let the founders avoid saying what they were protecting. Is euphemism a design choice or a moral evasion? Can it be both?",
+              "Read the First Amendment. Count the five protections. Then read the Fifth Amendment. Find 'due process of law' — the direct descendant of Magna Carta clause 39.",
+              "Find the Ninth Amendment: 'The enumeration in the Constitution, of certain rights, shall not be construed to deny or disparage others retained by the people.' What does this mean? (Hint: it is the answer to Hamilton's worry that listing some rights implies the government has all other powers.)",
+              "Find the original limitation: the Bill of Rights applied only to the federal government. When did this change? (The Fourteenth Amendment, 1868, through the doctrine of incorporation.)",
+              "Reflect: the Anti-Federalists lost the ratification vote but won the Bill of Rights. What does that tell you about how political losers can shape the future?",
             ],
           },
         ],
-        dinnerQuestion: "The Constitution embedded slavery without using the word 'slave.' What does it mean that the founders built slavery into the structure and refused to name it?",
+        dinnerQuestion:
+          "If the Bill of Rights originally applied only to the federal government, and states could restrict speech and establish religions, when did it become the universal set of protections we know today? And whose work was that?",
         transfer: [
-          { label: "AI", note: "Ask the model: 'Did the Constitution protect slavery?' If it says no, read Article I, Sections 2 and 9. If it says yes, ask: 'How?' The answer is the two clauses and the euphemism." },
+          { label: "Thinking", note: "Source before summary: the Bill of Rights is ten amendments. Read them. The Ninth Amendment is the answer to Hamilton's worry. The model will skip it." },
+          { label: "AI", note: "Ask the model: 'Did the Bill of Rights apply to the states in 1791?' If it says yes, that is wrong. If it says 'only the federal government, until incorporation through the Fourteenth Amendment,' that is honest. The gap is the lesson." },
+          { label: "History", note: "The Fifth Amendment's 'due process of law' is the direct descendant of Magna Carta clause 39's 'law of the land.' The chain runs through Coke's translation. The Bill of Rights is where the charter's principle entered American law." },
         ],
         ifTheySay: [
           {
-            heard: "The three-fifths clause was racist.",
-            reply: "It was a deal about power, not a statement about race. The North wanted enslaved people to not count at all. The South wanted them to count fully. The compromise was three-fifths. The deal was not about whether enslaved people were three-fifths of a human — it was about how many seats the South got. But the deal protected slavery by giving slave states extra representation. The effect was racist, even if the mechanism was political. Both things are true: the clause was about power, and it protected a racist institution. Reducing it to 'racist' without understanding the politics flattens the history. Understanding the politics without naming the racism flattens the morality. Hold both.",
+            heard: "The Bill of Rights protects everyone's rights.",
+            reply: "It protects everyone's rights now. It did not originally. The Bill of Rights (1791) applied only to the federal government. States could — and did — restrict speech, establish religions, and deny due process. The Fourteenth Amendment (1868) extended due process and equal protection to the states, and the Supreme Court gradually incorporated most of the Bill of Rights against the states through the due process clause. The incorporation process took from the 1890s to the 1960s. The Bill of Rights as a universal set of protections is the product of the Fourteenth Amendment and a century of judicial interpretation, not the 1791 text alone. Do not confuse what the Bill of Rights became with what it originally was.",
+          },
+          {
+            heard: "The Founding Fathers wanted the Bill of Rights.",
+            reply: "Most of them argued against it. Hamilton wrote Federalist 84 specifically to argue that a bill of rights was unnecessary and potentially dangerous. Madison initially agreed. The Anti-Federalists demanded it as the price of ratification. Madison drafted it because he had to — he promised amendments to secure ratification in key states. The Bill of Rights is the Anti-Federalists' legacy. The people who opposed the Constitution gave it its most famous part. That is not a criticism. It is a lesson in how political losers can shape the future more than the winners.",
           },
         ],
-        integrity: "Do not let the model smooth the three-fifths clause into a one-sentence summary. Read Article I, Sections 2 and 9. The specific language — 'all other Persons,' the 20-year protection — is the history. The model's summary will smooth the euphemism. The euphemism is the design.",
+        integrity:
+          "Do not let the model present the Bill of Rights as universally supported or universally applied from the beginning. It was the Anti-Federalists' demand, and it originally applied only to the federal government. Read the amendments. The Ninth Amendment — unenumerated rights — is the answer to Hamilton's worry that the model will skip.",
         aiLab: {
           setup: "After the try-this.",
-          childDoes: "Ask the model: 'How did the Constitution handle slavery?' If it says 'the three-fifths compromise,' ask: 'What else?' The slave trade clause (Article I, Section 9) is the other half. If the model does not mention it, that is a gap. The gap is the lesson.",
+          childDoes:
+            "Ask the model: 'Did the Bill of Rights apply to the states when it was ratified?' If it says yes, that is wrong. If it says 'only the federal government, until incorporation,' that is honest. Then ask: 'What is the Ninth Amendment, and why does it exist?' The model may not know. The Ninth is the answer to Hamilton's worry about listing rights. The omission is the lesson.",
           evaluate: [
-            "Can they explain both the three-fifths clause and the slave trade clause?",
-            "Do they understand the euphemism ('all other Persons') and why it matters?",
-            "Can they hold both: the clause was about power, and it protected slavery?",
+            "Can they explain why the Bill of Rights was added (the Anti-Federalists' demand)?",
+            "Can they name at least three key protections and their amendment numbers?",
+            "Do they understand the Bill of Rights originally applied only to the federal government?",
+            "Can they explain the Ninth Amendment's purpose?",
           ],
         },
       },
       adult: {
-        title: "The Three-Fifths Compromise and the Euphemism That Built It",
-        dek: "The Constitution embedded slavery in its structure without ever using the word. The euphemism — 'all other Persons' — is the design. The legacy took a Civil War and three amendments to begin to undo.",
+        title: "The Bill of Rights: The Losers Who Shaped the Document",
+        dek: "The Bill of Rights is the Anti-Federalists' legacy — the product of the losing side in the ratification debate. Understanding its origin, its original limitation to the federal government, and its extension through the Fourteenth Amendment is essential to teaching it honestly.",
         objective:
-          "The parent can explain the three-fifths compromise and the slave trade clause, the euphemism the Constitution used to avoid naming slavery, the structural legacy of both clauses, and the chain of amendments and struggle needed to undo what the compromise built in.",
+          "The parent can explain the origin of the Bill of Rights as the Anti-Federalists' demand, its key provisions, its original limitation to the federal government, and its extension to the states through the Fourteenth Amendment and incorporation.",
         parentBriefing:
-          "This sitting is for the parent who wants to teach the hardest truth about the Constitution: it protected slavery in its structure, and it did so without naming it. The three-fifths clause (Article I, Section 2) and the slave trade clause (Article I, Section 9) embedded slavery in the apportionment and trade systems. The word 'slave' does not appear in the Constitution. The founders used euphemisms — 'all other Persons' — to build slavery into the structure while avoiding the moral confrontation of naming what they were protecting. The parent should teach that this euphemism is not incidental. It is the design. The founders knew what they were protecting. They chose not to say so. The Thirteenth, Fourteenth, and Fifteenth Amendments — and the Civil War that made them possible — were the cost of undoing what the compromise built in.",
+          "This sitting is for the parent who wants to teach the Bill of Rights as a political product, not a sacred text. The parent should understand three things. First, the Bill of Rights was the Anti-Federalists' price for ratification. The Federalists argued against it (Federalist 84). The Anti-Federalists demanded it. Madison drafted it because the demand was politically irresistible. Second, the Bill of Rights originally applied only to the federal government. States could restrict speech, establish religions, and deny due process. The Fourteenth Amendment (1868) extended due process and equal protection to the states, and the Supreme Court gradually incorporated most of the Bill of Rights against the states through the due process clause — a process that took nearly a century. Third, the Ninth Amendment — unenumerated rights retained by the people — was the answer to Hamilton's worry that listing some rights might imply the government has all powers not listed. The Bill of Rights as we know it — a universal set of protections that applies to all government — is the product of the Fourteenth Amendment and a century of judicial interpretation, not the 1791 text alone. Teaching it honestly means teaching the original limitation, the extension, and the ongoing debate about what rights the Constitution protects.",
         hardEdges: [
-          "The euphemism is the design, not an oversight. The founders who built slavery into the Constitution without naming it knew what they were doing.",
-          "The three-fifths compromise gave slave states overrepresentation in Congress and the Electoral College for decades. This is not a minor effect. It shaped American politics from ratification to the Civil War.",
+          "Do not teach the Bill of Rights as a package of protections that has always applied to everyone. It applied only to the federal government for 80 years. The universal protections are the product of the Fourteenth Amendment and incorporation.",
+          "Do not skip the Ninth Amendment. It is the answer to the most serious Federalist objection to a bill of rights: that listing some rights implies the government has all other powers. The Ninth says the list is not exhaustive.",
+          "The debate about unenumerated rights — privacy, marriage, travel — is the modern version of the Federalist-Anti-Federalist debate. The Ninth Amendment is the textual basis. Whether courts should enforce unenumerated rights is a live constitutional question.",
         ],
         reading: [
           {
-            heading: "The euphemism and the structure",
-            body: "The Constitution does not use the word 'slave.' It says 'all other Persons.' This is not an accident. The founders who drafted the Constitution — many of whom owned slaves — knew that naming slavery would expose the contradiction between 'We the People' and the institution they were protecting. The euphemism let them build slavery into the structure without confronting what they were doing. The three-fifths clause (Article I, Section 2) counted enslaved people as three-fifths for representation — giving slave states extra seats based on people they treated as property. The slave trade clause (Article I, Section 9) protected the international slave trade for 20 years. Together, these clauses embedded slavery in the Constitution's apportionment and trade systems. The effect was structural: slave states had disproportionate power in Congress and the Electoral College from 1789 to the Civil War. The Thirteenth Amendment (1865) abolished slavery. The Fourteenth (1868) replaced three-fifths with full counting. The Fifteenth (1870) prohibited denying the vote based on race. But the legacy of the compromise — decades of slave state overrepresentation, the political economy it protected, and the war it helped cause — is the cost of the deal. The founders made a deal. The country paid for it. The payment is not finished.",
+            heading: "The losers who shaped the document",
+            body: "The Bill of Rights is the Anti-Federalists' legacy. The Federalists argued against a bill of rights in Federalist 84: the Constitution only gives the government enumerated powers, so it cannot violate rights it does not have. A bill of rights, Hamilton argued, could even be dangerous — listing some rights might imply that the government has any power not listed. The Anti-Federalists were not persuaded. They demanded explicit protections as the price of ratification. Several states — Massachusetts, Virginia, New York — ratified only because Madison promised amendments. The Bill of Rights (first ten amendments, ratified 1791) was the political product of the losing side in the ratification debate. The Ninth Amendment — 'The enumeration in the Constitution, of certain rights, shall not be construed to deny or disparage others retained by the people' — was the answer to Hamilton's worry. It says: the list of rights is not exhaustive. The people retain other rights, even if they are not listed. The Ninth Amendment is the textual basis for the modern debate about unenumerated rights — privacy, marriage, travel — that the Constitution does not explicitly name but that the Supreme Court has recognized.",
+          },
+          {
+            heading: "The original limitation and the extension",
+            body: "The Bill of Rights originally applied only to the federal government. States could — and did — restrict speech, establish religions, and deny due process. The First Amendment says 'Congress shall make no law' — it does not say states shall make no law. The Fourteenth Amendment (1868) changed this. Its due process clause says 'Nor shall any State deprive any person of life, liberty, or property, without due process of law.' Its equal protection clause says states cannot deny any person the equal protection of the laws. Through the due process clause, the Supreme Court gradually 'incorporated' most of the Bill of Rights against the states — making state governments subject to the same restrictions as the federal government. The process took from the 1890s (when the Court began incorporating the First Amendment) to the 1960s (when the Court incorporated the Fifth Amendment's self-incrimination clause against the states). The Bill of Rights as a universal set of protections is the product of the Fourteenth Amendment and a century of judicial interpretation. The 1791 text was the beginning. The Fourteenth Amendment and incorporation made it what it is.",
           },
         ],
         bigIdea:
-          "The Constitution embedded slavery without naming it. The euphemism — 'all other Persons' — is the design. The structural legacy took a Civil War and three amendments to begin to undo. The payment is not finished.",
+          "The Bill of Rights is the Anti-Federalists' legacy — the product of the losing side in the ratification debate. It originally applied only to the federal government. The universal protections we know today are the product of the Fourteenth Amendment and a century of incorporation. Teaching it honestly means teaching the original limitation, the extension, and the ongoing debate about unenumerated rights.",
         tryThis: [
           {
-            title: "Find the euphemism",
+            title: "Read the amendments and trace the extension",
             minutes: 40,
             steps: [
-              "Search the Constitution for the word 'slave.' It is not there. Find 'all other Persons' in Article I, Section 2. Find the slave trade protection in Article I, Section 9.",
-              "Ask: why did the founders avoid the word? What does the avoidance reveal about what they knew?",
-              "Trace the undoing: Thirteenth Amendment (abolition, 1865). Fourteenth (equal protection, 1868). Fifteenth (voting rights, 1870). Why did each require a political struggle — and in the case of the Thirteenth, a war?",
-              "Reflect: the euphemism let the founders build slavery in without naming it. The amendments had to name it to undo it. The naming was the beginning of the end. The not-naming was the protection. Both are the Constitution.",
+              "Read the Bill of Rights (ten amendments). Note the Fifth Amendment's 'due process of law' — the direct descendant of Magna Carta clause 39.",
+              "Find the Ninth Amendment: unenumerated rights. What is it answering? (Hamilton's worry in Federalist 84 that listing rights implies the government has all powers not listed.)",
+              "Read the Fourteenth Amendment's due process clause: 'Nor shall any State deprive any person of life, liberty, or property, without due process of law.' This is the clause that incorporated the Bill of Rights against the states. Compare it to the Fifth Amendment. The language is nearly identical — 'person' instead of the charter's 'free man.'",
+              "Reflect: the Bill of Rights applied only to the federal government for 80 years. The Fourteenth Amendment extended it to the states. The Supreme Court took a century to complete the incorporation. The Bill of Rights as we know it is the product of amendment and interpretation, not the 1791 text alone.",
             ],
           },
         ],
-        dinnerQuestion: "The Constitution protected slavery without naming it. The amendments had to name it to undo it. What does it mean that the not-naming was the protection and the naming was the beginning of the end?",
+        dinnerQuestion:
+          "If the Bill of Rights is the Anti-Federalists' legacy and its universal application is the product of the Fourteenth Amendment and incorporation, what does that tell you about how constitutional protections actually grow? Is it through the text, the amendment, or the interpretation?",
         transfer: [
-          { label: "AI", note: "Ask the model: 'How did the Constitution handle slavery?' Then ask: 'Did it use the word?' The model will probably not mention the euphemism. The euphemism is the design the model's summary will smooth." },
-          { label: "Thinking", note: "The Magna Carta chain: the charter said 'free men.' The Constitution said 'all other Persons.' Both documents built exclusion into their structure through language. The expansion from exclusion to inclusion is the chain — and it required struggle at every link." },
+          { label: "AI", note: "Ask the model: 'When did the Bill of Rights apply to the states?' If it says 1791, that is wrong. If it says 'after the Fourteenth Amendment and incorporation,' that is honest. The gap between 1791 and the 1960s is the story." },
+          { label: "History", note: "The Fifth Amendment's 'due process of law' is Magna Carta clause 39's 'law of the land,' translated by Coke, written into the Constitution by the founders. The Fourteenth Amendment extended it to the states. The chain from Runnymede to your rights runs through every link." },
         ],
         ifTheySay: [
           {
-            heard: "The founders were products of their time.",
-            reply: "They were. And they knew what they were doing. The euphemism — 'all other Persons' instead of 'slaves' — is the evidence. You do not avoid a word unless you know what the word means and do not want to say it. The founders who built slavery into the Constitution without naming it were not ignorant of the contradiction. They were managing it. The management — the euphemism, the compromise, the 20-year protection — was a political achievement. It was also a moral evasion. Both are true. 'Products of their time' explains the compromise. It does not excuse it. The cost of the compromise was paid by the people the Constitution did not name — and by the country that fought a war to undo what the compromise built in.",
+            heard: "The Bill of Rights has always protected everyone.",
+            reply: "It has not. The Bill of Rights (1791) applied only to the federal government. States restricted speech, established religions, and denied due process — legally — for 80 years. The Fourteenth Amendment (1868) extended due process and equal protection to the states. The Supreme Court then spent a century incorporating the Bill of Rights against the states through the due process clause. The process was not complete until the 1960s. The Bill of Rights as a universal set of protections is the product of the Fourteenth Amendment and a century of judicial interpretation. The 1791 text was the beginning, not the whole story. Teaching it as if it was always universal erases the struggle — the Civil War, the Fourteenth Amendment, the incorporation cases — that made it universal.",
+          },
+          {
+            heard: "Only the rights listed in the Constitution are protected.",
+            reply: "The Ninth Amendment says otherwise: 'The enumeration in the Constitution, of certain rights, shall not be construed to deny or disparage others retained by the people.' The list is not exhaustive. The people retain other rights, even if they are not listed. The Ninth Amendment is the textual basis for the modern debate about unenumerated rights — privacy, marriage, travel — that the Constitution does not explicitly name but that the Supreme Court has recognized. The debate about whether courts should enforce unenumerated rights is the modern version of the Federalist-Anti-Federalist debate. The Federalists worried that listing rights would limit them. The Anti-Federalists demanded a list. The Ninth Amendment was the compromise: list the rights, but say the list is not exhaustive. The debate about what that means is ongoing.",
           },
         ],
-        integrity: "Do not let the model smooth the euphemism. The Constitution does not say 'slave.' It says 'all other Persons.' The avoidance is the design. Read Article I, Sections 2 and 9. Then read the Thirteenth Amendment. The gap between them is the cost of the deal.",
+        integrity:
+          "Do not let the model present the Bill of Rights as universally supported or universally applied from the beginning. It was the Anti-Federalists' demand, it applied only to the federal government, and its extension to the states took a century. Read the amendments. Read the Fourteenth Amendment. The chain from 1791 to universal protection is the story.",
         aiLab: {
           setup: "After the try-this.",
-          childDoes: "Ask the model: 'Does the Constitution mention slavery?' If it says no, that is technically true — the word does not appear. If it says yes, ask: 'Where?' The answer is the euphemism: 'all other Persons.' The gap between the word and the euphemism is the design.",
+          childDoes:
+            "Ask the model: 'Summarize the history of the Bill of Rights in three sentences.' Then ask: 'What did you skip?' The model will skip the Anti-Federalist demand, the original limitation to the federal government, and the century of incorporation. Each skip is a piece of the story. The compression is the lesson.",
           evaluate: [
-            "Can they explain both the three-fifths clause and the slave trade clause?",
-            "Do they understand the euphemism and why it matters?",
-            "Can they trace the undoing through the Thirteenth, Fourteenth, and Fifteenth Amendments?",
-            "Do they understand that the cost of the compromise was structural, not incidental?",
+            "Can they explain the Anti-Federalist origin of the Bill of Rights?",
+            "Can they trace the extension through the Fourteenth Amendment and incorporation?",
+            "Do they understand the Ninth Amendment and the debate about unenumerated rights?",
+            "Can they distinguish the 1791 text from the Bill of Rights as it exists today?",
           ],
         },
       },
     },
   }),
 
-  // ── 4. The Living Document ────────────────────────────────────────
+  // ── 4. The Three-Fifths Compromise ─────────────────────────────────
   ...expand({
-    slug: "living-document",
+    slug: "three-fifths-compromise",
     subject: "history",
-    unit: "The Constitution — Design and Compromise",
+    unit: "The Constitution — Designed, Not Extracted",
     number: 4,
     bands: ["young", "emerging", "adult"],
     variants: {
       young: {
-        title: "The Document That Changes",
-        dek: "The Constitution has been changed 27 times. The first 10 changes were the Bill of Rights. The changes are the story of a country learning what 'We the People' means.",
+        title: "The Compromise That Counted People as Numbers",
+        dek: "The Constitution says enslaved people counted as three-fifths of a person for representation. It was not about their worth. It was about power.",
         objective:
-          "The student can explain what an amendment is and why the Constitution was designed to be changeable.",
+          "The student can explain what the three-fifths compromise was, why it was made, and who benefited from it.",
         parentBriefing:
-          "This sitting is about the amendment process — the Constitution's built-in capacity for change. The founders knew the document was not perfect. They built in a process to fix it: amendments. The first 10 amendments (the Bill of Rights) were added in 1791. There have been 27 amendments total. Each amendment is a story of the country learning what 'We the People' means — expanding who counts, what rights are protected, and how power is limited. The student should understand that the Constitution is not a fixed text. It is a living document — changed by the people who inherit it.",
+          "This sitting tackles one of the hardest truths in the Constitution: the three-fifths compromise. Article I, Section 2 says enslaved people count as three-fifths of a person for representation and taxation. The common misconception is that this meant slaves were three-fifths of a human being — a racist devaluation. The reality is more disturbing: the compromise was about political power. The South wanted enslaved people counted fully for representation (more seats in Congress, more Electoral College votes) even though enslaved people could not vote. The North wanted them not counted at all (they are property, not citizens). The compromise: three-fifths. The result: the slave states got extra representation based on people they held in bondage. The student should understand that the three-fifths compromise was not about the worth of enslaved people. It was about the power of their enslavers. The moral problem is not that slaves were valued at three-fifths. It is that they were counted for representation while having no representation — their existence increased their enslavers' political power.",
         hardEdges: [
-          "The amendment process is intentionally difficult. Most proposed amendments do not pass. The difficulty is the design — changes should be hard, not easy.",
-          "The Constitution has not been amended since 1992. The difficulty of amendment is a feature and a cost.",
+          "Do not present the three-fifths compromise as being about the worth of enslaved people. It was about political power.",
+          "Do not skip who benefited: the slave states got approximately 20 extra seats in the first Congress and extra Electoral College votes.",
         ],
         reading: [
           {
-            heading: "What an amendment is",
-            body: "An amendment is a change to the Constitution. The founders built in a way to change it because they knew it was not perfect. Article V says how: two-thirds of Congress must propose the amendment, and three-fourths of the states must ratify it. That is hard. It is supposed to be hard. The founders wanted changes to be deliberate, not rushed. The first 10 amendments — the Bill of Rights — were added in 1791, two years after the Constitution took effect. The Anti-Federalists demanded them as the price of ratification. There have been 27 amendments total. Each one is a story of the country deciding the Constitution needed to say something it did not say.",
+            heading: "The fight",
+            body: "After the Revolution, the country had to decide how many representatives each state got in Congress. The number was based on population. The South had millions of enslaved people. The South wanted them counted fully — more people meant more representatives. The North said: you cannot count people as property and then count them as people for representation. The fight was about power, not about the worth of the enslaved.",
+          },
+          {
+            heading: "The deal",
+            body: "The compromise: enslaved people would count as three-fifths of a person for both representation and taxation. The South got extra seats in Congress. The North got extra tax burden on the South. But the real winner was the slave states. The three-fifths counting gave them about 20 extra seats in the first Congress and extra Electoral College votes. Thomas Jefferson won the presidency in 1800 partly because of the three-fifths bonus. The people who were counted had no vote, no rights, and no representation. Their existence gave their enslavers more power.",
           },
         ],
         bigIdea:
-          "The Constitution was designed to be changeable. 27 amendments — each one a story of the country learning what 'We the People' means.",
+          "The three-fifths compromise was not about the worth of enslaved people. It was about the power of their enslavers. The people who were counted had no representation. Their existence gave their enslavers more power.",
         tryThis: [
           {
-            title: "List the amendments",
+            title: "Count the cost",
             minutes: 18,
             steps: [
-              "List three amendments you know. (Hint: First Amendment = free speech. Thirteenth = abolished slavery. Nineteenth = women's vote.)",
-              "For each, write one sentence: what did the country learn that required this change?",
-              "Talk About It: if the Constitution is designed to change, why is changing it so hard?",
+              "Read Article I, Section 2, Clause 3: 'Representatives and direct Taxes shall be apportioned among the several States... by adding to the whole Number of free Persons... three fifths of all other Persons.'",
+              "Write: 'all other Persons' means enslaved people. Why does the Constitution not say 'slaves'? (Hint: the framers avoided the word.)",
+              "Talk About It: if the South wanted enslaved people counted for representation, but enslaved people could not vote, who was the South representing? Themselves, or the people they owned?",
             ],
           },
         ],
-        dinnerQuestion: "If the Constitution has been changed 27 times, what does that tell you about the founders' idea of 'We the People'?",
+        dinnerQuestion:
+          "If the three-fifths compromise was about power, not worth, what does that tell you about how the Constitution treated slavery? Was it a compromise or a deal?",
         transfer: [
-          { label: "Thinking", note: "Claim and check: the claim is 'the Constitution can change.' The check is Article V — the process that makes change possible and hard." },
+          { label: "Thinking", note: "Source before summary: Article I, Section 2 is the source. The misconception is the summary. Read the actual text." },
         ],
         ifTheySay: [
           {
-            heard: "The Constitution should never change.",
-            reply: "The founders disagreed. They built in a process to change it (Article V) because they knew it was not perfect. The Thirteenth Amendment abolished slavery. The Nineteenth gave women the vote. These changes were not betrayals of the Constitution. They were the Constitution working as designed — the country learning what 'We the People' means and expanding who 'the People' includes. A Constitution that cannot change is a museum piece. A Constitution that can change is a living document. The founders chose the living document.",
+            heard: "The three-fifths clause meant slaves were three-fifths of a human being.",
+            reply: "It did not. It meant enslaved people were counted as three-fifths for representation and taxation — not for any other purpose. The misconception is that the clause was about worth. It was about power. The South wanted enslaved people counted fully for representation (more seats in Congress). The North wanted them not counted at all (they are property, not citizens). The compromise: three-fifths. The moral problem is not that slaves were valued at three-fifths. It is that they were counted for representation while having no representation — their existence increased their enslavers' political power.",
           },
         ],
-        integrity: "Do not let the model present the Constitution as fixed. It has been amended 27 times. Each amendment is a change. The changes are the story.",
+        integrity: "Do not let the model say the three-fifths clause was about the worth of enslaved people. Read Article I, Section 2. It is about representation and taxation. The power, not the worth, is the story.",
         aiLab: {
           setup: "After reading.",
-          childDoes: "Ask the model: 'How many amendments does the Constitution have?' (27.) Then ask: 'What do the amendments do?' The pattern: they expand rights, fix problems, and clarify powers.",
+          childDoes:
+            "Ask the model: 'What did the three-fifths clause mean?' If it says 'slaves were three-fifths of a person,' that is the misconception. Ask: 'For what purpose were they counted?' The answer: representation and taxation. The purpose is the story.",
           evaluate: [
-            "Can they explain what an amendment is?",
-            "Can they name at least three amendments and what they did?",
+            "Can they explain what the three-fifths compromise was?",
+            "Do they understand it was about power, not worth?",
+            "Can they explain who benefited (the slave states)?",
           ],
         },
       },
       emerging: {
-        title: "The Living Document: 27 Amendments and the Chain of Expansion",
-        dek: "The Constitution was designed to be changeable. 27 amendments — from the Bill of Rights to the Thirteenth to the Nineteenth — trace the chain of who 'We the People' includes.",
+        title: "The Three-Fifths Compromise: Power, Not Worth",
+        dek: "The three-fifths clause counted enslaved people for representation while they had no representation. The moral problem is not that slaves were valued at three-fifths. It is that their existence increased their enslavers' political power.",
         objective:
-          "The student can explain the amendment process (Article V), trace the chain of amendments that expanded rights and inclusion, and understand the tension between the Constitution's fixity and its capacity for change.",
+          "The student can explain the three-fifths compromise as a political deal about representation and taxation, identify who benefited, and distinguish the misconception (worth) from the reality (power).",
         parentBriefing:
-          "This sitting connects the amendment process to the chain of expansion — the same chain that runs from Magna Carta through the Fifth Amendment through the Civil Rights movement. The Constitution was designed to be changeable (Article V). The amendments trace the expansion of who counts: the Bill of Rights (1791) protected individual liberties. The Thirteenth (1865) abolished slavery. The Fourteenth (1868) guaranteed equal protection. The Fifteenth (1870) prohibited racial voting discrimination. The Nineteenth (1920) gave women the vote. The Twenty-Sixth (1971) lowered the voting age. Each amendment is a link in the chain of expansion. The student should understand that the Constitution's capacity for change is not a weakness. It is the design — the mechanism by which the country learns what 'We the People' means.",
+          "This sitting takes on the three-fifths compromise directly and honestly. The student needs to understand three things. First, the fight: the South wanted enslaved people counted fully for representation (more seats in Congress, more Electoral College votes). The North wanted them not counted at all (they are property, not citizens — you cannot count people as property and then count them as people for representation). The compromise: three-fifths, for both representation and taxation. Second, who benefited: the slave states. The three-fifths counting gave them approximately 20 extra seats in the first Congress and extra Electoral College votes. Thomas Jefferson won the presidency in 1800 partly because of the three-fifths bonus. Third, the misconception: the common belief is that the clause said slaves were three-fifths of a human being — a racist devaluation. The reality is more disturbing: the clause was about political power. The moral problem is not that slaves were valued at three-fifths. It is that they were counted for representation while having no representation. Their existence increased their enslavers' political power. The student should understand that the three-fifths compromise is the Constitution's original sin — not because it devalued enslaved people, but because it used them as numbers to give their enslavers more power.",
         hardEdges: [
-          "The amendment process is intentionally difficult. Most proposed amendments fail. The difficulty prevents rash changes but also blocks necessary ones.",
-          "The Constitution has not been amended since 1992. The difficulty of amendment is both a feature (stability) and a cost (stagnation).",
+          "Do not present the three-fifths compromise as being about the worth of enslaved people. The misconception is common. The reality — that it was about political power — is more disturbing and more important.",
+          "Do not skip who benefited. The slave states got approximately 20 extra seats and extra Electoral College votes. Jefferson won in 1800 partly because of the three-fifths bonus.",
+          "Do not let the compromise become an excuse to dismiss the Constitution. The compromise is the Constitution's original sin. The 13th and 14th Amendments corrected it. Both the sin and the correction are the story.",
         ],
         reading: [
           {
-            heading: "The chain of amendments",
-            body: "Article V sets the process: two-thirds of Congress proposes, three-fourths of the states ratify. It is deliberately hard. The founders wanted changes to be deliberate, not impulsive. The 27 amendments trace the chain of expansion. The Bill of Rights (1791): the Anti-Federalists' price — individual liberties the Constitution did not explicitly protect. The Thirteenth (1865): abolition — the undoing of what the three-fifths compromise built in. The Fourteenth (1868): equal protection — the promise that the states cannot deny citizens the rights the federal government guarantees. The Fifteenth (1870): racial voting rights — the expansion of 'We the People' to include Black men. The Nineteenth (1920): women's suffrage — the expansion to include women. The Twenty-Sixth (1971): voting age lowered to 18 — the expansion to include young adults. Each amendment is a link in the chain of who counts. The Constitution was written by and for about 6% of the population (white male property owners). The amendments expanded it. The expansion is the story. It is not finished.",
+            heading: "The fight, the deal, and the beneficiary",
+            body: "The three-fifths compromise (Article I, Section 2, Clause 3) resolved a dispute between Northern and Southern states. The North wanted enslaved people not counted at all for representation: they are property, not citizens — counting them would give slave states extra power based on people they treated as property. The South wanted enslaved people counted fully: they are part of the population, and counting them would give the slave states more seats in Congress and more power in the Electoral College. The compromise: enslaved persons counted as three-fifths of a person for both representation and taxation. The South got extra representation. The North got extra tax burden on the South. The real winner was the slave states. The three-fifths counting gave them approximately 20 extra seats in the first Congress and extra Electoral College votes that helped Southern presidential candidates — including Thomas Jefferson in 1800, who won the Electoral College in part because of the three-fifths bonus. The people who were counted had no vote, no rights, and no representation. Their existence increased their enslavers' political power.",
+          },
+          {
+            heading: "The misconception and the reality",
+            body: "The common misconception is that the three-fifths clause said slaves were three-fifths of a human being — a racist devaluation embedded in the Constitution. The reality is more disturbing. The clause did not say slaves were three-fifths of a person. It said they could be counted as three-fifths for representation and taxation — for those purposes only. The moral problem is not that slaves were valued at three-fifths. The moral problem is that slaves were counted for representation while having no representation — their existence increased their enslavers' political power. The framers avoided the word 'slave' in the Constitution. They wrote 'all other Persons.' The avoidance is telling: they knew what they were doing, and they chose not to name it. The three-fifths compromise is the Constitution's original sin. The 13th Amendment (1865) abolished slavery. The 14th Amendment (1868) replaced the three-fifths rule with universal citizenship and equal protection. Both the sin and the correction are part of the constitutional story.",
           },
         ],
         bigIdea:
-          "The amendments trace the chain of who 'We the People' includes. The Constitution was written for about 6% of the population. The amendments expanded it. The expansion is the story. It is not finished.",
+          "The three-fifths compromise was about political power, not human worth. The moral problem is that enslaved people were counted for representation while having no representation — their existence gave their enslavers more power. The 13th and 14th Amendments corrected it.",
         tryThis: [
           {
-            title: "Trace the expansion",
+            title: "Read the clause and trace the power",
             minutes: 30,
             steps: [
-              "List at least five amendments: Bill of Rights (1791), Thirteenth (1865), Fourteenth (1868), Fifteenth (1870), Nineteenth (1920).",
-              "For each, write: who was included that was not included before?",
-              "Ask: the Constitution was written by and for about 6% of the population. How many amendments did it take to expand 'We the People' to include most adults? (Answer: at least 5, and the expansion is still ongoing.)",
-              "Reflect: the amendment process is hard. Most proposed amendments fail. Is the difficulty a feature (stability) or a cost (stagnation)? Can it be both?",
+              "Read Article I, Section 2, Clause 3: 'Representatives and direct Taxes shall be apportioned among the several States... by adding to the whole Number of free Persons... three fifths of all other Persons.' Write: 'all other Persons' means enslaved people. The framers did not use the word 'slave.'",
+              "Write the two sides: North wanted slaves not counted (property, not citizens). South wanted slaves counted fully (more representation). The compromise: three-fifths.",
+              "Find who benefited: approximately 20 extra seats for slave states in the first Congress. Extra Electoral College votes. Jefferson won in 1800 partly because of the three-fifths bonus.",
+              "Reflect: the people who were counted had no vote and no representation. Their existence gave their enslavers more power. Is this a compromise or a deal? What is the difference?",
             ],
           },
         ],
-        dinnerQuestion: "The Constitution was written for about 6% of the population. The amendments expanded it. Who is still waiting to be included?",
+        dinnerQuestion:
+          "If the three-fifths compromise gave slave states extra power based on people they held in bondage, and Jefferson won the presidency in 1800 partly because of it, how does that change the way you think about early American history? Was the founding compromised from the start?",
         transfer: [
-          { label: "AI", note: "Ask the model: 'How has the Constitution changed?' The model will list amendments. Then ask: 'What do the amendments have in common?' The answer: expansion of who counts. The pattern is the lesson." },
-          { label: "Thinking", note: "The Magna Carta chain: the charter said 'free men.' The Constitution said 'We the People.' The amendments expanded both. The chain is the expansion. The expansion is the story." },
+          { label: "Thinking", note: "Source before summary: Article I, Section 2 is the source. The misconception is the summary. Read the actual text. 'All other Persons' is the euphemism. The euphemism is the tell." },
+          { label: "AI", note: "Ask the model: 'What did the three-fifths clause mean?' If it says 'slaves were three-fifths of a person,' that is the misconception. Ask: 'For what purpose were they counted?' Representation and taxation. The purpose is the story the model will smooth." },
+          { label: "History", note: "Magna Carta's omission of villeins was the charter's limit. The three-fifths compromise is the Constitution's. Both documents used people as numbers — or failed to count them at all — to protect the power of those who held it." },
         ],
         ifTheySay: [
           {
-            heard: "The Constitution hasn't changed in a long time.",
-            reply: "The last amendment was 1992 — over 30 years ago. The difficulty of amendment is a feature (stability) and a cost (stagnation). The founders made change hard because they feared impulsive changes. But the difficulty also means that necessary changes — like expanding voting rights protections, or addressing the Electoral College, or updating the Second Amendment for modern weapons — may be impossible. The amendment process is a design choice with a cost. The cost is that the Constitution may not keep up with the country. The benefit is that the Constitution does not swing with every political wind. The question is whether the balance is right — and that is a question the founders left to every generation.",
+            heard: "The three-fifths clause said slaves were three-fifths of a human being.",
+            reply: "It did not. It said enslaved people were counted as three-fifths for representation and taxation — for those purposes only. The misconception is that the clause was about worth. It was about power. The South wanted enslaved people counted fully for representation (more seats in Congress). The North wanted them not counted at all. The compromise: three-fifths. The moral problem is not that slaves were valued at three-fifths. It is that they were counted for representation while having no representation. Their existence increased their enslavers' political power. Jefferson won in 1800 partly because of the three-fifths bonus. The people who gave him that power could not vote. The compromise is the Constitution's original sin. The 13th and 14th Amendments corrected it. Both are the story.",
+          },
+          {
+            heard: "The three-fifths clause was anti-slavery because it reduced the South's representation.",
+            reply: "This is sometimes argued, but it gets the dynamics backwards. The North wanted slaves not counted at all — which would have reduced the South's representation. The South wanted slaves counted fully — which would have increased it. Three-fifths was a compromise between zero and full counting. The South got more representation than it would have under the Northern proposal. The three-fifths clause benefited the slave states, not the enslaved. The people who were counted had no vote. Their existence gave their enslavers more power. That is not anti-slavery. It is the use of enslaved people as political currency.",
           },
         ],
-        integrity: "Do not let the model present the amendments as a smooth story of progress. Each amendment was contested. The Thirteenth required a war. The Nineteenth took 70 years of activism. The amendments are the story of struggle, not the story of automatic progress.",
+        integrity:
+          "Do not let the model say the three-fifths clause was about the worth of enslaved people. Read Article I, Section 2. It is about representation and taxation. The power, not the worth, is the story. The 13th and 14th Amendments are the correction. Both are the history.",
         aiLab: {
           setup: "After the try-this.",
-          childDoes: "Ask the model: 'Summarize the amendments in three sentences.' Then ask: 'What did you skip?' The model will skip the struggle. Each amendment was a fight. The fights are the story.",
+          childDoes:
+            "Ask the model: 'What did the three-fifths clause mean?' If it says 'slaves were three-fifths of a person,' ask: 'For what purpose?' The answer is representation and taxation. Then ask: 'Who benefited?' The slave states. The gap between the misconception and the reality is the lesson.",
           evaluate: [
-            "Can they explain the amendment process (Article V)?",
-            "Can they trace the chain of expansion through at least five amendments?",
-            "Do they understand that the expansion was contested, not automatic?",
-            "Can they identify where the expansion is still ongoing?",
+            "Can they explain what the three-fifths compromise was and what it was about (power, not worth)?",
+            "Can they identify who benefited (the slave states)?",
+            "Do they understand the moral problem (counted for representation without representation)?",
+            "Can they trace the correction through the 13th and 14th Amendments?",
           ],
         },
       },
       adult: {
-        title: "The Living Document: The Chain and the Cost of Change",
-        dek: "The Constitution was designed to be changeable. 27 amendments trace the expansion of who counts. The difficulty of change is both the Constitution's strength (stability) and its weakness (stagnation). The chain is not finished.",
+        title: "The Three-Fifths Compromise: The Constitution's Original Sin",
+        dek: "The three-fifths clause counted enslaved people for representation while they had no representation. It was not about worth. It was about power — and the power it gave the slave states shaped American politics for 80 years.",
         objective:
-          "The parent can explain the amendment process, trace the chain of amendments that expanded rights and inclusion, understand the tension between stability and stagnation, and identify where the chain is still being built.",
+          "The parent can explain the three-fifths compromise as a political deal about representation and taxation, identify who benefited, distinguish the misconception (worth) from the reality (power), and trace the correction through the 13th and 14th Amendments.",
         parentBriefing:
-          "This is the capstone of the Constitution unit. The parent should understand that the Constitution's capacity for change is its most important feature — and its most contested. The amendments trace the expansion of who counts, from the Bill of Rights through abolition through women's suffrage through the voting age amendment. Each amendment was a struggle. The Thirteenth required a war. The Nineteenth took 70 years of activism. The amendment process is intentionally difficult — most proposed amendments fail. The difficulty is a feature (stability, deliberation) and a cost (stagnation, the inability to address problems that need fixing). The Constitution has not been amended since 1992. The question of whether the amendment process is too hard — whether the Constitution can keep up with the country — is a live political question. The parent should leave the unit understanding that the Constitution is a living document — not because it changes on its own, but because people fight to change it.",
+          "This sitting is for the parent who wants to teach the Constitution's hardest truth honestly. The three-fifths compromise is the Constitution's original sin — not because it devalued enslaved people, but because it used them as political currency. The South wanted enslaved people counted fully for representation (more seats, more Electoral College votes) even though they could not vote. The North wanted them not counted at all. The compromise: three-fifths, for representation and taxation. The beneficiary: the slave states, who got approximately 20 extra seats in the first Congress and extra Electoral College votes. Jefferson won in 1800 partly because of the three-fifths bonus. The moral problem: enslaved people were counted for representation while having no representation. Their existence increased their enslavers' political power. The framers avoided the word 'slave' — they wrote 'all other Persons.' The euphemism is the tell: they knew what they were doing, and they chose not to name it. The 13th Amendment (1865) abolished slavery. The 14th Amendment (1868) replaced the three-fifths rule with universal citizenship and equal protection. The parent should understand that the three-fifths compromise is not a footnote. It is the central fact about the Constitution's relationship to slavery. Teaching it honestly means teaching the sin and the correction.",
         hardEdges: [
-          "The amendment process has not produced a successful amendment since 1992. That is the longest gap since the Bill of Rights. The difficulty of amendment is a design choice with a cost.",
-          "The expansion of 'We the People' is not finished. The Constitution was written for about 6% of the population. The amendments expanded it. But the expansion — of voting rights, of equal protection, of who counts — is ongoing.",
+          "Do not present the three-fifths compromise as being about the worth of enslaved people. The misconception is common and wrong. The reality — that it was about political power — is more disturbing and more important.",
+          "Do not skip who benefited. The slave states got approximately 20 extra seats and extra Electoral College votes. Jefferson won in 1800 partly because of the three-fifths bonus. The compromise shaped American politics for 80 years.",
+          "Do not let the compromise become an excuse to dismiss the Constitution entirely. The compromise is the original sin. The 13th and 14th Amendments corrected it. Both the sin and the correction are part of the constitutional story.",
+          "Note the euphemism: the framers wrote 'all other Persons,' not 'slaves.' The avoidance of the word is itself a moral choice — the choice not to name the thing they were doing.",
         ],
         reading: [
           {
-            heading: "The chain, the cost, and the next link",
-            body: "The Constitution's 27 amendments trace the chain of expansion: who counts, what rights are protected, how power is limited. The Bill of Rights (1791) protected individual liberties. The Thirteenth (1865) abolished slavery — the undoing of what the three-fifths compromise built in. The Fourteenth (1868) guaranteed equal protection — the foundation of modern civil rights law. The Fifteenth (1870) prohibited racial voting discrimination. The Nineteenth (1920) gave women the vote. The Twenty-Sixth (1971) lowered the voting age. Each amendment was a link in the chain of who 'We the People' includes. The chain runs from Magna Carta (free men) through the Constitution (We the People) through the amendments (expanding who 'the People' means) to the ongoing struggles for inclusion today. The Constitution was written for about 6% of the population. The amendments expanded it. The expansion required war (Thirteenth), activism (Nineteenth), and political struggle (every amendment). The Constitution is a living document — not because it changes on its own, but because people fight to change it. The chain is not finished. The question is whether the amendment process is still capable of producing change — or whether the difficulty has become a cost the country cannot afford.",
+            heading: "The compromise, the beneficiary, and the euphemism",
+            body: "The three-fifths compromise (Article I, Section 2, Clause 3) resolved a dispute about representation and taxation. The North wanted enslaved people not counted at all: they are property, not citizens — counting them would give slave states extra power based on people they treated as property. The South wanted them counted fully: they are part of the population, and counting them would give the slave states more seats in Congress and more Electoral College votes. The compromise: enslaved persons counted as three-fifths for both representation and taxation. The slave states benefited. The three-fifths counting gave them approximately 20 extra seats in the first Congress and extra Electoral College votes. Thomas Jefferson won the presidency in 1800 in part because of the three-fifths bonus — the people who gave him that power could not vote. The framers avoided the word 'slave' in the Constitution. They wrote 'all other Persons.' The euphemism is telling: they knew what they were doing, and they chose not to name it. The three-fifths compromise is the Constitution's original sin — not because it devalued enslaved people (the misconception), but because it used them as political currency to give their enslavers more power. The 13th Amendment (1865) abolished slavery. The 14th Amendment (1868) replaced the three-fifths rule with universal citizenship and equal protection. Both the sin and the correction are the constitutional story.",
           },
         ],
         bigIdea:
-          "The Constitution is a living document because people fight to change it. The 27 amendments trace the expansion of who counts. The chain is not finished. The question is whether the amendment process is still capable of change — or whether the difficulty has become stagnation.",
+          "The three-fifths compromise is the Constitution's original sin. It was about power, not worth. It used enslaved people as political currency to give their enslavers more representation. The 13th and 14th Amendments corrected it. Both the sin and the correction are the story.",
         tryThis: [
           {
-            title: "The next link",
+            title: "Read the clause, trace the power, find the correction",
             minutes: 40,
             steps: [
-              "Trace the chain: Magna Carta (free men, 1215) → Constitution (We the People, 1787) → Bill of Rights (individual liberties, 1791) → Thirteenth (abolition, 1865) → Fourteenth (equal protection, 1868) → Nineteenth (women's vote, 1920) → Twenty-Sixth (voting age, 1971). Each link expanded who counts.",
-              "Ask: who is still waiting to be included? What right is still being expanded? Who is doing the work?",
-              "Reflect: the Constitution has not been amended since 1992. Is the amendment process working? Or has the difficulty become a cost?",
-              "Ask: the chain from Magna Carta to today is the chain of interpretation, expansion, and defense. Are you part of the chain? What happens if no one picks it up?",
+              "Read Article I, Section 2, Clause 3. Find 'all other Persons.' The framers did not use the word 'slave.' The euphemism is the tell.",
+              "Trace the beneficiary: approximately 20 extra seats for slave states. Extra Electoral College votes. Jefferson won in 1800 partly because of the three-fifths bonus.",
+              "Read the 13th Amendment (1865): abolished slavery. Read the 14th Amendment (1868): 'All persons born or naturalized in the United States... are citizens.' The 14th replaced the three-fifths rule with universal citizenship.",
+              "Reflect: the people who were counted had no vote and no representation. Their existence gave their enslavers more power. The euphemism ('all other Persons') is a moral choice — the choice not to name the thing they were doing. The correction took a Civil War and two amendments. Both the sin and the correction are the constitutional story.",
             ],
           },
         ],
-        dinnerQuestion: "The Constitution has not been amended since 1992 — the longest gap since the Bill of Rights. Is the amendment process working as designed, or has the difficulty become a cost the country cannot afford?",
+        dinnerQuestion:
+          "If the three-fifths compromise used enslaved people as political currency to give their enslavers more power, and Jefferson won the presidency in 1800 partly because of it, how does that change the way you think about the founding? Can a document be both foundational and compromised?",
         transfer: [
-          { label: "AI", note: "Ask the model: 'Is the Constitution a living document?' Then ask: 'What does 'living' mean — changing on its own, or being changed by people?' The answer is: being changed by people. The living is the fighting." },
-          { label: "Philosophy", note: "The Magna Carta chain: a text survives through use. The Constitution is the same. The text is 230 years old. The amendments are the people picking it up and using it. The chain is the story. The story is the work." },
+          { label: "AI", note: "Ask the model: 'Was the three-fifths compromise about the worth of slaves or about political power?' Then ask: 'Who benefited, and how?' The model may say 'worth.' The honest answer is 'power.' The gap is the lesson." },
+          { label: "History", note: "Magna Carta's omission of villeins was the charter's limit. The three-fifths compromise is the Constitution's. Both documents used people as numbers — or failed to count them — to protect the power of those who held it. The difference: the Constitution's compromise gave the slave states extra power for 80 years." },
         ],
         ifTheySay: [
           {
-            heard: "The Constitution is a living document that adapts.",
-            reply: "It does not adapt on its own. It is adapted — by people who fight to change it. The Thirteenth Amendment required a war. The Nineteenth took 70 years of activism. The 'living' is not organic growth. It is political struggle. The Constitution changes when people demand change, organize for it, and force the amendment process to work. When people stop demanding, the Constitution stops changing. The gap since 1992 is not because the country has no problems to solve. It is because the amendment process is so difficult that the problems go unsolved. The Constitution is a living document — but 'living' means 'fought for,' not 'self-updating.' The chain from Magna Carta to today is the chain of people who fought to make the text mean more than it said. The chain is not finished. The question is who picks it up next.",
+            heard: "The three-fifths clause was about the worth of slaves.",
+            reply: "It was not. It was about representation and taxation. The misconception is that the clause said slaves were three-fifths of a human being. The reality is that it said enslaved people could be counted as three-fifths for representation and taxation — for those purposes only. The moral problem is not that slaves were valued at three-fifths. It is that they were counted for representation while having no representation. Their existence increased their enslavers' political power. Jefferson won in 1800 partly because of the three-fifths bonus. The people who gave him that power could not vote. The framers did not use the word 'slave.' They wrote 'all other Persons.' The euphemism is the tell: they knew what they were doing and chose not to name it. The 13th and 14th Amendments corrected it. Both the sin and the correction are the story.",
+          },
+          {
+            heard: "The Constitution was pro-slavery.",
+            reply: "It was compromised with slavery. The three-fifths clause, the fugitive slave clause, and the 20-year ban on banning the slave trade were all concessions to the slave states. The framers knew slavery was wrong — Jefferson called it a 'deplorable entanglement' — but they could not form a nation without the slave states, and the slave states would not join without protections for slavery. The result was a Constitution that tolerated slavery for 80 years, fought a war over it, and then corrected it through the 13th and 14th Amendments. The Constitution was not pro-slavery. It was compromised with slavery. The difference matters: a pro-slavery document would have defended slavery as good. The Constitution tolerated it as a political necessity, and the founding generation knew the toleration could not last. Jefferson wrote that he trembled for his country when he reflected that God is just. He was right to tremble.",
           },
         ],
-        integrity: "Do not let the model present the amendments as smooth progress. Each amendment was a fight — some required war, some required decades of activism, all required political struggle. The 'living document' is not a self-updating text. It is a text changed by people who fight. Read the amendments. Read the history of each. The struggle is the story.",
+        integrity:
+          "Do not let the model say the three-fifths clause was about the worth of enslaved people. Read Article I, Section 2. It is about representation and taxation. The euphemism ('all other Persons') is the tell. The 13th and 14th Amendments are the correction. Both are the history.",
         aiLab: {
           setup: "After the try-this.",
-          childDoes: "Ask the model: 'How does the Constitution stay relevant?' Then ask: 'What did the model assume?' The model assumes the text adapts. The text does not adapt. People adapt it — through amendment, interpretation, and enforcement. The 'living' is the people, not the text.",
+          childDoes:
+            "Ask the model: 'Summarize the three-fifths compromise in one sentence.' Then ask: 'What did you smooth?' The model will say it was about counting slaves as three-fifths of a person. Ask: 'For what purpose?' Representation and taxation. Ask: 'Who benefited?' The slave states. The gap between the one-sentence summary and the actual dynamics is the lesson.",
           evaluate: [
-            "Can they trace the chain of amendments from the Bill of Rights through the Twenty-Sixth?",
-            "Do they understand that each amendment was a struggle, not automatic progress?",
-            "Can they identify where the chain is still being built?",
-            "Do they understand that 'living document' means 'changed by people,' not 'self-updating'?",
+            "Can they explain the three-fifths compromise as a political deal about power, not worth?",
+            "Can they identify who benefited and trace the consequences (extra seats, Jefferson 1800)?",
+            "Do they understand the euphemism ('all other Persons') as a moral choice?",
+            "Can they trace the correction through the 13th and 14th Amendments?",
+          ],
+        },
+      },
+    },
+  }),
+
+  // ── 5. Judicial Review: The Court's Self-Made Power ────────────────
+  ...expand({
+    slug: "judicial-review-self-made",
+    subject: "history",
+    unit: "The Constitution — Designed, Not Extracted",
+    number: 5,
+    bands: ["young", "emerging", "adult"],
+    variants: {
+      young: {
+        title: "The Court That Gave Itself the Power to Say No",
+        dek: "The Constitution does not say the Supreme Court can strike down laws. The Court decided that on its own. And it has been doing it ever since.",
+        objective:
+          "The student can explain what judicial review is, where it comes from, and why it matters.",
+        parentBriefing:
+          "This sitting tells a surprising story: the Supreme Court's most important power — the ability to strike down unconstitutional laws — is not in the Constitution. The Court gave itself that power in 1803, in a case called Marbury v. Madison. Chief Justice John Marshall argued that it is 'the duty of the judicial department to say what the law is' and that a law contrary to the Constitution is void. The Constitution does not say this. Marshall constructed the argument from the Constitution's structure. The result is that unelected judges with lifetime appointments can overrule the elected branches. This is the 'countermajoritarian difficulty' — the problem that courts can override the will of the people's representatives. The student should understand that judicial review is the Constitution's enforcement mechanism — the structural equivalent of Magna Carta's security clause, but operating through courts instead of armed barons. Both mechanisms answer the same question: how do you enforce limits on the government?",
+        hardEdges: [
+          "Do not present judicial review as being in the Constitution. It is not. The Court established it in Marbury v. Madison (1803).",
+          "The Constitution does not explicitly grant the power. Whether the framers intended it is debated. Whether the text grants it is unclear.",
+        ],
+        reading: [
+          {
+            heading: "What judicial review is",
+            body: "Judicial review is the power of courts to decide whether a law is constitutional — and to strike down laws that are not. It is the enforcement mechanism of the Constitution. Without it, the government could pass laws that violate the Constitution and there would be no way to stop them except elections or amendments. With it, the courts can say: this law violates the Constitution, and it is void.",
+          },
+          {
+            heading: "Where it came from",
+            body: "The Constitution does not say the Supreme Court can strike down laws. Article III says courts decide cases 'arising under this Constitution.' But it does not say courts can invalidate laws. That power was established by the Supreme Court itself in 1803, in a case called Marbury v. Madison. Chief Justice John Marshall argued that if a law conflicts with the Constitution, the Constitution wins — because the Constitution is the supreme law. And it is the court's job to say what the law is. The Court gave itself the power to strike down laws. It has been using it ever since.",
+          },
+        ],
+        bigIdea:
+          "Judicial review — the power to strike down unconstitutional laws — is not in the Constitution. The Supreme Court gave itself that power in 1803. It has been the enforcement mechanism of the Constitution ever since.",
+        tryThis: [
+          {
+            title: "Find the power",
+            minutes: 18,
+            steps: [
+              "Read Article III of the Constitution. Look for the power to strike down laws. It is not there. Article III says courts decide cases — it does not say courts can invalidate laws.",
+              "Read about Marbury v. Madison (1803). Chief Justice Marshall said it is 'the duty of the judicial department to say what the law is.' He meant: courts decide what the Constitution means.",
+              "Talk About It: if the Constitution does not give the courts this power, where did it come from? The Court took it. Is that legitimate? What would happen if the courts did not have it?",
+            ],
+          },
+        ],
+        dinnerQuestion:
+          "If the Supreme Court gave itself the power to strike down laws, and the Constitution does not mention that power, is judicial review democratic? Or is it a power grab that happened to work?",
+        transfer: [
+          { label: "Thinking", note: "Source before summary: Article III is the source. Marbury v. Madison is the interpretation. Read the source first, then the case." },
+        ],
+        ifTheySay: [
+          {
+            heard: "The Constitution gives the Supreme Court the power to strike down laws.",
+            reply: "It does not. Article III says courts decide cases 'arising under this Constitution.' It does not say courts can invalidate laws. The power to strike down unconstitutional laws was established by the Supreme Court itself in Marbury v. Madison (1803) — 14 years after the Constitution was ratified. Chief Justice Marshall constructed the argument from the Constitution's structure, not from its text. Whether the framers intended judicial review is debated. Whether the Constitution's text grants it is unclear. The Court took the power. It has been using it for 220 years.",
+          },
+        ],
+        integrity: "Do not let the model say judicial review is in the Constitution. Read Article III. It is not there. Marbury v. Madison is where it came from. The gap is the story.",
+        aiLab: {
+          setup: "After reading.",
+          childDoes:
+            "Ask the model: 'Where does the Constitution give the Supreme Court the power of judicial review?' If it points to Article III, that is an interpretation, not the text. Ask: 'What case established judicial review?' Marbury v. Madison, 1803. The Court gave itself the power.",
+          evaluate: [
+            "Can they explain what judicial review is?",
+            "Do they know it is not explicitly in the Constitution?",
+            "Can they name Marbury v. Madison as the case that established it?",
+          ],
+        },
+      },
+      emerging: {
+        title: "Judicial Review: The Security Clause's Heir",
+        dek: "The Constitution does not explicitly grant judicial review. The Supreme Court established it in Marbury v. Madison (1803). It is the structural heir of Magna Carta's security clause — enforcing limits through courts instead of armed barons.",
+        objective:
+          "The student can explain the origin of judicial review in Marbury v. Madison, the constitutional basis (or lack thereof), and the 'countermajoritarian difficulty' it creates.",
+        parentBriefing:
+          "This sitting takes judicial review seriously as a constitutional question. The student needs to understand three things. First, the origin: the Constitution does not explicitly grant judicial review. Article III says courts decide cases 'arising under this Constitution' — it does not say courts can invalidate laws. The power was established by the Supreme Court itself in Marbury v. Madison (1803). Chief Justice Marshall argued that the Constitution is the supreme law, that laws conflicting with it are void, and that it is the judiciary's job to say what the law is. The argument is logically powerful but textually weak — it is constructed from the Constitution's structure, not from its text. Second, the parallel: judicial review is the structural heir of Magna Carta's security clause. The charter's clause 61 authorized 25 barons to enforce the charter by force. It was dropped from the reissues. Judicial review is the Constitution's answer: enforcement through courts instead of armed resistance. Third, the tension: the 'countermajoritarian difficulty' — unelected judges with lifetime appointments can overrule the elected branches. Whether this is legitimate is the permanent question of constitutional law. The student should understand that judicial review is not a settled power. It is a self-made power that has been accepted for 220 years but is still debated.",
+        hardEdges: [
+          "Do not present judicial review as being in the Constitution. It is not. The Court established it in Marbury v. Madison. The argument is structural, not textual.",
+          "Do not skip the countermajoritarian difficulty. Unelected judges can overrule the elected branches. Whether this is legitimate is the central question of constitutional law.",
+          "Do not skip the Magna Carta parallel. Both the charter and the Constitution face the same problem: how do you enforce limits on the government? The charter's answer was armed barons. The Constitution's answer is courts. Both are imperfect.",
+        ],
+        reading: [
+          {
+            heading: "Marbury v. Madison and the self-made power",
+            body: "The case: William Marbury was appointed a justice of the peace by President Adams in the last days of his administration. The commission was signed but not delivered. When Jefferson took office, his Secretary of State, Madison, refused to deliver it. Marbury sued, asking the Supreme Court to issue a writ compelling delivery. Chief Justice Marshall's opinion: Marbury had a right to the commission. Madison's refusal violated that right. Marbury was entitled to a remedy. BUT — the section of the Judiciary Act that gave the Supreme Court jurisdiction to issue the writ was unconstitutional, because it expanded the Court's original jurisdiction beyond what Article III allowed. Therefore, the Court could not issue the writ. Marbury lost. But the Court won — because Marshall used the case to establish that 'it is emphatically the duty of the judicial department to say what the law is' and that a law contrary to the Constitution is void. The Constitution does not say this. Marshall constructed the argument from the Constitution's structure and the Supremacy Clause (Article VI), not from an explicit grant of power. Whether the framers intended judicial review is debated. Federalist 78 (Hamilton) suggested it. But the text does not grant it. The Court took the power. It has been using it for 220 years.",
+          },
+          {
+            heading: "The security clause's heir",
+            body: "Magna Carta's security clause (clause 61) authorized 25 barons to enforce the charter by seizing the king's property if he violated any clause. The clause was dropped from all reissues — no king would accept it. The problem it addressed — how to enforce limits on the government — remained. Judicial review is the Constitution's answer. Instead of 25 barons with swords, the enforcement mechanism is courts with opinions. Instead of 'distrain and distress,' the remedy is 'the law is void.' The mechanism is different, but the function is the same: an institution that can stop the government when it exceeds its constitutional limits. Both mechanisms are imperfect. The security clause led to civil war. Judicial review leads to the 'countermajoritarian difficulty' — the problem that unelected judges can override the will of the people's representatives. The search for a better enforcement mechanism continues. But the principle is the same: constitutional limits are meaningless without enforcement.",
+          },
+        ],
+        bigIdea:
+          "Judicial review is not in the Constitution. The Court established it in Marbury v. Madison (1803). It is the structural heir of Magna Carta's security clause — enforcing limits through courts instead of armed barons. The countermajoritarian difficulty is the price.",
+        tryThis: [
+          {
+            title: "Read Article III, then Marbury",
+            minutes: 30,
+            steps: [
+              "Read Article III of the Constitution. Look for the power to strike down laws. It is not there. Article III says courts decide cases 'arising under this Constitution.'",
+              "Read about Marbury v. Madison (1803). Marshall's argument: the Constitution is supreme law, laws conflicting with it are void, and it is the judiciary's job to say what the law is. Is this argument in the text, or constructed from the structure?",
+              "Find the countermajoritarian difficulty: unelected judges with lifetime appointments can overrule the elected branches. Is this legitimate? What are the arguments for and against?",
+              "Compare to Magna Carta's security clause: 25 barons with swords vs. courts with opinions. Both enforce limits. Both are imperfect. Which is more democratic? Which is more reliable?",
+            ],
+          },
+        ],
+        dinnerQuestion:
+          "If judicial review is the power of unelected judges to overrule elected representatives, and the Constitution does not explicitly grant it, is it legitimate? What would happen if the Court did not have it — and what would happen if it used it too much?",
+        transfer: [
+          { label: "Thinking", note: "Source before summary: Article III is the source. Marbury v. Madison is the interpretation. Read the source first, then the case. The gap between them is the story." },
+          { label: "AI", note: "Ask the model: 'Does the Constitution grant judicial review?' If it says yes, ask: 'Where?' If it points to Article III, that is an interpretation, not the text. The gap between the text and the power is the lesson." },
+          { label: "History", note: "Magna Carta's security clause (clause 61) enforced the charter with armed barons. Judicial review enforces the Constitution with courts. Both answer the same question: how do you enforce limits on the government? Both are imperfect." },
+        ],
+        ifTheySay: [
+          {
+            heard: "The Constitution gives the Supreme Court the power to strike down laws.",
+            reply: "It does not. Article III says courts decide cases 'arising under this Constitution.' It does not say courts can invalidate laws. The power was established by the Supreme Court itself in Marbury v. Madison (1803). Marshall's argument is logically powerful but textually weak — it is constructed from the Constitution's structure (the Supremacy Clause, life tenure, judicial independence), not from an explicit grant. Whether the framers intended judicial review is debated. Federalist 78 suggests it. But the text does not grant it. The Court took the power. It has been accepted for 220 years. But it is a self-made power, not a constitutional one. That distinction matters.",
+          },
+          {
+            heard: "Judicial review is undemocratic.",
+            reply: "It is — by design. The countermajoritarian difficulty is the problem that unelected judges can overrule the elected branches. But the framers designed the Constitution to be counter-majoritarian in several ways: the Senate (equal representation), the Electoral College, the amendment supermajority, and judicial review. The question is not whether judicial review is democratic. It is not. The question is whether it is necessary — whether constitutional limits mean anything without enforcement. Magna Carta's security clause was the charter's enforcement mechanism (armed barons). Judicial review is the Constitution's (courts). Both are undemocratic. Both are necessary. The question is whether the undemocratic mechanism is better than no enforcement at all. The framers thought it was. The Anti-Federalists were not sure. The debate continues.",
+          },
+        ],
+        integrity:
+          "Do not let the model say judicial review is in the Constitution. Read Article III. It is not there. Marbury v. Madison is where it came from. The countermajoritarian difficulty is the price. The Magna Carta parallel is the context.",
+        aiLab: {
+          setup: "After the try-this.",
+          childDoes:
+            "Ask the model: 'Does the Constitution explicitly grant judicial review?' If it says yes, ask: 'Where in the text?' The answer is: it does not. Then ask: 'How is judicial review like Magna Carta's security clause?' The model may not make the connection. The parallel — enforcement through institutions instead of force — is the lesson.",
+          evaluate: [
+            "Can they explain the origin of judicial review in Marbury v. Madison?",
+            "Do they understand the Constitution does not explicitly grant it?",
+            "Can they explain the countermajoritarian difficulty?",
+            "Can they connect judicial review to Magna Carta's security clause as enforcement mechanisms?",
+          ],
+        },
+      },
+      adult: {
+        title: "Judicial Review: The Self-Made Power and Its Price",
+        dek: "Judicial review is the Constitution's enforcement mechanism — the structural heir of Magna Carta's security clause. It is also a self-made power that the Constitution does not explicitly grant. Understanding both is essential to constitutional literacy.",
+        objective:
+          "The parent can explain the origin of judicial review in Marbury v. Madison, the lack of explicit constitutional basis, the countermajoritarian difficulty, and the parallel to Magna Carta's security clause.",
+        parentBriefing:
+          "This sitting is for the parent who wants to teach judicial review honestly. The parent should understand three things. First, judicial review is not in the Constitution. Article III says courts decide cases 'arising under this Constitution.' It does not say courts can invalidate laws. The power was established by the Supreme Court itself in Marbury v. Madison (1803). Marshall's argument is logically powerful but textually weak — constructed from the Constitution's structure, not from its text. Second, judicial review is the structural heir of Magna Carta's security clause. The charter's clause 61 authorized 25 barons to enforce the charter by force. It was dropped. Judicial review is the Constitution's answer: enforcement through courts instead of armed resistance. Both mechanisms answer the same question: how do you enforce limits on the government? Both are imperfect. Third, the countermajoritarian difficulty: unelected judges with lifetime appointments can overrule the elected branches. This is the price of enforcement. The framers designed a counter-majoritarian system (Senate, Electoral College, amendment supermajority, judicial review) because they feared majority tyranny. The question of whether judicial review is legitimate — whether the price is worth the enforcement — is the permanent debate of constitutional law. The parent should understand that judicial review is not a settled power. It is a self-made power that has been accepted for 220 years and is still contested.",
+        hardEdges: [
+          "Do not present judicial review as being in the Constitution. It is not. The Court established it in Marbury. The argument is structural, not textual.",
+          "Do not skip the countermajoritarian difficulty. It is the central question of constitutional law: can unelected judges overrule elected representatives? The answer is yes — but the legitimacy is debated.",
+          "Do not skip the Magna Carta parallel. Both the charter and the Constitution face the same enforcement problem. The charter's answer (armed barons) failed. The Constitution's answer (courts) has held for 220 years but is still contested.",
+          "Do not present judicial review as settled. Originalism, living constitutionalism, Thayerian deference, and popular constitutionalism are all responses to the countermajoritarian difficulty. The debate is ongoing.",
+        ],
+        reading: [
+          {
+            heading: "The self-made power and its parallel",
+            body: "Judicial review is the Constitution's enforcement mechanism — the structural heir of Magna Carta's security clause. The charter's clause 61 authorized 25 barons to seize the king's property if he violated the charter. It was dropped from all reissues. The problem it addressed — how to enforce limits on the government — remained. Judicial review is the Constitution's answer. Instead of 25 barons with swords, the enforcement mechanism is courts with opinions. The power was established by the Supreme Court itself in Marbury v. Madison (1803). The Constitution does not explicitly grant it. Article III says courts decide cases 'arising under this Constitution' — it does not say courts can invalidate laws. Marshall's argument: the Constitution is the supreme law (Supremacy Clause, Article VI), laws conflicting with it are void, and it is the judiciary's job to say what the law is. The argument is logically powerful but textually weak. Whether the framers intended judicial review is debated. Federalist 78 (Hamilton) suggested it. The Anti-Federalists warned that the judiciary would become 'the supreme authority.' The Court took the power. It has been accepted for 220 years, but the countermajoritarian difficulty — the problem that unelected judges can overrule elected representatives — is the permanent price. Originalism, living constitutionalism, Thayerian deference, and popular constitutionalism are all responses to this difficulty. The debate is not about whether judicial review exists. It is about how it should be used and whether it is legitimate.",
+          },
+        ],
+        bigIdea:
+          "Judicial review is the Constitution's enforcement mechanism — the heir of Magna Carta's security clause. It is a self-made power the Constitution does not explicitly grant. The countermajoritarian difficulty is the price. The debate about how it should be used is the permanent debate of constitutional law.",
+        tryThis: [
+          {
+            title: "Read Article III, Marbury, and the security clause",
+            minutes: 40,
+            steps: [
+              "Read Article III of the Constitution. Look for the power to strike down laws. It is not there.",
+              "Read Marbury v. Madison (1803). Find Marshall's argument: the Constitution is supreme law, laws conflicting with it are void, it is the judiciary's job to say what the law is. Is this textual or structural?",
+              "Read Magna Carta clause 61 (the security clause): 25 barons authorized to seize royal property. Compare: armed barons vs. courts with opinions. Both enforce limits. Both are imperfect. The security clause led to civil war. Judicial review leads to judicial supremacy — the rule of five justices.",
+              "Find one modern response to the countermajoritarian difficulty: originalism (interpret according to original meaning), living constitutionalism (adapt to changing circumstances), Thayerian deference (defer to elected branches), popular constitutionalism (interpretation is not just for courts). Which is most convincing?",
+            ],
+          },
+        ],
+        dinnerQuestion:
+          "If judicial review is a self-made power that the Constitution does not explicitly grant, and it allows unelected judges to overrule elected representatives, what is its claim to legitimacy? Is it 220 years of acceptance? Is it the structural argument? Or is it the necessity of enforcement?",
+        transfer: [
+          { label: "AI", note: "Ask the model: 'Is judicial review constitutional?' Then ask: 'What did your answer assume?' The model will take a position. The honest answer is: it depends on whether you read the Constitution's structure as granting it. The text does not. The structure might. The debate is the lesson." },
+          { label: "History", note: "Magna Carta's security clause (armed barons) and judicial review (courts with opinions) are two answers to the same question: how do you enforce limits on the government? The charter's answer failed (civil war). The Constitution's answer has held for 220 years. Both are imperfect. The search for a better mechanism continues." },
+        ],
+        ifTheySay: [
+          {
+            heard: "Judicial review is in the Constitution.",
+            reply: "It is not. Article III says courts decide cases 'arising under this Constitution.' It does not say courts can invalidate laws. The power was established by the Supreme Court itself in Marbury v. Madison (1803). Marshall's argument is constructed from the Constitution's structure (the Supremacy Clause, life tenure, judicial independence) — not from an explicit grant. Federalist 78 suggests the framers anticipated it, but the text does not grant it. The Court took the power. It has been accepted for 220 years. But acceptance is not the same as textual basis. The distinction matters: if judicial review is in the text, it is constitutional. If it is constructed from the structure, it is an interpretation — and interpretations can be challenged. The 220 years of acceptance make it practically unassailable. But the textual basis is still weak. Both things are true.",
+          },
+          {
+            heard: "Five justices shouldn't be able to overrule the will of the people.",
+            reply: "This is the countermajoritarian difficulty — the central question of constitutional law. Five justices can overrule the elected branches. But the Constitution is designed to be counter-majoritarian: the Senate (equal representation), the Electoral College, the amendment supermajority, and judicial review all limit majority rule. The question is not whether judicial review is democratic. It is not. The question is whether constitutional limits mean anything without enforcement. If the majority can do whatever it wants, the Constitution is a suggestion. If courts can stop the majority, the Constitution is a rule. The framers chose rules over suggestions. The price is judicial review — the power of unelected judges to say what the Constitution means. The debate about how that power should be used — originalism, living constitutionalism, deference, popular constitutionalism — is the permanent debate. It will not be resolved. It is the conversation.",
+          },
+        ],
+        integrity:
+          "Do not let the model present judicial review as being in the Constitution or as a settled, uncontested power. Read Article III. Read Marbury. Read the Magna Carta security clause. The self-made power, the countermajoritarian difficulty, and the enforcement parallel are the story.",
+        aiLab: {
+          setup: "After the try-this.",
+          childDoes:
+            "Ask the model: 'Summarize judicial review in three sentences.' Then ask: 'What did you skip?' The model will skip the lack of textual basis, the countermajoritarian difficulty, and the Magna Carta parallel. Each skip is a piece of the story. The compression is the lesson.",
+          evaluate: [
+            "Can they explain the origin of judicial review in Marbury v. Madison?",
+            "Do they understand the Constitution does not explicitly grant it?",
+            "Can they explain the countermajoritarian difficulty?",
+            "Can they connect judicial review to Magna Carta's security clause?",
+            "Can they engage at least one response to the countermajoritarian difficulty (originalism, living constitutionalism, etc.)?",
+          ],
+        },
+      },
+    },
+  }),
+
+  // ── 6. The Amendment Chain: How the Constitution Changes ───────────
+  ...expand({
+    slug: "amendment-chain",
+    subject: "history",
+    unit: "The Constitution — Designed, Not Extracted",
+    number: 6,
+    bands: ["young", "emerging", "adult"],
+    variants: {
+      young: {
+        title: "The Constitution That Can Change",
+        dek: "The Constitution has been changed 27 times. The framers built a way to fix it. They knew it was not perfect.",
+        objective:
+          "The student can explain how the Constitution changes through amendments and why the amendment process matters.",
+        parentBriefing:
+          "This sitting is about the Constitution's built-in capacity for change. Article V provides the amendment process: two-thirds of Congress (or a convention) proposes an amendment, three-fourths of the states ratify it. This is hard — it requires broad consensus. But it is possible. The Constitution has been amended 27 times. The first ten (the Bill of Rights) were the Anti-Federalists' price for ratification. The 13th abolished slavery. The 14th granted equal protection. The 15th prohibited racial discrimination in voting. The 19th enfranchised women. The 26th lowered the voting age to 18. Each amendment corrected a flaw in the original document or extended a right the original excluded. The student should understand that the Constitution was designed to be changed. The framers knew it was not perfect. They built a mechanism for correction. The amendment process is slow and hard — but it works. The story of the Constitution is the story of a document that grows through amendment.",
+        hardEdges: [
+          "Do not present the Constitution as perfect or unchanging. It has been changed 27 times. The framers expected amendments.",
+          "Do not skip the hard amendments: the 13th (abolished slavery), the 14th (equal protection), the 19th (women's vote). Each corrected a flaw in the original.",
+        ],
+        reading: [
+          {
+            heading: "How it changes",
+            body: "Article V of the Constitution says how to change it. An amendment needs two-thirds of Congress to propose it and three-fourths of the states to ratify it. That is hard. It takes broad agreement across the country. But it is possible. The Constitution has been amended 27 times. The framers built this mechanism because they knew the document was not perfect. Jefferson wrote: 'Laws and institutions must go hand in hand with the progress of the human mind.' Madison expected regular amendments. The amendment process is the Constitution's way of growing.",
+          },
+          {
+            heading: "What the amendments did",
+            body: "The first ten amendments (the Bill of Rights, 1791) protected individual rights. The 13th Amendment (1865) abolished slavery. The 14th (1868) granted citizenship to all persons born in the US and guaranteed equal protection. The 15th (1870) prohibited racial discrimination in voting. The 19th (1920) gave women the right to vote. The 26th (1971) lowered the voting age to 18. Each amendment corrected something the original Constitution got wrong or left out. The Constitution was designed to be fixed.",
+          },
+        ],
+        bigIdea:
+          "The Constitution was designed to change. It has been amended 27 times. Each amendment corrected a flaw or extended a right. The amendment process is the Constitution's way of growing.",
+        tryThis: [
+          {
+            title: "List the amendments that changed who counts",
+            minutes: 18,
+            steps: [
+              "Find the 13th Amendment: abolished slavery (1865).",
+              "Find the 14th: citizenship and equal protection for all persons (1868).",
+              "Find the 19th: women's right to vote (1920).",
+              "Talk About It: the original Constitution excluded women, slaves, and Native Americans from 'We the People.' The amendments brought them in. Who is still fighting to be included?",
+            ],
+          },
+        ],
+        dinnerQuestion:
+          "If the Constitution has been amended 27 times to fix its own flaws, what does that tell you about the document? Is it perfect, or is it a work in progress?",
+        transfer: [
+          { label: "Thinking", note: "Source before summary: Article V is the mechanism. The 27 amendments are the product. Read both." },
+        ],
+        ifTheySay: [
+          {
+            heard: "The Constitution is perfect and should never be changed.",
+            reply: "The framers did not think it was perfect. They built Article V — the amendment process — because they expected it to be changed. Jefferson wrote that laws must go hand in hand with the progress of the human mind. Madison expected regular amendments. The Constitution has been changed 27 times. The 13th abolished slavery. The 14th granted equal protection. The 19th gave women the vote. Each amendment corrected a flaw in the original. Treating the Constitution as perfect makes it harder to fix — which is exactly what those who benefit from the status quo want. The framers designed a document to be amended, not worshipped.",
+          },
+        ],
+        integrity: "Do not let the model present the Constitution as perfect or unchanging. Read Article V. The 27 amendments are the evidence. The document was designed to grow.",
+        aiLab: {
+          setup: "After reading.",
+          childDoes:
+            "Ask the model: 'How many times has the Constitution been amended?' Then ask: 'What did the 13th, 14th, and 19th amendments do?' Each corrected a flaw in the original. The amendments are the Constitution growing.",
+          evaluate: [
+            "Can they explain how the Constitution changes (Article V)?",
+            "Can they name at least three amendments and what they did?",
+            "Do they understand the Constitution was designed to be amended?",
+          ],
+        },
+      },
+      emerging: {
+        title: "The Amendment Chain: How the Constitution Grows",
+        dek: "The Constitution has been amended 27 times. Each amendment corrected a flaw or extended a right. The amendment process is the Constitution's built-in capacity for change — the mechanism the framers designed because they knew the document was not perfect.",
+        objective:
+          "The student can explain the amendment process (Article V), trace the major amendments and what they corrected, and understand the Constitution as a document designed to change.",
+        parentBriefing:
+          "This sitting traces the Constitution's growth through amendment. The student needs to understand three things. First, the mechanism: Article V provides two paths for amendment — congressional proposal (two-thirds of both houses) plus state ratification (three-fourths of states), or a convention called by two-thirds of the states. The convention path has never been used. All 27 amendments came through Congress. Second, the major amendments: the Bill of Rights (1-10, 1791) protected individual rights. The 13th (1865) abolished slavery. The 14th (1868) granted citizenship and equal protection — the amendment that transformed the Constitution from a compact among states to a guarantor of individual rights against states. The 15th (1870) prohibited racial discrimination in voting. The 17th (1913) provided for direct election of senators. The 19th (1920) enfranchised women. The 26th (1971) lowered the voting age to 18. Third, the pattern: each amendment corrected a flaw in the original or extended a right the original excluded. The Constitution excluded women, slaves, Native Americans, and the propertyless. The amendments brought them in — slowly, through struggle, over 200 years. The student should understand that the Constitution is not a fixed text. It is a living document — not because judges change it through interpretation (though they do), but because the framers built a mechanism for correction.",
+        hardEdges: [
+          "Do not present the Constitution as fixed or perfect. It has been amended 27 times. The framers expected amendments.",
+          "Do not skip the 14th Amendment. It is the most important amendment after the Bill of Rights. It transformed the Constitution from a compact among states to a guarantor of individual rights against states.",
+          "Do not present the amendment process as easy. It requires two-thirds of Congress and three-fourths of the states. It is deliberately hard — but it works.",
+        ],
+        reading: [
+          {
+            heading: "The mechanism and the amendments",
+            body: "Article V provides two paths for amendment: (1) two-thirds of both houses of Congress propose an amendment, ratified by three-fourths of the state legislatures (or state conventions). This path has been used for all 27 amendments. (2) A national convention, called by two-thirds of the states, proposes an amendment, ratified by three-fourths of the states. This path has never been used — but it exists as a bypass of Congress. The amendment process is deliberately hard. It requires broad consensus: two-thirds of Congress and three-fourths of the states. This means an amendment needs support across parties, regions, and political factions. It is slow. But it works. The 27 amendments include: the Bill of Rights (1-10, 1791), the 13th (abolished slavery, 1865), the 14th (citizenship and equal protection, 1868), the 15th (voting rights regardless of race, 1870), the 17th (direct election of senators, 1913), the 19th (women's suffrage, 1920), the 22nd (two-term limit for President, 1951), the 26th (voting age 18, 1971). Each amendment corrected a flaw or extended a right. The 13th corrected the Constitution's toleration of slavery. The 14th corrected the Bill of Rights' limitation to the federal government by extending due process and equal protection to the states. The 19th corrected the exclusion of women. The Constitution was designed to grow.",
+          },
+          {
+            heading: "The 14th Amendment: the transformation",
+            body: "The 14th Amendment (1868) is the most important amendment after the Bill of Rights. It did three things. First, it granted citizenship to all persons born or naturalized in the US — overturning Dred Scott, which held that Black people could not be citizens. Second, it prohibited states from depriving any person of life, liberty, or property without due process — extending the Fifth Amendment's due process clause to the states. Third, it prohibited states from denying any person the equal protection of the laws. The 14th Amendment transformed the Constitution. Before it, the Bill of Rights applied only to the federal government. After it, the Supreme Court gradually incorporated most of the Bill of Rights against the states through the due process clause. The 14th Amendment made the federal government the guarantor of individual rights against state intrusion. It shifted the balance of American federalism: the states were no longer sovereign in the way they had been. The 14th Amendment is the constitutional basis for Brown v. Board of Education (ending segregation), Roe v. Wade (privacy), Obergefell v. Hodges (marriage equality), and every modern civil rights case. It is the amendment that made the Constitution what it is today.",
+          },
+        ],
+        bigIdea:
+          "The Constitution was designed to change. It has been amended 27 times. Each amendment corrected a flaw or extended a right. The 14th Amendment transformed the Constitution from a compact among states to a guarantor of individual rights. The amendment process is the mechanism the framers built because they knew the document was not perfect.",
+        tryThis: [
+          {
+            title: "Trace the amendments",
+            minutes: 30,
+            steps: [
+              "Read Article V. Write the two paths for amendment. Why is the process hard? Why did the framers make it hard?",
+              "List the major amendments: 1-10 (Bill of Rights), 13 (abolished slavery), 14 (equal protection), 15 (voting rights), 19 (women's vote), 26 (voting age 18). For each, write one sentence: what did it correct or extend?",
+              "Read the 14th Amendment. Find: citizenship clause, due process clause, equal protection clause. How did it transform the Constitution from a compact among states to a guarantor of individual rights?",
+              "Reflect: the original Constitution excluded women, slaves, Native Americans, and the propertyless. The amendments brought them in — slowly, through struggle. Who is still fighting for inclusion?",
+            ],
+          },
+        ],
+        dinnerQuestion:
+          "If the Constitution has been amended 27 times to correct its own flaws, and the 14th Amendment transformed it from a compact among states to a guarantor of individual rights, is the Constitution the 1787 text or the 27-amendment document? Which one is 'the Constitution'?",
+        transfer: [
+          { label: "Thinking", note: "Source before summary: Article V is the mechanism. The 27 amendments are the product. The 14th is the transformation. Read all three." },
+          { label: "AI", note: "Ask the model: 'How many amendments does the Constitution have?' Then ask: 'What did the 14th Amendment change?' The model will say it granted equal protection. Ask: 'How did it transform the relationship between federal and state government?' The transformation is the story." },
+          { label: "History", note: "Magna Carta was reissued three times and confirmed by Edward I. The Constitution has been amended 27 times. Both documents grew through revision. The charter grew through reissue and reinterpretation. The Constitution grows through amendment and interpretation." },
+        ],
+        ifTheySay: [
+          {
+            heard: "The Constitution is a dead document. It hasn't changed in centuries.",
+            reply: "It has changed 27 times. The 13th Amendment abolished slavery (1865). The 14th granted equal protection (1868). The 19th gave women the vote (1920). The 26th lowered the voting age to 18 (1971). The most recent amendment (the 27th, on congressional pay) was ratified in 1992 — 200 years after it was proposed. The Constitution changes slowly, but it changes. The amendment process is hard by design: two-thirds of Congress and three-fourths of the states. But it works. The framers built Article V because they knew the document was not perfect. They expected amendments. Jefferson wrote that laws must go hand in hand with the progress of the human mind. The Constitution has done that — 27 times.",
+          },
+          {
+            heard: "The 14th Amendment just gave rights to Black people.",
+            reply: "It did more than that. The 14th Amendment (1868) granted citizenship to all persons born or naturalized in the US — overturning Dred Scott. It prohibited states from depriving any person of life, liberty, or property without due process. It prohibited states from denying any person equal protection. The 14th Amendment transformed the Constitution from a compact among states to a guarantor of individual rights against states. Before it, the Bill of Rights applied only to the federal government. After it, the Supreme Court incorporated most of the Bill of Rights against the states through the due process clause. The 14th is the constitutional basis for Brown v. Board (ending segregation), Loving v. Virginia (interracial marriage), Roe v. Wade (privacy), and Obergefell (marriage equality). It did not just give rights to Black people. It made the federal government the guarantor of individual rights against all state intrusion. That is the transformation.",
+          },
+        ],
+        integrity:
+          "Do not let the model present the Constitution as fixed or perfect. Read Article V. Read the 27 amendments. The 14th is the transformation. The document was designed to grow. The growth is the story.",
+        aiLab: {
+          setup: "After the try-this.",
+          childDoes:
+            "Ask the model: 'Summarize the amendment history of the Constitution in three sentences.' Then ask: 'What did you skip?' The model will skip the 14th Amendment's transformation of federalism. The transformation is the story.",
+          evaluate: [
+            "Can they explain the amendment process (Article V)?",
+            "Can they trace the major amendments and what they corrected?",
+            "Do they understand the 14th Amendment's transformative role?",
+            "Do they understand the Constitution was designed to be amended?",
+          ],
+        },
+      },
+      adult: {
+        title: "The Amendment Chain: The Living Document",
+        dek: "The Constitution has been amended 27 times. Each amendment corrected a flaw or extended a right. The amendment process — and the 14th Amendment in particular — transformed the Constitution from a compact among states into a guarantor of individual rights. The document was designed to grow.",
+        objective:
+          "The parent can explain the amendment process (Article V), trace the major amendments and what they corrected, understand the 14th Amendment's transformative role, and engage the debate about how the Constitution changes — through amendment, interpretation, or practice.",
+        parentBriefing:
+          "This is the capstone of the Constitution unit. The parent should leave with three things. First, the mechanism: Article V provides the amendment process — deliberately hard (two-thirds of Congress, three-fourths of the states) but workable (27 amendments). Second, the transformation: the 14th Amendment (1868) is the most important amendment after the Bill of Rights. It granted citizenship, extended due process to the states, and guaranteed equal protection. It transformed the Constitution from a compact among states to a guarantor of individual rights against states. It is the constitutional basis for Brown, Roe, Obergefell, and every modern civil rights case. Third, the three mechanisms of change: the Constitution changes through (1) formal amendment (27 times), (2) judicial interpretation (Marbury, Brown, Obergefell — the text does not change, but its meaning does), and (3) custom and practice (judicial review itself, the two-party system, the filibuster — none in the text, all part of the constitutional order). The parent should understand that the Constitution is not a fixed text. It is a living document — not only through interpretation, but through the amendment mechanism the framers built. The question is not whether the Constitution changes. It does. The question is how it should change — through amendment, through interpretation, or through practice — and who gets to decide.",
+        hardEdges: [
+          "Do not present the Constitution as fixed or perfect. It has been amended 27 times. The framers expected amendments.",
+          "Do not skip the 14th Amendment. It is the transformation. Without it, the Bill of Rights applies only to the federal government, and states can restrict speech, establish religions, and deny due process.",
+          "Do not present the three mechanisms of change as equivalent. Amendment is the hardest and most durable. Interpretation is the most common and most contested. Custom is the most invisible and most powerful.",
+        ],
+        reading: [
+          {
+            heading: "The three mechanisms of change",
+            body: "The Constitution changes through three mechanisms. First, formal amendment (27 times): Article V provides the process — two-thirds of Congress proposes, three-fourths of the states ratify. The 13th abolished slavery. The 14th granted citizenship and equal protection. The 19th enfranchised women. Each amendment corrected a flaw in the original. Second, judicial interpretation: the text does not change, but its meaning does. Marbury v. Madison (1803) established judicial review — not in the text. Brown v. Board (1954) ended legal segregation — through interpretation of the 14th Amendment's equal protection clause. Obergefell v. Hodges (2015) established marriage equality — through interpretation of the 14th Amendment's due process and equal protection clauses. The text stayed the same. The meaning changed. Third, custom and practice: many constitutional practices are not in the text. Judicial review is a judicial creation. The two-party system is not in the Constitution. The filibuster is a Senate rule. Presidential cabinets, the State of the Union address, and the convention system are all customs, not text. The Constitution is not just the four pages. It is the four pages plus 27 amendments plus 230 years of interpretation and practice. The question is not whether the Constitution changes. It does. The question is how it should change — and who decides.",
+          },
+          {
+            heading: "The 14th Amendment: the constitutional transformation",
+            body: "The 14th Amendment (1868) is the most important amendment after the Bill of Rights. It did three things. First, it granted citizenship to all persons born or naturalized in the US — overturning Dred Scott, which held that Black people could not be citizens. Second, it prohibited states from depriving any person of life, liberty, or property without due process — extending the Fifth Amendment's due process clause to the states and making the Bill of Rights applicable to state governments through the doctrine of incorporation. Third, it prohibited states from denying any person the equal protection of the laws. The 14th Amendment transformed the Constitution from a compact among sovereign states to a guarantor of individual rights against state intrusion. Before it, the Bill of Rights applied only to the federal government. After it, the Supreme Court gradually incorporated most of the Bill of Rights against the states. The 14th Amendment is the constitutional basis for Brown v. Board (ending segregation), Loving v. Virginia (interracial marriage), Roe v. Wade (privacy), and Obergefell v. Hodges (marriage equality). It is the amendment that made the Constitution what it is today — a document that protects individual rights against all government action, federal and state. The original Constitution excluded women, slaves, Native Americans, and the propertyless. The amendments brought them in — slowly, through struggle, over 200 years. The Constitution is not the 1787 text. It is the 1787 text plus 27 amendments plus 230 years of interpretation. The living document is the real Constitution.",
+          },
+        ],
+        bigIdea:
+          "The Constitution changes through amendment (27 times), interpretation (Marbury, Brown, Obergefell), and custom (judicial review, the two-party system). The 14th Amendment transformed it from a compact among states to a guarantor of individual rights. The Constitution is not the 1787 text. It is the living document — the text, the amendments, and the practice.",
+        tryThis: [
+          {
+            title: "Trace the three mechanisms of change",
+            minutes: 40,
+            steps: [
+              "List the three mechanisms: amendment (27 times), interpretation (judicial review, Brown, Obergefell), custom (two-party system, filibuster, judicial review itself). For each, find one example.",
+              "Read the 14th Amendment. Find: citizenship clause, due process clause, equal protection clause. How did it transform the Constitution from a compact among states to a guarantor of individual rights?",
+              "Trace one right from exclusion to inclusion through the amendment chain: women excluded in 1787 → 19th Amendment (1920) → full political participation. What took so long? Whose work was it?",
+              "Reflect: the Constitution is not the 1787 text. It is the text plus 27 amendments plus 230 years of interpretation and practice. Which mechanism of change is most legitimate? Which is most dangerous? Who decides?",
+            ],
+          },
+        ],
+        dinnerQuestion:
+          "If the Constitution changes through amendment, interpretation, and custom, which mechanism is most democratic? Which is most dangerous? And if the Constitution is not the 1787 text but the living document, who is responsible for maintaining it?",
+        transfer: [
+          { label: "AI", note: "Ask the model: 'How does the Constitution change?' Then ask: 'Which mechanism is most democratic, and which is most dangerous?' The model will list amendment and interpretation. Ask: 'What about custom?' Custom — judicial review, the two-party system, the filibuster — is the invisible mechanism. The invisibility is the lesson." },
+          { label: "History", note: "Magna Carta grew through reissue and reinterpretation. The Constitution grows through amendment, interpretation, and custom. Both documents outgrew their authors. The charter became the rule of law through eight centuries of reinterpretation. The Constitution became a guarantor of individual rights through 27 amendments and 230 years of interpretation." },
+        ],
+        ifTheySay: [
+          {
+            heard: "The Constitution should be interpreted according to its original meaning, not changed through interpretation.",
+            reply: "Originalism is one response to the question of how the Constitution should change. It argues that judges should interpret the Constitution according to its original meaning, not their own values. This is a legitimate position — but it is not as simple as it sounds. The 14th Amendment says 'equal protection.' What did 'equal protection' mean in 1868? Did it mean ending segregation? The framers of the 14th Amendment did not all think so — many of them segregated schools. Brown v. Board held that 'equal protection' means segregation is unconstitutional. Was that originalism or living constitutionalism? Both sides claim the 14th Amendment. The debate is not about whether to follow the text. It is about what the text means — and meaning is always interpretation. Originalism limits judicial discretion. Living constitutionalism accepts it. Both are responses to the same question: who decides what the Constitution means? The answer is: we all do — through amendment, through interpretation, through practice, through political action. The debate is the conversation.",
+          },
+          {
+            heard: "We should just amend the Constitution instead of letting judges change it.",
+            reply: "Amendment is the hardest and most durable mechanism of change — and it is deliberately hard. Two-thirds of Congress and three-fourths of the states. That means broad consensus across parties, regions, and factions. It is slow. But when it works, it is permanent: the 13th Amendment cannot be overturned by a court. Interpretation is faster but less stable: Roe v. Wade was overturned by Dobbs (2022). The trade-off is between durability and adaptability. Amendment is durable but slow. Interpretation is fast but reversible. Custom is invisible and powerful but unaccountable. The framers designed the amendment process to be hard because they wanted change to be deliberate, not impulsive. But they also expected amendments — Madison proposed twelve in the First Congress. The question is not whether to amend or interpret. Both are part of the design. The question is when to use each — and who decides when amendment is necessary.",
+          },
+        ],
+        integrity:
+          "Do not let the model present the Constitution as a fixed text that only changes through amendment. Read Article V. Read the 14th Amendment. Find the three mechanisms of change. The Constitution changes through amendment, interpretation, and custom. All three are part of the story. None alone is the whole story.",
+        aiLab: {
+          setup: "After the try-this.",
+          childDoes:
+            "Ask the model: 'How does the Constitution change?' Then ask: 'What did you skip?' The model will list amendment and interpretation. Ask: 'What about custom?' Judicial review, the two-party system, the filibuster — none in the text, all part of the constitutional order. The invisible mechanism is the lesson.",
+          evaluate: [
+            "Can they explain the three mechanisms of constitutional change?",
+            "Can they trace the 14th Amendment's transformative role?",
+            "Can they identify at least one right that expanded through the amendment chain?",
+            "Do they understand the debate between originalism and living constitutionalism as a response to how the Constitution changes?",
           ],
         },
       },
