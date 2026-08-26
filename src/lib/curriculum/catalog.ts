@@ -155,6 +155,15 @@ export const catalog: CatalogUnit[] = [
     blurb: "Primary text, not storybook propaganda. A republic is a moral practice.",
   },
   {
+    id: "hist-magna-carta",
+    subject: "history",
+    title: "Magna Carta — The Charter and the Chain",
+    status: "ready",
+    bands: ["young", "emerging", "adult"],
+    weeks: "6 sittings",
+    blurb: "A feudal contract that became the rule of law. The chain from Runnymede to your rights.",
+  },
+  {
     id: "art-hand",
     subject: "art",
     title: "Hand Before Generate",
