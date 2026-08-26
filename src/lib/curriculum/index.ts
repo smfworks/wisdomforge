@@ -15,6 +15,7 @@ import { languageDeepLessons } from "./lessons/language-deep";
 import { aiHistoryLessons } from "./lessons/ai-history";
 import { fathersLessons } from "./lessons/fathers";
 import { magnaCartaLessons } from "./lessons/civics-magna-carta";
+import { constitutionLessons } from "./lessons/civics-constitution";
 import { coreLessons } from "./lessons/core";
 import type { BandId, Lesson, SubjectId } from "./types";
 import { lessonKey } from "./types";
@@ -43,6 +44,7 @@ const groups: Lesson[][] = [
   aiHistoryLessons as Lesson[],
   fathersLessons as Lesson[],
   magnaCartaLessons as Lesson[],
+  constitutionLessons as Lesson[],
   coreLessons as Lesson[],
 ];
 

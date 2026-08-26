@@ -164,6 +164,15 @@ export const catalog: CatalogUnit[] = [
     blurb: "A feudal contract that became the rule of law. The chain from Runnymede to your rights.",
   },
   {
+    id: "hist-constitution",
+    subject: "history",
+    title: "The Constitution — Design and Compromise",
+    status: "ready",
+    bands: ["young", "emerging", "adult"],
+    weeks: "4 sittings",
+    blurb: "Power against power, the three-fifths deal, and 27 amendments that expanded who counts.",
+  },
+  {
     id: "art-hand",
     subject: "art",
     title: "Hand Before Generate",
