@@ -173,6 +173,15 @@ export const catalog: CatalogUnit[] = [
     blurb: "Power against power, the three-fifths deal, and 27 amendments that expanded who counts.",
   },
   {
+    id: "hist-declaration",
+    subject: "history",
+    title: "The Declaration — The Promise and the Gap",
+    status: "ready",
+    bands: ["young", "emerging", "adult"],
+    weeks: "4 sittings",
+    blurb: "Natural rights, the right of revolution, and the gap between 'all men' and everyone.",
+  },
+  {
     id: "art-hand",
     subject: "art",
     title: "Hand Before Generate",
