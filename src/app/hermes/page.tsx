@@ -95,6 +95,25 @@ export default function HermesPage() {
         </ul>
       </section>
 
+      <section className="mt-12 rounded-xl bg-surface p-5 shadow-[var(--shadow-border)]">
+        <h2 className="font-display text-2xl text-fg">Inspect the guide first</h2>
+        <p className="mt-3 text-sm text-muted">
+          Before you pair a Hermes profile with your child, read a synthetic
+          demo. These transcripts show exactly what the guide does — and does
+          not do — across the full sitting arc. No real child data.
+        </p>
+        <ul className="mt-4 flex flex-wrap gap-3">
+          <li>
+            <Link
+              href="/demos"
+              className="inline-flex min-h-10 items-center rounded-md bg-accent px-4 text-sm font-medium text-accent-fg"
+            >
+              See the demos
+            </Link>
+          </li>
+        </ul>
+      </section>
+
       <section className="mt-12 space-y-3 text-muted">
         <h2 className="font-display text-2xl text-fg">Pairing rules</h2>
         <p>Name only the lesson or booklet title in USER.md. Do not paste the PDF. Do not dump the library into memory.</p>

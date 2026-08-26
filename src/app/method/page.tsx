@@ -64,6 +64,9 @@ export default function Method() {
           <Link href="/start">Start a sitting</Link>
         </Button>
         <Button asChild variant="secondary">
+          <Link href="/demos">See a demo</Link>
+        </Button>
+        <Button asChild variant="ghost">
           <Link href="/hermes">Hermes pairing</Link>
         </Button>
       </div>

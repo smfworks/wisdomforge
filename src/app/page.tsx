@@ -117,6 +117,40 @@ export default function Home() {
 
       <section className="border-t border-border">
         <div className="mx-auto max-w-6xl px-4 py-14">
+          <div className="flex items-end justify-between gap-4">
+            <h2 className="font-display text-3xl text-fg">See a sitting</h2>
+            <Link href="/demos" className="hidden text-sm text-accent sm:inline">
+              All demos
+            </Link>
+          </div>
+          <p className="mt-2 max-w-xl text-muted">
+            Synthetic session transcripts — no real child data. Watch the guide
+            hold the ritual: hint, not answer. Correct the misreading, not the
+            student. Try This before any AI.
+          </p>
+          <ul className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {[
+              { slug: "willow-circle-you-control", title: "The Circle You Control", band: "Willow · ages 5–10", unit: "The Stoics" },
+              { slug: "cedar-inner-citadel", title: "The Inner Citadel", band: "Cedar · ages 15–18", unit: "The Stoics" },
+              { slug: "cedar-faith-seeking-understanding", title: "The Restless Heart", band: "Cedar · ages 15–18", unit: "Faith & Reason" },
+            ].map((d) => (
+              <li key={d.slug}>
+                <Link
+                  href={`/demos/${d.slug}`}
+                  className="flex h-full flex-col rounded-lg bg-surface p-4 shadow-[var(--shadow-border)] transition-[box-shadow] duration-150 hover:shadow-[var(--shadow-border-hover)]"
+                >
+                  <p className="text-xs text-accent uppercase">{d.unit}</p>
+                  <h3 className="mt-1 font-medium text-fg">{d.title}</h3>
+                  <p className="mt-2 text-sm text-muted">{d.band}</p>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="border-t border-border">
+        <div className="mx-auto max-w-6xl px-4 py-14">
           <h2 className="font-display text-3xl text-fg">Paths</h2>
           <div className="mt-8 grid gap-3 lg:grid-cols-2">
             {paths.map((p) => (

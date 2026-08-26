@@ -11,6 +11,7 @@ import { ritualLabel } from "@/lib/labels";
 import { useForge } from "@/lib/progress";
 import { useHydrated } from "@/lib/use-hydrated";
 import { bookletLinksForLesson, figureDisplayName } from "@/lib/curriculum/booklets";
+import { demosForLesson } from "@/lib/curriculum/demos";
 
 export function LessonView({ lesson }: { lesson: Lesson }) {
   const band = bandById(lesson.band);
@@ -22,6 +23,7 @@ export function LessonView({ lesson }: { lesson: Lesson }) {
   const done = hydrated && doneStored;
   const complete = useForge((s) => s.complete);
   const uncomplete = useForge((s) => s.uncomplete);
+  const lessonDemos = demosForLesson(lesson.slug, lesson.band);
 
   return (
     <article className="mx-auto max-w-3xl px-4 py-10 sm:py-14">
@@ -117,6 +119,34 @@ export function LessonView({ lesson }: { lesson: Lesson }) {
       <div className="mt-10">
         <GuidePanel lesson={lesson} />
       </div>
+
+      {lessonDemos.length > 0 && (
+        <section className="mt-10 rounded-lg border-l-2 border-accent bg-surface p-5 shadow-[var(--shadow-border)]">
+          <p className="text-xs font-medium tracking-wide text-accent uppercase">
+            See this sitting
+          </p>
+          <h2 className="mt-1 font-display text-2xl text-fg">
+            Demo transcript
+          </h2>
+          <p className="mt-2 text-sm text-muted">
+            A synthetic session transcript on this sitting — no real child
+            data. See the guide hold the ritual before you pair a Hermes
+            profile.
+          </p>
+          <ul className="mt-4 space-y-2">
+            {lessonDemos.map((d) => (
+              <li key={d.slug}>
+                <Link
+                  href={`/demos/${d.slug}`}
+                  className="text-sm text-accent hover:underline"
+                >
+                  {d.title} →
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section className="mt-10">
         <h2 className="font-display text-2xl text-fg">Dinner table</h2>
