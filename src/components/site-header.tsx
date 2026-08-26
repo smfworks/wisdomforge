@@ -13,6 +13,7 @@ const links = [
   { href: "/subjects", label: "Subjects" },
   { href: "/library", label: "Repository" },
   { href: "/demos", label: "Demos" },
+  { href: "/books", label: "Books" },
   { href: "/method", label: "The method" },
   { href: "/hermes", label: "Hermes" },
 ] as const;
@@ -114,6 +115,9 @@ export function SiteHeader() {
             </Link>
             <Link href="/demos" className="flex min-h-11 items-center text-base text-fg" onClick={() => setOpen(false)}>
               Demos
+            </Link>
+            <Link href="/books" className="flex min-h-11 items-center text-base text-fg" onClick={() => setOpen(false)}>
+              Books
             </Link>
             <Link href="/progress" className="flex min-h-11 items-center text-base text-fg" onClick={() => setOpen(false)}>
               Family progress
