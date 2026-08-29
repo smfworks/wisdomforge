@@ -3,6 +3,7 @@
 import { useState } from "react";
 import type { Lesson } from "@/lib/curriculum/types";
 import { bandById } from "@/lib/curriculum/bands";
+import { contentHashTag } from "@/lib/curriculum/content-hash";
 import { ritualLabel } from "@/lib/labels";
 import { Button } from "@/components/ui/button";
 
@@ -26,10 +27,18 @@ export function SittingBridge({ lesson }: { lesson: Lesson }) {
   const [copiedField, setCopiedField] = useState<string | null>(null);
   const band = bandById(lesson.band);
 
+  // Version tag — hashes the guide-relevant fields only (hermes.prompt,
+  // reading, bigIdea, tryThis, ifTheySay) using djb2. Cosmetic edits to
+  // dek or parentBriefing don't trigger a version change. Parents compare
+  // this against the sitting page to detect content drift.
+  // Format: [v:1:{8-char-hex}] — v:1 is the algorithm version.
+  const versionTag = contentHashTag(lesson);
+
   // Construct the USER.md line — NOT from lesson.hermes.pairingLine.
-  // Format: "Optional: currently working on WisdomForge sitting: {unit} — {slug}."
-  // Matches wisdoforge-ritual skill line 48: "Unit Title — sitting-slug"
-  const userMdLine = `Optional: currently working on WisdomForge sitting: ${lesson.unit} — ${lesson.slug}.`;
+  // Format: "Optional: currently working on WisdomForge sitting: {unit} — {slug}. [v:1:{hash}]"
+  // Matches wisdomforge-ritual skill line 48: "Unit Title — sitting-slug"
+  // Version pinning (Phase 5 P5): appended tag lets parents detect drift.
+  const userMdLine = `Optional: currently working on WisdomForge sitting: ${lesson.unit} — ${lesson.slug}. [${versionTag}]`;
 
   // Display-only context from lesson.hermes.pairingLine
   const displayPairingLine = lesson.hermes.pairingLine;
@@ -73,6 +82,7 @@ export function SittingBridge({ lesson }: { lesson: Lesson }) {
         <p className="text-sm font-medium text-fg">For the child profile</p>
         <p className="mt-1 text-xs text-muted">
           Paste this into the child&rsquo;s USER.md. It names the sitting so the guide knows the context.
+          The <span className="font-mono text-accent">[{versionTag}]</span> tag lets you detect if the sitting&rsquo;s content has changed since you paired it.
         </p>
         <pre className="mt-3 overflow-x-auto whitespace-pre-wrap rounded-md bg-bg p-3 text-sm text-fg shadow-[var(--shadow-border)]">
           {userMdLine}
