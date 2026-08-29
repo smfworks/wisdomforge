@@ -39,7 +39,7 @@ export default function Home() {
             </Button>
           </div>
           <p className="mt-6 max-w-xl text-sm text-faint">
-            The booklet is the text. The parent is the teacher. The guide, if any, has tools turned off. Not a hosted kids chatbot. Does not make AI safe.
+            The booklet is the text. The parent is the teacher. The guide is optional, band-locked, and tool-poor. Not a hosted kids chatbot. Does not make AI safe.
           </p>
         </div>
       </section>
@@ -110,9 +110,19 @@ export default function Home() {
               <p className="mt-2 text-sm text-muted">
                 The parent-operated Hermes profile. It prepares the sitting, generates the guide prompt, and tracks progress. It serves the parent — never the child directly.
               </p>
-              <Link href="/hermes" className="mt-3 inline-flex text-sm text-accent hover:text-fg">
-                Set up the guide →
-              </Link>
+              <div className="mt-3 flex flex-col gap-1.5">
+                <Link href="/hermes" className="inline-flex text-sm text-accent hover:text-fg">
+                  Set up the guide →
+                </Link>
+                <a
+                  href="https://github.com/smfworks/hermes-ai-team"
+                  className="inline-flex text-sm text-accent hover:text-fg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Adult team repo →
+                </a>
+              </div>
             </article>
             <article className="rounded-xl bg-surface p-5 shadow-[var(--shadow-border)]">
               <p className="font-mono text-xs text-accent">03</p>
@@ -131,7 +141,7 @@ export default function Home() {
             </article>
           </div>
           <p className="mt-6 max-w-2xl text-xs text-faint">
-            The booklet is the text. The parent is the teacher. The guide, if any, has tools turned off. Not a hosted kids chatbot. Does not make AI safe.
+            The booklet is the text. The parent is the teacher. The guide is optional, band-locked, and tool-poor. Not a hosted kids chatbot. Does not make AI safe.
           </p>
         </div>
       </section>
