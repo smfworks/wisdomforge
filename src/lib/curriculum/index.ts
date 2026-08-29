@@ -26,6 +26,14 @@ export { bands, bandById } from "./bands";
 export { subjects, subjectById, paths, pathById } from "./subjects";
 export { catalog } from "./catalog";
 export { lessonKey };
+export {
+  validateLesson,
+  validateAllLessons,
+  assertLessonsReady,
+  type GateReport,
+  type GateFinding,
+  type GateSeverity,
+} from "./gate";
 
 const groups: Lesson[][] = [
   aiLessons,

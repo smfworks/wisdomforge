@@ -108,9 +108,14 @@ export default function SubjectHub() {
                           href={`/learn/${l.band}/${l.subject}/${l.slug}`}
                           className="group block"
                         >
-                          <span className="text-sm text-fg group-hover:text-accent">
-                            {l.number}. {l.title}
-                            {hydrated && familyBand === b.id ? " · your band" : ""}
+                          <span className="flex items-baseline gap-2">
+                            <span className="text-sm text-fg group-hover:text-accent">
+                              {l.number}. {l.title}
+                              {hydrated && familyBand === b.id ? " · your band" : ""}
+                            </span>
+                            <span className="inline-flex shrink-0 items-center rounded-sm bg-accent/10 px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-wide text-accent">
+                              Assist-ready
+                            </span>
                           </span>
                           {preview ? (
                             <span className="mt-0.5 block text-xs text-muted">{preview}</span>

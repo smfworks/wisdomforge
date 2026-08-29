@@ -122,7 +122,12 @@ export default function AgeHub() {
                         className="flex min-h-14 flex-col gap-1 px-4 py-3 sm:flex-row sm:items-center sm:justify-between"
                       >
                         <span className="flex-1">
-                          <span className="block text-sm text-faint">Sitting {l.number}</span>
+                          <span className="flex items-center gap-2">
+                            <span className="block text-sm text-faint">Sitting {l.number}</span>
+                            <span className="inline-flex shrink-0 items-center rounded-sm bg-accent/10 px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-wide text-accent">
+                              Assist-ready
+                            </span>
+                          </span>
                           <span className="text-fg">{l.title}</span>
                           {preview ? (
                             <span className="mt-0.5 block text-xs text-muted">{preview}</span>

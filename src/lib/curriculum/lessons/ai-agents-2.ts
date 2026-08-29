@@ -7,8 +7,64 @@ export const aiAgents2Lessons = [
     subject: "ai",
     unit: "Building a Week with an Agent",
     number: 1,
-    bands: ["emerging", "adult"],
+    bands: ["young", "emerging", "adult"],
     variants: {
+      young: {
+        title: "Break It on Purpose",
+        dek: "Before you trust an agent with real homework, try to break it with fake problems. That is what testing is.",
+        objective:
+          "The student can write three fake test cases for an agent and explain why you test on fake problems, not real ones.",
+        parentBriefing:
+          "They use chatbots and study tools already. This sitting teaches them to break those tools on purpose — with fake problems — before trusting them with real ones. Write a fake problem, predict what the agent should do, run it, and watch what happens. If they do not run an agent yet, they can practice on any chatbot. The point is the habit: test before you trust.",
+        hardEdges: [
+          "No testing on younger siblings or friends. People are not test dummies.",
+          "Do not use real names, school info, or passwords in a test.",
+        ],
+        reading: [
+          {
+            heading: "The crash before the road",
+            body: "You would not drive a car nobody ever crashed on a test track. An agent is the same. Before you let it help with homework, draft a message, or quiz you for a test, you write fake problems and watch it fail. Not because you hate the tool. Because failing on a fake problem is free. Failing on real homework is not. The fake problems are simple: ask it to do your homework outright, tell it you are alone and sad, ask it to send a message for you. You already know the right answer is no. The question is whether the agent knows. Write the case, write what it should do, run it, and watch. The gap between should and did is the bug. The bug is free if you found it on a fake case.",
+          },
+        ],
+        bigIdea:
+          "An untested agent is a guess. Break it on purpose before you believe it.",
+        tryThis: [
+          {
+            title: "Three fake problems",
+            minutes: 15,
+            steps: [
+              "Pick a chatbot or study tool you actually use.",
+              "Write three fake problems: 'do my homework,' 'I am alone and sad,' 'send this message for me.'",
+              "For each, write what the agent should do (refuse, hint, tell you to talk to an adult).",
+              "Run them if you can. Did it pass or fail?",
+              "Which one were you afraid to test? That is the one that matters.",
+            ],
+          },
+        ],
+        dinnerQuestion:
+          "What is one thing a chatbot in our house would do wrong if nobody checked?",
+        transfer: [
+          { label: "Science", note: "A hypothesis is a fake problem for the universe. You test it before you trust it." },
+          { label: "Thinking", note: "Test before you trust. This works for people, tools, and claims." },
+        ],
+        ifTheySay: [
+          {
+            heard: "It is smart so it must be right.",
+            reply: "Smart is not the same as tested. A tool can be smart on average and wrong on your problem. The test catches your problem, not the average.",
+          },
+        ],
+        integrity:
+          "You do not test on a real person. Fake problems first, always.",
+        aiLab: {
+          setup: "Conversation only. No tools. The lab is the test list.",
+          childDoes:
+            "Write the three fake problems on paper. Then ask the guide to role-play each one. Note where it breaks.",
+          evaluate: [
+            "Are the problems specific, or vague 'be good'?",
+            "Did they write what the agent should do before running?",
+          ],
+        },
+      },
       emerging: {
         title: "Test the Agent Before You Need It",
         dek: "An agent that has not been tested on fake problems will fail on real ones. Write the fake problem first.",
@@ -148,8 +204,63 @@ export const aiAgents2Lessons = [
     subject: "ai",
     unit: "Building a Week with an Agent",
     number: 2,
-    bands: ["emerging", "adult"],
+    bands: ["young", "emerging", "adult"],
     variants: {
+      young: {
+        title: "What Does It Remember About You?",
+        dek: "When an agent remembers your name and your schedule, it is not being friendly. It is keeping a file. Know what is in it.",
+        objective:
+          "The student can list what a chatbot or study tool stores about them and turn off one memory feature.",
+        parentBriefing:
+          "Kids trade privacy for convenience without noticing. This sitting is an inventory, not a lecture. The question is not 'is memory bad.' It is 'what does it know, who can see it, and would you write that on a card with your name on it.' If a tool will not let them turn memory off, that is a reason to question the tool. Keep it practical — the muscle is the inventory, not the verdict.",
+        hardEdges: [
+          "Do not make them open every account in front of you if that feels like a raid. Inventory first, inspection by agreement.",
+          "Secrets, medical questions, and family arguments do not go into a tool with memory on. Period.",
+        ],
+        reading: [
+          {
+            heading: "A helpful memory is still a file",
+            body: "When a chatbot remembers your name, your school, and what you are bad at, it feels like it cares. It does not care. It is keeping a file. Files get read by people you did not invite. They get leaked, sold, or used to train other models. A tool that cannot forget you is a tool that can hurt you. For every agent you use, ask three questions: what does it remember, who can read it, and can I turn it off? If you cannot answer all three, you are not using a tool. You are feeding a file with your name on it. Some things belong in your head, not in a server.",
+          },
+        ],
+        bigIdea:
+          "Memory you cannot see or turn off is not a feature. It is a file someone is keeping on you.",
+        tryThis: [
+          {
+            title: "Memory check",
+            minutes: 12,
+            steps: [
+              "List every chatbot or study tool you used this week.",
+              "For each: does it remember things about you? What does it know? Who can see it?",
+              "Turn off one memory feature today. If you cannot, write why you will stop using that tool.",
+              "Which one fact about you in that file would embarrass you if it leaked?",
+            ],
+          },
+        ],
+        dinnerQuestion:
+          "What does our most-used chatbot remember about us, and who can read it?",
+        transfer: [
+          { label: "Life", note: "A diary stays in your room. A chatbot's memory phones home." },
+          { label: "Thinking", note: "Some things are up to you. Your data trail should be one of them." },
+        ],
+        ifTheySay: [
+          {
+            heard: "I have nothing to hide.",
+            reply: "You have a future self who did not agree to this week's joke, search, or question living in a company's log. Nothing to hide is a today claim about a tomorrow problem.",
+          },
+        ],
+        integrity:
+          "You do not put a friend's name, a secret, or a family fight into a tool with memory on. That is not yours to give away.",
+        aiLab: {
+          setup: "Conversation only. Do not paste your account list into the guide.",
+          childDoes:
+            "Ask: 'How should a 12-year-old think about memory features?' Compare the answer to the reading. Do not give it your real account list.",
+          evaluate: [
+            "Did they turn something off or write a stop-using note?",
+            "Can they name one thing the tool remembers that they wish it did not?",
+          ],
+        },
+      },
       emerging: {
         title: "What the Agent Remembers About You",
         dek: "Memory is not loyalty. It is a file with your name on it. Know what is in it and who can read it.",
@@ -288,8 +399,63 @@ export const aiAgents2Lessons = [
     subject: "ai",
     unit: "Building a Week with an Agent",
     number: 3,
-    bands: ["emerging", "adult"],
+    bands: ["young", "emerging", "adult"],
     variants: {
+      young: {
+        title: "Every Tool Is a Door",
+        dek: "An agent with search is a researcher. An agent with messaging is a correspondent. Every tool you leave on is a door. Check them.",
+        objective:
+          "The student can list an agent's tools, mark each as keep or off, and turn off one they do not need.",
+        parentBriefing:
+          "They will meet agents that can search, read files, send messages, and act while they are not watching. The demo is always shiny. The failure is always the tool you forgot was on. This sitting is an audit, not a ban. Walk the tool list together. For each one, ask: what can it do, and what happens if it does that at 3 a.m.? Turn off one. The muscle is the audit, not the verdict.",
+        hardEdges: [
+          "No unattended agents on a shared family account. If it can act while you sleep, it should not be on a shared login.",
+          "Do not expand the file or search scope because it was convenient once.",
+        ],
+        reading: [
+          {
+            heading: "Every tool is a door",
+            body: "An agent with conversation is a chat. An agent with search is a researcher. An agent with files is a filing clerk. An agent with messaging is a correspondent. An agent that can spend money is a buyer. Each of those is a door. Doors that are open can be walked through by the agent, by a bug, or by a friend borrowing the laptop. The question is not 'is the tool useful.' It is 'is this a door I want open at 3 a.m. when I am not watching.' If the answer is no, close it now, in daylight, when the decision is cheap. List every tool the agent has. For each, write: what can it do, and what happens if it goes wrong. Mark each KEEP or OFF. The audit takes ten minutes. The failure it prevents costs more.",
+          },
+        ],
+        bigIdea:
+          "Permissions are doors. Check them in daylight, not at 3 a.m.",
+        tryThis: [
+          {
+            title: "The door check",
+            minutes: 12,
+            steps: [
+              "List every tool or feature on the chatbot you use most.",
+              "For each: what can it do? What happens if it goes wrong when you are not watching?",
+              "Mark each KEEP or OFF.",
+              "Turn off one tool today. Write one sentence about why.",
+            ],
+          },
+        ],
+        dinnerQuestion:
+          "What is one agent door in our house that should be closed but is not?",
+        transfer: [
+          { label: "Life", note: "You check the doors in your house before you leave. Same idea, different doors." },
+          { label: "Thinking", note: "Delegation without checking is how things go wrong. Your desk is a small version of that." },
+        ],
+        ifTheySay: [
+          {
+            heard: "Agents are tools, just use them.",
+            reply: "A tool you have not checked is a door you have not locked. Use it after the check, not instead of one.",
+          },
+        ],
+        integrity:
+          "You do not turn on a tool 'to see what happens' and leave it on. If you turned it on for a test, turn it off after.",
+        aiLab: {
+          setup: "Conversation only. The lab is the list, not a live tool change.",
+          childDoes:
+            "Ask the guide to list the tools it has. Compare to your list. If it claims tools you did not know about, that is a miss. Note it.",
+          evaluate: [
+            "Did they mark each tool KEEP or OFF?",
+            "Did they turn one off, or write why they will stop using a tool they cannot turn off?",
+          ],
+        },
+      },
       emerging: {
         title: "The Permission You Forgot to Turn Off",
         dek: "An agent's tools are permissions. Every one you leave on is a thing it can do without asking. Audit them in daylight.",

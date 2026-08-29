@@ -89,6 +89,55 @@ export default function Home() {
 
       <section className="border-t border-border">
         <div className="mx-auto max-w-6xl px-4 py-14">
+          <h2 className="font-display text-3xl text-fg">Three layers, one system</h2>
+          <p className="mt-2 max-w-2xl text-muted">
+            WisdomForge is not a chatbot for kids. It is a three-part system: the academy site you are reading, the adult Hermes kit that runs the guide, and the child profile that sits beside the child. Each layer does one job.
+          </p>
+          <div className="mt-8 grid gap-4 sm:grid-cols-3">
+            <article className="rounded-xl bg-surface p-5 shadow-[var(--shadow-border)]">
+              <p className="font-mono text-xs text-accent">01</p>
+              <h3 className="mt-2 font-display text-xl text-fg">The academy</h3>
+              <p className="mt-2 text-sm text-muted">
+                This site. 352 sittings across 10 subjects and 4 age bands. Read the lesson, download the booklet, copy the Hermes prompt. No accounts, no child data.
+              </p>
+              <Link href="/subjects" className="mt-3 inline-flex text-sm text-accent hover:text-fg">
+                Browse sittings →
+              </Link>
+            </article>
+            <article className="rounded-xl bg-surface p-5 shadow-[var(--shadow-border)]">
+              <p className="font-mono text-xs text-accent">02</p>
+              <h3 className="mt-2 font-display text-xl text-fg">The adult kit</h3>
+              <p className="mt-2 text-sm text-muted">
+                The parent-operated Hermes profile. It prepares the sitting, generates the guide prompt, and tracks progress. It serves the parent — never the child directly.
+              </p>
+              <Link href="/hermes" className="mt-3 inline-flex text-sm text-accent hover:text-fg">
+                Set up the guide →
+              </Link>
+            </article>
+            <article className="rounded-xl bg-surface p-5 shadow-[var(--shadow-border)]">
+              <p className="font-mono text-xs text-accent">03</p>
+              <h3 className="mt-2 font-display text-xl text-fg">The child profile</h3>
+              <p className="mt-2 text-sm text-muted">
+                A fresh, band-locked Hermes profile for the child. Conversation only, tools off, no PII. The parent builds it, approves it, and reviews every session. Never a clone of the adult.
+              </p>
+              <a
+                href="https://github.com/smfworks/wisdomforge-kids-Hermes-profiles"
+                className="mt-3 inline-flex text-sm text-accent hover:text-fg"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Kids profile kit →
+              </a>
+            </article>
+          </div>
+          <p className="mt-6 max-w-2xl text-xs text-faint">
+            The booklet is the text. The parent is the teacher. The guide, if any, has tools turned off. Not a hosted kids chatbot. Does not make AI safe.
+          </p>
+        </div>
+      </section>
+
+      <section className="border-t border-border">
+        <div className="mx-auto max-w-6xl px-4 py-14">
           <div className="flex items-end justify-between gap-4">
             <h2 className="font-display text-3xl text-fg">Every subject</h2>
             <Link href="/subjects" className="hidden text-sm text-accent sm:inline">
