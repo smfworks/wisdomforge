@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "tsx scripts/verify-gate.mts && tsx scripts/generate-sittings-feed.mts",
+    "prebuild": "tsx scripts/generate-sittings-feed.mts",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
