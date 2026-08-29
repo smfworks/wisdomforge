@@ -15,6 +15,7 @@ import { subjectById } from "./subjects";
 import { bandById } from "./bands";
 import { ritualLabel } from "../labels";
 import { bookletLinksForLesson } from "./booklets";
+import { contentHashTag } from "./content-hash";
 
 export type SittingMeta = {
   slug: string;
@@ -32,6 +33,14 @@ export type SittingMeta = {
   bandAges: string;
   materials: string[];
   lessonPath: string;
+  /**
+   * Content version tag for drift detection (Phase 5 P5).
+   * Format: "v:1:{8-char-hex}" — same tag appended to the USER.md
+   * pairing line in SittingBridge. Parents compare the tag in their
+   * child's USER.md against this field to detect whether the
+   * guide-relevant content has changed since they paired.
+   */
+  contentVersion: string;
 };
 
 export type SittingsFeed = {
@@ -75,6 +84,7 @@ export function generateSittingsFeed(outputDir: string): void {
       bandAges: band?.ages ?? "",
       materials,
       lessonPath: `/learn/${l.band}/${l.subject}/${l.slug}`,
+      contentVersion: contentHashTag(l),
     };
   });
 
