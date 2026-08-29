@@ -113,6 +113,9 @@ export function SiteHeader() {
             <Link href="/parents" className="flex min-h-11 items-center text-base text-fg" onClick={() => setOpen(false)}>
               For parents
             </Link>
+            <Link href="/parents/control-plane" className="flex min-h-11 items-center pl-4 text-base text-muted" onClick={() => setOpen(false)}>
+              Control-plane checklist
+            </Link>
             <Link href="/demos" className="flex min-h-11 items-center text-base text-fg" onClick={() => setOpen(false)}>
               Demos
             </Link>

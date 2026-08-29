@@ -29,6 +29,18 @@ export default function Parents() {
       </section>
 
       <section className="mt-12">
+        <h2 className="font-display text-2xl text-fg">Before a Hermes profile</h2>
+        <p className="mt-3 text-muted">
+          If you are considering a band-locked Hermes profile for your child, run the control-plane checklist first: restricted OS account, credentials review, spend cap, no messaging, local model default, and a memory review calendar. You are the boundary &mdash; a Hermes profile is not a sandbox.
+        </p>
+        <div className="mt-5">
+          <Button asChild variant="secondary">
+            <Link href="/parents/control-plane">Open the control-plane checklist</Link>
+          </Button>
+        </div>
+      </section>
+
+      <section className="mt-12">
         <h2 className="font-display text-2xl text-fg">Mixed ages</h2>
         <p className="mt-3 text-muted">
           Same spine, two Try This options, one shared dinner question. Do not stretch a Little Thinkers profile over a fourteen-year-old because they share a table.
