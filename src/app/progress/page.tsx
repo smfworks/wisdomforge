@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { LedgerExport } from "@/components/ledger-export";
 import { bandById } from "@/lib/curriculum/bands";
 import { findLesson, lessons } from "@/lib/curriculum";
 import { useForge } from "@/lib/progress";
@@ -71,6 +72,8 @@ export default function ProgressPage() {
           ))}
         </ul>
       ) : null}
+
+      <LedgerExport hydrated={hydrated} />
     </main>
   );
 }
