@@ -141,6 +141,9 @@ export function figureDisplayName(figure: string): string {
     "jerome": "Jerome",
     "julian-norwich": "Julian of Norwich",
     "thomas-aquinas": "Thomas Aquinas",
+    "basil-great": "Basil the Great",
+    "gregory-nazianzus": "Gregory of Nazianzus",
+    "locke": "John Locke",
   };
   return names[figure] ?? figure;
 }

@@ -100,6 +100,22 @@ export const churchFathersBook: Book = {
       distinctiveVoice: "The fighter who would not yield on the incarnation",
     },
     {
+      slug: "basil-great",
+      name: "Basil the Great",
+      dates: "c. 330–379",
+      tradition: "Cappadocian, Trinitarian, monastic",
+      coreQuestion: "How is the Spirit God?",
+      distinctiveVoice: "The organizer who built communities and defended the Trinity",
+    },
+    {
+      slug: "gregory-nazianzus",
+      name: "Gregory of Nazianzus",
+      dates: "c. 329–390",
+      tradition: "Cappadocian, theological, poetic",
+      coreQuestion: "How can we speak of God?",
+      distinctiveVoice: "The reluctant bishop who named the Trinity and walked away",
+    },
+    {
       slug: "ambrose",
       name: "Ambrose of Milan",
       dates: "c. 340–397",
