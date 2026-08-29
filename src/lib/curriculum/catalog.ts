@@ -182,6 +182,15 @@ export const catalog: CatalogUnit[] = [
     blurb: "Self-evident truths, the right of revolution, and the gap between the promise and the practice. The chain from 1776 to today.",
   },
   {
+    id: "letters-little",
+    subject: "english",
+    title: "Stories and Voices — Letters for Little Thinkers",
+    status: "ready",
+    bands: ["little"],
+    weeks: "3 sittings",
+    blurb: "Tell it in your own words. The story behind a real thing. Hear it and say it back.",
+  },
+  {
     id: "art-hand",
     subject: "art",
     title: "Hand Before Generate",
