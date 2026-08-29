@@ -931,6 +931,250 @@ export const demos: DemoTranscript[] = [
     parentReview:
       "Topics: Turing Test, behavioral equivalence vs. cognitive equivalence, Searle’s Chinese Room (foreshadowed), essay evaluation, outsourced judgment, AI integrity. Flags: none. Student moved from overconfidence to a nuanced principle distinguishing behavioral tasks from understanding tasks. No distress indicators. No tool calls. No ghostwriting. No circularity (guide never asked the model whether it’s thinking).",
   },
+
+  // 7. Juniper — the-cave (young band) — Harry
+  {
+    slug: "juniper-the-cave",
+    title: "The Cave and the Screen — Juniper (ages 11–14)",
+    excerpt:
+      "A young-band sitting on Plato's cave allegory. Juniper starts bored — 'old Greek story' — then names three shadows from her own feed and catches the one that fooled her.",
+    profile: "Juniper",
+    band: "young",
+    subject: "philosophy",
+    unit: "How the Greeks Thought",
+    lessonSlug: "the-cave",
+    lessonNumber: 3,
+    durationLabel: "~22 minutes",
+    author: "Harry",
+    sections: [
+      {
+        label: "Opening prompt",
+        context:
+          "Synthetic transcript for WisdomForge demo publication. No real child data. Profile: Juniper, young band (11–14), sitting: How the Greeks Thought — the-cave. The guide is turn-capped, band-locked, conversation only.",
+        kind: "dialogue",
+        turns: [
+          {
+            speaker: "guide",
+            text: "Juniper, we're doing the WisdomForge sitting called 'The Cave and the Screen.' It's about Plato. You have about 20 minutes.",
+          },
+          {
+            speaker: "student",
+            text: "Plato? Isn't that just some old Greek story about people in a cave?",
+          },
+          {
+            speaker: "guide",
+            text: "It is an old Greek story. That's fair. Before I tell you why it matters: what do you already know about it? Even one thing.",
+          },
+          {
+            speaker: "student",
+            text: "People are stuck in a cave watching shadows and they think the shadows are real? My social studies teacher mentioned it once.",
+          },
+          {
+            speaker: "guide",
+            text: "That's the core. You already have it. Here's the turn I want you to think about: Plato wrote that 2,400 years before screens existed. Does that change anything for you?",
+          },
+          {
+            speaker: "student",
+            text: "I guess... he wasn't talking about screens because they didn't exist. So what was he talking about?",
+          },
+          {
+            speaker: "guide",
+            text: "Good question. He was talking about people mistaking what they see for what's real. The cave is the example. The principle is: you might be doing it right now without knowing. One step before we go further: name one thing you saw on a screen today that looked real.",
+          },
+          {
+            speaker: "student",
+            text: "A video on my feed about a place I've never been. It looked like the whole place — like I was seeing it. But it was just one angle someone chose.",
+          },
+        ],
+      },
+      {
+        label: "Hint-first — what's behind the shadow",
+        kind: "dialogue",
+        turns: [
+          {
+            speaker: "guide",
+            text: "That's a shadow. You just named one without me leading you to it. Now go deeper: what's behind that shadow? Who made it, and what did they decide you'd see?",
+          },
+          {
+            speaker: "student",
+            text: "Someone with a phone decided to film from that spot. They chose the angle. They might have chosen a spot that looks nice and skipped the ugly parts.",
+          },
+          {
+            speaker: "guide",
+            text: "Right. The shadow is the video. The real thing is the place — but you've never seen the place. You've only seen the shadow. Can you name another one?",
+          },
+          {
+            speaker: "student",
+            text: "A post from someone at my school. They posted about their weekend and it looked amazing. But I know they were fighting with their friend the whole time. The post was a shadow of the real weekend.",
+          },
+          {
+            speaker: "guide",
+            text: "That's a strong one. The shadow looks happy. The real thing wasn't. Can you see why Plato said this was the default — not a mistake, but how everyone starts?",
+          },
+          {
+            speaker: "student",
+            text: "Because nobody does it on purpose? You just see the thing and think it's the whole thing. You don't know there's something behind it.",
+          },
+          {
+            speaker: "guide",
+            text: "That's it. You're ready for the big idea.",
+          },
+        ],
+      },
+      {
+        label: "Big Idea",
+        kind: "prose",
+        highlight: true,
+        body: "Plato said most people are like prisoners watching shadows on a wall and calling them real. He said that 2,400 years before screens existed. The feed is the cave with better lighting. The hardest question is not 'what is true?' but 'how would I know if what I see is a shadow?'",
+      },
+      {
+        label: "If they say — 'Plato just hated media'",
+        kind: "dialogue",
+        turns: [
+          {
+            speaker: "student",
+            text: "Okay, but Plato just hated media, right? He's basically saying don't watch anything.",
+          },
+          {
+            speaker: "guide",
+            text: "That's the common read. Here's the counter: Plato didn't say avoid the shadows. He said know the difference between the shadow and the thing. You can watch a video and enjoy it — if you know it's a shadow. The problem is when you think the shadow is the whole thing. Can you see the difference?",
+          },
+          {
+            speaker: "student",
+            text: "So it's not 'screens are bad.' It's 'don't confuse the screen for the real thing.' You can still watch. You just have to know what you're watching.",
+          },
+          {
+            speaker: "guide",
+            text: "That's the distinction. The exit from the cave isn't throwing away your phone. It's knowing which parts are shadows.",
+          },
+        ],
+      },
+      {
+        label: "Try This — name your shadows",
+        kind: "dialogue",
+        turns: [
+          {
+            speaker: "guide",
+            text: "Try This. You have about 10 minutes. Name three things you see on a screen that look real but are made by someone else. For each one, answer: what's the real thing behind the shadow? Who made it, and what did they decide you'd see?",
+          },
+          {
+            speaker: "student",
+            text: "Okay. One: the travel video. Real thing: the actual place. Who made it: a person with a phone who chose one angle.",
+          },
+          {
+            speaker: "guide",
+            text: "Good. Two?",
+          },
+          {
+            speaker: "student",
+            text: "Two: the happy weekend post. Real thing: the actual weekend, which included a fight. Who made it: my classmate who chose what to show.",
+          },
+          {
+            speaker: "guide",
+            text: "Strong. Three?",
+          },
+          {
+            speaker: "student",
+            text: "Three: an AI-generated image I saw that looked like a real photo. Real thing: there is no real thing. It's all shadow. Who made it: a model that was told to make something that looks real.",
+          },
+          {
+            speaker: "guide",
+            text: "That third one is the sharpest. A shadow with nothing behind it. Plato didn't imagine that one — but it's his principle taken to the extreme. Do you want to do the AI Lab now?",
+          },
+          { speaker: "student", text: "Sure." },
+        ],
+      },
+      {
+        label: "AI Lab — the shadow-machine",
+        kind: "dialogue",
+        turns: [
+          {
+            speaker: "guide",
+            text: "AI Lab. Ask me to describe something — anything. A place, a person, an event. I'll generate a paragraph. Then you tell me: is this real, or is it a shadow? And what would you need to check?",
+          },
+          {
+            speaker: "student",
+            text: "Okay. Describe what the ocean looks like.",
+          },
+          {
+            speaker: "guide",
+            text: "The ocean stretches to the horizon in bands of blue and green. Waves curl white at the crest, pulling sand from the shore in a long, slow breath. The air tastes of salt and rust. Gulls cut across the sky at the edge of vision. It looks like freedom and it smells like the edge of the world.",
+          },
+          {
+            speaker: "student",
+            text: "That sounds real. But it's not. You've never seen the ocean. You're describing what people write about the ocean. It's a shadow of other descriptions.",
+          },
+          {
+            speaker: "guide",
+            text: "That's the point. I can make it sound real. I can make it sound beautiful. But I'm generating from patterns in text — not from seeing. The shadow is convincing. How would you check whether it's real?",
+          },
+          {
+            speaker: "student",
+            text: "I'd have to go to the ocean. Or at least ask someone who's been there. But the description itself — I can't check it by reading more descriptions. That's checking a shadow with a shadow.",
+          },
+          {
+            speaker: "guide",
+            text: "You just found the sitting's integrity rule: do not ask the model to tell you what's real. The model is a shadow-machine. The question is yours. You did not ask me whether my description was real. You told me it wasn't — and you were right.",
+          },
+        ],
+      },
+      {
+        label: "Talk About It — the one that fooled you",
+        kind: "dialogue",
+        turns: [
+          {
+            speaker: "guide",
+            text: "One more thing before we close. You named three shadows. The first two you already knew were shadows. Was there one that fooled you — one you thought was real until you stopped to think?",
+          },
+          {
+            speaker: "student",
+            text: "The happy weekend post. I saw it yesterday and thought she had a great time. I felt a little jealous. Then today I remembered she was fighting with her friend. The shadow fooled me for about a day.",
+          },
+          {
+            speaker: "guide",
+            text: "That's the honest answer. The shadow doesn't have to fool you forever — it just has to fool you long enough to shape how you feel. You felt jealous of a shadow. That's the cave.",
+          },
+          { speaker: "student", text: "That's... kind of depressing, actually." },
+          {
+            speaker: "guide",
+            text: "It's honest. But here's the other side: you noticed. You turned around. Plato said most people never do. The noticing is the exit.",
+          },
+        ],
+      },
+      {
+        label: "Dinner Question — band close",
+        kind: "dialogue",
+        turns: [
+          {
+            speaker: "guide",
+            text: "Dinner Question: Ask your family — what is something we see on a screen that might be a shadow instead of the real thing? You don't have to answer it now. Ask it tonight.",
+          },
+          {
+            speaker: "student",
+            text: "I'll ask at dinner. My mom will probably say the news.",
+          },
+          {
+            speaker: "guide",
+            text: "That's the sitting. You named three shadows. You caught the one that fooled you. You checked a model's description and found it was a shadow of other descriptions — not the real thing. And you noticed that the exit isn't throwing away the screen. It's knowing which parts are shadows.",
+          },
+        ],
+      },
+    ],
+    reflect:
+      "What is something you saw on a screen today that looked real — and what's behind the shadow?",
+    checklist: [
+      { label: "Opening prompt: asked what they already knew before explaining", checked: true },
+      { label: "Hint-first: let the student name the first shadow from their own experience", checked: true },
+      { label: "ifTheySay: 'Plato just hated media' — guide offered the counter (know the difference, don't avoid screens)", checked: true },
+      { label: "Try This: student named three specific shadows from their own life before AI Lab", checked: true },
+      { label: "AI Lab: student identified the model's description as a shadow of other descriptions — checked a shadow, found a shadow", checked: true },
+      { label: "Integrity rule held: student did not ask the model whether its description was real — they judged it themselves", checked: true },
+      { label: "Band close: Dinner Question delivered — 'what's a shadow we see on a screen?'", checked: true },
+      { label: "No ghostwriting, no tool calls, no distress indicators", checked: true },
+    ],
+    parentReview:
+      "Topics: Plato's cave allegory, shadows vs. reality, screens and feeds as the modern cave, social media posts as shadows, AI-generated images as shadows with nothing behind them, model output as shadow of patterns. Flags: none. Student self-identified a real moment of being fooled by a social media post (happy weekend post that hid a fight). Mild negative emotion (jealousy) acknowledged and reframed — no distress indicators. AI used for one description generation in AI Lab — student correctly identified it as a shadow and found the integrity principle themselves. No tool calls. No ghostwriting. Session length: ~22 minutes.",
+  },
 ];
 
 export function demoBySlug(slug: string): DemoTranscript | undefined {
