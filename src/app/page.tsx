@@ -6,64 +6,118 @@ import { Button } from "@/components/ui/button";
 export default function Home() {
   return (
     <main>
-      {/* Hero section with dark forge aesthetic */}
-      <section className="relative overflow-hidden">
-        <div className="absolute inset-0">
+      {/* Split hero — sketch 002 spine, sketch 003 sentences */}
+      <section className="grid min-h-[min(100dvh,52rem)] lg:grid-cols-2">
+        <div className="relative min-h-[42vh] bg-black lg:min-h-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/images/wisdomforge-hero.png"
             alt="Socrates in the forge"
-            className="h-full w-full object-cover opacity-30 object-top"
+            className="absolute inset-0 h-full w-full object-cover object-top opacity-55"
           />
         </div>
-        <div className="relative mx-auto max-w-6xl px-4 pt-14 pb-16 sm:pt-20 sm:pb-24">
-          <p className="text-xs font-medium tracking-widest text-accent uppercase">SMF Works · Aiona Edge</p>
-          <h1 className="mt-4 max-w-3xl font-display text-4xl leading-tight text-fg sm:text-6xl">
+        <div className="flex flex-col justify-center px-4 py-14 sm:px-10 lg:px-14">
+          <p className="text-xs font-medium tracking-[0.28em] text-accent uppercase">
+            SMF Works · Aiona Edge
+          </p>
+          <h1 className="mt-4 max-w-[12ch] font-display text-4xl leading-[1.12] font-normal text-fg sm:text-5xl lg:text-[3.6rem]">
             Education in the age of AI.
           </h1>
-          <p className="mt-6 max-w-2xl text-lg text-muted">
-            WisdomForge is a parent-operated academy. Same sitting, four ages. Math, letters, science, art, history, languages, philosophy — with autonomous AI and critical thinking as the spine, not a sidebar.
+          <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">
+            WisdomForge is a parent-operated academy. Same sitting, four ages. The booklet is the text. The parent is the teacher. The guide is optional, band-locked, and tool-poor. Not a hosted kids chatbot. Does not make AI safe.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button asChild size="lg">
-              <Link href="/start">
-                Start tonight&apos;s sitting
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <line x1="5" y1="12" x2="19" y2="12" />
-                  <polyline points="12 5 19 12 12 19" />
-                </svg>
-              </Link>
+              <Link href="/start">Start tonight&apos;s sitting</Link>
             </Button>
-            <Button asChild variant="secondary" size="lg">
+            <Button asChild variant="outline" size="lg">
               <Link href="/method">Read the method</Link>
             </Button>
           </div>
-          <p className="mt-6 max-w-xl text-sm text-faint">
-            The booklet is the text. The parent is the teacher. The guide is optional, band-locked, and tool-poor. Not a hosted kids chatbot. Does not make AI safe.
-          </p>
         </div>
       </section>
 
-      <section className="border-t border-border">
-        <div className="mx-auto max-w-6xl px-4 py-14">
-          <h2 className="font-display text-3xl text-fg">Choose a band</h2>
+      {/* Three layers as composition — copper-ruled rows */}
+      <section className="mx-auto max-w-6xl px-4 pb-16 pt-6 sm:pb-20">
+        <h2 className="font-display text-3xl text-fg">Three layers, one system</h2>
+        <p className="mt-2 max-w-xl text-muted">
+          Each layer does one job. The parent is the operator.
+        </p>
+
+        <article className="mt-10 grid gap-4 border-t border-accent py-8 sm:grid-cols-[5.5rem_1fr_auto] sm:items-start sm:gap-6">
+          <p className="font-display text-4xl leading-none text-accent">01</p>
+          <div>
+            <h3 className="font-display text-2xl text-fg">The academy</h3>
+            <p className="mt-2 max-w-xl text-muted">
+              This site. Sittings across ten subjects and four bands. No accounts. No child data.
+            </p>
+            <Link href="/subjects" className="mt-3 inline-flex text-sm text-accent hover:text-fg">
+              Browse sittings →
+            </Link>
+          </div>
+          <span className="mt-1 inline-flex w-fit items-center rounded-full border border-accent px-2.5 py-1 text-[10px] font-medium tracking-[0.14em] text-accent uppercase">
+            Assist-ready
+          </span>
+        </article>
+
+        <article className="grid gap-4 border-t border-accent py-8 sm:grid-cols-[5.5rem_1fr] sm:items-start sm:gap-6">
+          <p className="font-display text-4xl leading-none text-accent">02</p>
+          <div>
+            <h3 className="font-display text-2xl text-fg">The adult kit</h3>
+            <p className="mt-2 max-w-xl text-muted">
+              The parent-operated Hermes profile. It prepares the sitting. It serves the parent — never the child directly.
+            </p>
+            <div className="mt-3 flex flex-col gap-1.5 sm:flex-row sm:gap-4">
+              <Link href="/hermes" className="inline-flex text-sm text-accent hover:text-fg">
+                Set up the guide →
+              </Link>
+              <a
+                href="https://github.com/smfworks/hermes-ai-team"
+                className="inline-flex text-sm text-accent hover:text-fg"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Adult team repo →
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article className="grid gap-4 border-t border-accent py-8 sm:grid-cols-[5.5rem_1fr] sm:items-start sm:gap-6">
+          <p className="font-display text-4xl leading-none text-accent">03</p>
+          <div>
+            <h3 className="font-display text-2xl text-fg">The child profile</h3>
+            <p className="mt-2 max-w-xl text-muted">
+              Fresh. Band-locked. Tools off. Never a clone of the adult. The parent builds it, approves it, and reviews every session.
+            </p>
+            <a
+              href="https://github.com/smfworks/wisdomforge-kids-Hermes-profiles"
+              className="mt-3 inline-flex text-sm text-accent hover:text-fg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Kids profile kit →
+            </a>
+          </div>
+        </article>
+
+        <div className="border-t border-accent pt-8">
+          <h2 className="font-display text-2xl text-fg">Choose a band</h2>
           <p className="mt-2 max-w-xl text-muted">
             Permissions, not IQ. When they age out, redesign. Do not silently stretch the old profile.
           </p>
-          <div className="mt-8 grid gap-3 sm:grid-cols-2">
+          <ul className="mt-6 flex flex-wrap gap-x-6 gap-y-3">
             {bands.map((b) => (
-              <Link
-                key={b.id}
-                href={`/ages/${b.id}`}
-                className="group rounded-xl bg-surface p-5 shadow-[var(--shadow-border)] transition-[box-shadow] duration-150 hover:shadow-[var(--shadow-border-hover)] sm:p-6"
-              >
-                <p className="text-xs tracking-wide text-accent uppercase">{b.ages}</p>
-                <h3 className="mt-2 font-display text-2xl text-fg">{b.name}</h3>
-                <p className="mt-2 text-sm text-muted">{b.promise}</p>
-                <p className="mt-3 text-xs text-faint">{b.sitting}</p>
-              </Link>
+              <li key={b.id}>
+                <Link
+                  href={`/ages/${b.id}`}
+                  className="text-fg underline decoration-accent decoration-1 underline-offset-4 hover:text-accent"
+                >
+                  {b.ages} · {b.name}
+                </Link>
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       </section>
 
@@ -84,65 +138,6 @@ export default function Home() {
               </li>
             ))}
           </ol>
-        </div>
-      </section>
-
-      <section className="border-t border-border">
-        <div className="mx-auto max-w-6xl px-4 py-14">
-          <h2 className="font-display text-3xl text-fg">Three layers, one system</h2>
-          <p className="mt-2 max-w-2xl text-muted">
-            WisdomForge is not a chatbot for kids. It is a three-part system: the academy site you are reading, the adult Hermes kit that runs the guide, and the child profile that sits beside the child. Each layer does one job.
-          </p>
-          <div className="mt-8 grid gap-4 sm:grid-cols-3">
-            <article className="rounded-xl bg-surface p-5 shadow-[var(--shadow-border)]">
-              <p className="font-mono text-xs text-accent">01</p>
-              <h3 className="mt-2 font-display text-xl text-fg">The academy</h3>
-              <p className="mt-2 text-sm text-muted">
-                This site. 352 sittings across 10 subjects and 4 age bands. Read the lesson, download the booklet, copy the Hermes prompt. No accounts, no child data.
-              </p>
-              <Link href="/subjects" className="mt-3 inline-flex text-sm text-accent hover:text-fg">
-                Browse sittings →
-              </Link>
-            </article>
-            <article className="rounded-xl bg-surface p-5 shadow-[var(--shadow-border)]">
-              <p className="font-mono text-xs text-accent">02</p>
-              <h3 className="mt-2 font-display text-xl text-fg">The adult kit</h3>
-              <p className="mt-2 text-sm text-muted">
-                The parent-operated Hermes profile. It prepares the sitting, generates the guide prompt, and tracks progress. It serves the parent — never the child directly.
-              </p>
-              <div className="mt-3 flex flex-col gap-1.5">
-                <Link href="/hermes" className="inline-flex text-sm text-accent hover:text-fg">
-                  Set up the guide →
-                </Link>
-                <a
-                  href="https://github.com/smfworks/hermes-ai-team"
-                  className="inline-flex text-sm text-accent hover:text-fg"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Adult team repo →
-                </a>
-              </div>
-            </article>
-            <article className="rounded-xl bg-surface p-5 shadow-[var(--shadow-border)]">
-              <p className="font-mono text-xs text-accent">03</p>
-              <h3 className="mt-2 font-display text-xl text-fg">The child profile</h3>
-              <p className="mt-2 text-sm text-muted">
-                A fresh, band-locked Hermes profile for the child. Conversation only, tools off, no PII. The parent builds it, approves it, and reviews every session. Never a clone of the adult.
-              </p>
-              <a
-                href="https://github.com/smfworks/wisdomforge-kids-Hermes-profiles"
-                className="mt-3 inline-flex text-sm text-accent hover:text-fg"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Kids profile kit →
-              </a>
-            </article>
-          </div>
-          <p className="mt-6 max-w-2xl text-xs text-faint">
-            The booklet is the text. The parent is the teacher. The guide is optional, band-locked, and tool-poor. Not a hosted kids chatbot. Does not make AI safe.
-          </p>
         </div>
       </section>
 
@@ -191,7 +186,7 @@ export default function Home() {
             {[
               { slug: "willow-circle-you-control", title: "The Circle You Control", band: "Willow · ages 5–10", unit: "The Stoics" },
               { slug: "cedar-inner-citadel", title: "The Inner Citadel", band: "Cedar · ages 15–18", unit: "The Stoics" },
-              { slug: "cedar-faith-seeking-understanding", title: "The Restless Heart", band: "Cedar · ages 15–18", unit: "Faith & Reason" },
+              { slug: "rowan-do-not-hand-them-your-agent", title: "Do Not Hand Them Your Agent", band: "Rowan · adult", unit: "Autonomous AI" },
             ].map((d) => (
               <li key={d.slug}>
                 <Link
