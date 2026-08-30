@@ -72,6 +72,20 @@ export type Book = {
   pdfHref?: string;
   /** Full-book EPUB. Set when the file lands in public/downloads/. */
   epubHref?: string;
+  /** Academy unit title to deep-link sittings (exact `lesson.unit`). */
+  academyUnit?: string;
+  /** Academy subject for those sittings. */
+  academySubject?: "philosophy" | "history" | "ai" | "thinking" | "english";
+  /** Subject hub for the footer. */
+  hubHref?: string;
+  /** Hub button label. */
+  hubLabel?: string;
+  /** Sitting-section heading. */
+  sittingsHeading?: string;
+  /** Sitting-section dek. */
+  sittingsDek?: string;
+  /** Show per-figure booklet chips. Default true for Church Fathers. */
+  showBooklets?: boolean;
 };
 
 /**
@@ -95,6 +109,14 @@ export const churchFathersBook: Book = {
   authors: ["Harry (research, outline)", "William (prose)", "Airia (production)"],
   status: "in-production",
   audiobookPlanned: true,
+  academyUnit: "Faith & Reason",
+  academySubject: "philosophy",
+  hubHref: "/subjects/philosophy",
+  hubLabel: "Philosophy subject hub",
+  sittingsHeading: "Study these Fathers in the academy",
+  sittingsDek:
+    "The Faith & Reason unit is the shorter entry: parent briefing, reading, Try This, and AI lab. The book is the longer argument.",
+  showBooklets: true,
   figures: [
     {
       slug: "irenaeus",
@@ -252,7 +274,169 @@ export const churchFathersBook: Book = {
   ],
 };
 
-export const books: Book[] = [churchFathersBook];
+export const federalistPapersBook: Book = {
+  slug: "federalist-papers",
+  title: "Publius",
+  subtitle: "How a New York Newspaper War Became America's Civic Scripture",
+  summary:
+    "The Federalist is not the Constitution. It is eighty-five newspaper essays written in New York, 1787–88, under a Roman mask, to win a ratification vote. This book is the campaign, the three men behind Publius, the designed opponent in Brutus, the arguments that later classrooms flattened, and the Anti-Federalist amendments that still sit on the machine they failed to stop.",
+  editorialPrinciple:
+    "The essays are a brief, not a statute. Publius is not one mind. If the essay and the clause disagree, the clause wins. Anti-Federalists lost the vote and wrote the first ten amendments. The reader is the jury.",
+  chronology: "1787–1788",
+  totalWordTarget: "~133,000 words",
+  readingTime: "~9 hours · 283 pages",
+  authors: ["Michael Gannotti"],
+  status: "published",
+  audiobookPlanned: true,
+  coverImage: "/images/books/federalist-papers-cover.jpg",
+  pdfHref: "/downloads/federalist-papers.pdf",
+  epubHref: "/downloads/federalist-papers.epub",
+  academyUnit: "The Federalist — The Brief That Sold the Machine",
+  academySubject: "history",
+  hubHref: "/subjects/history",
+  hubLabel: "History subject hub",
+  sittingsHeading: "Study the brief in the academy",
+  sittingsDek:
+    "Six sittings, three bands: Publius, faction, ambition, judgment without sword, the lost argument for a bill of rights, and the civic chain. Shorter than the book. Same rule: read the essay, not the summary.",
+  showBooklets: false,
+  figures: [
+    {
+      slug: "hamilton",
+      name: "Alexander Hamilton",
+      dates: "1755/57–1804",
+      tradition: "Federalist · energy, courts, the close",
+      coreQuestion: "Can a large republic have energy without becoming a throne?",
+      distinctiveVoice: "The outsider who wrote the bulk of the series and later became the man the other two opposed",
+    },
+    {
+      slug: "madison",
+      name: "James Madison",
+      dates: "1751–1836",
+      tradition: "Federalist · faction, compound republic, ambition",
+      coreQuestion: "How does a republic survive factions without crushing liberty?",
+      distinctiveVoice: "The workshop mind behind 10, 39, and 51 — then the man who wrote the list Hamilton did not want",
+    },
+    {
+      slug: "jay",
+      name: "John Jay",
+      dates: "1745–1829",
+      tradition: "Federalist · union, five essays",
+      coreQuestion: "Why is union the alternative to rival confederacies?",
+      distinctiveVoice: "Five numbers, then illness. The mask still carried his name.",
+    },
+    {
+      slug: "brutus",
+      name: "Brutus",
+      dates: "1787–88",
+      tradition: "Anti-Federalist · size, courts, a bill of rights",
+      coreQuestion: "Can a republic this large remain a republic?",
+      distinctiveVoice: "The designed opponent. Lost the vote. Won Amendments 1–10.",
+    },
+  ],
+  chapters: [
+    {
+      number: 0,
+      label: "Prologue",
+      title: "Several Hundred Remaining",
+      question: "What is still unread when the civics-test version is finished?",
+      voices: ["publius"],
+      wordTarget: "complete",
+      status: "complete",
+    },
+    {
+      number: 1,
+      label: "Chapter 1",
+      title: "Campaign Literature, Civic Scripture",
+      question: "How did a New York newspaper war become the commentary later generations treated as official meaning?",
+      voices: ["hamilton", "madison", "jay"],
+      wordTarget: "complete",
+      status: "complete",
+    },
+    {
+      number: 2,
+      label: "Chapter 2",
+      title: "The Impending Storm",
+      question: "What was actually broken in the Articles — and why New York was the vote that could crack the union?",
+      voices: ["hamilton", "madison", "jay"],
+      wordTarget: "complete",
+      status: "complete",
+    },
+    {
+      number: 3,
+      label: "Chapter 3",
+      title: "Counter-Battery",
+      question: "Who wrote against the Constitution in the same papers, and why Brutus is the opponent the series is designed around?",
+      voices: ["brutus", "hamilton"],
+      wordTarget: "complete",
+      status: "complete",
+    },
+    {
+      number: 4,
+      label: "Chapter 4",
+      title: "Three Temperaments, One Name",
+      question: "What happens when you take the mask off — three men, one pen name, a split already coming?",
+      voices: ["hamilton", "madison", "jay"],
+      wordTarget: "complete",
+      status: "complete",
+    },
+    {
+      number: 5,
+      label: "Chapter 5",
+      title: "Eighty-Five Numbers",
+      question: "What is the sequence a book must not skip — union, faction, compound republic, ambition, energy, courts, the losing brief?",
+      voices: ["madison", "hamilton", "jay"],
+      wordTarget: "complete",
+      status: "complete",
+    },
+    {
+      number: 6,
+      label: "Chapter 6",
+      title: "Thirty to Twenty-Seven",
+      question: "How close was New York, and what did a thirty-to-twenty-seven vote actually decide?",
+      voices: ["hamilton", "brutus"],
+      wordTarget: "complete",
+      status: "complete",
+    },
+    {
+      number: 7,
+      label: "Chapter 7",
+      title: "Merit the Notice of Posterity",
+      question: "What did they think they were leaving — and what did later Americans need a commentary for?",
+      voices: ["hamilton", "madison"],
+      wordTarget: "complete",
+      status: "complete",
+    },
+    {
+      number: 8,
+      label: "Chapter 8",
+      title: "The Most Sacred Text",
+      question: "When did advocacy become scripture, and what is lost when courts quote a brief as if it were enacted?",
+      voices: ["hamilton", "madison"],
+      wordTarget: "complete",
+      status: "complete",
+    },
+    {
+      number: 9,
+      label: "Chapter 9",
+      title: "What Publius Would Not Say",
+      question: "Where is the silence — slavery, the three-fifths clause, the people not in the room?",
+      voices: ["hamilton", "madison", "brutus"],
+      wordTarget: "complete",
+      status: "complete",
+    },
+    {
+      number: 10,
+      label: "Coda",
+      title: "Great Respect, Reserved Judgment",
+      question: "What does it mean to read the essays with respect and still refuse to worship them?",
+      voices: ["publius", "brutus"],
+      wordTarget: "complete",
+      status: "complete",
+    },
+  ],
+};
+
+export const books: Book[] = [federalistPapersBook, churchFathersBook];
 
 export function bookBySlug(slug: string): Book | undefined {
   return books.find((b) => b.slug === slug);

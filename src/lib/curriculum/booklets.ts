@@ -144,6 +144,11 @@ export function figureDisplayName(figure: string): string {
     "basil-great": "Basil the Great",
     "gregory-nazianzus": "Gregory of Nazianzus",
     "locke": "John Locke",
+    hamilton: "Alexander Hamilton",
+    madison: "James Madison",
+    jay: "John Jay",
+    brutus: "Brutus",
+    publius: "Publius",
   };
   return names[figure] ?? figure;
 }

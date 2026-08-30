@@ -46,15 +46,15 @@ export default async function BookPage({
   const book = bookBySlug(slug);
   if (!book) notFound();
 
-  // Cross-reference: find Faith & Reason lessons that cover these figures
-  const faithReasonLessons = lessonsBySubject("philosophy").filter((l) =>
-    l.unit === "Faith & Reason"
-  );
-  const faithReasonByBand = new Map<BandId, typeof faithReasonLessons>();
-  for (const l of faithReasonLessons) {
-    const list = faithReasonByBand.get(l.band) ?? [];
+  // Cross-reference academy sittings for this book
+  const relatedLessons = book.academySubject && book.academyUnit
+    ? lessonsBySubject(book.academySubject).filter((l) => l.unit === book.academyUnit)
+    : [];
+  const relatedByBand = new Map<BandId, typeof relatedLessons>();
+  for (const l of relatedLessons) {
+    const list = relatedByBand.get(l.band) ?? [];
     list.push(l);
-    faithReasonByBand.set(l.band, list);
+    relatedByBand.set(l.band, list);
   }
 
   return (
@@ -179,7 +179,7 @@ export default async function BookPage({
       <section className="mt-12">
         <h2 className="font-display text-3xl text-fg">Chapters</h2>
         <p className="mt-2 text-sm text-muted">
-          Five thematic chapters, an introduction, and an epilogue. Each gathers voices around a question. The disagreement is not resolved.
+          {book.chapters.length} chapters. The disagreement is not resolved.
         </p>
         <ol className="mt-6 space-y-4">
           {book.chapters.map((ch) => (
@@ -199,8 +199,7 @@ export default async function BookPage({
               <p className="mt-2 text-sm text-muted">{ch.question}</p>
               <p className="mt-3 text-xs text-faint">
                 Voices: {ch.voices.map((v) => figureDisplayName(v)).join(" · ")}
-                {" · "}
-                {ch.wordTarget} words
+                {ch.wordTarget && ch.wordTarget !== "complete" ? ` · ${ch.wordTarget} words` : ""}
               </p>
             </li>
           ))}
@@ -208,22 +207,25 @@ export default async function BookPage({
       </section>
 
       {/* Cross-reference to academy sittings */}
-      {faithReasonLessons.length > 0 ? (
+      {relatedLessons.length > 0 ? (
         <section className="mt-12 rounded-xl bg-surface p-5 shadow-[var(--shadow-border)]">
           <p className="text-xs font-medium tracking-wide text-accent uppercase">
             Academy sittings
           </p>
-          <h2 className="mt-1 font-display text-2xl text-fg">Study these Fathers in the academy</h2>
+          <h2 className="mt-1 font-display text-2xl text-fg">
+            {book.sittingsHeading ?? "Study this in the academy"}
+          </h2>
           <p className="mt-2 text-sm text-muted">
-            The Faith &amp; Reason unit covers {faithReasonLessons.length} sittings on the Church Fathers. Each sitting has a parent briefing, reading, Try This, and AI lab — shorter entry points for families not ready for the full book.
+            {book.sittingsDek ??
+              `${relatedLessons.length} sittings. Each has a parent briefing, reading, Try This, and AI lab — shorter entry points for families not ready for the full book.`}
           </p>
           <div className="mt-4 grid gap-4 sm:grid-cols-2">
-            {[...faithReasonByBand.entries()].map(([band, lessons]) => (
+            {[...relatedByBand.entries()].map(([band, lessons]) => (
               <div key={band}>
                 <h3 className="text-sm font-medium text-fg capitalize">{band}</h3>
                 <ul className="mt-2 space-y-1">
-                  {lessons.slice(0, 4).map((l) => (
-                    <li key={l.slug}>
+                  {lessons.slice(0, 6).map((l) => (
+                    <li key={`${l.band}-${l.slug}`}>
                       <Link
                         href={`/learn/${l.band}/${l.subject}/${l.slug}`}
                         className="text-sm text-accent hover:text-fg"
@@ -239,13 +241,13 @@ export default async function BookPage({
         </section>
       ) : null}
 
-      {/* Booklet downloads cross-reference */}
+      {book.showBooklets !== false ? (
       <section className="mt-6 rounded-lg bg-raised p-5 shadow-[var(--shadow-border)]">
         <p className="text-xs font-medium tracking-wide text-accent uppercase">
           Booklet downloads
         </p>
         <p className="mt-1 text-sm text-muted">
-          Each Father has a printable PDF booklet in four reading levels — elementary, middle, high school, and adult. Download them from the sitting pages.
+          Each figure has a printable PDF booklet in four reading levels — elementary, middle, high school, and adult. Download them from the sitting pages.
         </p>
         <div className="mt-3 flex flex-wrap gap-3">
           {book.figures.map((fig) => (
@@ -260,6 +262,7 @@ export default async function BookPage({
           ))}
         </div>
       </section>
+      ) : null}
 
       {/* Production status note */}
       {book.status === "in-production" ? (
@@ -282,10 +285,10 @@ export default async function BookPage({
           All books
         </Link>
         <Link
-          href="/subjects/philosophy"
+          href={book.hubHref ?? "/subjects/philosophy"}
           className="inline-flex min-h-11 items-center justify-center rounded-md bg-raised px-4 text-sm font-medium text-fg shadow-[var(--shadow-border)]"
         >
-          Philosophy subject hub
+          {book.hubLabel ?? "Philosophy subject hub"}
         </Link>
       </div>
     </main>
