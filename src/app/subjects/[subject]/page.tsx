@@ -84,11 +84,11 @@ export default function SubjectHub() {
       </ul>
 
       <h2 className="mt-12 font-display text-2xl text-fg">Open a sitting</h2>
-      <div className="mt-4 grid gap-4 sm:grid-cols-2">
+      <div className="mt-4">
         {bands.map((b) => {
           const list = lessonsBySubject(def.id, b.id);
           return (
-            <section key={b.id} className="rounded-xl bg-raised p-4 shadow-[var(--shadow-border)]">
+            <section key={b.id} className="border-t border-accent py-6">
               <h3 className="font-display text-xl text-fg">
                 {b.name}
                 <span className="ml-2 text-sm font-sans font-normal text-faint">{b.ages}</span>

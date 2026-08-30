@@ -42,8 +42,14 @@ export default function Parents() {
         </p>
       </section>
 
-      <div className="mt-12">
+      <div className="mt-12 flex flex-col gap-3 sm:flex-row">
         <Button asChild>
+          <Link href="/parents/control-plane">Control-plane checklist</Link>
+        </Button>
+        <Button asChild variant="outline">
+          <Link href="/evals">What we test</Link>
+        </Button>
+        <Button asChild variant="ghost">
           <Link href="/start">Choose a band</Link>
         </Button>
       </div>

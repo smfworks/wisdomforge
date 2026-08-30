@@ -16,6 +16,7 @@ const sourceSans = Source_Sans_3({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://smfwisdomforge.com"),
   title: "WisdomForge — Education in the Age of AI",
   description:
     "A parent-operated academy for education in the age of AI. Four age bands, every subject, responsible autonomous AI use woven through the sitting.",

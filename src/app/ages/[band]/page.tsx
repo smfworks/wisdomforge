@@ -42,24 +42,24 @@ export default function AgeHub() {
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-14">
-      <p className="text-xs font-medium tracking-widest text-accent uppercase">{def.ages}</p>
+      <p className="text-xs font-medium tracking-[0.28em] text-accent uppercase">{def.ages}</p>
       <h1 className="mt-3 font-display text-4xl text-fg sm:text-5xl">{def.name}</h1>
       <p className="mt-4 max-w-2xl text-lg text-muted">{def.promise}</p>
-      <dl className="mt-8 grid gap-4 sm:grid-cols-3">
-        <div className="rounded-lg bg-surface p-4 shadow-[var(--shadow-border)]">
-          <dt className="text-xs text-faint">Sitting</dt>
-          <dd className="mt-1 text-sm text-fg">{def.sitting}</dd>
+      <dl className="mt-10">
+        <div className="grid gap-2 border-t border-accent py-5 sm:grid-cols-[7.5rem_1fr]">
+          <dt className="text-xs tracking-[0.18em] text-accent uppercase">Sitting</dt>
+          <dd className="text-sm text-fg">{def.sitting}</dd>
         </div>
-        <div className="rounded-lg bg-surface p-4 shadow-[var(--shadow-border)]">
-          <dt className="text-xs text-faint">Ritual</dt>
-          <dd className="mt-1 text-sm text-fg">{ritualLabel[def.ritual]}</dd>
+        <div className="grid gap-2 border-t border-accent py-5 sm:grid-cols-[7.5rem_1fr]">
+          <dt className="text-xs tracking-[0.18em] text-accent uppercase">Ritual</dt>
+          <dd className="text-sm text-fg">{ritualLabel[def.ritual]}</dd>
         </div>
-        <div className="rounded-lg bg-surface p-4 shadow-[var(--shadow-border)]">
-          <dt className="text-xs text-faint">AI rule</dt>
-          <dd className="mt-1 text-sm text-fg">{def.aiRule}</dd>
+        <div className="grid gap-2 border-t border-accent py-5 sm:grid-cols-[7.5rem_1fr]">
+          <dt className="text-xs tracking-[0.18em] text-accent uppercase">AI rule</dt>
+          <dd className="text-sm text-fg">{def.aiRule}</dd>
         </div>
       </dl>
-      <p className="mt-6 text-sm text-muted">{def.hermes}</p>
+      <p className="mt-2 text-sm text-muted">{def.hermes}</p>
       <div className="mt-8">
         <Button type="button" onClick={() => setBand(def.id)}>
           Set as this family&apos;s band
