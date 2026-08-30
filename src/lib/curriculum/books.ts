@@ -75,7 +75,9 @@ export type Book = {
   /** Academy unit title to deep-link sittings (exact `lesson.unit`). */
   academyUnit?: string;
   /** Academy subject for those sittings. */
-  academySubject?: "philosophy" | "history" | "ai" | "thinking" | "english";
+  academySubject?: "philosophy" | "history" | "ai" | "thinking" | "english" | "math" | "science" | "cs" | "art" | "language";
+  /** `/books` section. Same ids as `/subjects`. Falls back to academySubject. */
+  catalogSubject?: "philosophy" | "history" | "ai" | "thinking" | "english" | "math" | "science" | "cs" | "art" | "language";
   /** Subject hub for the footer. */
   hubHref?: string;
   /** Hub button label. */
@@ -573,6 +575,7 @@ export const hermesAiForBeginnersBook: Book = {
   epubHref: "/downloads/hermes-ai-for-beginners.epub",
   hubHref: "/hermes",
   hubLabel: "Hermes kit",
+  catalogSubject: "ai",
   sittingsHeading: "Run it beside the academy",
   sittingsDek:
     "WisdomForge sittings use a parent-operated Hermes profile. This book is how you install and operate that kit — not a replacement for the sitting.",
@@ -625,6 +628,7 @@ export const openClawForBeginnersBook: Book = {
   epubHref: "/downloads/openclaw-for-beginners.epub",
   hubHref: "/hermes",
   hubLabel: "Hermes kit",
+  catalogSubject: "ai",
   showBooklets: false,
   figures: [
     {
@@ -666,4 +670,8 @@ export const books: Book[] = [
 
 export function bookBySlug(slug: string): Book | undefined {
   return books.find((b) => b.slug === slug);
+}
+
+export function catalogSubjectOf(book: Book): Book["catalogSubject"] | Book["academySubject"] {
+  return book.catalogSubject ?? book.academySubject;
 }
