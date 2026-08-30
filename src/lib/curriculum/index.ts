@@ -17,6 +17,7 @@ import { fathersLessons } from "./lessons/fathers";
 import { magnaCartaLessons } from "./lessons/civics-magna-carta";
 import { constitutionLessons } from "./lessons/civics-constitution";
 import { declarationLessons } from "./lessons/civics-declaration";
+import { federalistLessons } from "./lessons/civics-federalist";
 import { lettersLittleLessons } from "./lessons/letters-little";
 import { coreLessons } from "./lessons/core";
 import type { BandId, Lesson, SubjectId } from "./types";
@@ -56,6 +57,7 @@ const groups: Lesson[][] = [
   magnaCartaLessons as Lesson[],
   constitutionLessons as Lesson[],
   declarationLessons as Lesson[],
+  federalistLessons as Lesson[],
   lettersLittleLessons as Lesson[],
   coreLessons as Lesson[],
 ];

@@ -182,6 +182,15 @@ export const catalog: CatalogUnit[] = [
     blurb: "Self-evident truths, the right of revolution, and the gap between the promise and the practice. The chain from 1776 to today.",
   },
   {
+    id: "hist-federalist",
+    subject: "history",
+    title: "The Federalist — The Brief That Sold the Machine",
+    status: "in-forge",
+    bands: ["young", "emerging", "adult"],
+    weeks: "6 sittings",
+    blurb: "A New York sales campaign, not the Constitution. Faction vs Brutus, ambition, judgment without sword, the lost argument for a bill of rights, and the civic chain.",
+  },
+  {
     id: "letters-little",
     subject: "english",
     title: "Stories and Voices — Letters for Little Thinkers",
