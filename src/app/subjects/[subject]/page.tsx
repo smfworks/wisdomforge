@@ -7,6 +7,10 @@ import { bands } from "@/lib/curriculum/bands";
 import { SUBJECT_IDS, type BandId } from "@/lib/curriculum/types";
 import { useForge } from "@/lib/progress";
 import { useHydrated } from "@/lib/use-hydrated";
+import { briefingPreview } from "@/lib/labels";
+import { Button } from "@/components/ui/button";
+import { AssistReady } from "@/components/assist-ready";
+import { ThreeLayerStrip } from "@/components/three-layer-strip";
 
 export default function SubjectHub() {
   const params = useParams<{ subject: string }>();
@@ -18,108 +22,97 @@ export default function SubjectHub() {
   const hydrated = useHydrated();
   const units = catalog.filter((c) => c.subject === def.id);
 
-  // Flagship sitting: first ready unit's first sitting for the family's
-  // current band, or the first band that has lessons for this subject.
   const readyUnits = units.filter((u) => u.status === "ready");
   const flagshipUnit = readyUnits[0];
   const flagshipBand: BandId | undefined =
     hydrated && familyBand && flagshipUnit?.bands.includes(familyBand as BandId)
       ? (familyBand as BandId)
       : flagshipUnit?.bands[0];
-  const flagshipLesson = flagshipBand
-    ? firstLesson(flagshipBand, def.id)
-    : undefined;
+  const flagshipLesson = flagshipBand ? firstLesson(flagshipBand, def.id) : undefined;
+  const flagshipPreview = flagshipLesson ? briefingPreview(flagshipLesson.parentBriefing, 140) : "";
 
   return (
-    <main className="mx-auto max-w-6xl px-4 py-14">
-      <p className="text-xs font-medium tracking-widest text-accent uppercase">{def.short}</p>
+    <main className="mx-auto max-w-4xl px-4 py-14">
+      <p className="text-xs font-medium tracking-[0.28em] text-accent uppercase">{def.short}</p>
       <h1 className="mt-3 font-display text-4xl text-fg sm:text-5xl">{def.name}</h1>
       <p className="mt-4 max-w-2xl text-lg text-muted">{def.promise}</p>
       <p className="mt-4 max-w-2xl text-sm text-fg">{def.aiSpine}</p>
 
-      {/* Flagship "Start here" card */}
       {flagshipLesson ? (
-        <section className="mt-10 rounded-xl border-l-2 border-accent bg-surface p-6 shadow-[var(--shadow-border)]">
-          <p className="text-xs font-medium tracking-widest text-accent uppercase">Start here</p>
-          <h2 className="mt-2 font-display text-3xl text-fg">{flagshipLesson.title}</h2>
-          <p className="mt-1 text-sm text-faint">
-            {flagshipUnit?.title} · {bands.find((b) => b.id === flagshipLesson.band)?.name} · {flagshipLesson.durationMin} min
-          </p>
-          {(() => {
-            const firstSentence = flagshipLesson.parentBriefing.split(/[.!?]/)[0] ?? "";
-            const preview = firstSentence.length > 140
-              ? firstSentence.slice(0, 137).trim() + "…"
-              : firstSentence;
-            return preview ? (
-              <p className="mt-3 text-sm text-muted">{preview}</p>
-            ) : null;
-          })()}
-          <div className="mt-4">
-            <Link
-              href={`/learn/${flagshipLesson.band}/${flagshipLesson.subject}/${flagshipLesson.slug}`}
-              className="inline-flex items-center gap-2 rounded-md bg-accent px-4 py-2.5 text-sm font-medium text-accent-fg"
-            >
-              Begin this sitting
-            </Link>
+        <article className="mt-12 grid gap-4 border-t border-accent py-8 sm:grid-cols-[5.5rem_1fr_auto] sm:items-start sm:gap-6">
+          <p className="font-display text-4xl leading-none text-accent">01</p>
+          <div>
+            <p className="text-xs font-medium tracking-[0.28em] text-accent uppercase">Start here</p>
+            <h2 className="mt-2 font-display text-2xl text-fg">{flagshipLesson.title}</h2>
+            <p className="mt-1 text-sm text-faint">
+              {flagshipUnit?.title} · {bands.find((b) => b.id === flagshipLesson.band)?.name} ·{" "}
+              {flagshipLesson.durationMin} min
+            </p>
+            {flagshipPreview ? <p className="mt-3 text-sm text-muted">{flagshipPreview}</p> : null}
+            <div className="mt-4">
+              <Button asChild>
+                <Link href={`/learn/${flagshipLesson.band}/${flagshipLesson.subject}/${flagshipLesson.slug}`}>
+                  Begin this sitting
+                </Link>
+              </Button>
+            </div>
           </div>
-        </section>
+          <AssistReady className="mt-1" />
+        </article>
       ) : null}
 
       <h2 className="mt-12 font-display text-2xl text-fg">Repository</h2>
-      <ul className="mt-4 divide-y divide-border rounded-xl bg-surface shadow-[var(--shadow-border)]">
+      <ul className="mt-4 border-b border-accent">
         {units.map((u) => (
-          <li key={u.id} className="px-4 py-4">
-            <div className="flex flex-wrap items-baseline justify-between gap-2">
-              <h3 className="font-medium text-fg">{u.title}</h3>
-              <span className="text-xs text-accent">
-                {u.status === "ready" ? "Ready" : "In the forge"}
-              </span>
+          <li key={u.id} className="border-t border-accent py-6">
+            <div className="grid gap-2 sm:grid-cols-[1fr_auto] sm:items-start sm:gap-8">
+              <div>
+                <h3 className="font-display text-xl text-fg">{u.title}</h3>
+                <p className="mt-2 text-sm text-muted">{u.blurb}</p>
+                <p className="mt-2 text-xs text-faint">
+                  {u.weeks} · {u.bands.join(" · ")}
+                </p>
+              </div>
+              {u.status === "ready" ? (
+                <AssistReady className="mt-1" />
+              ) : (
+                <span className="mt-1 text-xs tracking-[0.14em] text-faint uppercase">In the forge</span>
+              )}
             </div>
-            <p className="mt-1 text-sm text-muted">{u.blurb}</p>
-            <p className="mt-2 text-xs text-faint">
-              {u.weeks} · {u.bands.join(" · ")}
-            </p>
           </li>
         ))}
       </ul>
 
       <h2 className="mt-12 font-display text-2xl text-fg">Open a sitting</h2>
-      <div className="mt-4">
+      <div className="mt-4 border-b border-accent">
         {bands.map((b) => {
           const list = lessonsBySubject(def.id, b.id);
           return (
-            <section key={b.id} className="border-t border-accent py-6">
+            <section key={b.id} className="border-t border-accent py-7">
               <h3 className="font-display text-xl text-fg">
                 {b.name}
-                <span className="ml-2 text-sm font-sans font-normal text-faint">{b.ages}</span>
+                <span className="ml-2 text-sm font-sans font-normal tracking-normal text-faint">{b.ages}</span>
               </h3>
               {list.length === 0 ? (
                 <p className="mt-3 text-sm text-muted">In the forge for this band.</p>
               ) : (
-                <ul className="mt-3 space-y-2">
+                <ul className="mt-4">
                   {list.map((l) => {
-                    const firstSentence = l.parentBriefing.split(/[.!?]/)[0] ?? "";
-                    const preview = firstSentence.length > 100
-                      ? firstSentence.slice(0, 97).trim() + "…"
-                      : firstSentence;
+                    const preview = briefingPreview(l.parentBriefing, 100);
                     return (
                       <li key={l.slug}>
                         <Link
                           href={`/learn/${l.band}/${l.subject}/${l.slug}`}
-                          className="group block"
+                          className="grid gap-2 py-4 sm:grid-cols-[1fr_auto] sm:items-start sm:gap-6"
                         >
-                          <span className="flex items-baseline gap-2">
-                            <span className="text-sm text-fg group-hover:text-accent">
+                          <span>
+                            <span className="font-display text-lg text-fg">
                               {l.number}. {l.title}
                               {hydrated && familyBand === b.id ? " · your band" : ""}
                             </span>
-                            <span className="inline-flex shrink-0 items-center rounded-sm bg-accent/10 px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-wide text-accent">
-                              Assist-ready
-                            </span>
+                            {preview ? <span className="mt-1 block text-sm text-muted">{preview}</span> : null}
                           </span>
-                          {preview ? (
-                            <span className="mt-0.5 block text-xs text-muted">{preview}</span>
-                          ) : null}
+                          <AssistReady className="mt-1" />
                         </Link>
                       </li>
                     );
@@ -130,6 +123,8 @@ export default function SubjectHub() {
           );
         })}
       </div>
+
+      <ThreeLayerStrip />
     </main>
   );
 }

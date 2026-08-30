@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { lessonsBySubject } from "@/lib/curriculum";
 import { subjects } from "@/lib/curriculum/subjects";
+import { AssistReady } from "@/components/assist-ready";
+import { ThreeLayerStrip } from "@/components/three-layer-strip";
 
 export default function SubjectsIndex() {
   return (
@@ -8,16 +10,17 @@ export default function SubjectsIndex() {
       <p className="text-xs font-medium tracking-[0.28em] text-accent uppercase">Subjects</p>
       <h1 className="mt-3 font-display text-4xl text-fg sm:text-5xl">The academy</h1>
       <p className="mt-4 max-w-2xl text-lg text-muted">
-        Ten subjects. Autonomous AI is the spine. Every other course practices the same rule: try first, hint second, evaluate always.
+        Ten subjects. Autonomous AI is the spine. Every other course practices the same rule: try first, hint second,
+        evaluate always.
       </p>
-      <ul className="mt-12">
+      <ul className="mt-12 border-b border-accent">
         {subjects.map((s) => {
           const ready = lessonsBySubject(s.id).length;
           return (
             <li key={s.id} className="border-t border-accent">
               <Link
                 href={`/subjects/${s.id}`}
-                className="grid gap-2 py-7 sm:grid-cols-[8rem_1fr] sm:items-start sm:gap-8"
+                className="grid gap-2 py-7 sm:grid-cols-[8rem_1fr_auto] sm:items-start sm:gap-8"
               >
                 <p className="text-xs tracking-[0.18em] text-accent uppercase">{s.short}</p>
                 <div>
@@ -28,11 +31,13 @@ export default function SubjectsIndex() {
                     {ready} sittings ready · more in the forge
                   </p>
                 </div>
+                {ready > 0 ? <AssistReady className="mt-1" /> : null}
               </Link>
             </li>
           );
         })}
       </ul>
+      <ThreeLayerStrip />
     </main>
   );
 }
