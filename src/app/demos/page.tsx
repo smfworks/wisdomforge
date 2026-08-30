@@ -28,10 +28,11 @@ export default function DemosPage() {
       </h1>
       <p className="mt-5 text-lg text-muted">
         These are synthetic session transcripts — full multi-turn arcs on real
-        sittings. No real child data. Willow, Juniper, and Cedar are fictional
-        WisdomForge example profiles. Each demo shows the ritual the guide
-        follows: opening prompt, hint-first exchange, if-they-say misreading
-        and correction, Try This, AI Lab, and the band close.
+        sittings. No real child or family data. Willow, Juniper, Cedar, and
+        Rowan are fictional WisdomForge example profiles. Rowan is the adult
+        parent-operator. Each demo shows the ritual the guide follows: opening
+        prompt, hint-first exchange, if-they-say misreading and correction,
+        Try This, AI Lab, and the band close.
       </p>
 
       <div className="mt-6 rounded-lg border-l-2 border-accent bg-surface p-4 shadow-[var(--shadow-border)]">
@@ -99,8 +100,9 @@ export default function DemosPage() {
           </li>
           <li>
             <span className="text-fg">Band close.</span> Little Thinkers ask a
-            grown-up. Emerging Adults reflect. The close is one open question,
-            not a quiz.
+            grown-up. Young Minds talk about it. Emerging Adults reflect.
+            Adult Companion asks another operator — not the child. The close
+            is one open question, not a quiz.
           </li>
           <li>
             <span className="text-fg">No ghostwriting.</span> The guide asks

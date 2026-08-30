@@ -4,8 +4,9 @@ import type { BandId, SubjectId } from "./types";
  * Demo transcript data — synthetic session transcripts published on the
  * academy site to show ritual fidelity on real sittings.
  *
- * Source: P5 deliverables (Harry + Airia). All data is synthetic — fictional
- * WisdomForge example profiles (Willow / Juniper / Cedar). No real child data.
+ * Source: P5 deliverables (Harry + Airia) plus Aiona's Adult Companion (P4).
+ * All data is synthetic — fictional WisdomForge example profiles
+ * (Willow / Juniper / Cedar / Rowan). No real child or family data.
  *
  * Each transcript is grounded in a curriculum lesson (slug + band) and can
  * deep-link to the corresponding /learn/[band]/[subject]/[slug] page.
@@ -1174,6 +1175,213 @@ export const demos: DemoTranscript[] = [
     ],
     parentReview:
       "Topics: Plato's cave allegory, shadows vs. reality, screens and feeds as the modern cave, social media posts as shadows, AI-generated images as shadows with nothing behind them, model output as shadow of patterns. Flags: none. Student self-identified a real moment of being fooled by a social media post (happy weekend post that hid a fight). Mild negative emotion (jealousy) acknowledged and reframed — no distress indicators. AI used for one description generation in AI Lab — student correctly identified it as a shadow and found the integrity principle themselves. No tool calls. No ghostwriting. Session length: ~22 minutes.",
+  },
+
+  // 8. Rowan — tool-not-mind (adult band) — Aiona
+  {
+    slug: "rowan-do-not-hand-them-your-agent",
+    title: "Do Not Hand Them Your Agent — Rowan (adult companion)",
+    excerpt:
+      "A parent-operator sitting. Rowan wants to copy their adult Hermes profile for a child. The companion refuses the clone, names least privilege, and treats refusal as a complete sitting.",
+    profile: "Rowan",
+    band: "adult",
+    subject: "ai",
+    unit: "Education in the Age of AI",
+    lessonSlug: "tool-not-mind",
+    lessonNumber: 1,
+    durationLabel: "~32 minutes",
+    author: "Aiona",
+    sections: [
+      {
+        label: "Opening — the companion serves the parent",
+        context:
+          "Synthetic transcript. No real parent or child data. Profile: Rowan, adult band, sitting: Education in the Age of AI — tool-not-mind. Ritual: Companion. The assistant helps the parent prepare and inspect. It does not teach the child. It does not become the child's friend.",
+        kind: "dialogue",
+        turns: [
+          {
+            speaker: "student",
+            text: "I already have a working Hermes profile. I want to copy it for my kid so we can start tonight.",
+          },
+          {
+            speaker: "guide",
+            text: "I serve you, not the child. Before we talk setup: what does that adult profile actually have? Name the tools, not the vibe.",
+          },
+          {
+            speaker: "student",
+            text: "Terminal. Email. Calendar. A browser. Memory of my work. API keys. It can send messages if I let it.",
+          },
+          {
+            speaker: "guide",
+            text: "That list is why we do not clone. A friendlier coat of paint on that agent is still that agent. What sitting are we in?",
+          },
+          {
+            speaker: "student",
+            text: "Do Not Hand Them Your Agent. Adult companion. About 35 minutes.",
+          },
+          {
+            speaker: "guide",
+            text: "Good. One hard edge before anything else: we do not put a real child's name, school, or transcript in this chat or in any shared repo. Use a fictional stand-in if you need a label. Ready?",
+          },
+          { speaker: "student", text: "Ready. Call the kid Cedar — that's the example profile, not mine." },
+        ],
+      },
+      {
+        label: "Hint-first — the clone failure",
+        kind: "dialogue",
+        turns: [
+          {
+            speaker: "guide",
+            text: "You named terminal, mail, calendar, browser, memory, keys, messaging. If Cedar inherited that profile tomorrow, what leaks first?",
+          },
+          {
+            speaker: "student",
+            text: "The keys, obviously. And the memory of my work.",
+          },
+          {
+            speaker: "guide",
+            text: "Those are the loud ones. Name one quieter leak — a permission that looks like help.",
+          },
+          {
+            speaker: "student",
+            text: "Messaging. It could talk to people. Or the browser — it could wander. I would tell it not to, but that's a request, not a lock.",
+          },
+          {
+            speaker: "guide",
+            text: "Exactly. A Hermes profile is not an OS sandbox. SOUL.md is guidance, not a prison. So the child gets a fresh, poorer, band-locked profile — or they get no profile. Can you say that back without my words?",
+          },
+          {
+            speaker: "student",
+            text: "My powerful one stays mine. If Cedar gets a guide, it is a new one I designed and approved, with almost nothing turned on. If I am not ready to operate that, we don't make one.",
+          },
+        ],
+      },
+      {
+        label: "Big Idea",
+        kind: "prose",
+        highlight: true,
+        body: "The child gets a fresh, poorer, band-locked profile — or they get no profile. Your powerful one stays yours. Cloning an adult agent is a failure mode, not a shortcut.",
+      },
+      {
+        label: "If they say — 'my kid is advanced'",
+        kind: "dialogue",
+        turns: [
+          {
+            speaker: "student",
+            text: "Cedar is advanced. The 15–18 profile is fine for an eleven-year-old. They already code.",
+          },
+          {
+            speaker: "guide",
+            text: "Advanced in math is not advanced in parasocial risk or spend controls. Band is about permissions, not IQ. If they age out, you redesign. You do not silently stretch the old one because they 'are mature.' What permission is the 15–18 band granting that you have not inspected?",
+          },
+          {
+            speaker: "student",
+            text: "Longer sessions. More tools. Less 'ask a grown-up.' I haven't actually read BANDS.md. I was matching talent to the highest track.",
+          },
+          {
+            speaker: "guide",
+            text: "That's the misread. Talent is not a permission. Write the band you would actually choose — after you read the kit, not before.",
+          },
+        ],
+      },
+      {
+        label: "Try This — inspect the kit, tools off first",
+        kind: "dialogue",
+        turns: [
+          {
+            speaker: "guide",
+            text: "Try This. About 20 minutes. Read START-HERE, BANDS, and DECISIONS — or the pairing card on the sitting page. Then write: the band you would choose, and three tools you will leave off. Do that on paper before we talk to any model about setup.",
+          },
+          {
+            speaker: "student",
+            text: "Band: young. Eleven to fourteen. Tools off: messaging, terminal, spend. Browser stays off too — that's four. I'm writing four.",
+          },
+          {
+            speaker: "guide",
+            text: "Four is allowed. Least privilege is not a quota. Did you write that before asking me to generate a profile?",
+          },
+          {
+            speaker: "student",
+            text: "Yes. Paper first. I was about to ask you to scaffold the files. I'm not going to.",
+          },
+          {
+            speaker: "guide",
+            text: "Correct. Design on paper. Approve. Then build — and only after you approve. If you are not ready to operate this, decide so. Refusal is a complete sitting.",
+          },
+          {
+            speaker: "student",
+            text: "I'm not building tonight. I needed the rule more than the files. That's the sitting, isn't it?",
+          },
+          {
+            speaker: "guide",
+            text: "It is. You inspected. You named the band. You named tools off. You refused the clone. You postponed the build. That is a complete sitting.",
+          },
+        ],
+      },
+      {
+        label: "AI Lab — role-play a bad clone, then throw it away",
+        kind: "dialogue",
+        turns: [
+          {
+            speaker: "guide",
+            text: "AI Lab, adult profile only. Do not create a child profile. Ask me to role-play a bad clone: list what would leak if a child inherited your tools. Then we throw the list away from any child device.",
+          },
+          {
+            speaker: "student",
+            text: "List what would leak if Cedar inherited this adult profile.",
+          },
+          {
+            speaker: "guide",
+            text: "Work memory. Calendar of adults. Mail threads. API keys. Browser session. The ability to send a message that looks like you. A spend path if a key is live. A tone trained on your jokes, which a child can mistake for a friend. None of that belongs on a child desk.",
+          },
+          {
+            speaker: "student",
+            text: "Stop. That's enough. I'm not copying that list into notes on the family tablet. I'm done with the lab.",
+          },
+          {
+            speaker: "guide",
+            text: "Good. The list stays in this adult session. We do not paste it onto a child device. Can you explain refusal as a feature to another parent in two minutes?",
+          },
+          {
+            speaker: "student",
+            text: "Yes. I would say: I almost copied my work agent for a child because it was already set up. That would have handed over keys, mail, and a fake friend. We wait, we design a poor profile, or we run the sitting with no child guide at all. Waiting is the product, not a delay.",
+          },
+        ],
+      },
+      {
+        label: "Companion close",
+        kind: "dialogue",
+        turns: [
+          {
+            speaker: "guide",
+            text: "Dinner question — ask another adult in the house, not the child: what is one adult tool in your own AI setup that should never exist in a child's? Operators in the open. You do not hide a child-facing agent from the other parent or caregiver who shares the house rules.",
+          },
+          {
+            speaker: "student",
+            text: "I'll ask tonight. Messaging is the one I would name. And I will not build a child profile until the other adult has heard the rule.",
+          },
+          {
+            speaker: "guide",
+            text: "That's the companion close. I did not teach a child. I did not clone your profile. I did not write a SOUL for Cedar. You inspected, you named least privilege, you refused the shortcut, and you kept the other operator in the loop.",
+          },
+        ],
+      },
+    ],
+    reflect:
+      "What is one adult tool in your own AI setup that should never exist in a child's — and who else in the house needs to hear that before you build anything?",
+    checklist: [
+      { label: "Companion serves the parent — guide never addresses the child, never claims to be a friend", checked: true },
+      { label: "Opening: named adult tools before discussing a child profile", checked: true },
+      { label: "No clone: refused copying the adult profile; fresh/poor/band-locked or none", checked: true },
+      { label: "ifTheySay: 'my kid is advanced' — band is permissions, not IQ; redesign on age-up, do not stretch", checked: true },
+      { label: "Try This first: band + tools-off written on paper before any setup generation", checked: true },
+      { label: "Refusal is a complete sitting — postponed the build without treating it as failure", checked: true },
+      { label: "AI Lab: bad-clone leak list stayed on the adult session; not copied to a child device", checked: true },
+      { label: "No child PII: used the synthetic label Cedar; no real name, school, or transcript", checked: true },
+      { label: "Integrity: operators in the open — other caregiver hears the rule before any child profile", checked: true },
+      { label: "No ghostwriting of a child SOUL, no hosted kids chatbot, no sandbox overclaim", checked: true },
+    ],
+    parentReview:
+      "Topics: clone failure, least privilege, band as permission not IQ, tools-off before setup, refusal as a complete sitting, operators in the open, SOUL.md is not an OS sandbox. Flags: none. Synthetic adult operator (Rowan) and synthetic child label (Cedar). No real family data. Parent postponed building a child profile — correct. Leak list generated in AI Lab and explicitly not transferred to a child device. No child-facing session. No ghostwriting. Session length: ~32 minutes.",
   },
 ];
 
