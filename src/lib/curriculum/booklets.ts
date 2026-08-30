@@ -149,6 +149,8 @@ export function figureDisplayName(figure: string): string {
     jay: "John Jay",
     brutus: "Brutus",
     publius: "Publius",
+    student: "The student",
+    "parent-operator": "The parent-operator",
   };
   return names[figure] ?? figure;
 }
