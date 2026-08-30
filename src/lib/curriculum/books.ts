@@ -436,7 +436,64 @@ export const federalistPapersBook: Book = {
   ],
 };
 
-export const books: Book[] = [federalistPapersBook, churchFathersBook];
+export const autonomousAiEducationBook: Book = {
+  slug: "autonomous-ai-and-education",
+  title: "Autonomous AI and Education",
+  subtitle: "The Collision, Not the Tour",
+  summary:
+    "Performance is not learning. This book is eight corrections and a design problem: which cognitive work must stay inside the student when a fluent model is in the room. Chat, tutor, adaptive system, and agent are not the same job. A tool lawful at 17 can be illegal and developmentally wrong at 8. The reader is the jury — not the vendor.",
+  editorialPrinciple:
+    "Name the popular story so it can be taken apart. Hint ladders help; answer-giving harms. Managed struggle, not rescue and not abandonment. Red lines map to instruments, not vibes. Student-owned Hermes is a home tutor, not a school requirement.",
+  chronology: "2024–2026",
+  totalWordTarget: "complete",
+  readingTime: "~4 hours",
+  authors: ["Michael Gannotti"],
+  status: "published",
+  audiobookPlanned: true,
+  pdfHref: "/downloads/autonomous-ai-and-education.pdf",
+  epubHref: "/downloads/autonomous-ai-and-education.epub",
+  academySubject: "ai",
+  hubHref: "/subjects/ai",
+  hubLabel: "AI subject hub",
+  sittingsHeading: "Study the spine in the academy",
+  sittingsDek:
+    "The academy's Autonomous AI sittings are the shorter path: tool not mind, try first, eval or it did not happen. This book is the argument behind those sittings.",
+  showBooklets: false,
+  figures: [
+    {
+      slug: "student",
+      name: "The student",
+      dates: "now",
+      tradition: "Cognitive formation",
+      coreQuestion: "Which work must stay inside the student?",
+      distinctiveVoice: "The person the sitting is for — not the model",
+    },
+    {
+      slug: "parent-operator",
+      name: "The parent-operator",
+      dates: "now",
+      tradition: "WisdomForge",
+      coreQuestion: "Who turns the agent off?",
+      distinctiveVoice: "The adult in the room. The teacher. Not a hosted kids chatbot.",
+    },
+  ],
+  chapters: [
+    { number: 0, label: "Preface", title: "The Collision, Not the Tour", question: "What happens when a fluent model meets a school that still grades performance as learning?", voices: ["student"], wordTarget: "complete", status: "complete" },
+    { number: 1, label: "Chapter 1", title: "The Job the Student Must Still Do", question: "If the model can produce the artifact, what is left that counts as formation?", voices: ["student"], wordTarget: "complete", status: "complete" },
+    { number: 2, label: "Chapter 2", title: "Chat, Tutor, Adaptive System, Agent", question: "Are these one product, or four jobs with four failure modes?", voices: ["student"], wordTarget: "complete", status: "complete" },
+    { number: 3, label: "Chapter 3", title: "The Exam After the Chat Window Closes", question: "What does assessment look like when the chat is gone?", voices: ["student"], wordTarget: "complete", status: "complete" },
+    { number: 4, label: "Chapter 4", title: "A Tool Lawful at 17 Can Be Illegal and Developmentally Wrong at 8", question: "Do permission bands follow the law, or marketing?", voices: ["parent-operator"], wordTarget: "complete", status: "complete" },
+    { number: 5, label: "Chapter 5", title: "Managed Struggle, Not Rescue and Not Abandonment", question: "What does the cognitive science actually constrain?", voices: ["student"], wordTarget: "complete", status: "complete" },
+    { number: 6, label: "Chapter 6", title: "Judgement Needs Something to Judge", question: "Can you evaluate a model if you never did the work yourself?", voices: ["student"], wordTarget: "complete", status: "complete" },
+    { number: 7, label: "Chapter 7", title: "Who Turns the Agent Off", question: "Who has the authority — and the instrument — to stop it?", voices: ["parent-operator"], wordTarget: "complete", status: "complete" },
+    { number: 8, label: "Chapter 8", title: "Red Lines That Map to Instruments, Not Vibes", question: "What is forbidden, and how is that enforced?", voices: ["parent-operator"], wordTarget: "complete", status: "complete" },
+    { number: 9, label: "Chapter 9", title: "Who Hosts the Student Agent", question: "Cloud, national wrapper, or local open — who holds the child's session?", voices: ["parent-operator"], wordTarget: "complete", status: "complete" },
+    { number: 10, label: "Chapter 10", title: "Not “Can Prompt ChatGPT”", question: "What literacy is actually worth teaching?", voices: ["student"], wordTarget: "complete", status: "complete" },
+    { number: 11, label: "Coda", title: "What an Honest Book Can Promise versus What It Cannot", question: "What remains after the corrections?", voices: ["student", "parent-operator"], wordTarget: "complete", status: "complete" },
+  ],
+};
+
+export const books: Book[] = [federalistPapersBook, autonomousAiEducationBook, churchFathersBook];
 
 export function bookBySlug(slug: string): Book | undefined {
   return books.find((b) => b.slug === slug);
