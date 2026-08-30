@@ -40,13 +40,27 @@ export default function BooksPage() {
               href={`/books/${book.slug}`}
               className="block rounded-xl bg-surface p-6 shadow-[var(--shadow-border)] transition-[box-shadow] duration-150 hover:shadow-[var(--shadow-border-hover)]"
             >
-              <div className="flex flex-wrap items-baseline justify-between gap-3">
-                <h2 className="font-display text-3xl text-fg">{book.title}</h2>
+              <div className="flex flex-wrap items-start justify-between gap-4">
+                <div className="flex min-w-0 flex-1 gap-4">
+                  {book.coverImage ? (
+                    <div className="hidden h-28 w-20 shrink-0 overflow-hidden rounded-md bg-raised shadow-[var(--shadow-border)] sm:block">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={book.coverImage}
+                        alt=""
+                        className="h-full w-full object-cover"
+                      />
+                    </div>
+                  ) : null}
+                  <div className="min-w-0">
+                    <h2 className="font-display text-3xl text-fg">{book.title}</h2>
+                    <p className="mt-1 text-lg text-muted">{book.subtitle}</p>
+                  </div>
+                </div>
                 <span className="rounded-md bg-raised px-3 py-1.5 text-xs uppercase tracking-wide text-accent shadow-[var(--shadow-border)]">
                   {book.status === "in-production" ? "In production" : "Published"}
                 </span>
               </div>
-              <p className="mt-1 text-lg text-muted">{book.subtitle}</p>
               <p className="mt-4 text-sm text-muted">{book.summary}</p>
               <div className="mt-5 flex flex-wrap gap-x-6 gap-y-1 text-xs text-faint">
                 <span>{book.chronology}</span>

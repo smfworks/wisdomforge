@@ -65,15 +65,56 @@ export default async function BookPage({
         <span className="text-fg">{book.title}</span>
       </nav>
 
-      {/* Title block */}
-      <p className="mt-6 text-xs font-medium tracking-widest text-accent uppercase">
-        {book.status === "in-production" ? "In production" : "Published"}
-      </p>
-      <h1 className="mt-2 font-display text-4xl text-fg sm:text-5xl">{book.title}</h1>
-      <p className="mt-2 text-lg text-muted">{book.subtitle}</p>
-
-      {/* Summary */}
-      <p className="mt-6 max-w-2xl leading-relaxed text-muted">{book.summary}</p>
+      {/* Title block — cover + copy */}
+      <div className="mt-6 grid gap-8 sm:grid-cols-[minmax(0,14rem)_1fr] sm:items-start">
+        {book.coverImage ? (
+          <div className="overflow-hidden rounded-xl bg-surface shadow-[var(--shadow-border)]">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={book.coverImage}
+              alt={`${book.title} cover`}
+              className="aspect-[3/4] w-full object-cover"
+            />
+          </div>
+        ) : (
+          <div className="flex aspect-[3/4] items-end rounded-xl bg-raised p-4 shadow-[var(--shadow-border)]">
+            <p className="font-display text-xl text-fg">{book.title}</p>
+          </div>
+        )}
+        <div>
+          <p className="text-xs font-medium tracking-widest text-accent uppercase">
+            {book.status === "in-production" ? "In production" : "Published"}
+          </p>
+          <h1 className="mt-2 font-display text-4xl text-fg sm:text-5xl">{book.title}</h1>
+          <p className="mt-2 text-lg text-muted">{book.subtitle}</p>
+          <p className="mt-6 max-w-2xl leading-relaxed text-muted">{book.summary}</p>
+          <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+            {book.pdfHref ? (
+              <a
+                href={book.pdfHref}
+                download
+                className="inline-flex min-h-11 items-center justify-center rounded-md bg-accent px-4 text-sm font-medium text-accent-fg"
+              >
+                Download PDF
+              </a>
+            ) : null}
+            {book.epubHref ? (
+              <a
+                href={book.epubHref}
+                download
+                className="inline-flex min-h-11 items-center justify-center rounded-md bg-raised px-4 text-sm font-medium text-fg shadow-[var(--shadow-border)]"
+              >
+                Download EPUB
+              </a>
+            ) : null}
+            {!book.pdfHref && !book.epubHref ? (
+              <p className="text-sm text-faint">
+                PDF and EPUB will appear here when the manuscript is produced.
+              </p>
+            ) : null}
+          </div>
+        </div>
+      </div>
 
       {/* Editorial principle callout */}
       <div className="mt-6 rounded-lg border-l-2 border-accent bg-surface p-5 shadow-[var(--shadow-border)]">

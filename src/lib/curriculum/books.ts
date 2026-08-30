@@ -66,8 +66,21 @@ export type Book = {
   status: "in-production" | "published";
   /** Whether an audiobook is planned */
   audiobookPlanned: boolean;
+  /** Cover illustration. Set when the file lands in public/. */
+  coverImage?: string;
+  /** Full-book PDF. Set when the file lands in public/downloads/. */
+  pdfHref?: string;
+  /** Full-book EPUB. Set when the file lands in public/downloads/. */
+  epubHref?: string;
 };
 
+/**
+ * Production drop targets (Airia):
+ *   cover → public/images/books/church-fathers-cover.png
+ *   PDF   → public/downloads/church-fathers.pdf
+ *   EPUB  → public/downloads/church-fathers.epub
+ * Then set coverImage / pdfHref / epubHref below and flip status to "published".
+ */
 export const churchFathersBook: Book = {
   slug: "church-fathers",
   title: "The Church Fathers",
