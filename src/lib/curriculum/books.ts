@@ -495,7 +495,71 @@ export const autonomousAiEducationBook: Book = {
   ],
 };
 
-export const books: Book[] = [federalistPapersBook, autonomousAiEducationBook, churchFathersBook];
+export const criticalThinkingForLifeBook: Book = {
+  slug: "critical-thinking-for-life",
+  title: "Critical Thinking for Life",
+  subtitle: "Not a Bicycle",
+  summary:
+    "Critical thinking is reasonable reflective thinking focused on deciding what to believe or do. It is not a skill like riding a bicycle. You can teach maxims; without domain knowledge and practice they will not implement. This book takes the phrase from slogan to civic, clinical, and machine life — and refuses the badge.",
+  editorialPrinciple:
+    "The folk collapse — slogan, skill, and life — is named so it can be taken apart. Transfer is hard. Myside is real. The test is not the thing. Machines that finish the sentence do not finish the judgment. The reader is the jury.",
+  chronology: "1900–2026",
+  totalWordTarget: "complete",
+  readingTime: "a sitting plus the notes",
+  authors: ["Michael Gannotti"],
+  status: "published",
+  audiobookPlanned: true,
+  coverImage: "/images/books/critical-thinking-for-life-cover.jpg",
+  pdfHref: "/downloads/critical-thinking-for-life.pdf",
+  epubHref: "/downloads/critical-thinking-for-life.epub",
+  academySubject: "thinking",
+  hubHref: "/subjects/thinking",
+  hubLabel: "Thinking subject hub",
+  sittingsHeading: "Study the spine in the academy",
+  sittingsDek:
+    "The academy's Thinking sittings are the shorter path: claim and check, steel-man, change your mind. This book is the argument behind those sittings.",
+  showBooklets: false,
+  figures: [
+    {
+      slug: "ennis",
+      name: "Robert Ennis",
+      dates: "1985–2015",
+      tradition: "Definition",
+      coreQuestion: "What is the activity, including what to do?",
+      distinctiveVoice: "Reasonable reflective thinking focused on deciding what to believe or do",
+    },
+    {
+      slug: "willingham",
+      name: "Daniel Willingham",
+      dates: "2007",
+      tradition: "Cognitive science",
+      coreQuestion: "Is critical thinking a content-free skill?",
+      distinctiveVoice: "The bicycle: thinking is intertwined with what you know",
+    },
+  ],
+  chapters: [
+    { number: 0, label: "Preface", title: "Not a Bicycle", question: "Can you teach a content-free general skill, or only domain-specific thinking with knowledge and practice?", voices: ["ennis", "willingham"], wordTarget: "complete", status: "complete" },
+    { number: 1, label: "Introduction", title: "The Conjunction That Does Not Survive", question: "What happens when the slogan and the research are forced to sit in the same sentence?", voices: ["ennis", "willingham"], wordTarget: "complete", status: "complete" },
+    { number: 2, label: "Chapter 1", title: "The Folk Collapse: Slogan, Skill, and Life", question: "What did the phrase become in public, and what did it lose?", voices: ["ennis"], wordTarget: "complete", status: "complete" },
+    { number: 3, label: "Chapter 2", title: "What the Phrase Has Meant: Dewey to Delphi to Six Accounts", question: "Which history is being smuggled when someone says 'critical thinking'?", voices: ["ennis"], wordTarget: "complete", status: "complete" },
+    { number: 4, label: "Chapter 3", title: "You Cannot Think About What You Do Not Know", question: "What does domain knowledge actually do to judgment?", voices: ["willingham"], wordTarget: "complete", status: "complete" },
+    { number: 5, label: "Chapter 4", title: "Why Maxims Fail: Transfer, Dual Process, Myside", question: "Why do slogans not travel?", voices: ["willingham"], wordTarget: "complete", status: "complete" },
+    { number: 6, label: "Chapter 5", title: "What Teaching Actually Moves", question: "What does instruction change, and what does it not?", voices: ["willingham"], wordTarget: "complete", status: "complete" },
+    { number: 7, label: "Chapter 6", title: "The Test Is Not the Thing", question: "What do critical-thinking tests measure, and what do they miss?", voices: ["ennis"], wordTarget: "complete", status: "complete" },
+    { number: 8, label: "Chapter 7", title: "Leave the Page: Civic and Media Life", question: "What does the activity look like off the worksheet?", voices: ["ennis"], wordTarget: "complete", status: "complete" },
+    { number: 9, label: "Chapter 8", title: "Stakes: Clinic, Workplace, Court", question: "Where does a wrong belief become a deed?", voices: ["ennis"], wordTarget: "complete", status: "complete" },
+    { number: 10, label: "Chapter 9", title: "Machines That Finish the Sentence", question: "What happens when a fluent model does the reflective work for you?", voices: ["willingham"], wordTarget: "complete", status: "complete" },
+    { number: 11, label: "Chapter 10", title: "A Life of Deeds, Not a Badge", question: "What remains after the certificate?", voices: ["ennis"], wordTarget: "complete", status: "complete" },
+    { number: 12, label: "Coda", title: "What an Honest Book Can Promise versus What It Cannot", question: "What can this book actually leave in a life?", voices: ["ennis", "willingham"], wordTarget: "complete", status: "complete" },
+  ],
+};
+
+export const books: Book[] = [
+  federalistPapersBook,
+  autonomousAiEducationBook,
+  criticalThinkingForLifeBook,
+  churchFathersBook,
+];
 
 export function bookBySlug(slug: string): Book | undefined {
   return books.find((b) => b.slug === slug);
