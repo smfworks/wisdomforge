@@ -13,7 +13,7 @@ export default function Home() {
           <img
             src="/images/wisdomforge-hero.png"
             alt="Socrates in the forge"
-            className="absolute inset-0 h-full w-full object-cover object-top opacity-55"
+            className="absolute inset-0 h-full w-full object-cover object-left opacity-80"
           />
         </div>
         <div className="flex flex-col justify-center px-4 py-14 sm:px-10 lg:px-14">
