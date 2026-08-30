@@ -606,7 +606,57 @@ export const hermesAiForBeginnersBook: Book = {
   ],
 };
 
+export const openClawForBeginnersBook: Book = {
+  slug: "openclaw-for-beginners",
+  title: "OpenClaw for Beginners",
+  subtitle: "Your Complete Guide to Self-Hosted AI Assistants",
+  summary:
+    "A practical guide to installing and operating OpenClaw — the self-hosted AI assistant. Channels, model providers, skills, ClawHub, security, and compliance. Edition note: August 2026. Official install is install.sh or Windows install.ps1.",
+  editorialPrinciple:
+    "Self-host it. Do not worship it. The book is a how-to, not a claim that the model is safe. No hosted kids chatbot.",
+  chronology: "2026",
+  totalWordTarget: "~122,000 words",
+  readingTime: "~10 hours · 480 pages",
+  authors: ["Michael Gannotti"],
+  status: "published",
+  audiobookPlanned: true,
+  coverImage: "/images/books/openclaw-for-beginners-cover.jpg",
+  pdfHref: "/downloads/openclaw-for-beginners.pdf",
+  epubHref: "/downloads/openclaw-for-beginners.epub",
+  hubHref: "/hermes",
+  hubLabel: "Hermes kit",
+  showBooklets: false,
+  figures: [
+    {
+      slug: "operator",
+      name: "The operator",
+      dates: "now",
+      tradition: "Self-hosted assistant",
+      coreQuestion: "Who hosts the assistant, and who does it serve?",
+      distinctiveVoice: "You. The lobster is a mascot, not a mind.",
+    },
+  ],
+  chapters: [
+    { number: 1, label: "Chapter 1", title: "What Is OpenClaw?", question: "What is the assistant, and what is it not?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 2, label: "Chapter 2", title: "Why OpenClaw? Use Cases That Matter", question: "When is a self-hosted assistant the right tool?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 3, label: "Chapter 3", title: "OpenClaw Architecture — How It Actually Works", question: "What runs locally, and what talks to a model?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 4, label: "Chapter 4", title: "Installation – Every Platform, Every Method", question: "How do you install it without cargo-cult commands?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 5, label: "Chapter 5", title: "First Contact – Your First Conversation", question: "What does a working first session look like?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 6, label: "Chapter 6", title: "Connecting All Your Channels", question: "How does one assistant show up in more than one place?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 7, label: "Chapter 7", title: "Model Providers — Choosing and Configuring AI Brains", question: "Which provider, and what fails when you pick wrong?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 8, label: "Chapter 8", title: "Skills and ClawHub — Extending Your Agent", question: "What is a skill, and how do you add one without breaking the rest?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 9, label: "Chapter 9", title: "Plugins, Integrations, and Lobster Workflows", question: "When do you add a plugin, and when is that a mess?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 10, label: "Chapter 10", title: "Security – Protecting Your Assistant and Yourself", question: "What must stay off, and what must stay in env?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 11, label: "Chapter 11", title: "Compliance – Meeting Regulatory and Organizational Requirements", question: "What does a self-hosted assistant still owe a regulator?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 12, label: "Chapter 12", title: "Performance Optimization — Making OpenClaw Fast and Efficient", question: "What actually makes it slow?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 13, label: "Chapter 13", title: "Advanced Configurations — Multi-Agent, Custom Workspaces, and Power User Techniques", question: "When is a second agent a tool, and when is it sprawl?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 14, label: "Chapter 14", title: "Troubleshooting, Debugging, and Recovery", question: "What do you do when it will not start?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 15, label: "Chapter 15", title: "The Road Ahead — Keeping Up with OpenClaw and the AI Agent Ecosystem", question: "What changes after you have a working install?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+  ],
+};
+
 export const books: Book[] = [
+  openClawForBeginnersBook,
   hermesAiForBeginnersBook,
   federalistPapersBook,
   autonomousAiEducationBook,
