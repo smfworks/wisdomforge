@@ -7,6 +7,8 @@ import { subjects, subjectById } from "@/lib/curriculum/subjects";
 import { bands } from "@/lib/curriculum/bands";
 import { firstLesson } from "@/lib/curriculum";
 import type { BandId, SubjectId } from "@/lib/curriculum/types";
+import { AssistReady } from "@/components/assist-ready";
+import { ThreeLayerStrip } from "@/components/three-layer-strip";
 
 export default function Library() {
   const [subjectFilter, setSubjectFilter] = useState<SubjectId | "all">("all");
@@ -31,17 +33,17 @@ export default function Library() {
   }, [subjectFilter, bandFilter, search]);
 
   return (
-    <main className="mx-auto max-w-6xl px-4 py-14">
+    <main className="mx-auto max-w-4xl px-4 py-14">
       <p className="text-xs font-medium tracking-[0.28em] text-accent uppercase">Repository</p>
       <h1 className="mt-3 font-display text-4xl text-fg sm:text-5xl">The repository</h1>
       <p className="mt-4 max-w-2xl text-lg text-muted">
-        An expanding library of units. Ready means a parent can run the sitting tonight. In the forge means the catalog is honest about what is still being written.
+        An expanding library of units. Ready means a parent can run the sitting tonight. In the forge means the catalog
+        is honest about what is still being written.
       </p>
       <p className="mt-4 text-sm text-faint">
         {ready} ready · {forge} in the forge
       </p>
 
-      {/* Subject filter chips */}
       <div className="mt-8 flex flex-wrap gap-2">
         <button
           type="button"
@@ -70,7 +72,6 @@ export default function Library() {
         ))}
       </div>
 
-      {/* Band filter chips */}
       <div className="mt-3 flex flex-wrap gap-2">
         <button
           type="button"
@@ -99,7 +100,6 @@ export default function Library() {
         ))}
       </div>
 
-      {/* Search input */}
       <div className="mt-4">
         <input
           type="text"
@@ -110,15 +110,13 @@ export default function Library() {
         />
       </div>
 
-      {/* Results count */}
       <p className="mt-4 text-sm text-faint">
         {filtered.length} {filtered.length === 1 ? "unit" : "units"}
         {subjectFilter !== "all" || bandFilter !== "all" || search.trim() ? " match" : " total"}
       </p>
 
-      {/* Unit list */}
       {filtered.length === 0 ? (
-        <div className="mt-10 rounded-xl bg-surface p-8 text-center shadow-[var(--shadow-border)]">
+        <div className="mt-10 border-t border-accent py-8">
           <p className="text-muted">No units match those filters.</p>
           <button
             type="button"
@@ -133,48 +131,47 @@ export default function Library() {
           </button>
         </div>
       ) : (
-        <ul className="mt-6 divide-y divide-border rounded-xl bg-surface shadow-[var(--shadow-border)]">
+        <ul className="mt-8 border-b border-accent">
           {filtered.map((u) => {
             const s = subjectById(u.subject);
             const activeBand = bandFilter !== "all" ? bandFilter : u.bands[0];
             const first = activeBand ? firstLesson(activeBand, u.subject) : undefined;
             return (
-              <li key={u.id} className="px-4 py-5">
-                <div className="flex flex-wrap items-baseline justify-between gap-2">
+              <li key={u.id} className="border-t border-accent py-7">
+                <div className="grid gap-2 sm:grid-cols-[8rem_1fr_auto] sm:items-start sm:gap-8">
+                  <p className="text-xs tracking-[0.18em] text-accent uppercase">{s?.short}</p>
                   <div>
-                    <p className="text-xs text-faint">{s?.name}</p>
-                    <h2 className="font-display text-xl text-fg">{u.title}</h2>
+                    <h2 className="font-display text-2xl text-fg">{u.title}</h2>
+                    <p className="mt-2 text-sm text-muted">{u.blurb}</p>
+                    <p className="mt-3 text-xs text-faint">
+                      {u.weeks} · {u.bands.join(" · ")}
+                    </p>
+                    {u.status === "ready" && first ? (
+                      <Link
+                        href={`/learn/${first.band}/${first.subject}/${first.slug}`}
+                        className="mt-3 inline-flex text-sm text-accent hover:text-fg"
+                      >
+                        First sitting: {first.title} →
+                      </Link>
+                    ) : u.status === "ready" ? (
+                      <Link href={`/subjects/${u.subject}`} className="mt-3 inline-flex text-sm text-accent hover:text-fg">
+                        Open {s?.name} →
+                      </Link>
+                    ) : null}
                   </div>
-                  <span className="text-xs tracking-wide text-accent uppercase">
-                    {u.status === "ready" ? "Ready" : "In the forge"}
-                  </span>
-                </div>
-                <p className="mt-2 text-sm text-muted">{u.blurb}</p>
-                <div className="mt-2 flex flex-wrap items-center gap-3">
-                  <p className="text-xs text-faint">
-                    {u.weeks} · {u.bands.join(" · ")}
-                  </p>
-                  {u.status === "ready" && first ? (
-                    <Link
-                      href={`/learn/${first.band}/${first.subject}/${first.slug}`}
-                      className="text-sm text-accent hover:text-fg"
-                    >
-                      First sitting: {first.title} →
-                    </Link>
-                  ) : u.status === "ready" ? (
-                    <Link
-                      href={`/subjects/${u.subject}`}
-                      className="text-sm text-accent hover:text-fg"
-                    >
-                      Open {s?.name} →
-                    </Link>
-                  ) : null}
+                  {u.status === "ready" ? (
+                    <AssistReady className="mt-1" />
+                  ) : (
+                    <span className="mt-1 text-xs tracking-[0.14em] text-faint uppercase">In the forge</span>
+                  )}
                 </div>
               </li>
             );
           })}
         </ul>
       )}
+
+      <ThreeLayerStrip />
     </main>
   );
 }
