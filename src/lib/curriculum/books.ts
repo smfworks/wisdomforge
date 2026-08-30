@@ -554,7 +554,60 @@ export const criticalThinkingForLifeBook: Book = {
   ],
 };
 
+export const hermesAiForBeginnersBook: Book = {
+  slug: "hermes-ai-for-beginners",
+  title: "Hermes AI for Beginners",
+  subtitle: "Your Complete Guide to Running an AI Agent That Actually Works",
+  summary:
+    "A practical guide to installing, configuring, and running Hermes Agent — the open-source agent that lives on your machine. Skills Hub, memory, browser, terminal, cron, and the difference between Hermes the agent and Hermes the models. Edition note: August 2026. Official install is install.sh, install.ps1, or the Desktop app — not pip into system Python.",
+  editorialPrinciple:
+    "Run the agent. Do not worship it. The book is a how-to, not a promise that the model is safe. Parent-operated profiles stay band-locked. No hosted kids chatbot.",
+  chronology: "2026",
+  totalWordTarget: "~95,000 words",
+  readingTime: "~8 hours · 364 pages",
+  authors: ["Michael Gannotti"],
+  status: "published",
+  audiobookPlanned: true,
+  coverImage: "/images/books/hermes-ai-for-beginners-cover.jpg",
+  pdfHref: "/downloads/hermes-ai-for-beginners.pdf",
+  epubHref: "/downloads/hermes-ai-for-beginners.epub",
+  hubHref: "/hermes",
+  hubLabel: "Hermes kit",
+  sittingsHeading: "Run it beside the academy",
+  sittingsDek:
+    "WisdomForge sittings use a parent-operated Hermes profile. This book is how you install and operate that kit — not a replacement for the sitting.",
+  showBooklets: false,
+  figures: [
+    {
+      slug: "operator",
+      name: "The operator",
+      dates: "now",
+      tradition: "Local agent",
+      coreQuestion: "Who runs the agent, and who does it serve?",
+      distinctiveVoice: "You. The book is for the person at the keyboard, not the model.",
+    },
+  ],
+  chapters: [
+    { number: 1, label: "Chapter 1", title: "What Is Hermes AI?", question: "What is the agent, and how is it not the Hermes models?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 2, label: "Chapter 2", title: "Why Run Hermes AI? — Use Cases That Matter", question: "When is a local agent the right tool, and when is it not?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 3, label: "Chapter 3", title: "System Requirements and Installation", question: "How do you install it without pip into system Python?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 4, label: "Chapter 4", title: "Your First Conversation — The Basics", question: "What does the first working session look like?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 5, label: "Chapter 5", title: "The Config.yaml File — Your Hermes Control Panel", question: "What does config.yaml actually control?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 6, label: "Chapter 6", title: "LLM Options — Choosing Your AI Brain", question: "Which model, which provider, and what fails when you pick wrong?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 7, label: "Chapter 7", title: "Memory — How Hermes Remembers", question: "What persists, and what should not?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 8, label: "Chapter 8", title: "Skills — Teaching Hermes New Tricks", question: "What is a skill, and how is Skills Hub not ClawHub?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 9, label: "Chapter 9", title: "Browser Power — Hermes on the Web", question: "When should the agent drive a browser?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 10, label: "Chapter 10", title: "The Terminal — Commands Made Easy", question: "What may it run, and what must stay off?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 11, label: "Chapter 11", title: "Delegation — Many Hands Make Light Work", question: "When do you spawn another agent, and when is that a mess?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 12, label: "Chapter 12", title: "Channels — Hermes Everywhere", question: "How does the same agent show up on Telegram, Discord, and the rest?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 13, label: "Chapter 13", title: "Cron Jobs — Hermes on Autopilot", question: "What should run unattended?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 14, label: "Chapter 14", title: "Security — Keeping Hermes Safe", question: "What must stay off a child profile, and what must stay in env?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+    { number: 15, label: "Chapter 15", title: "Beyond the Basics — Your Hermes Journey Continues", question: "What is next after a working install?", voices: ["operator"], wordTarget: "complete", status: "complete" },
+  ],
+};
+
 export const books: Book[] = [
+  hermesAiForBeginnersBook,
   federalistPapersBook,
   autonomousAiEducationBook,
   criticalThinkingForLifeBook,
