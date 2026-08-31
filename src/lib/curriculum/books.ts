@@ -106,11 +106,14 @@ export const churchFathersBook: Book = {
   editorialPrinciple:
     "Show disagreements, not just sequence — living conversation. The Fathers are presented as a living conversation, not a chronological march. Each thematic chapter gathers the relevant voices around a single question and lets them disagree. The reader is the jury.",
   chronology: "130–1416 CE",
-  totalWordTarget: "~60,000 words",
-  readingTime: "~6 hours",
-  authors: ["Harry (research, outline)", "William (prose)", "Airia (production)"],
-  status: "in-production",
+  totalWordTarget: "49,655 words",
+  readingTime: "~4 hours · 155 pages",
+  authors: ["Harry (research, outline, remaining prose)", "William (early prose)", "Airia (production)"],
+  status: "published",
   audiobookPlanned: true,
+  coverImage: "/images/books/church-fathers-cover.png",
+  pdfHref: "/downloads/church-fathers.pdf",
+  epubHref: "/downloads/church-fathers.epub",
   academyUnit: "Faith & Reason",
   academySubject: "philosophy",
   hubHref: "/subjects/philosophy",
@@ -235,7 +238,7 @@ export const churchFathersBook: Book = {
       question: "Who is Christ, and what does the incarnation actually accomplish? Is salvation a transaction, a transformation, a victory, or a restoration?",
       voices: ["athanasius", "irenaeus", "augustine", "basil-great", "gregory-nazianzus", "julian-norwich", "thomas-aquinas"],
       wordTarget: "10,000–12,000",
-      status: "drafting",
+      status: "complete",
     },
     {
       number: 3,
@@ -244,7 +247,7 @@ export const churchFathersBook: Book = {
       question: "What is the church's relationship to political power — submission, resistance, transformation, or something else?",
       voices: ["ambrose", "augustine", "gregory-great", "chrysostom"],
       wordTarget: "8,000–10,000",
-      status: "outlined",
+      status: "complete",
     },
     {
       number: 4,
@@ -253,7 +256,7 @@ export const churchFathersBook: Book = {
       question: "How do you read a sacred text faithfully — literally, allegorically, critically, or all at once?",
       voices: ["jerome", "augustine", "irenaeus", "gregory-nazianzus", "thomas-aquinas"],
       wordTarget: "8,000–10,000",
-      status: "outlined",
+      status: "complete",
     },
     {
       number: 5,
@@ -262,7 +265,7 @@ export const churchFathersBook: Book = {
       question: "What does it mean to live well — asceticism, engagement, humility, or love?",
       voices: ["chrysostom", "augustine", "thomas-aquinas", "gregory-great", "julian-norwich"],
       wordTarget: "8,000–10,000",
-      status: "outlined",
+      status: "complete",
     },
     {
       number: 6,
@@ -271,7 +274,7 @@ export const churchFathersBook: Book = {
       question: "What has the reader seen, and what remains open?",
       voices: ["irenaeus", "augustine", "julian-norwich", "athanasius"],
       wordTarget: "2,000–3,000",
-      status: "outlined",
+      status: "complete",
     },
   ],
 };
