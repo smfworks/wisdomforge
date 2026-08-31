@@ -178,7 +178,7 @@ export function LessonView({ lesson }: { lesson: Lesson }) {
             <p className="text-xs font-medium tracking-wide text-accent uppercase">Booklet</p>
             <h2 className="mt-1 font-display text-2xl text-fg">Download the {figure} booklet</h2>
             <p className="mt-2 text-sm text-muted">
-              The full text behind this sitting, in a printable PDF. Pick the level that fits.
+              The full text behind this sitting, in a printable PDF. Markdown for a Hermes agent will appear here when produced. Pick the level that fits.
             </p>
             <ul className="mt-4 flex flex-wrap gap-3">
               {links.map((link) => {

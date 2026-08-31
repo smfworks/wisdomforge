@@ -72,6 +72,8 @@ export type Book = {
   pdfHref?: string;
   /** Full-book EPUB. Set when the file lands in public/downloads/. */
   epubHref?: string;
+  /** Agent-readable UTF-8 manuscript. Set when public/downloads/<slug>.md lands. Do not invent from a PDF dump. */
+  mdHref?: string;
   /** Academy unit title to deep-link sittings (exact `lesson.unit`). */
   academyUnit?: string;
   /** Academy subject for those sittings. */
@@ -95,7 +97,8 @@ export type Book = {
  *   cover → public/images/books/church-fathers-cover.png
  *   PDF   → public/downloads/church-fathers.pdf
  *   EPUB  → public/downloads/church-fathers.epub
- * Then set coverImage / pdfHref / epubHref below and flip status to "published".
+ *   MD    → public/downloads/church-fathers.md
+ * Then set coverImage / pdfHref / epubHref / mdHref below and flip status to "published".
  */
 export const churchFathersBook: Book = {
   slug: "church-fathers",

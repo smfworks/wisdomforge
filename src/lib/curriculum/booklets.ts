@@ -1,9 +1,12 @@
 /**
  * Booklet PDF mapping.
  *
- * The academy has 84 PDFs in public/downloads/ following the naming pattern:
+ * The academy has PDFs in public/downloads/ following the naming pattern:
  *   {figureSlug}-{level}.pdf
  * where level is one of: elementary, middle, high, adult.
+ * Phase 8: each shipped booklet also gets
+ *   {figureSlug}-{level}.md
+ * — agent-readable UTF-8, not a PDF dump. No EPUB on booklets.
  *
  * This module maps lesson slugs to their corresponding figure slugs so the
  * lesson-view component can show a "Download the booklet" section when a
@@ -54,6 +57,8 @@ const LEVEL_LABELS: Record<string, string> = {
 export type BookletLink = {
   /** Absolute URL path to the PDF, e.g. /downloads/epictetus-elementary.pdf */
   href: string;
+  /** Agent-readable markdown. Set when public/downloads/<figure>-<level>.md lands. */
+  mdHref: string;
   /** Human-readable label, e.g. "Elementary" */
   label: string;
   /** The figure slug, e.g. "epictetus" */
@@ -88,6 +93,7 @@ export function bookletLinksForLesson(
     const level = BAND_TO_LEVEL[band];
     return {
       href: `/downloads/${figure}-${level}.pdf`,
+      mdHref: `/downloads/${figure}-${level}.md`,
       label: LEVEL_LABELS[level],
       figure,
     };
@@ -110,6 +116,7 @@ export function bookletForBand(
   const level = BAND_TO_LEVEL[band];
   return {
     href: `/downloads/${figure}-${level}.pdf`,
+    mdHref: `/downloads/${figure}-${level}.md`,
     label: LEVEL_LABELS[level],
     figure,
   };

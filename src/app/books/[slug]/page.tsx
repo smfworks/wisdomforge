@@ -107,9 +107,23 @@ export default async function BookPage({
                 Download EPUB
               </a>
             ) : null}
-            {!book.pdfHref && !book.epubHref ? (
+            {book.mdHref ? (
+              <a
+                href={book.mdHref}
+                download
+                className="inline-flex min-h-11 items-center justify-center rounded-md bg-raised px-4 text-sm font-medium text-fg shadow-[var(--shadow-border)]"
+              >
+                Download Markdown
+              </a>
+            ) : null}
+            {!book.pdfHref && !book.epubHref && !book.mdHref ? (
               <p className="text-sm text-faint">
-                PDF and EPUB will appear here when the manuscript is produced.
+                PDF, EPUB, and Markdown will appear here when the manuscript is produced.
+              </p>
+            ) : null}
+            {book.pdfHref && !book.mdHref ? (
+              <p className="self-center text-sm text-faint">
+                Markdown for a Hermes agent will appear here when produced.
               </p>
             ) : null}
           </div>
