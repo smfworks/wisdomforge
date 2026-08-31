@@ -191,6 +191,15 @@ export const catalog: CatalogUnit[] = [
     blurb: "A New York sales campaign, not the Constitution. Faction vs Brutus, ambition, judgment without sword, the lost argument for a bill of rights, and the civic chain.",
   },
   {
+    id: "hist-fourteenth",
+    subject: "history",
+    title: "The Fourteenth Amendment — The Answer After the War",
+    status: "ready",
+    bands: ["young", "emerging", "adult"],
+    weeks: "6 sittings",
+    blurb: "The Constitution answering Fed 54 and Dred Scott. Section 1 in four clauses. Gettysburg as speech, not instrument. Ugly clauses named. Writing is not keeping.",
+  },
+  {
     id: "letters-little",
     subject: "english",
     title: "Stories and Voices — Letters for Little Thinkers",
