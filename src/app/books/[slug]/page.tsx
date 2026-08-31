@@ -261,18 +261,26 @@ export default async function BookPage({
           Booklet downloads
         </p>
         <p className="mt-1 text-sm text-muted">
-          Each figure has a printable PDF booklet in four reading levels — elementary, middle, high school, and adult. Download them from the sitting pages.
+          Each figure has a printable PDF and agent-readable Markdown booklet in four reading levels — elementary, middle, high school, and adult. Adult files are here; the other levels are on the sitting pages.
         </p>
         <div className="mt-3 flex flex-wrap gap-3">
           {book.figures.map((fig) => (
-            <a
-              key={fig.slug}
-              href={`/downloads/${fig.slug}-adult.pdf`}
-              download
-              className="inline-flex items-center gap-2 rounded-md bg-bg px-3 py-1.5 text-xs text-fg shadow-[var(--shadow-border)] transition-colors hover:bg-surface"
-            >
-              {figureDisplayName(fig.slug)} PDF →
-            </a>
+            <span key={fig.slug} className="inline-flex flex-wrap gap-2">
+              <a
+                href={`/downloads/${fig.slug}-adult.pdf`}
+                download
+                className="inline-flex items-center gap-2 rounded-md bg-bg px-3 py-1.5 text-xs text-fg shadow-[var(--shadow-border)] transition-colors hover:bg-surface"
+              >
+                {figureDisplayName(fig.slug)} PDF →
+              </a>
+              <a
+                href={`/downloads/${fig.slug}-adult.md`}
+                download
+                className="inline-flex items-center gap-2 rounded-md bg-bg px-3 py-1.5 text-xs text-fg shadow-[var(--shadow-border)] transition-colors hover:bg-surface"
+              >
+                Markdown →
+              </a>
+            </span>
           ))}
         </div>
       </section>

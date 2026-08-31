@@ -178,13 +178,13 @@ export function LessonView({ lesson }: { lesson: Lesson }) {
             <p className="text-xs font-medium tracking-wide text-accent uppercase">Booklet</p>
             <h2 className="mt-1 font-display text-2xl text-fg">Download the {figure} booklet</h2>
             <p className="mt-2 text-sm text-muted">
-              The full text behind this sitting, in a printable PDF. Markdown for a Hermes agent will appear here when produced. Pick the level that fits.
+              The full text behind this sitting. Printable PDF, plus Markdown for a Hermes agent. Pick the level that fits.
             </p>
-            <ul className="mt-4 flex flex-wrap gap-3">
+            <ul className="mt-4 space-y-2">
               {links.map((link) => {
                 const isCurrent = link.label === currentLabel;
                 return (
-                  <li key={link.href}>
+                  <li key={link.href} className="flex flex-wrap gap-2">
                     <a
                       href={link.href}
                       download
@@ -196,6 +196,15 @@ export function LessonView({ lesson }: { lesson: Lesson }) {
                     >
                       {link.label} PDF
                     </a>
+                    {link.mdHref ? (
+                      <a
+                        href={link.mdHref}
+                        download
+                        className="inline-flex items-center gap-2 rounded-md bg-raised px-4 py-2 text-sm text-fg shadow-[var(--shadow-border)] transition-colors hover:bg-surface"
+                      >
+                        {link.label} Markdown
+                      </a>
+                    ) : null}
                   </li>
                 );
               })}
