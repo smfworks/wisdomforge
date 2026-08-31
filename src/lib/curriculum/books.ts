@@ -720,6 +720,69 @@ export const aiAgentsProjectsForBeginnersBook: Book = {
   ],
 };
 
+export const mathematicsForHomeschoolingBook: Book = {
+  slug: "mathematics-for-homeschooling",
+  title: "Mathematics for Homeschooling",
+  subtitle: "A Path, Not a Percentile",
+  summary:
+    "A parent who is not a math specialist can take a child from first-grade number sense through high-school calculus if three things hold: the parent can hear a wrong answer; the child does the struggle before the tool; and any agent is a parent-hosted supplement, not a substitute and not a school-safe product by default. Documents do the work. The popular story does not survive.",
+  editorialPrinciple:
+    "Name the conjunction so it can be taken apart. CCSSM is a map, not a mandate. Fractions are the gate. A grade-6 book is a publisher's scope. The agent does not take the test. Promise a path, not a percentile.",
+  chronology: "2000–2026",
+  totalWordTarget: "~220,000 words",
+  readingTime: "~14 hours · 431 pages",
+  authors: ["Michael Gannotti"],
+  status: "published",
+  audiobookPlanned: true,
+  coverImage: "/images/books/mathematics-for-homeschooling-cover.jpg",
+  pdfHref: "/downloads/mathematics-for-homeschooling.pdf",
+  epubHref: "/downloads/mathematics-for-homeschooling.epub",
+  catalogSubject: "math",
+  academySubject: "math",
+  academyUnit: "Show the Path",
+  hubHref: "/subjects/math",
+  hubLabel: "Mathematics subject hub",
+  sittingsHeading: "Study the spine in the academy",
+  sittingsDek:
+    "The academy's Show the Path sittings are the shorter entry: the path is the mathematics, not the answer. This book is the longer argument for the kitchen table.",
+  showBooklets: false,
+  figures: [
+    {
+      slug: "parent-teacher",
+      name: "The parent-teacher",
+      dates: "now",
+      tradition: "Kitchen table",
+      coreQuestion: "Can you hear a wrong answer?",
+      distinctiveVoice: "One adult, usually the mother, usually a purchased book — not a district.",
+    },
+    {
+      slug: "child",
+      name: "The child",
+      dates: "now",
+      tradition: "Struggle before the tool",
+      coreQuestion: "Who does the work?",
+      distinctiveVoice: "The student who must still walk the path after the chat window closes.",
+    },
+  ],
+  chapters: [
+    { number: 0, label: "Preface", title: "Hear a Wrong Answer", question: "What three conditions have to hold if a non-specialist parent is going to teach through calculus?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 1, label: "Introduction", title: "The Conjunction That Does Not Survive", question: "Which popular claims about homeschool math cannot sit in the same sentence?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 2, label: "Chapter 1", title: "The Kitchen Table Is Not a District", question: "What is the room this book is written for?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 3, label: "Chapter 2", title: "How Children Learn Mathematics", question: "What does the evidence actually constrain about method?", voices: ["child"], wordTarget: "complete", status: "complete" },
+    { number: 4, label: "Chapter 3", title: "The Agent Does Not Take the Test", question: "What may a parent-hosted agent do, and what must it never do?", voices: ["parent-teacher", "child"], wordTarget: "complete", status: "complete" },
+    { number: 5, label: "Chapter 4", title: "Grades 1–2: Number, Operations, and Place Value", question: "What has to be in place before later algebra can mean anything?", voices: ["child"], wordTarget: "complete", status: "complete" },
+    { number: 6, label: "Chapter 5", title: "Grades 3–5: Multiplicative Reasoning and Fractions", question: "Why are fractions the gate?", voices: ["child"], wordTarget: "complete", status: "complete" },
+    { number: 7, label: "Chapter 6", title: "Grades 6–8: Ratio, Signed Numbers, Expressions, Early Functions", question: "What must be diagnosed before Algebra I?", voices: ["child"], wordTarget: "complete", status: "complete" },
+    { number: 8, label: "Chapter 7", title: "Algebra I", question: "What is an authentic algebra course, and what is algebra in name only?", voices: ["child"], wordTarget: "complete", status: "complete" },
+    { number: 9, label: "Chapter 8", title: "Geometry", question: "What is proof, and what is a picture?", voices: ["child"], wordTarget: "complete", status: "complete" },
+    { number: 10, label: "Chapter 9", title: "Algebra II, Functions, and Precalculus", question: "Have we finished Algebra II, or only named it?", voices: ["child"], wordTarget: "complete", status: "complete" },
+    { number: 11, label: "Chapter 10", title: "Calculus: AB, BC, CLEP, and the Function Concept", question: "Are AB, BC, and CLEP the same object?", voices: ["child"], wordTarget: "complete", status: "complete" },
+    { number: 12, label: "Chapter 11", title: "Data and Chance Across the Years", question: "Is statistics stealth calculus?", voices: ["child"], wordTarget: "complete", status: "complete" },
+    { number: 13, label: "Chapter 12", title: "Records, Transcripts, College-Ready", question: "What still has to leave the house?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 14, label: "Coda", title: "A Path, Not a Percentile", question: "What can an honest book promise, and what can it not?", voices: ["parent-teacher", "child"], wordTarget: "complete", status: "complete" },
+  ],
+};
+
 export const books: Book[] = [
   aiAgentsProjectsForBeginnersBook,
   openClawForBeginnersBook,
@@ -727,6 +790,7 @@ export const books: Book[] = [
   federalistPapersBook,
   autonomousAiEducationBook,
   criticalThinkingForLifeBook,
+  mathematicsForHomeschoolingBook,
   churchFathersBook,
 ];
 
