@@ -762,12 +762,12 @@ export const hermesMasteryBook: Book = {
 };
 
 export const books: Book[] = [
-  aiAgentsProjectsForBeginnersBook,
-  openClawForBeginnersBook,
+  autonomousAiEducationBook,
   hermesAiForBeginnersBook,
   hermesMasteryBook,
+  aiAgentsProjectsForBeginnersBook,
+  openClawForBeginnersBook,
   federalistPapersBook,
-  autonomousAiEducationBook,
   criticalThinkingForLifeBook,
   mathematicsForHomeschoolingBook,
   churchFathersBook,
