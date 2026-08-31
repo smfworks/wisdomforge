@@ -729,8 +729,8 @@ export const mathematicsForHomeschoolingBook: Book = {
   editorialPrinciple:
     "Name the conjunction so it can be taken apart. CCSSM is a map, not a mandate. Fractions are the gate. A grade-6 book is a publisher's scope. The agent does not take the test. Promise a path, not a percentile.",
   chronology: "2000–2026",
-  totalWordTarget: "~220,000 words",
-  readingTime: "~14 hours · 431 pages",
+  totalWordTarget: "~80,000 words",
+  readingTime: "~5 hours · 226 pages",
   authors: ["Michael Gannotti"],
   status: "published",
   audiobookPlanned: true,
