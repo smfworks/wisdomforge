@@ -17,10 +17,7 @@ export default function Home() {
           />
         </div>
         <div className="flex flex-col justify-center px-4 py-14 sm:px-10 lg:px-14">
-          <p className="text-xs font-medium tracking-[0.28em] text-accent uppercase">
-            SMF Works · Aiona Edge
-          </p>
-          <h1 className="mt-4 max-w-[12ch] font-display text-4xl leading-[1.12] font-normal text-fg sm:text-5xl lg:text-[3.6rem]">
+          <h1 className="max-w-[12ch] font-display text-4xl leading-[1.12] font-normal text-fg sm:text-5xl lg:text-[3.6rem]">
             Education in the age of AI.
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">

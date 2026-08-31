@@ -16,6 +16,7 @@ const links = [
   { href: "/books", label: "Books" },
   { href: "/method", label: "The method" },
   { href: "/hermes", label: "Hermes" },
+  { href: "/about", label: "About" },
 ] as const;
 
 function MenuIcon() {

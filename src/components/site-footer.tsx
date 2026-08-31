@@ -11,6 +11,9 @@ export function SiteFooter() {
           </p>
         </div>
         <div className="grid grid-cols-2 gap-x-10 gap-y-2 text-sm">
+          <Link href="/about" className="min-h-11 py-2 text-muted hover:text-fg">
+            About
+          </Link>
           <Link href="/method" className="min-h-11 py-2 text-muted hover:text-fg">
             The method
           </Link>
@@ -38,7 +41,11 @@ export function SiteFooter() {
       </div>
       <div className="border-t border-border">
         <p className="mx-auto max-w-6xl px-4 py-4 text-xs text-faint">
-          WisdomForge by Aiona Edge and the SMF Works Project. Not a hosted kids chatbot. Does not make AI safe.
+          Not a hosted kids chatbot. Does not make AI safe.{" "}
+          <Link href="/about" className="text-muted hover:text-fg">
+            About the team
+          </Link>
+          .
         </p>
       </div>
     </footer>
