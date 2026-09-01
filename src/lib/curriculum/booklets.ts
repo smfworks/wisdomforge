@@ -42,6 +42,14 @@ const LESSON_TO_FIGURE: Record<string, string> = {
   "fourteenth-due-process-equal-protection": "fourteenth-amendment",
   "fourteenth-ugly-clauses": "fourteenth-amendment",
 
+  // ── The Federalist (6 sittings × young/emerging/adult)
+  "publius-campaign": "federalist-papers",
+  "faction-extended-republic": "federalist-papers",
+  "ambition-counteracts-ambition": "federalist-papers",
+  "judgment-without-sword": "federalist-papers",
+  "lost-argument-bill-of-rights": "federalist-papers",
+  "federalist-civic-chain": "federalist-papers",
+
   // ── How the Greeks Thought (in-forge — add mappings when lessons ship)
   // ── Faith & Reason (in-forge — add mappings when lessons ship)
 };
@@ -165,6 +173,7 @@ export function figureDisplayName(figure: string): string {
     brutus: "Brutus",
     publius: "Publius",
     "fourteenth-amendment": "The Fourteenth Amendment",
+    "federalist-papers": "The Federalist Papers",
     student: "The student",
     "parent-operator": "The parent-operator",
   };
