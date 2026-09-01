@@ -50,6 +50,14 @@ const LESSON_TO_FIGURE: Record<string, string> = {
   "lost-argument-bill-of-rights": "federalist-papers",
   "federalist-civic-chain": "federalist-papers",
 
+  // ── Magna Carta (6 sittings)
+  "runnymede-field": "magna-carta",
+  "king-not-above-law": "magna-carta",
+  "due-process-chain": "magna-carta",
+  "consent-common-counsel": "magna-carta",
+  "ugly-gaps-who-was-left-out": "magna-carta",
+  "chain-from-runnymede": "magna-carta",
+
   // ── How the Greeks Thought (in-forge — add mappings when lessons ship)
   // ── Faith & Reason (in-forge — add mappings when lessons ship)
 };
@@ -174,6 +182,7 @@ export function figureDisplayName(figure: string): string {
     publius: "Publius",
     "fourteenth-amendment": "The Fourteenth Amendment",
     "federalist-papers": "The Federalist Papers",
+    "magna-carta": "Magna Carta",
     student: "The student",
     "parent-operator": "The parent-operator",
   };
