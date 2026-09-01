@@ -34,6 +34,14 @@ const LESSON_TO_FIGURE: Record<string, string> = {
   "live-according-nature": "zeno-of-citium",
   "founders-death": "zeno-of-citium",
 
+  // ── The Fourteenth Amendment (6 sittings × young/emerging/adult)
+  "fourteenth-answer-to-54": "fourteenth-amendment",
+  "fourteenth-section-1-aloud": "fourteenth-amendment",
+  "fourteenth-gettysburg-inside": "fourteenth-amendment",
+  "fourteenth-citizenship-dred-scott": "fourteenth-amendment",
+  "fourteenth-due-process-equal-protection": "fourteenth-amendment",
+  "fourteenth-ugly-clauses": "fourteenth-amendment",
+
   // ── How the Greeks Thought (in-forge — add mappings when lessons ship)
   // ── Faith & Reason (in-forge — add mappings when lessons ship)
 };
@@ -156,6 +164,7 @@ export function figureDisplayName(figure: string): string {
     jay: "John Jay",
     brutus: "Brutus",
     publius: "Publius",
+    "fourteenth-amendment": "The Fourteenth Amendment",
     student: "The student",
     "parent-operator": "The parent-operator",
   };
