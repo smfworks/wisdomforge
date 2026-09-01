@@ -66,6 +66,14 @@ const LESSON_TO_FIGURE: Record<string, string> = {
   "judicial-review-self-made": "us-constitution",
   "amendment-chain": "us-constitution",
 
+  // ── Declaration of Independence (6 sittings)
+  "committee-of-five": "declaration-independence",
+  "self-evident-truths": "declaration-independence",
+  "right-of-revolution": "declaration-independence",
+  "all-men-promise-omission": "declaration-independence",
+  "slave-trade-passage-removed": "declaration-independence",
+  "declaration-afterlife": "declaration-independence",
+
   // ── How the Greeks Thought (in-forge — add mappings when lessons ship)
   // ── Faith & Reason (in-forge — add mappings when lessons ship)
 };
@@ -192,6 +200,7 @@ export function figureDisplayName(figure: string): string {
     "federalist-papers": "The Federalist Papers",
     "magna-carta": "Magna Carta",
     "us-constitution": "The US Constitution",
+    "declaration-independence": "The Declaration of Independence",
     student: "The student",
     "parent-operator": "The parent-operator",
   };
