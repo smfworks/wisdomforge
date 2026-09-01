@@ -612,6 +612,60 @@ export const criticalThinkingForLifeBook: Book = {
   ],
 };
 
+export const criticalThinkingSkillsForLittleThinkersBook: Book = {
+  slug: "critical-thinking-skills-for-little-thinkers",
+  title: "Critical Thinking Skills for Little Thinkers",
+  subtitle: "The Thinking Hour",
+  summary:
+    "The thinking hour at the table is the whole program: something to look at, a question worth waiting for, a reason to hear, one other thing to check. A parent who is not a philosopher can run that hour for five-to-ten — picture books, snacks, weather, a friend’s sentence — if a wish is not allowed to pass as a look out the window.",
+  editorialPrinciple:
+    "Place by skill, not by birthday. Practice on something the child already knows. The child does the move; the parent hears a wish offered as a reason. The guide, if any, waits.",
+  chronology: "2026",
+  totalWordTarget: "~64,000 words",
+  readingTime: "~4 hours · 191 pages",
+  authors: ["Michael Gannotti"],
+  status: "published",
+  audiobookPlanned: true,
+  coverImage: "/images/books/critical-thinking-skills-for-little-thinkers-cover.jpg",
+  pdfHref: "/downloads/critical-thinking-skills-for-little-thinkers.pdf",
+  epubHref: "/downloads/critical-thinking-skills-for-little-thinkers.epub",
+  mdHref: "/downloads/critical-thinking-skills-for-little-thinkers.md",
+  catalogSubject: "thinking",
+  academySubject: "thinking",
+  hubHref: "/subjects/thinking",
+  hubLabel: "Thinking subject hub",
+  sittingsHeading: "Practice the moves in the academy",
+  sittingsDek:
+    "Little Thinkers Thinking sittings are the shorter path: claim and check, steel-man, change your mind. This book is the kitchen-table hour those sittings sit inside.",
+  showBooklets: false,
+  figures: [
+    {
+      slug: "parent-teacher",
+      name: "The parent-teacher",
+      dates: "now",
+      tradition: "Thinking hour",
+      coreQuestion: "Can you hear a wish offered as a reason?",
+      distinctiveVoice: "One adult, two ages at one table — not a philosophy department down the hall.",
+    },
+  ],
+  chapters: [
+    { number: 0, label: "Welcome", title: "Welcome", question: "What is the thinking hour still for?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 1, label: "How to Use", title: "How to Use This Book This Week", question: "What can you run on a Tuesday?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 2, label: "Five Things", title: "If You Only Remember Five Things", question: "What must hold if the rest is ignored?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 3, label: "The Hour", title: "The Thinking Hour", question: "What does a session of looking, asking, and checking actually look like?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 4, label: "Chapter 1", title: "What we mean", question: "What is the activity, including what to do?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 5, label: "Chapter 2", title: "The five moves", question: "What are the moves a five-to-ten can actually practice?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 6, label: "Chapter 3", title: "Something to think about", question: "Is thinking a content-free skill?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 7, label: "Chapter 4", title: "Picture books and stories", question: "What does a story hour have to do with a reason?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 8, label: "Chapter 5", title: "Inside the home", question: "Where do the moves land at the table?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 9, label: "Chapter 6", title: "Outside the home", question: "Where do the moves land in the world the child already walks?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 10, label: "Chapter 7", title: "Approaching disagreement", question: "What does a fair hearing look like at this age?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 11, label: "Chapter 8", title: "A life of the habit", question: "What does the habit look like when the worksheet is gone?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 12, label: "Chapter 9", title: "Records", question: "What still has to leave the house?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 13, label: "Chapter 10", title: "Resources", question: "Which program fits this hour, and which does not?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+  ],
+};
+
 export const hermesAiForBeginnersBook: Book = {
   slug: "hermes-ai-for-beginners",
   title: "Hermes AI for Beginners",
@@ -1217,6 +1271,7 @@ export const books: Book[] = [
   federalistPapersBook,
   historyForHomeschoolingBook,
   criticalThinkingForLifeBook,
+  criticalThinkingSkillsForLittleThinkersBook,
   mathematicsForHomeschoolingBook,
   scienceForHomeschoolingBook,
   englishForHomeschoolingBook,
