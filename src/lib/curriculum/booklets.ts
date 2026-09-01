@@ -191,6 +191,7 @@ export function figureDisplayName(figure: string): string {
     "basil-great": "Basil the Great",
     "gregory-nazianzus": "Gregory of Nazianzus",
     bonaventure: "Bonaventure",
+    "therese-of-lisieux": "Thérèse of Lisieux",
     "locke": "John Locke",
     hamilton: "Alexander Hamilton",
     madison: "James Madison",
