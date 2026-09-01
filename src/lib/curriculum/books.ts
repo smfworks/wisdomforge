@@ -1157,6 +1157,57 @@ export const teachingWorldLanguagesBook: Book = {
   ],
 };
 
+export const computerScienceForAllAgesBook: Book = {
+  slug: "computer-science-for-all-ages",
+  title: "Computer Science for All Ages",
+  subtitle: "The Computing Hour",
+  summary:
+    "The computing hour at the table is the whole program: a device to look at, a file to save, a try that might not run. A parent who is not a computer scientist can take a child from first-grade looking-at-devices through hardware, operating systems, networking, first programs, and AI as a topic — if the child holds the keyboard and the parent can hear “the computer is thinking” as a mix-up, not a compliment.",
+  editorialPrinciple:
+    "Look at the machine before the myth. Try before the model. Place by skill, not by birthday. The child holds the keyboard; the parent holds the key.",
+  chronology: "2026",
+  totalWordTarget: "~65,000 words",
+  readingTime: "~4 hours · 202 pages",
+  authors: ["Michael Gannotti"],
+  status: "published",
+  audiobookPlanned: true,
+  coverImage: "/images/books/computer-science-for-all-ages-cover.jpg",
+  pdfHref: "/downloads/computer-science-for-all-ages.pdf",
+  epubHref: "/downloads/computer-science-for-all-ages.epub",
+  mdHref: "/downloads/computer-science-for-all-ages.md",
+  catalogSubject: "cs",
+  academySubject: "cs",
+  hubHref: "/subjects/cs",
+  hubLabel: "Computer Science subject hub",
+  showBooklets: false,
+  figures: [
+    {
+      slug: "parent-teacher",
+      name: "The parent-teacher",
+      dates: "now",
+      tradition: "Computing hour",
+      coreQuestion: "Can you hear a wrong explanation?",
+      distinctiveVoice: "One adult, a keyboard on the table — not a lab down the hall.",
+    },
+  ],
+  chapters: [
+    { number: 0, label: "Welcome", title: "Welcome", question: "What is the computing hour still for?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 1, label: "How to Use", title: "How to Use This Book This Week", question: "What can you run on a Tuesday?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 2, label: "Five Things", title: "If You Only Remember Five Things", question: "What must hold if the rest is ignored?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 3, label: "The Hour", title: "The Computing Hour", question: "What does a session with a device actually look like?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 4, label: "Chapter 1", title: "Hardware", question: "What is the machine, before the myth?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 5, label: "Chapter 2", title: "Operating systems", question: "What is the layer between the child and the metal?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 6, label: "Chapter 3", title: "Networking", question: "What is a network, and what is a cable with a story?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 7, label: "Chapter 4", title: "The internet", question: "What is the internet, and what is a site?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 8, label: "Chapter 5", title: "Documents, typing, and slides", question: "What still has to be the student’s file?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 9, label: "Chapter 6", title: "First programs", question: "What is a program, and what is a recipe the machine follows?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 10, label: "Chapter 7", title: "Artificial intelligence as a topic", question: "Is the computer thinking, or completing a pattern?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 11, label: "Chapter 8", title: "Choose and sequence", question: "What comes first: use, or science?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 12, label: "Chapter 9", title: "Records", question: "What still has to leave the house?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 13, label: "Chapter 10", title: "Resources", question: "Which program fits this hour, and which does not?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+  ],
+};
+
 export const books: Book[] = [
   autonomousAiEducationBook,
   hermesAiForBeginnersBook,
@@ -1171,6 +1222,7 @@ export const books: Book[] = [
   englishForHomeschoolingBook,
   teachingWorldLanguagesBook,
   artForHomeschoolingBook,
+  computerScienceForAllAgesBook,
   stoicsBook,
   churchFathersBook,
 ];
