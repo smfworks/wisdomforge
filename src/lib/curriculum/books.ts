@@ -283,6 +283,132 @@ export const churchFathersBook: Book = {
   ],
 };
 
+/**
+ * Production drop targets:
+ *   cover → public/images/books/stoics-cover.png
+ *   PDF   → public/downloads/stoics.pdf
+ *   EPUB  → public/downloads/stoics.epub
+ *   MD    → public/downloads/stoics.md
+ */
+export const stoicsBook: Book = {
+  slug: "stoics",
+  title: "The Stoics",
+  subtitle: "A WisdomForge Reader",
+  summary:
+    "The Stoics did not agree with each other. This book is not a daily digest and not a conversion manual. It reconstructs the conversations among Zeno, Cleanthes, Chrysippus, Aristo, Musonius, Seneca, Epictetus, and Marcus — four questions, disagreements left open, ugly clauses kept. Panaetius and Posidonius are named as a transmission hole, not seated as full voices. The reader is the jury.",
+  editorialPrinciple:
+    "Show disagreements, not sequence. Not a daily digest. The reader is the jury.",
+  chronology: "c. 334 BCE – 180 CE (plus afterlives)",
+  totalWordTarget: "27,308 words",
+  readingTime: "~2.5 hours · 96 pages",
+  authors: ["Harry (research, outline, prose, production)"],
+  status: "published",
+  audiobookPlanned: false,
+  coverImage: "/images/books/stoics-cover.png",
+  pdfHref: "/downloads/stoics.pdf",
+  epubHref: "/downloads/stoics.epub",
+  mdHref: "/downloads/stoics.md",
+  academyUnit: "Character — The Stoics",
+  academySubject: "philosophy",
+  catalogSubject: "philosophy",
+  hubHref: "/subjects/philosophy",
+  hubLabel: "Philosophy subject hub",
+  sittingsHeading: "Study these Stoics in the academy",
+  sittingsDek:
+    "The circle you control and the inner citadel are the shorter hour. The figure booklets are portraits. This book is the longer argument those hours sit inside of.",
+  showBooklets: true,
+  figures: [
+    {
+      slug: "zeno-of-citium",
+      name: "Zeno of Citium",
+      dates: "c. 334–262 BCE",
+      tradition: "Early Stoa · founder",
+      coreQuestion: "What kind of school was born at the Painted Stoa?",
+      distinctiveVoice: "The merchant who may have been wrecked, and the Republic later students wished away",
+    },
+    {
+      slug: "seneca",
+      name: "Seneca",
+      dates: "c. 4 BCE–65 CE",
+      tradition: "Roman · court",
+      coreQuestion: "Can virtue survive a palace?",
+      distinctiveVoice: "The problem the others cannot ignore",
+    },
+    {
+      slug: "epictetus",
+      name: "Epictetus",
+      dates: "c. 50–135 CE",
+      tradition: "Roman · former slave",
+      coreQuestion: "What can a tyrant not take?",
+      distinctiveVoice: "The teacher of prohairesis who wrote nothing we have",
+    },
+    {
+      slug: "marcus-aurelius",
+      name: "Marcus Aurelius",
+      dates: "121–180 CE",
+      tradition: "Roman · emperor",
+      coreQuestion: "How do you govern without becoming Caesarified?",
+      distinctiveVoice: "The notebook on the Danube, and the son who became a disaster",
+    },
+  ],
+  chapters: [
+    {
+      number: 0,
+      label: "Introduction",
+      title: "Not a Digest",
+      question: "What does it mean to inherit five centuries of unresolved argument without turning it into a daily email?",
+      voices: ["zeno-of-citium", "epictetus", "seneca", "marcus-aurelius"],
+      wordTarget: "2,994",
+      status: "complete",
+    },
+    {
+      number: 1,
+      label: "Chapter 1",
+      title: "The Painted Stoa",
+      question: "What happened at the Painted Stoa, and what kind of school was born there?",
+      voices: ["zeno-of-citium"],
+      wordTarget: "6,136",
+      status: "complete",
+    },
+    {
+      number: 2,
+      label: "Chapter 2",
+      title: "The Great Stoics, in Disagreement",
+      question: "Where did the great Stoics actually disagree once the school had students, money, and an emperor?",
+      voices: ["zeno-of-citium", "seneca", "epictetus", "marcus-aurelius"],
+      wordTarget: "6,165",
+      status: "complete",
+    },
+    {
+      number: 3,
+      label: "Chapter 3",
+      title: "Afterlife",
+      question: "What happened to the teaching after the last pagan Stoic died — in churches, humanist studies, clinics, and the marketplace that now sells it by the day?",
+      voices: ["seneca", "epictetus", "marcus-aurelius"],
+      wordTarget: "5,502",
+      status: "complete",
+    },
+    {
+      number: 4,
+      label: "Chapter 4",
+      title: "Prohairesis in the Age of a Machine",
+      question: "What becomes of prohairesis in an age that offers to examine impressions for you?",
+      voices: ["epictetus", "marcus-aurelius", "seneca"],
+      wordTarget: "5,572",
+      status: "complete",
+    },
+    {
+      number: 6,
+      label: "Epilogue",
+      title: "The Conversation Continues",
+      question: "What has the reader seen, and what remains open?",
+      voices: ["zeno-of-citium", "seneca", "epictetus", "marcus-aurelius"],
+      wordTarget: "939",
+      status: "complete",
+    },
+  ],
+};
+
 export const federalistPapersBook: Book = {
   slug: "federalist-papers",
   title: "Publius",
@@ -1045,6 +1171,7 @@ export const books: Book[] = [
   englishForHomeschoolingBook,
   teachingWorldLanguagesBook,
   artForHomeschoolingBook,
+  stoicsBook,
   churchFathersBook,
 ];
 
