@@ -299,8 +299,8 @@ export const stoicsBook: Book = {
   editorialPrinciple:
     "Show disagreements, not sequence. Not a daily digest. The reader is the jury.",
   chronology: "c. 334 BCE – 180 CE (plus afterlives)",
-  totalWordTarget: "27,308 words",
-  readingTime: "~2.5 hours · 96 pages",
+  totalWordTarget: "46,019 words",
+  readingTime: "~4 hours · 160 pages",
   authors: ["Harry (research, outline, prose, production)"],
   status: "published",
   audiobookPlanned: false,
