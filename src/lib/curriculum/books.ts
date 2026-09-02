@@ -774,6 +774,60 @@ export const criticalThinkingForEmergingAdultsBook: Book = {
   ],
 };
 
+export const criticalThinkingForAdultsBook: Book = {
+  slug: "critical-thinking-for-adults",
+  title: "Critical Thinking for Adults",
+  subtitle: "The Work Hour",
+  summary:
+    "The thinking on this job is the whole program: something you already know, a question worth waiting for, a look at one other thing, and a short written reason a colleague who missed the meeting could follow. A working adult who is not a philosopher can run that hour at a desk, on a shift, in a bay — if an own-side because is not allowed to pass as a finished argument, and a model’s paragraph is not allowed to pass as a reason.",
+  editorialPrinciple:
+    "Adulthood is not a thinking birthday. Practice on the work in front of you. You hold the account; the guide, if any, waits.",
+  chronology: "2026",
+  totalWordTarget: "~60,000 words",
+  readingTime: "~4 hours · 180 pages",
+  authors: ["Michael Gannotti"],
+  status: "published",
+  audiobookPlanned: true,
+  coverImage: "/images/books/critical-thinking-for-adults-cover.jpg",
+  pdfHref: "/downloads/critical-thinking-for-adults.pdf",
+  epubHref: "/downloads/critical-thinking-for-adults.epub",
+  mdHref: "/downloads/critical-thinking-for-adults.md",
+  catalogSubject: "thinking",
+  academySubject: "thinking",
+  hubHref: "/subjects/thinking",
+  hubLabel: "Thinking subject hub",
+  sittingsHeading: "Practice the moves in the academy",
+  sittingsDek:
+    "Adult Thinking sittings are the shorter path: claim and check, steel-man, change your mind. This book is the work hour those sittings sit inside — desk, shift, bay — not a second Critical Thinking for Life.",
+  showBooklets: false,
+  figures: [
+    {
+      slug: "parent-teacher",
+      name: "The working adult",
+      dates: "now",
+      tradition: "Work hour",
+      coreQuestion: "Can you hear a fluent recap offered as a check?",
+      distinctiveVoice: "You, holding the account — not a philosophy department down the hall.",
+    },
+  ],
+  chapters: [
+    { number: 0, label: "Welcome", title: "Welcome", question: "What is the work hour still for?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 1, label: "How to Use", title: "How to Use This Book This Week", question: "What can you run on a Tuesday?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 2, label: "Five Things", title: "If You Only Remember Five Things", question: "What must hold if the rest is ignored?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 3, label: "The Hour", title: "The Work Hour", question: "What does a session of looking, asking, checking, and writing actually look like on the job?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 4, label: "Chapter 1", title: "What we mean", question: "What is the activity, including what to do?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 5, label: "Chapter 2", title: "Moves that scale", question: "What are the moves a working adult can actually practice?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 6, label: "Chapter 3", title: "Something to think about", question: "Is thinking a content-free skill?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 7, label: "Chapter 4", title: "Two sources", question: "What happens when you leave the first sentence and look at another?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 8, label: "Chapter 5", title: "Graphs", question: "What does a number on a page have to do with a look at the work?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 9, label: "Chapter 6", title: "A short written reason", question: "What still has to be a paragraph a colleague who missed the meeting could follow?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 10, label: "Chapter 7", title: "On the job", question: "Where do the moves land at the desk, on the shift, in the bay?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 11, label: "Chapter 8", title: "Approaching disagreement at work", question: "What does a fair hearing look like on this job?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 12, label: "Chapter 9", title: "Records", question: "What still has to leave the house?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 13, label: "Chapter 10", title: "Resources", question: "Which program fits this hour, and which does not?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+  ],
+};
+
 export const hermesAiForBeginnersBook: Book = {
   slug: "hermes-ai-for-beginners",
   title: "Hermes AI for Beginners",
@@ -1382,6 +1436,7 @@ export const books: Book[] = [
   criticalThinkingSkillsForLittleThinkersBook,
   criticalThinkingForYoungMindsBook,
   criticalThinkingForEmergingAdultsBook,
+  criticalThinkingForAdultsBook,
   mathematicsForHomeschoolingBook,
   scienceForHomeschoolingBook,
   englishForHomeschoolingBook,
