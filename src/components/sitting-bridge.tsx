@@ -2,8 +2,9 @@
 
 import { useState } from "react";
 import type { Lesson } from "@/lib/curriculum/types";
+import { nextInUnit } from "@/lib/curriculum";
 import { bandById } from "@/lib/curriculum/bands";
-import { contentHashTag } from "@/lib/curriculum/content-hash";
+import { pairingCopyPayload } from "@/lib/curriculum/sitting-card";
 import { ritualLabel } from "@/lib/labels";
 import { Button } from "@/components/ui/button";
 
@@ -27,18 +28,11 @@ export function SittingBridge({ lesson }: { lesson: Lesson }) {
   const [copiedField, setCopiedField] = useState<string | null>(null);
   const band = bandById(lesson.band);
 
-  // Version tag — hashes the guide-relevant fields only (hermes.prompt,
-  // reading, bigIdea, tryThis, ifTheySay) using djb2. Cosmetic edits to
-  // dek or parentBriefing don't trigger a version change. Parents compare
-  // this against the sitting page to detect content drift.
-  // Format: [v:1:{8-char-hex}] — v:1 is the algorithm version.
-  const versionTag = contentHashTag(lesson);
-
-  // Construct the USER.md line — NOT from lesson.hermes.pairingLine.
-  // Format: "Optional: currently working on WisdomForge sitting: {unit} — {slug}. [v:1:{hash}]"
-  // Matches wisdomforge-ritual skill line 48: "Unit Title — sitting-slug"
-  // Version pinning (Phase 5 P5): appended tag lets parents detect drift.
-  const userMdLine = `Optional: currently working on WisdomForge sitting: ${lesson.unit} — ${lesson.slug}. [${versionTag}]`;
+  // W4: Pair copies { card, userMdLine }. pairingLine stays display-only.
+  const payload = pairingCopyPayload(lesson, nextInUnit(lesson)?.slug ?? null);
+  const versionTag = payload.card.version;
+  const userMdLine = payload.userMdLine;
+  const pairJson = JSON.stringify(payload, null, 2);
 
   // Display-only context from lesson.hermes.pairingLine
   const displayPairingLine = lesson.hermes.pairingLine;
@@ -76,6 +70,21 @@ export function SittingBridge({ lesson }: { lesson: Lesson }) {
 
       {/* Display pairing line — context only, not copyable */}
       <p className="mt-4 text-sm text-muted">{displayPairingLine}</p>
+
+      {/* Pair this sitting — copies { card, userMdLine }. Not a library dump. */}
+      <div className="mt-6 border-t border-border pt-4">
+        <p className="text-sm font-medium text-fg">Pair this sitting</p>
+        <p className="mt-1 text-xs text-muted">
+          Copies the sitting card and the USER.md one-liner. The child profile reads only this card. It does not browse the catalog.
+        </p>
+        <Button
+          className="mt-3"
+          type="button"
+          onClick={() => void copy(pairJson, "pair")}
+        >
+          {copiedField === "pair" ? "Copied" : "Pair this sitting"}
+        </Button>
+      </div>
 
       {/* USER.md line — copy target for child profile */}
       <div className="mt-6 border-t border-border pt-4">
