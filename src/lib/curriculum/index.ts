@@ -23,6 +23,7 @@ import { lettersLittleLessons } from "./lessons/letters-little";
 import { coreLessons } from "./lessons/core";
 import type { BandId, Lesson, SubjectId } from "./types";
 import { lessonKey } from "./types";
+import { sittingCardFor } from "./sitting-card";
 
 export * from "./types";
 export { bands, bandById } from "./bands";
@@ -37,6 +38,14 @@ export {
   type GateFinding,
   type GateSeverity,
 } from "./gate";
+export {
+  sittingCardFor,
+  userMdLineFor,
+  pairingCopyPayload,
+  SITTING_CARD_KEYS,
+  type SittingCard,
+  type PairingCopyPayload,
+} from "./sitting-card";
 
 const groups: Lesson[][] = [
   aiLessons,
@@ -100,6 +109,11 @@ export function nextInUnit(lesson: Lesson) {
     )
     .sort((a, b) => a.number - b.number)
     .find((l) => l.number === lesson.number + 1);
+}
+
+/** W4: sitting card for this lesson. next is same-unit only. */
+export function sittingCardForLesson(lesson: Lesson) {
+  return sittingCardFor(lesson, nextInUnit(lesson)?.slug ?? null);
 }
 
 export function firstLesson(band: BandId, subject: SubjectId) {

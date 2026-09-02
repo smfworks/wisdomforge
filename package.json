@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "tsx --test scripts/test-content-hash.mts",
+    "test": "tsx --test scripts/test-content-hash.mts scripts/test-sitting-card.mts",
     "verify-gate": "tsx scripts/verify-gate.mts"
   },
   "dependencies": {

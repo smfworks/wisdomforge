@@ -10,12 +10,13 @@
 
 import { writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { lessons } from "./index";
+import { lessons, sittingCardForLesson } from "./index";
 import { subjectById } from "./subjects";
 import { bandById } from "./bands";
 import { ritualLabel } from "../labels";
 import { bookletLinksForLesson } from "./booklets";
 import { contentHashTag } from "./content-hash";
+import type { SittingCard } from "./sitting-card";
 
 export type SittingMeta = {
   slug: string;
@@ -95,4 +96,21 @@ export function generateSittingsFeed(outputDir: string): void {
   };
 
   writeFileSync(join(outputDir, "sittings.json"), JSON.stringify(feed, null, 2));
+}
+
+/** W4 pairing feed — cards only. No booklet text, no child identity, no pairingLine. */
+export type SittingCardsFeed = {
+  generated: string;
+  count: number;
+  cards: SittingCard[];
+};
+
+export function generateSittingCardsFeed(outputDir: string): void {
+  const cards = lessons.map((l) => sittingCardForLesson(l));
+  const feed: SittingCardsFeed = {
+    generated: new Date().toISOString(),
+    count: cards.length,
+    cards,
+  };
+  writeFileSync(join(outputDir, "sitting-cards.json"), JSON.stringify(feed, null, 2));
 }
