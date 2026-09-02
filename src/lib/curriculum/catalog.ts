@@ -88,8 +88,8 @@ export const catalog: CatalogUnit[] = [
     title: "Estimate Before the Oracle",
     status: "ready",
     bands: ["little", "young", "emerging", "adult"],
-    weeks: "1 flagship sitting",
-    blurb: "A number in the head before a tool in the hand.",
+    weeks: "6 sittings (little); flagship all bands",
+    blurb: "A number in the head before a tool in the hand. Little arc: guess, path, catch a wild number, two ways, about, then the machine.",
   },
   {
     id: "math-proof",
