@@ -148,7 +148,7 @@ export default function BonaventurePage() {
         </Link>
         <span className="mx-2 text-faint">·</span>
         <Link href="/library" className="text-accent hover:text-fg">
-          Repository
+          Library
         </Link>
         <span className="mx-2 text-faint">·</span>
         <Link href="/method" className="text-accent hover:text-fg">

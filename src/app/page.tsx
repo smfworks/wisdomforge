@@ -21,7 +21,7 @@ export default function Home() {
             Education in the age of AI.
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">
-            WisdomForge is a parent-operated academy. Same sitting, four ages. The booklet is the text. The parent is the teacher. The guide is optional, band-locked, and tool-poor. Not a hosted kids chatbot. Does not make AI safe.
+            WisdomForge is a parent-operated academy. Ten subjects, four ages. The booklet is the text. The parent is the teacher. The guide is optional. Not a hosted kids chatbot. Does not make AI safe.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button asChild size="lg">
@@ -36,6 +36,24 @@ export default function Home() {
 
       {/* Three layers as composition — copper-ruled rows */}
       <section className="mx-auto max-w-6xl px-4 pb-16 pt-6 sm:pb-20">
+        <div className="border-t border-accent py-8">
+          <p className="text-xs font-medium tracking-[0.28em] text-accent uppercase">
+            Ten subjects, four ages
+          </p>
+          <ul className="mt-4 flex flex-wrap gap-x-6 gap-y-3">
+            {subjects.map((s) => (
+              <li key={s.id}>
+                <Link
+                  href={`/subjects/${s.id}`}
+                  className="text-fg underline decoration-accent decoration-1 underline-offset-4 hover:text-accent"
+                >
+                  {s.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
         <h2 className="font-display text-3xl text-fg">Three layers, one system</h2>
         <p className="mt-2 max-w-xl text-muted">
           Each layer does one job. The parent is the operator.

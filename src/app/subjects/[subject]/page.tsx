@@ -37,6 +37,21 @@ export default function SubjectHub() {
       <p className="mt-4 max-w-2xl text-lg text-muted">{def.promise}</p>
       <p className="mt-4 max-w-2xl text-sm text-fg">{def.aiSpine}</p>
 
+      <ul className="mt-8 grid gap-3 sm:grid-cols-4">
+        {bands.map((b) => {
+          const n = lessonsBySubject(def.id, b.id).length;
+          return (
+            <li key={b.id} className="border-t border-accent py-3">
+              <p className="text-xs text-faint">{b.ages}</p>
+              <p className="font-medium text-fg">{b.name}</p>
+              <p className="mt-1 text-xs font-medium tracking-wide text-accent uppercase">
+                {n > 0 ? `Assist-ready · ${n}` : "In the forge"}
+              </p>
+            </li>
+          );
+        })}
+      </ul>
+
       {/* Flagship "Start here" card */}
       {flagshipLesson ? (
         <section className="mt-10 rounded-xl border-l-2 border-accent bg-surface p-6 shadow-[var(--shadow-border)]">
@@ -65,7 +80,7 @@ export default function SubjectHub() {
         </section>
       ) : null}
 
-      <h2 className="mt-12 font-display text-2xl text-fg">Repository</h2>
+      <h2 className="mt-12 font-display text-2xl text-fg">Units</h2>
       <ul className="mt-4 divide-y divide-border rounded-xl bg-surface shadow-[var(--shadow-border)]">
         {units.map((u) => (
           <li key={u.id} className="px-4 py-4">

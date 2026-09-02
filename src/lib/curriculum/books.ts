@@ -1344,3 +1344,14 @@ export function bookBySlug(slug: string): Book | undefined {
 export function catalogSubjectOf(book: Book): Book["catalogSubject"] | Book["academySubject"] {
   return book.catalogSubject ?? book.academySubject;
 }
+
+const OPERATOR_SLUGS = new Set([
+  "hermes-ai-for-beginners",
+  "hermes-mastery",
+  "ai-agents-projects-for-beginners",
+  "openclaw-for-beginners",
+]);
+
+export function bookAudience(book: Book): "academy" | "operator" {
+  return OPERATOR_SLUGS.has(book.slug) ? "operator" : "academy";
+}

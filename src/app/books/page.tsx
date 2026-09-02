@@ -1,12 +1,12 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { books, catalogSubjectOf } from "@/lib/curriculum/books";
+import { bookAudience, books, catalogSubjectOf } from "@/lib/curriculum/books";
 import { subjects } from "@/lib/curriculum/subjects";
 
 export const metadata: Metadata = {
   title: "Books — WisdomForge",
   description:
-    "Full-length WisdomForge books, grouped the same way as the academy subjects. The arguments are the inheritance, not the conclusions.",
+    "Academy teaching-manuals by subject, then operator books for parents who already run Hermes. A sitting is the weeknight path.",
 };
 
 function BookCard({ book }: { book: (typeof books)[number] }) {
@@ -47,10 +47,12 @@ function BookCard({ book }: { book: (typeof books)[number] }) {
 }
 
 export default function BooksPage() {
+  const academy = books.filter((b) => bookAudience(b) === "academy");
+  const operator = books.filter((b) => bookAudience(b) === "operator");
   const sections = subjects
     .map((subject) => ({
       subject,
-      items: books.filter((b) => catalogSubjectOf(b) === subject.id),
+      items: academy.filter((b) => catalogSubjectOf(b) === subject.id),
     }))
     .filter((section) => section.items.length > 0);
 
@@ -63,7 +65,7 @@ export default function BooksPage() {
         The longer arguments.
       </h1>
       <p className="mt-5 text-lg text-muted">
-        Same subjects as the academy. A book is the longer argument; a sitting is the weeknight path. Empty subjects stay off this page until a title lands.
+        Academy teaching-manuals sit with the subject they serve. Operator books are for parents who already run Hermes — not week-1 on the parent shelf. Empty subjects stay off this page until a title lands.
       </p>
 
       <div className="mt-6 rounded-lg border-l-2 border-accent bg-surface p-4 shadow-[var(--shadow-border)]">
@@ -72,6 +74,16 @@ export default function BooksPage() {
           Show disagreements, not just sequence. The reader is the jury.
         </p>
       </div>
+
+      <section className="mt-14 border-t border-accent pt-8">
+        <p className="text-xs font-medium tracking-[0.18em] text-accent uppercase">
+          Academy
+        </p>
+        <h2 className="mt-2 font-display text-3xl text-fg">Teaching-manuals</h2>
+        <p className="mt-2 max-w-2xl text-sm text-muted">
+          Age-banded Hour books and longer arguments tied to a sitting. Not a hosted kit.
+        </p>
+      </section>
 
       {sections.map(({ subject, items }) => (
         <section key={subject.id} className="mt-14 border-t border-accent pt-8">
@@ -94,6 +106,25 @@ export default function BooksPage() {
           </ul>
         </section>
       ))}
+
+      {operator.length > 0 ? (
+        <section className="mt-14 border-t border-accent pt-8">
+          <p className="text-xs font-medium tracking-[0.18em] text-accent uppercase">
+            Operator
+          </p>
+          <h2 className="mt-2 font-display text-3xl text-fg">Hermes books</h2>
+          <p className="mt-2 max-w-2xl text-sm text-muted">
+            For a parent who already uses Hermes. Not the front door. Not a sitting.
+          </p>
+          <ul className="mt-6 space-y-6">
+            {operator.map((book) => (
+              <li key={book.slug}>
+                <BookCard book={book} />
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
 
       <div className="mt-12 flex flex-col gap-3 border-t border-accent pt-8 sm:flex-row">
         <Link

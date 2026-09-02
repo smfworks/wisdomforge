@@ -24,19 +24,11 @@ export function SiteFooter() {
             For parents
           </Link>
           <Link href="/library" className="min-h-11 py-2 text-muted hover:text-fg">
-            Repository
+            Library
           </Link>
           <Link href="/progress" className="min-h-11 py-2 text-muted hover:text-fg">
             Progress
           </Link>
-          <a
-            href="https://smfwisdomforge.com"
-            className="min-h-11 py-2 text-muted hover:text-fg"
-            rel="noreferrer"
-            target="_blank"
-          >
-            Original library
-          </a>
         </div>
       </div>
       <div className="border-t border-border">

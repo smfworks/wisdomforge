@@ -32,8 +32,8 @@ export default function Library() {
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-14">
-      <p className="text-xs font-medium tracking-[0.28em] text-accent uppercase">Repository</p>
-      <h1 className="mt-3 font-display text-4xl text-fg sm:text-5xl">The repository</h1>
+      <p className="text-xs font-medium tracking-[0.28em] text-accent uppercase">Library</p>
+      <h1 className="mt-3 font-display text-4xl text-fg sm:text-5xl">The library</h1>
       <p className="mt-4 max-w-2xl text-lg text-muted">
         An expanding library of units. Ready means a parent can run the sitting tonight. In the forge means the catalog is honest about what is still being written.
       </p>

@@ -25,9 +25,9 @@ export default function ProgressPage() {
 
   return (
     <main className="mx-auto max-w-3xl px-4 py-14">
-      <h1 className="font-display text-4xl text-fg">Family progress</h1>
+      <h1 className="font-display text-4xl text-fg">This device</h1>
       <p className="mt-3 text-muted">
-        Stored on this device only. No account. No child names. Clear the browser data to reset.
+        Sittings marked in this browser. Not a family year map. No account. No child names. Clear the browser data to reset.
       </p>
 
       <dl className="mt-8 grid gap-3 sm:grid-cols-3">
