@@ -666,6 +666,60 @@ export const criticalThinkingSkillsForLittleThinkersBook: Book = {
   ],
 };
 
+export const criticalThinkingForYoungMindsBook: Book = {
+  slug: "critical-thinking-for-young-minds",
+  title: "Critical Thinking for Young Minds",
+  subtitle: "The Thinking Hour",
+  summary:
+    "The thinking hour at the table is the whole program: something to look at, a question worth waiting for, a reason to hear, one other thing to check. A parent who is not a philosopher can run that hour for eleven-to-fifteen — a recap versus a box score, two forecasts, a spec sheet, a rainfall graph, who should be captain — if an own-side because is not allowed to pass as a look at the second source.",
+  editorialPrinciple:
+    "Place by skill, not by birthday. Practice on something the student already knows. The student talks and looks; the parent hears an own-side because offered as a finished argument. The guide, if any, waits.",
+  chronology: "2026",
+  totalWordTarget: "~64,500 words",
+  readingTime: "~4 hours · 202 pages",
+  authors: ["Michael Gannotti"],
+  status: "published",
+  audiobookPlanned: true,
+  coverImage: "/images/books/critical-thinking-for-young-minds-cover.jpg",
+  pdfHref: "/downloads/critical-thinking-for-young-minds.pdf",
+  epubHref: "/downloads/critical-thinking-for-young-minds.epub",
+  mdHref: "/downloads/critical-thinking-for-young-minds.md",
+  catalogSubject: "thinking",
+  academySubject: "thinking",
+  hubHref: "/subjects/thinking",
+  hubLabel: "Thinking subject hub",
+  sittingsHeading: "Practice the moves in the academy",
+  sittingsDek:
+    "Young Minds Thinking sittings are the shorter path: claim and check, steel-man, change your mind. This book is the kitchen-table hour for eleven-to-fifteen those sittings sit inside.",
+  showBooklets: false,
+  figures: [
+    {
+      slug: "parent-teacher",
+      name: "The parent-teacher",
+      dates: "now",
+      tradition: "Thinking hour",
+      coreQuestion: "Can you hear an own-side because offered as a finished argument?",
+      distinctiveVoice: "One adult, two grains at one table — not a philosophy department down the hall.",
+    },
+  ],
+  chapters: [
+    { number: 0, label: "Welcome", title: "Welcome", question: "What is the thinking hour still for at eleven to fifteen?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 1, label: "How to Use", title: "How to Use This Book This Week", question: "What can you run on a Tuesday?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 2, label: "Five Things", title: "If You Only Remember Five Things", question: "What must hold if the rest is ignored?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 3, label: "The Hour", title: "The Thinking Hour", question: "What does a session of looking, asking, and checking actually look like?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 4, label: "Chapter 1", title: "What we mean", question: "What is the activity, including what to do?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 5, label: "Chapter 2", title: "Moves that scale", question: "What are the moves an eleven-to-fifteen can actually practice?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 6, label: "Chapter 3", title: "Something to think about", question: "Is thinking a content-free skill?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 7, label: "Chapter 4", title: "Two sources", question: "What happens when you leave the first sentence and look at another?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 8, label: "Chapter 5", title: "Graphs", question: "What does a number on a page have to do with a look at the world?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 9, label: "Chapter 6", title: "Inside the home", question: "Where do the moves land at the table?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 10, label: "Chapter 7", title: "Outside the home", question: "Where do the moves land in the world the student already walks?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 11, label: "Chapter 8", title: "Approaching disagreement", question: "What does a fair hearing look like at this age?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 12, label: "Chapter 9", title: "Records", question: "What still has to leave the house?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 13, label: "Chapter 10", title: "Resources", question: "Which program fits this hour, and which does not?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+  ],
+};
+
 export const hermesAiForBeginnersBook: Book = {
   slug: "hermes-ai-for-beginners",
   title: "Hermes AI for Beginners",
@@ -1272,6 +1326,7 @@ export const books: Book[] = [
   historyForHomeschoolingBook,
   criticalThinkingForLifeBook,
   criticalThinkingSkillsForLittleThinkersBook,
+  criticalThinkingForYoungMindsBook,
   mathematicsForHomeschoolingBook,
   scienceForHomeschoolingBook,
   englishForHomeschoolingBook,
