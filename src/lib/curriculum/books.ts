@@ -1433,6 +1433,57 @@ export const englishForHomeschoolingBook: Book = {
   ],
 };
 
+export const englishForLittleThinkersBook: Book = {
+  slug: "english-for-little-thinkers",
+  title: "English for Little Thinkers",
+  subtitle: "The English Hour",
+  summary:
+    "The English hour at the table is the whole program: letter tiles or a sound box, a question worth waiting for, a page they look through, a sentence they write. A parent who is not a reading specialist can run that hour for five-to-ten — sounds linked to letters, blending, fluency after accuracy — if a picture guess is not allowed to pass as word reading.",
+  editorialPrinciple:
+    "Place by skill, not by birthday. The child holds the pencil. You hold the key. The guide, if any, waits. Do not finish the word.",
+  chronology: "2026",
+  totalWordTarget: "~61,000 words",
+  readingTime: "~4 hours · 193 pages",
+  authors: ["Michael Gannotti"],
+  status: "published",
+  audiobookPlanned: true,
+  coverImage: "/images/books/english-for-little-thinkers-cover.jpg",
+  pdfHref: "/downloads/english-for-little-thinkers.pdf",
+  epubHref: "/downloads/english-for-little-thinkers.epub",
+  mdHref: "/downloads/english-for-little-thinkers.md",
+  catalogSubject: "english",
+  academySubject: "english",
+  hubHref: "/subjects/english",
+  hubLabel: "English subject hub",
+  showBooklets: false,
+  figures: [
+    {
+      slug: "parent-teacher",
+      name: "The parent-teacher",
+      dates: "now",
+      tradition: "English hour",
+      coreQuestion: "Can you hear a picture guess offered as word reading?",
+      distinctiveVoice: "One adult, two ages at one table — not a literacy department down the hall.",
+    },
+  ],
+  chapters: [
+    { number: 0, label: "Welcome", title: "Welcome", question: "What is the English hour still for at five to ten?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 1, label: "How to Use", title: "How to Use This Book This Week", question: "What can you run on a Tuesday?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 2, label: "Five Things", title: "If You Only Remember Five Things", question: "What must hold if the rest is ignored?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 3, label: "The Hour", title: "The English Hour", question: "What does a session of reading and writing actually look like?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 4, label: "Chapter 1", title: "Speaking and listening", question: "Can they take a turn and say a sentence before they read one?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 5, label: "Chapter 2", title: "Sounds, letters, and phonics", question: "Is a first-letter grab blending?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 6, label: "Chapter 3", title: "Blending and connected reading", question: "Can they blend into a page, not a picture guess?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 7, label: "Chapter 4", title: "Fluency after accuracy", question: "Is a stopwatch the first fluency move?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 8, label: "Chapter 5", title: "Vocabulary and word meaning", question: "Does the word mean something on this page?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 9, label: "Chapter 6", title: "Comprehension and story sense", question: "Can they tell what happened, without you finishing it?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 10, label: "Chapter 7", title: "Handwriting, spelling, and sentence building", question: "Whose sentence is on the page?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 11, label: "Chapter 8", title: "Writing for purposes", question: "Is a blank page “just write,” or a job they can finish?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 12, label: "Chapter 9", title: "Records", question: "What still has to leave the house?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 13, label: "Chapter 10", title: "Resources", question: "Which program fits this hour, and which does not?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+  ],
+};
+
 export const historyForHomeschoolingBook: Book = {
   slug: "history-for-homeschooling",
   title: "History for Homeschooling",
@@ -1657,6 +1708,7 @@ export const books: Book[] = [
   mathRefresherForAdultsBook,
   scienceForHomeschoolingBook,
   englishForHomeschoolingBook,
+  englishForLittleThinkersBook,
   teachingWorldLanguagesBook,
   artForHomeschoolingBook,
   computerScienceForAllAgesBook,
