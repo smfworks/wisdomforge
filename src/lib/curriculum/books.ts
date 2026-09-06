@@ -1167,6 +1167,58 @@ export const mathForYoungMindsBook: Book = {
   ],
 };
 
+export const mathForEmergingAdultsBook: Book = {
+  slug: "math-for-emerging-adults",
+  title: "Math for Emerging Adults",
+  subtitle: "The Math Hour",
+  summary:
+    "The math hour at the table is the whole program: a solved equation with structure, a short proof with reasons, a function family from a table, a unit-circle location, a rate that becomes instantaneous, a sample that is not yet a population claim. A parent who is not a mathematician can run that hour for fifteen-to-eighteen — if letter-moving with no structure is heard as a missing-meaning move, not a cute slip, and a birthday is not allowed to pass as Calculus readiness.",
+  editorialPrinciple:
+    "Place by skill, not by birthday. The student holds the pencil. You hold the key. The guide, if any, waits.",
+  chronology: "2026",
+  totalWordTarget: "~52,000 words",
+  readingTime: "~4 hours · 170 pages",
+  authors: ["Michael Gannotti"],
+  status: "published",
+  audiobookPlanned: true,
+  coverImage: "/images/books/math-for-emerging-adults-cover.jpg",
+  pdfHref: "/downloads/math-for-emerging-adults.pdf",
+  epubHref: "/downloads/math-for-emerging-adults.epub",
+  mdHref: "/downloads/math-for-emerging-adults.md",
+  catalogSubject: "math",
+  academySubject: "math",
+  hubHref: "/subjects/math",
+  hubLabel: "Mathematics subject hub",
+  sittingsHeading: "Practice the path in the academy",
+  sittingsDek:
+    "Emerging Adults math sittings are the shorter path: estimate first, path on paper, catch the machine. This book is the kitchen-table hour for fifteen-to-eighteen those sittings sit inside.",
+  showBooklets: false,
+  figures: [
+    {
+      slug: "parent-teacher",
+      name: "The parent-teacher",
+      dates: "now",
+      tradition: "Math hour",
+      coreQuestion: "Can you hear letter-moving with no structure?",
+      distinctiveVoice: "One adult, a late-high-school student at the table — not a math department down the hall.",
+    },
+  ],
+  chapters: [
+    { number: 0, label: "Welcome", title: "Welcome", question: "What is the math hour still for at fifteen to eighteen?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 1, label: "How to Use", title: "How to Use This Book This Week", question: "What can you run on a Tuesday?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 2, label: "Five Things", title: "If You Only Remember Five Things", question: "What must hold if the rest is ignored?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 3, label: "The Hour", title: "The Math Hour", question: "What does a session of number actually look like?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 4, label: "Chapter 1", title: "Algebra I", question: "What is structure, if letter-moving is not?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 5, label: "Chapter 2", title: "Geometry with reasons", question: "Is a formula sheet with no reason geometry?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 6, label: "Chapter 3", title: "Algebra II", question: "Is the quadratic formula before a graph still Algebra II?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 7, label: "Chapter 4", title: "Precalculus and trigonometry", question: "Is SOHCAHTOA the whole of trig?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 8, label: "Chapter 5", title: "Calculus with meaning", question: "Is a birthday Calculus readiness, or a rate story?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 9, label: "Chapter 6", title: "Statistics and inference talk", question: "Is a sample mean a population claim?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 10, label: "Chapter 7", title: "Records", question: "What still has to leave the house?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 11, label: "Chapter 8", title: "Resources", question: "Which program fits this hour, and which does not?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+  ],
+};
+
 export const mathRefresherForAdultsBook: Book = {
   slug: "math-refresher-for-adults",
   title: "Math Refresher for Adults",
@@ -1601,6 +1653,7 @@ export const books: Book[] = [
   mathematicsForHomeschoolingBook,
   mathForLittleThinkersBook,
   mathForYoungMindsBook,
+  mathForEmergingAdultsBook,
   mathRefresherForAdultsBook,
   scienceForHomeschoolingBook,
   englishForHomeschoolingBook,
