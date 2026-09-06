@@ -1636,6 +1636,57 @@ export const englishForAdultsBook: Book = {
   ],
 };
 
+export const englishForTheDyslexicBook: Book = {
+  slug: "english-for-the-dyslexic",
+  title: "English for the Dyslexic",
+  subtitle: "The English Hour (Structured Literacy)",
+  summary:
+    "A teaching manual for English with a child who finds word reading and spelling unexpectedly hard. It does not diagnose. It teaches a parent of grades 1–12 how to run Structured Literacy intensity: clear teaching, a planned sequence, daily review, and tomorrow’s lesson shaped by today’s errors — if colored overlays, a leveled ladder, and “just read more” are not allowed to pass as the intervention.",
+  editorialPrinciple:
+    "Place by skill, not by birthday. Age does not retire decoding. Short sharp sits. The child holds the pencil. You hold the key. The guide, if any, waits.",
+  chronology: "2026",
+  totalWordTarget: "~74,000 words",
+  readingTime: "~5.5 hours · 266 pages",
+  authors: ["Michael Gannotti"],
+  status: "published",
+  audiobookPlanned: true,
+  coverImage: "/images/books/english-for-the-dyslexic-cover.jpg",
+  pdfHref: "/downloads/english-for-the-dyslexic.pdf",
+  epubHref: "/downloads/english-for-the-dyslexic.epub",
+  mdHref: "/downloads/english-for-the-dyslexic.md",
+  catalogSubject: "english",
+  academySubject: "english",
+  hubHref: "/subjects/english",
+  hubLabel: "English subject hub",
+  showBooklets: false,
+  figures: [
+    {
+      slug: "parent-teacher",
+      name: "The parent-teacher",
+      dates: "now",
+      tradition: "Structured literacy",
+      coreQuestion: "Can you hear “just read more” offered as the only intervention?",
+      distinctiveVoice: "One adult, grades 1–12 at the table — not a reading clinic down the hall.",
+    },
+  ],
+  chapters: [
+    { number: 0, label: "Welcome", title: "Welcome", question: "What is the Structured Literacy hour still for?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 1, label: "How to Use", title: "How to Use This Book This Week", question: "What can you run on a Tuesday?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 2, label: "Five Things", title: "If You Only Remember Five Things", question: "What must hold if the rest is ignored?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 3, label: "The Hour", title: "The English Hour (Structured Literacy)", question: "What does a session of Structured Literacy actually look like?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 4, label: "Chapter 1", title: "What dyslexia is (and isn’t)", question: "Is this a diagnosis, or a teaching profile?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 5, label: "Chapter 2", title: "Phonemic awareness with letters", question: "Can they hear the sound with a letter in hand?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 6, label: "Chapter 3", title: "Systematic phonics and decoding", question: "Is a leveled ladder decoding?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 7, label: "Chapter 4", title: "Encoding and spelling", question: "Can they write the word they just read?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 8, label: "Chapter 5", title: "Fluency after accuracy", question: "Is a stopwatch the first fluency move?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 9, label: "Chapter 6", title: "Vocabulary and morphology across the grades", question: "Does age retire decoding?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 10, label: "Chapter 7", title: "Comprehension on accessible text", question: "Is “just read more” comprehension?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 11, label: "Chapter 8", title: "Writing with adaptations", question: "Can they write without abandoning spelling and sentence craft?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 12, label: "Chapter 9", title: "Records", question: "What still has to leave the house?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 13, label: "Chapter 10", title: "Resources", question: "Which program fits this hour, and which does not?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+  ],
+};
+
 export const historyForHomeschoolingBook: Book = {
   slug: "history-for-homeschooling",
   title: "History for Homeschooling",
@@ -1864,6 +1915,7 @@ export const books: Book[] = [
   englishForYoungMindsBook,
   englishForEmergingAdultsBook,
   englishForAdultsBook,
+  englishForTheDyslexicBook,
   teachingWorldLanguagesBook,
   artForHomeschoolingBook,
   computerScienceForAllAgesBook,
