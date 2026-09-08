@@ -90,6 +90,14 @@ const LESSON_TO_FIGURE: Record<string, string> = {
   "calibration-trust": "measure-twice",
   "measure-twice-capstone": "measure-twice",
 
+  // ── Taste Is a Muscle (art; 6 sittings × four bands live)
+  "looking-longer": "taste-is-a-muscle",
+  "copy-from-life": "taste-is-a-muscle",
+  "default-aesthetic": "taste-is-a-muscle",
+  "eye-trained-by-feed": "taste-is-a-muscle",
+  "refusing-default": "taste-is-a-muscle",
+  "taste-capstone": "taste-is-a-muscle",
+
   // ── How the Greeks Thought (in-forge — add mappings when lessons ship)
   // ── Faith & Reason (in-forge — add mappings when lessons ship)
 };
@@ -221,6 +229,7 @@ export function figureDisplayName(figure: string): string {
     "declaration-independence": "The Declaration of Independence",
     "number-in-the-age-of-ai": "Number in the Age of AI",
     "measure-twice": "Measure Twice",
+    "taste-is-a-muscle": "Taste Is a Muscle",
     student: "The student",
     "parent-operator": "The parent-operator",
   };
