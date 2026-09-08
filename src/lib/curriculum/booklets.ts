@@ -82,6 +82,14 @@ const LESSON_TO_FIGURE: Record<string, string> = {
   "about-not-exact": "number-in-the-age-of-ai",
   "catch-the-machine": "number-in-the-age-of-ai",
 
+  // ── Measure Twice (science; 6 sittings × four bands live)
+  "scale-vs-mouth": "measure-twice",
+  "units-save-lives": "measure-twice",
+  "error-bars": "measure-twice",
+  "confident-wrong-number": "measure-twice",
+  "calibration-trust": "measure-twice",
+  "measure-twice-capstone": "measure-twice",
+
   // ── How the Greeks Thought (in-forge — add mappings when lessons ship)
   // ── Faith & Reason (in-forge — add mappings when lessons ship)
 };
@@ -212,6 +220,7 @@ export function figureDisplayName(figure: string): string {
     "us-constitution": "The US Constitution",
     "declaration-independence": "The Declaration of Independence",
     "number-in-the-age-of-ai": "Number in the Age of AI",
+    "measure-twice": "Measure Twice",
     student: "The student",
     "parent-operator": "The parent-operator",
   };
