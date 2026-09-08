@@ -74,6 +74,14 @@ const LESSON_TO_FIGURE: Record<string, string> = {
   "slave-trade-passage-removed": "declaration-independence",
   "declaration-afterlife": "declaration-independence",
 
+  // ── Number in the Age of AI (6 sittings; Little 6/6 live)
+  "estimate-first": "number-in-the-age-of-ai",
+  "path-on-paper": "number-in-the-age-of-ai",
+  "check-the-wild-answer": "number-in-the-age-of-ai",
+  "same-quantity-two-ways": "number-in-the-age-of-ai",
+  "about-not-exact": "number-in-the-age-of-ai",
+  "catch-the-machine": "number-in-the-age-of-ai",
+
   // ── How the Greeks Thought (in-forge — add mappings when lessons ship)
   // ── Faith & Reason (in-forge — add mappings when lessons ship)
 };
@@ -203,6 +211,7 @@ export function figureDisplayName(figure: string): string {
     "magna-carta": "Magna Carta",
     "us-constitution": "The US Constitution",
     "declaration-independence": "The Declaration of Independence",
+    "number-in-the-age-of-ai": "Number in the Age of AI",
     student: "The student",
     "parent-operator": "The parent-operator",
   };
