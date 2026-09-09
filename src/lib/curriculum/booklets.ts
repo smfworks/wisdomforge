@@ -98,6 +98,14 @@ const LESSON_TO_FIGURE: Record<string, string> = {
   "refusing-default": "taste-is-a-muscle",
   "taste-capstone": "taste-is-a-muscle",
 
+  // ── Rhetoric in the Age of Fluency (English; 6 sittings young+ only)
+  "ethos-floor": "rhetoric-in-the-age-of-fluency",
+  "pathos-feeling": "rhetoric-in-the-age-of-fluency",
+  "logos-holds": "rhetoric-in-the-age-of-fluency",
+  "machine-fakes-three": "rhetoric-in-the-age-of-fluency",
+  "voice-against-machine": "rhetoric-in-the-age-of-fluency",
+  "rhetorical-self-defense": "rhetoric-in-the-age-of-fluency",
+
   // ── How the Greeks Thought (in-forge — add mappings when lessons ship)
   // ── Faith & Reason (in-forge — add mappings when lessons ship)
 };
@@ -230,6 +238,7 @@ export function figureDisplayName(figure: string): string {
     "number-in-the-age-of-ai": "Number in the Age of AI",
     "measure-twice": "Measure Twice",
     "taste-is-a-muscle": "Taste Is a Muscle",
+    "rhetoric-in-the-age-of-fluency": "Rhetoric in the Age of Fluency",
     student: "The student",
     "parent-operator": "The parent-operator",
   };
