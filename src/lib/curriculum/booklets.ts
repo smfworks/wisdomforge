@@ -106,6 +106,14 @@ const LESSON_TO_FIGURE: Record<string, string> = {
   "voice-against-machine": "rhetoric-in-the-age-of-fluency",
   "rhetorical-self-defense": "rhetoric-in-the-age-of-fluency",
 
+  // ── Show the Path (math; 6 sittings young+ only)
+  "what-is-proof": "show-the-path",
+  "missing-step": "show-the-path",
+  "checker-not-walker": "show-the-path",
+  "blank-board": "show-the-path",
+  "proof-social": "show-the-path",
+  "show-path-capstone": "show-the-path",
+
   // ── How the Greeks Thought (in-forge — add mappings when lessons ship)
   // ── Faith & Reason (in-forge — add mappings when lessons ship)
 };
@@ -239,6 +247,7 @@ export function figureDisplayName(figure: string): string {
     "measure-twice": "Measure Twice",
     "taste-is-a-muscle": "Taste Is a Muscle",
     "rhetoric-in-the-age-of-fluency": "Rhetoric in the Age of Fluency",
+    "show-the-path": "Show the Path",
     student: "The student",
     "parent-operator": "The parent-operator",
   };
