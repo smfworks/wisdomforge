@@ -25,8 +25,8 @@ export const catalog: CatalogUnit[] = [
     title: "How to Think",
     status: "ready",
     bands: ["little", "young", "emerging", "adult"],
-    weeks: "3 sittings",
-    blurb: "Claim and check, steel-man, what would change your mind.",
+    weeks: "6 sittings",
+    blurb: "Claim and check, steel-man, what would change your mind, say what you mean, catch a fluent claim, then the full loop.",
   },
   {
     id: "think-bias",
