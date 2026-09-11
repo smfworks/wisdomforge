@@ -250,8 +250,8 @@ export const catalog: CatalogUnit[] = [
     title: "Say It Yourself",
     status: "ready",
     bands: ["little", "young", "emerging", "adult"],
-    weeks: "1 flagship sitting",
-    blurb: "The mouth has to move. A model can drill; it cannot be understood for you.",
+    weeks: "6 sittings",
+    blurb: "The mouth has to move. Hear, say, use, ask, catch the ghost-speaker. A model can drill; it cannot be understood for you.",
   },
   {
     id: "lang-deep",

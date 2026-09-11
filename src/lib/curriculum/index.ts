@@ -21,6 +21,7 @@ import { federalistLessons } from "./lessons/civics-federalist";
 import { fourteenthLessons } from "./lessons/civics-fourteenth";
 import { lettersLittleLessons } from "./lessons/letters-little";
 import { mathLittleLessons } from "./lessons/math-little";
+import { languageSpeakLessons } from "./lessons/language-speak";
 import { coreLessons } from "./lessons/core";
 import type { BandId, Lesson, SubjectId } from "./types";
 import { lessonKey } from "./types";
@@ -72,6 +73,7 @@ const groups: Lesson[][] = [
   fourteenthLessons as Lesson[],
   lettersLittleLessons as Lesson[],
   mathLittleLessons as Lesson[],
+  languageSpeakLessons as Lesson[],
   coreLessons as Lesson[],
 ];
 
