@@ -114,6 +114,14 @@ const LESSON_TO_FIGURE: Record<string, string> = {
   "proof-social": "show-the-path",
   "show-path-capstone": "show-the-path",
 
+  // ── How to Think (6 sittings × four bands)
+  "claim-and-check": "how-to-think",
+  "steel-man": "how-to-think",
+  "change-your-mind": "how-to-think",
+  "say-what-you-mean": "how-to-think",
+  "catch-the-fluent-claim": "how-to-think",
+  "how-to-think-capstone": "how-to-think",
+
   // ── How the Greeks Thought (in-forge — add mappings when lessons ship)
   // ── Faith & Reason (in-forge — add mappings when lessons ship)
 };
@@ -248,6 +256,7 @@ export function figureDisplayName(figure: string): string {
     "taste-is-a-muscle": "Taste Is a Muscle",
     "rhetoric-in-the-age-of-fluency": "Rhetoric in the Age of Fluency",
     "show-the-path": "Show the Path",
+    "how-to-think": "How to Think",
     student: "The student",
     "parent-operator": "The parent-operator",
   };

@@ -1,0 +1,792 @@
+---
+title: How to Think — WisdomForge Booklet — Ages 15-18
+age_group: high
+voice: George
+cover_image: /images/booklets/how-to-think-high-cover.png
+chapter_images:
+  - /images/booklets/how-to-think-high-ch01.png
+  - /images/booklets/how-to-think-high-ch02.png
+  - /images/booklets/how-to-think-high-ch03.png
+  - /images/booklets/how-to-think-high-ch04.png
+  - /images/booklets/how-to-think-high-ch05.png
+  - /images/booklets/how-to-think-high-ch06.png
+---
+
+# Burden Still Sits on the Claimant
+## WisdomForge Booklet — Ages 15–18
+
+---
+
+## About This Book
+
+This booklet is the six thinking sittings called *How to Think*. All four bands have sittings. Sitting 1 is `/learn/emerging/thinking/claim-and-check`. The booklet is the text. The parent is the teacher. The guide is optional. A model may hunt unfairness or offer other meanings of a word. It may not be the judge, the author, or the first hand.
+
+It is not the Critical Thinking Hour books. It is not a debate-team manual. Do not invent sittings. Do not convert the old three-sitting unit; the six are live.
+
+
+
+You will meet other WisdomForge packs that teach one of these names in another subject. *Show the Path* is the math walk. *Measure Twice* is the measurement. *Rhetoric in the Age of Fluency* is ethos, pathos, logos against a machine that can fake all three (young+ sittings; little 404 by design on that pack). *Taste Is a Muscle* is looking longer. *Education in the Age of AI* is a different spine. This booklet does not replace those. It is the thinking loop those packs assume you can start.
+
+Parents: you are the teacher. If you only download the PDF, nothing happens. Use sitting 1 this week. The download is a spine. The marked paper is the curriculum. If a week is too tender, skip. Refusal is a complete week. Nothing here asks you to dump adult failures, target a classmate, or make a child comfort you.
+
+Students: you already know how to sound like you thought. This pack is annoying on purpose. It asks for paper. It asks for a nod. It asks you to label a jersey. It asks you to catch your own smoothness. If you can do that once, you can do it on a feed. If you only do it in a chat with a model, you did a worksheet for a machine.
+
+How to Think is a loop with names. Claim and check. Steel-man until a nod. Name what would change you. Freeze the load-bearing word. Catch fluency as a costume. Then walk the whole loop on paper. If you skip a name because a chat already sounded finished, you did not think. You applauded.
+
+> “He who knows only his own side of the case, knows little of that.”
+> — John Stuart Mill, *On Liberty*, chapter 2 (1859)
+
+---
+
+## Chapter 1: Claim and Check
+
+
+This sitting exists because feeds and models both reward a finished sentence. You are 11–14. You already know how to sound sure. The work is to slow down long enough to write the sentence that could be false. Teachers will sometimes grade the sure sound. This house grades the check. If that feels slower than your friends, it is. Slow is the point.
+
+A claim is a sentence that could be false. Thinking starts when you write it and ask what would count — before you reply, share, or paste it into a model.
+
+**Objective.** The student can pull a claim out of a paragraph (human or model), write what would count as evidence, and name what would break it.
+
+**For the grown-up in the room.** This is sitting 1. Talk About It. Do not grade their politics. Grade whether the claim is on the table and whether the burden stayed on the claimant. The guide may not declare the winner.
+
+**The sentence that hid.** People argue as if everyone already knows the claim. They do not. “School is pointless,” “that source is fake,” “everyone knows,” “the model said.” Write the claim in one sentence that could be false. If you cannot write it, you are still inside a mood.
+
+**A worked claim.** “This article proves phones ruin sleep.” Write the claim: phones ruin sleep. What would count: a study you can walk to, with a method, or a week of your own sleep log. What would break it: a good study that finds no effect, or your log showing no change. Burden: on the article, not on you to disprove the universe. NOT YET is allowed before you have walked. Sharing the article as proof before the walk is a costume.
+
+**What would count.** Evidence is not a vibe and not a tone. Name a check a stranger could, in principle, run: a count, a date, a walk to a source, a try. If you cannot name what would count, you do not have a map. You have a jersey with better grammar.
+
+**What would break it.** A claim that cannot be broken is not strong. It is protected. Write one observation that would make you drop or rewrite it. If nothing could, say so. That honesty is the sitting. Pretending you are open while naming no breaker is a costume.
+
+**Burden.** The person who wants you to believe it pays. Online, the confident paragraph tries to reverse that: you must disprove me. Do not pick it up. “Not yet” is a complete answer. Models are trained to sound like they already paid. They have not.
+
+**The model as a draft, not a witness.** Ask it for a claim and a breaker. Then you decide whether the breaker is real. If you let it score the argument, you outsourced thinking and kept the feeling of having thought.
+
+**Sitting big idea.** Write the claim. Name what would count. Name what would break it. Keep the burden on the claimant.
+
+**Homework and feeds.** A worksheet can hide a claim in a “discuss” prompt. A feed can hide a claim in a joke. Both still owe a check. Write the sentence anyway. If the assignment wants an opinion, the opinion is still a claim. “I think” does not pay the burden. It only names the speaker.
+
+**What counting looks like at 11–14.** A date you can look up. A page number you can walk to. A measurement you can repeat. A person you can ask who was actually there. “I saw a video” is not yet a walk unless you can say which one, who made it, and what would show it was staged or cropped. If that feels picky, good. Picky is how costumes fall off.
+
+**When NOT YET is the whole answer.** Some claims cannot be checked in this kitchen this week. Health claims, legal claims, someone else’s private life. Catch, then a professional or a trusted adult — not a thread, not a model. The sitting is allowed to end at NOT YET. Ending there is thinking. Filling the silence with fluency is not.
+
+
+If they say “That’s overthinking.”: One sentence and two checks is not overthinking. Sharing without them is.
+
+If they say “The model already cited a study.”: Named is not shown. Can you walk to the study, or only to the sentence?
+
+**Integrity.** Do not paste a classmate’s post into a model to “check their claim” with their name attached.
+
+**If they freeze.** Some students will not write because they fear being wrong on paper. Let NOT YET be a complete paper. A blank page that says NOT YET is more honest than a fluent paragraph they do not mean. Do not grade speed. Grade whether the claim is visible.
+
+**Dinner.** What claim did we treat as a fact this week, and what would have broken it?
+
+**Kitchen scene.** Someone says at dinner that a video “proved” a rumor about a school. Write the claim on a scrap. What would count: a named person who was there, a document, a date. What would break it: the person saying they were not there, or the date being wrong. Burden stays on the video. You may still be angry. Anger is not a check. If the table cannot walk tonight, the mark is NOT YET, and the video does not get to sit at the table as a witness.
+
+- No culture-war first example.
+- Keep the first claim low-stakes.
+
+**Transfer.** English: a thesis is a claim. Science: a hypothesis owes a test. Civics: a charge owes a showing. Math: an answer without a path is a rumor (see *Show the Path*). AI: fluency is not a witness (see *Education in the Age of AI* sittings — do not invent new ones). The same pause travels. If you only use it in this booklet, it was a worksheet.
+
+**Objection.** “We’ll never finish the assignment if we do this every time.” You do not. You do it when the sentence wants to become a share, a grade, or a fight. Three times a week is a house. Thirty times a day is a stall. The sitting is a pause, not a new religion.
+
+### Big Idea
+
+A fluent paragraph is still a claim. Claims owe a check. The tool is a draft.
+
+### Try This
+
+Paper, then talk, then any guide. Time-box twelve minutes. If the claim is still not written at minute four, the sitting is the writing, not the debate. Stop at minute twelve even if unfinished. Unfinished paper beats a fluent chat.
+
+
+1. Pick a paragraph (homework, headline, or model).
+2. Write CLAIM / WHAT COUNTS / WHAT WOULD BREAK IT.
+3. Talk About It: who pays the burden?
+4. Do not let the guide declare the winner.
+
+### Practice
+
+Use the three questions in order. The first is a hunt (where did we skip). The second is a distinction (walk vs name). The third is about the tool. If they only answer the third, they are hiding in AI talk. Bring them back to a human sentence from this week.
+
+
+1. When did “everyone knows” replace a check in your week?
+2. What is the difference between a source you can walk to and a sentence that names a source?
+3. Where did a model try to become the judge?
+
+---
+
+Carry this week: one claim on paper. LOOK / ASK / TRY / NOT YET. If you share before the mark, you practiced fluency, not thinking. The mark can be NOT YET. That still counts.
+
+*What would count — and who has to show it?*
+
+---
+
+## Chapter 2: Until They Could Sign It
+
+
+This sitting exists because winning is easy when the other view is a cartoon. You already know how to roast. The work is a page someone could sign. Mill wrote it as politics. You will use it as homework, group chats, and chores. If it feels like losing, you are paying the right cost.
+
+Steel-manning is not agreeing. It is writing the other view so fairly a person who holds it could sign the page — then answering that, not a cartoon.
+
+**Objective.** The student can write a steel-man of a real disagreement that the other side could sign, before writing a reply.
+
+**For the grown-up in the room.** Sitting 2. School issue, not a wound. If they use the guide, it may only hunt remaining unfairness. It is not the author of the hearing.
+
+**Cartoons are cheap.** Anger shrinks the other idea until it is silly. Then you win. The win does not travel. The person you need to persuade will not recognize themselves. Mill’s point is older than the internet: if you only know your side, you know little of the case.
+
+**A worked steel-man.** They want later lights-out. Cartoon: “they just want to scroll.” Signable: “they want thirty minutes because the house rule feels arbitrary and they finish homework late.” If they would not sign the second sentence, rewrite. Then you may still keep the original lights-out. The sitting is the sign, not the surrender. If you skip the sign, you will fight the cartoon and they will not hear the rule.
+
+**The sign test.** Write their view in language they would use. Ask: would they sign this? If not, you are still punching fog. Three tries is the sitting working. Ten tries may mean the topic is too hot — stop.
+
+**Why it feels like losing.** Hearing well spends the adrenaline you wanted for the reply. That is the cost. Paying it is the difference between thinking and performing. A model can generate a generous paragraph in someone else’s voice. A person still has to sign.
+
+**Sitting big idea.** You have not answered until they could sign the page.
+
+**Group chats.** Steel-manning in a group chat is harder because the audience rewards the cartoon. Do the sign test on paper first, privately. If you cannot write a version they would sign, do not post yet. Silence is a complete turn. The sitting does not require you to win the thread.
+
+**Fairness leftover.** After you write their view, hunt the leftover unfairness: a nickname, a motive you invented, a word they would never use. Those leftovers are how cartoons sneak back in. A model can list leftovers if you already wrote the page. It cannot tell you whether a living person would sign.
+
+**Adults in the room.** If a parent only steel-mans when they are losing, the student learns that hearing is a tactic. The first signed page of the week should be an adult signing the student’s small complaint about a rule — then the rule can still stand. The nod is not the surrender.
+
+
+If they say “That’s just semantics / agreeing.”: Signing that you heard is not signing that they are right.
+
+If they say “I already know what they think.”: Then the sign is cheap. If it is expensive, you did not know yet.
+
+**Integrity.** Do not paste a person’s private message into a model to steel-man them.
+
+**If they perform charity.** Some students write a generous steel-man of a view nobody holds, then crush it. That is a cartoon in kind clothing. Ask: name a person who would sign this. If they cannot, rewrite. Imaginary opponents do not count.
+
+**Dinner.** Whose view did we write fairly enough that they could sign it?
+
+**Kitchen scene.** Two siblings fight about a chore. Cartoon: “they never help.” Signable: “they emptied the dishwasher yesterday and want credit before the trash.” Get the nod. Then the rule can still be: trash is yours this week. The sitting is not a courtroom. It is a pause so the rule hits the actual complaint. If nobody will nod, stop. Do not run a trial at 8 p.m.
+
+- No targeting a classmate by name.
+- You steel-man a small household disagreement first.
+
+**Transfer.** English: steel-man before rebuttal. Civics: hear the other faction’s strongest case. Philosophy: charity is not surrender. Family: the nod before the rule. If you only steel-man people you already like, it was manners, not thinking.
+
+**Objection.** “They would never steel-man me.” Maybe not. You still need the signed page if you want to know what you are answering. Their refusal does not license your cartoon. You can keep the rule and keep the sign. You can also walk away. Walking away is a complete turn.
+
+### Big Idea
+
+The reply is last. The signed steel-man is the work.
+
+### Try This
+
+Time-box sixteen minutes: eight for the steel-man, eight for the reply. If the steel-man is not signable at minute eight, do not start the reply. Carry the page to a person. The guide hunts leftovers only after the page exists.
+
+
+1. Pick one disagreement you actually have (school, not a wound).
+2. Write their view in 6–8 lines.
+3. Talk About It: would they sign?
+4. Only then write a ten-line reply.
+5. Guide only: “Where am I still unfair?”
+
+### Practice
+
+If they cannot name a person who would sign, they do not have a steel-man yet. Do not let the conversation become a roast of “people these days.” Name a view in the room or on the assignment.
+
+
+1. When did you win at a cartoon this week?
+2. What would change if you needed their signature before you posted?
+3. Can a model ever supply the nod?
+
+---
+
+Carry this week: one signed steel-man, even of a chore. If you cannot get a sign, do not post the roast. Silence is a complete turn.
+
+*Would they sign what you just wrote?*
+
+---
+
+## Chapter 3: What Would Change Your Mind?
+
+
+This sitting exists because “I might be wrong” became a style. You can say it and not mean it. The work is a breaker you would actually accept, or a jersey you will actually name. Popper was talking about science. You are talking about a belief you might have to live with on Tuesday.
+
+A belief with no breaker is a jersey. Jerseys are allowed. Calling a jersey a map is how people get cruel.
+
+**Objective.** The student can write one breaker for a belief they actually hold — or honestly label it a jersey.
+
+**For the grown-up in the room.** Sitting 3. Do not force a conversion. Model then / saw / now on something of yours that does not wound them. Popper’s falsifiability is a standard for theories; here it is scaled to a claim they can actually drop.
+
+**Maps and jerseys.** A map answers: how would we know we were wrong? A jersey answers: whose side are we on? Team colors, favorite books, loyalty to a person — jerseys. Picnic weather, a homework method, “this source is always right” — maps, if you will name a breaker.
+
+**A worked breaker.** “Our method for vocab is the only one that works.” Breaker: two quizzes after a different method with the same time spent. If you will not run that, it may be a jersey (comfort, habit). Label it. If you will run it, write the breaker first so a good week cannot be explained away. Then / saw / now if it moves. No victory lap at anyone else’s expense.
+
+**The brave line.** IF I SAW ____, I WOULD CHANGE. Write it before any tool offers a humble last line. Models are good at “I might be wrong.” Meaning it on Tuesday is the work.
+
+**Then / saw / now.** If the map moves: three lines. What you thought. What you saw. What you think now. No apology tour. No victory lap. If it does not move, write MAP DID NOT MOVE, because ____. Honesty beats a performed update.
+
+**Sitting big idea.** If nothing could change your mind, you are not mapping.
+
+**Jerseys you may keep.** Loyalty, love, team colors, a faith practiced in a house. The sitting does not raid those. It asks you not to smuggle them into a homework claim or a science claim and then punish anyone who brings a measurement. Mixed labels make people mean.
+
+**Performed humility.** “I could be wrong” is the fluent last line. It is cheap. The expensive line is the breaker you would actually accept. If you cannot name it, write JERSEY. Teachers sometimes grade the humble last line. This house grades the breaker.
+
+**Then / saw / now is enough.** You do not owe a speech. Three lines. If the map did not move, say why. Both are adult moves. Neither requires a model. If a model writes a beautiful update you would not say at dinner, it did not happen.
+
+
+If they say “Changing means I was dumb.”: Changing means you saw more. Staying when the road changed is the stuck thing.
+
+If they say “Thinking is the point, not doing.”: If nothing could change what you do, you wrote a jersey.
+
+**Integrity.** Do not let a model write your update and then sign it.
+
+**If they confess.** This sitting is not a purity test. If a breaker would expose a wound or a family fight, they may write JERSEY and stop. You do not get to demand a conversion because a booklet asked for a map.
+
+**Dinner.** What would we have to see to change our mind about one real thing this week?
+
+**Kitchen scene.** “We always order pizza on Friday.” Breaker: a Friday when the shop is closed or someone is sick. If the house treats always as a law, it is a jersey. If the house can name the breaker and still like Friday pizza, it is a map with a preference. Then / saw / now if a Friday changes. No one needs a speech about flexibility. They need the label.
+
+- No forced political conversion.
+- Not a confession ritual.
+
+**Transfer.** Science: revision is the method. History: a story that cannot be troubled by a document is a jersey. Faith: some commitments are jerseys on purpose — do not launder them into lab claims. Sports: you may keep the shirt and still update the weather.
+
+**Objection.** “If I name a breaker, someone will use it against me.” Then write a breaker you would actually accept, not a trap. If you cannot write one you would accept, it is a jersey. The sitting is honesty about the label, not a gift to an opponent.
+
+### Big Idea
+
+Name the breaker or name the jersey. Do not mix the labels.
+
+### Try This
+
+Time-box ten minutes. Breaker or JERSEY. No third category called “it’s complicated” unless you write the breaker inside the complication. Complicated without a breaker is a jersey in a trench coat.
+
+
+1. Write one belief you actually hold.
+2. Write the breaker — or JERSEY.
+3. If the map moved this year, write then / saw / now.
+4. Guide only after the paper exists.
+
+### Practice
+
+Jersey is allowed. The question is whether they will say the word. If they will not label a jersey, they will treat every challenge as an attack. Help them keep one jersey in peace.
+
+
+1. Which of your beliefs are jerseys on purpose?
+2. When did a fluent “I might be wrong” replace an actual update?
+3. What would count as seeing more — not as losing?
+
+---
+
+Carry this week: one breaker or one jersey, labeled. If you perform “I might be wrong” without a breaker, you practiced style.
+
+*If nothing could change it, what is it for?*
+
+---
+
+## Chapter 4: Define It Before You Fight
+
+
+This sitting exists because fights hide in words. You already know how to argue. The work is to freeze the word that is doing the arguing. Wittgenstein was talking about language-games. You are talking about fair, cheat, evidence, always — in this argument, this week.
+
+A hidden definition is a trap. Write the load-bearing word. Then argue.
+
+**Objective.** The student can pull a contested word out of a paragraph and write the definition they are actually using, in one sentence that could be false.
+
+**For the grown-up in the room.** Sitting 4. Grade whether the word is on the table, not which tribe owns it. Wittgenstein’s point, scaled: meaning is use. The house, the essay, the thread — each is a use. Freeze the one you are in.
+
+**The word under the heat.** Safe, free, cheating, evidence, always, fair. Each can hide two jobs. People fight as if they share a dictionary. They do not. Write: IN THIS ARGUMENT, X means ____. If they would not sign that definition, you are still punching fog.
+
+**A worked freeze.** Two people say “cheating.” One means looking at a phone during a quiz. The other means any help including a parent quizzing them at dinner. Write two house sentences. The fight was never about character. It was about two jobs for one word. Freeze, then talk about the quiz rule. A model’s definition of cheating is not this classroom and not this kitchen.
+
+**The silent slide.** A term starts as a description and ends as a verdict. Mid-paragraph it jumps. The jump is the argument. Fluent systems are good at the jump because they optimize for local smoothness, not for a stable term.
+
+**House words.** If “fair” is never written in this house, the loudest mouth — or the smoothest tool — becomes the dictionary. Write it when you are calm.
+
+**Sitting big idea.** An argument that never defines its words is a performance.
+
+**Essay words.** In English and civics, the load-bearing word is often the whole assignment. Circle it before you outline. If “justice” means two things in your draft, you will write two essays and think you wrote one. Freeze, then outline.
+
+**Comment-section slides.** Watch a word start as a description (“that post was loud”) and end as a verdict (“that person is violent”). The slide did the arguing. Interrupt it on paper: SENSE A / SENSE B / WHERE IT SLIDES. If you cannot point to the jump, you are still inside it.
+
+**House card.** Write fair, cheat, share, always — one sentence each — when nobody is mad. Put the card where the fight starts. A dictionary in a model is not this house. Wittgenstein’s use is this table, this week, these people.
+
+
+If they say “That’s just semantics.”: Semantics is where the fight actually lives.
+
+If they say “Everyone knows what it means.”: If everyone knew, the fight would already be over.
+
+**Integrity.** Do not paste a classmate’s post into a model to “define their terms” with their name attached. Do not ask a model to redefine a person’s identity word as a gotcha.
+
+**If they lawyer the word.** Endless redefinition can be a stall. One sentence. Could be false. Then talk. If they want a second sentence, it is a second argument. Do not let the sitting become a dictionary club.
+
+**Dinner.** What word did a headline or a tool use that we never defined?
+
+**Kitchen scene.** “That’s not fair.” Freeze. In this house tonight, fair means same bedtime or extra time because of homework load? Write the sentence. If you cannot, you will fight about character. If you can, you may still disagree about the bedtime. The word was doing extra work. Take the extra work off the word.
+
+- No culture-war first example.
+- Do not require a dictionary citation for ordinary speech.
+
+**Transfer.** English: define terms in paragraph one. Civics: rights language. Science: operational definition. Art: “taste” is not a synonym for “I liked it” unless you say so (*Taste Is a Muscle* is a different pack). If the word is doing the arguing, name the work.
+
+**Objection.** “This is nitpicking.” If the conclusion rides on the word, the word is the beam. Check the beam. If the conclusion does not ride on the word, you can let it go. Not every word is load-bearing. The sitting is about the ones that are.
+
+### Big Idea
+
+Freeze the word. Then see whether anything was proved.
+
+### Try This
+
+Time-box twelve minutes. One word. One sentence that could be false. If you cannot make it falsifiable, you are still inside a mood. Moods are allowed. They are not definitions.
+
+
+1. Circle the load-bearing word in a live paragraph.
+2. Write IN THIS ARGUMENT, X means ____.
+3. Talk About It: would the author sign that?
+4. Only then reply.
+
+### Practice
+
+Write the house sentence out loud. If two adults in the room disagree about fair, that is the sitting — not a failure. Get one sentence for tonight. Tomorrow can have another.
+
+
+1. Where did a word change jobs this week?
+2. What is the house meaning of fair — written, not yelled?
+3. How does fluency hide a slide?
+
+---
+
+Carry this week: one house or essay sentence for a load-bearing word. Put it where the fight starts.
+
+*Would they sign your definition?*
+
+---
+
+## Chapter 5: Fluency Is Not Evidence
+
+
+This sitting exists because fluency is now cheap. You can get a calm paragraph in two seconds. The work is to mark costume versus showing. Kahneman was talking about the mind’s shortcuts. You are talking about recaps, ads, and model answers that feel like proof.
+
+A paragraph can be well written and still have no showing. Pull the claim. Mark costume versus showing.
+
+**Objective.** The student can mark a fluent paragraph as CLAIM / SHOWING / ONLY STYLE and refuse to treat style as showing.
+
+**For the grown-up in the room.** Sitting 5. Bring a model summary or a tidy blurb. Grade the catch, not their politics. Kahneman’s line is about repetition and familiarity: the finished-sounding sentence feels true because it is easy to process. Easy is not shown.
+
+**The costume of proof.** Numbers, “studies,” calm tone, complete sentences. Models wear the costume because they were trained on it. Your job is sitting 1 with better clothes in the way: write the claim, name the showing, name what is only style. If you cannot point to a check, you have a costume. Costumes are allowed in plays. They are not maps.
+
+**A worked catch.** A recap says “scientists agree this app is safe.” Claim: the app is safe. Showing: none on the screen. Style: the word scientists, the calm tone. Walk: which scientists, what does safe mean, compared to what. Often you stop at ONLY STYLE and NOT YET. That is a catch. You do not need a counter-thread. You need a pause.
+
+**Confidence is cheap.** The dangerous sentence is not the unsure one. It is the finished one that never picked up a burden. Online, the map that never stammers wins the room. Tones do not hold bridges.
+
+**Catch yours first.** If you only catch a sibling’s smoothness, they will hide. Catch a headline or your own rant with the same marks.
+
+**Sitting big idea.** A fluent paragraph is a costume until something is shown.
+
+**Study-shaped sentences.** “Research shows” is a costume hanger. The showing is a walk to a paper, a method, a sample, a limit. If you cannot walk, you heard a hanger. Named is not shown. This is sitting 1 wearing a lab coat.
+
+**The unsure sentence is often the honest one.** Hedges are not weakness when they match the check. A model that never hedges is not braver. It is optimized for local smoothness. Interrupt when confidence replaces a burden. Keep the burden on the claimant, including the model.
+
+**Ads and recaps.** “Everyone has one,” “nobody does that anymore,” “scientists agree.” Pause. Who is everyone. Who counted nobody. Which scientists. Often the mark is NOT YET, and that is enough to keep walking past the shelf or the share button.
+
+
+If they say “It sounded sure.”: Sure is a tone.
+
+If they say “It cited a study.”: Can you walk to the study, or only to the sentence?
+
+**Integrity.** Do not paste a classmate’s essay into a model to catch them. Do not outsource the catch and then cite “AI said it was wrong.”
+
+**If they catch only enemies.** A catch that only lands on people they already dislike is a jersey. Make the first catch of the week an ad, a recap, or their own draft. The skill has to survive friendship.
+
+**Dinner.** What well-written thing did we treat as proof this week?
+
+**Kitchen scene.** A recap voice says a product is “the one everyone is getting.” Catch. Who is everyone. Look around this house. Ask who counted. Try: would we want it with the sound off. NOT YET is enough to leave it on the shelf. You do not need a lecture on capitalism at 11–14. You need one paused sentence.
+
+- No culture-war bait as the first paragraph.
+- Health/legal: catch, then a professional — not a thread.
+
+**Transfer.** Rhetoric: ethos/pathos/logos can all be faked (*Rhetoric in the Age of Fluency* is young+; do not invent little sittings). Science: a smooth methods paragraph still needs a measurement (*Measure Twice*). Math: catch the machine. Ads: “everyone” is a costume.
+
+**Objection.** “If I catch everything I’ll become cynical.” Catching is a pause, not a sneer. Songs can be smooth and true. The mark is LOOK / ASK / TRY / NOT YET, not “liar.” Sneering is another costume. Do not trade fluency for contempt.
+
+### Big Idea
+
+Fluency is a style. Showing is a walk. Do not confuse them.
+
+### Try This
+
+Time-box twelve minutes. Mark the three columns. If SHOWING is empty, you are done. Empty showing is a catch. Do not invent a showing to make the table look balanced.
+
+
+1. Pick a fluent paragraph (model or headline).
+2. Write CLAIM / SHOWING / ONLY STYLE.
+3. Talk About It: what would count as showing?
+4. Do not let the guide declare the winner.
+
+### Practice
+
+Catch an ad together with the sound off. Then with the sound on. The difference is often the costume. Do not moralize the product. Pause the sentence.
+
+
+1. Where did confidence try to replace showing?
+2. What ads use “everyone” as a costume?
+3. When did this house applaud a finish?
+
+---
+
+Carry this week: one catch of a fluent paragraph, including one of yours. Empty SHOWING is a catch.
+
+*Costume or showing — can you point?*
+
+---
+
+## Chapter 6: One Claim, the Full Loop
+
+
+This sitting exists because six names on six weeks can still never meet. The capstone puts them on one page for one disagreement. If that is too many steps, skip the names that do not apply. Do not skip paper. Do not skip the check. Do not let a model finish it so you can say you finished.
+
+A single clever comeback is not thinking. The loop on paper is the thinking. The reply is the last mile.
+
+**Objective.** The student can run one real disagreement through the unit’s moves on paper before any model writes.
+
+**For the grown-up in the room.** Capstone. School issue, not a wound. Guide may only hunt unfairness. Do not require a conversion. If they skip paper, they skipped the unit.
+
+**The artifact.** Write: CLAIM / WHAT COUNTS / BREAKER / STEEL-MAN / WORD / COSTUME OR SHOWING. Then speak. Models will offer the loop as a template. Templates are not the walk. If you cannot do it on paper, you cannot do it in a chat.
+
+**A worked loop.** Claim: the group project grade was unfair. What counts: the rubric and who did which part. Breaker: the rubric applied the same way to every group. Steel-man: the teacher is grading a product, not effort you did not document. Word: unfair — in this argument, means the rubric was not applied as written. Costume or showing: a fluent rant in the group chat is costume; the rubric is showing. Then a ten-line reply, or a DO: bring the rubric tomorrow. Paper first. Guide last, if at all.
+
+**DO or freeze.** A loop that does not change what you do is theater. Write DO DIFFERENTLY or MAP DID NOT MOVE, because ____. Specific or honest freeze. Not a humble last line from a tool.
+
+**Seen loops teach.** If adults in the house never walk this without scoring points, the student will take the whole path to a model that never nods.
+
+**Sitting big idea.** The loop on paper is the thinking.
+
+**Skip map.** People skip the name that would cost them the win. If you are angry, you skip the steel-man. If you are fluent, you skip the showing. If you are loyal, you skip the breaker. Write which name you skip when you are winning. That is the real curriculum.
+
+**Tuesday.** DO DIFFERENTLY has to be small enough to exist on Tuesday: ask before posting, write the claim first, wait for a nod, look up one date. If the action cannot fit in a week, it is still a paragraph. Paragraphs are not maps.
+
+**Capstone is not a trial.** One disagreement. School, not a wound. If it gets hot, stop. Refusal is a complete week. The six names will still be there next week. A model will still be willing to finish the loop without you. Do not let it.
+
+
+If they say “That’s too many steps.”: It is one walk with names. Skipping a name is how you get lost.
+
+If they say “I already know what I think.”: Then the loop is cheap. If it is expensive, you did not know yet.
+
+**Integrity.** Do not paste a person’s private message into a model to complete the loop. Do not generate the loop and sign it.
+
+**If they want the guide to finish.** The capstone fails closed if a model writes the loop. Critique only after the page exists. If the sentences are not theirs, it did not happen. Better a short honest page than a complete generated packet.
+
+**Dinner.** Which step of the loop did we skip this week?
+
+**Kitchen scene.** One small household claim — phones at the table, a due date, a rumor. Walk the names that apply. Skip the nod if nobody disagrees. Do not skip the check. Do not skip paper. An adult walks theirs without asking for applause. That seen loop is the capstone more than any worksheet. If it gets tender, stop. Refusal is a complete week.
+
+- No targeting a classmate by name.
+- Not a performance for company.
+
+**Transfer.** The loop is the unit. Claim, hear, change, mean, catch, walk. Other WisdomForge packs teach one name in another subject. This pack teaches using more than one name on the same sentence. That is why the capstone is paper, not a chat log.
+
+**Objection.** “I already think this way.” Then the loop is cheap — run it anyway on one real disagreement. If it is expensive, you did not already think this way. Expense is data. Skip is also data. Write which name you skipped when you were winning.
+
+### Big Idea
+
+Paper first. Names on purpose. Reply last. Do or freeze.
+
+### Try This
+
+Time-box eighteen minutes. Loop, then DO or freeze. If you run out of time, keep CLAIM and WHAT COUNTS. Those two names beat a generated complete packet.
+
+
+1. Pick one disagreement you actually have.
+2. Write the loop on paper.
+3. Talk About It with a person.
+4. Then write a ten-line reply.
+5. Guide only: “Where am I still unfair?” / “Where is this still theater?”
+
+### Practice
+
+Ask which name they skip when they are winning. Write it on the fridge card. That skip is the capstone more than a complete packet.
+
+
+1. Which name do you skip when you are winning?
+2. What would “do differently” look like on Tuesday — not in a paragraph?
+3. When did this house walk the whole path, not just win?
+
+---
+
+Carry this week: one loop on one disagreement. Two names minimum. Paper first. Guide last.
+
+*If it is not on paper, did it happen?*
+
+---
+
+## For the Grown-Up Reader
+
+
+This middle band is Talk About It, not a lecture. You are in the room. If you disappear into a device while they fill the loop, they will learn that thinking is homework. Sit. Ask which name they skipped. Do not score points.
+
+Pairing, if you use a local guide: the sitting card copies `{ card, userMdLine }` built from unit + slug. The pairing line on the page is display-only. The model is hint-first. It does not recite the booklet. It does not write the work. Warm, not a friend. If the topic is hard, it points to you.
+
+Do not invent sittings. Do not convert thin. The original three sittings stay untouched; 4–6 were appended. Live 200 is Liam’s line after Aiona fail-closes the eight files. This manuscript is the young-band text, not a `pdftotext` dump.
+
+Hard edges that travel: no classmate named into a model; no culture-war first example; no wound as a worksheet; health/legal to a professional; refusal is complete; no child data on the site; payment pulled; no hosted kids chatbot; does not make AI safe.
+
+
+Six sittings, all bands live: `claim-and-check` → `steel-man` → `change-your-mind` → `say-what-you-mean` → `catch-the-fluent-claim` → `how-to-think-capstone`. This high booklet is the emerging-band spine: write the claim, keep the burden, steel-man until a sign, name a breaker or a jersey, freeze the word, catch fluency, then walk the loop on paper.
+
+Quotes are real and cited. Mill, *On Liberty* ch. 2 (1859), on knowing only your own side. Peirce, “The Fixation of Belief” (1877), on doubt as an uneasy state — used more fully in the elementary/adult bands. Popper, *Conjectures and Refutations* (1963), on falsifiability as a criterion for theories; scaled here, not applied to a child’s identity. Wittgenstein, *Philosophical Investigations* §43 (1953), meaning as use; the “in this argument” sentence is the language-game on the table. Kahneman, *Thinking, Fast and Slow* (2011), on repetition and the feeling of truth. Durant, *The Story of Philosophy* (1926), restating Aristotle on habit — do not attribute Durant’s English proverb to the *Nicomachean Ethics*. Sitting lines are WisdomForge teaching sentences, labeled as such.
+
+The parent is the teacher. The guide is optional. Human first / guide second / evaluate always. AI never takes the first hand. Refusal is a complete week. No child data on the site. Pairing copies `{ card, userMdLine }`; `pairingLine` is display-only. Payment stays pulled.
+
+This pack is not *Critical Thinking for Life* and not the Hour set. It does not make AI safe. It does not make a debater. It gives six names for one honest conversation.
+
+---
+
+## About WisdomForge
+
+WisdomForge is a parent-operated academy. Ten subjects, four ages. The booklet is the text. The parent is the teacher. The guide is optional. Not a hosted kids chatbot. Does not make AI safe.
+
+How to Think sits on the Academy shelf, not the Operator shelf. Operator titles (Hermes Beginners, Hermes Mastery, AI Agents, OpenClaw) are adult tools. This pack is a kitchen loop. Do not pretend it is week-1 chatbot training. Do not pretend it replaces the Hour books.
+
+If you pair a guide, use the live sitting pages. The booklet does not invent a seventh sitting. The six slugs are the spine. Liam publishes downloads when the eight files actually pass. Aiona fail-closes thin packs. Payment stays pulled.
+
+
+WisdomForge makes four-band booklets so the same idea can sit on a kitchen table at four ages. The booklet is the text. The parent is the teacher. The guide is optional. Not a hosted kids chatbot. Does not make AI safe.
+
+How to Think is an Academy subject pack. Start at `/learn/emerging/thinking/claim-and-check`. Paper first. The guide waits.
+
+## Sources
+
+Primary and named teaching sources used in this band:
+
+- John Stuart Mill, *On Liberty* (1859), chapter 2, on knowing only your own side of the case.
+- Charles S. Peirce, “The Fixation of Belief” (1877), on doubt as an uneasy state and belief as the settlement we struggle toward.
+- Karl Popper, *Conjectures and Refutations* (1963), on falsifiability as a criterion of scientific status — scaled here to kitchen claims, not to persons.
+- Ludwig Wittgenstein, *Philosophical Investigations* (1953), §43, on meaning as use in the language.
+- Daniel Kahneman, *Thinking, Fast and Slow* (2011), on repetition, familiarity, and the feeling of truth.
+- Will Durant, *The Story of Philosophy* (1926), restating Aristotle, *Nicomachean Ethics* II.1, on habit — Durant’s English proverb is Durant’s, not a verbatim line from Aristotle.
+- WisdomForge academy sittings *How to Think* (six slugs, four bands), live Assist-ready pages. Teaching sentences from those sittings are labeled as such and are not historical quotations.
+
+Do not treat a model summary of these books as a walk to them. If you cite Mill or Popper in school, walk to the page.
+
+These sources are for the grown-up and for a student who wants to walk. Mill’s chapter 2 is long; the usable floor is the sentence already quoted. Peirce’s essay is about communities settling belief, not about mocking a kid for feeling sure. Popper’s criterion is for theories that claim to be science; we scale it so a picnic claim can have a breaker without turning a child into a hypothesis. Wittgenstein §43 is easy to sloganize; the work is writing the use in this argument. Kahneman is easy to sloganize too; the work is catching familiarity in a recap. Durant is named so we do not launder a proverb.
+
+If a model summarizes any of these, treat the summary as a costume until you walk. That is the same sitting as chapter 5. This booklet will not pretend a citation list is a library.
+
+The elementary booklet holds the same six names at 5–10 with LOOK / ASK / TRY / NOT YET. The high and adult bands keep the loop and raise the cost of fluency, the steel-man, and the labeled jersey. Do not skip to adult because it sounds smarter. Walk the band you are in.
+
+
+## A note on speed
+
+This booklet is slower than a chat. That is not a bug. A model can produce a complete “critical thinking worksheet” in seconds. That worksheet will have a claim, a steel-man, a breaker, a definition, and a humble last line. It will also not be yours. If you turn that in, you practiced fluency. If you write a shorter page that a person in the room would sign, you practiced thinking.
+
+Speed is a costume in this subject. So is length. A long generated loop is still theater. A short honest NOT YET is a map. Grade the honesty. Keep the parent in the loop. Keep the guide second. Evaluate always. Human first.
+
+If you remember only two names from this band, remember CLAIM and WHAT COUNTS. The other names wait until you need them. The capstone is the first time you need more than one on the same sentence. Paper first. The guide waits.
+
+Start this week at `/learn/emerging/thinking/claim-and-check`. Then `steel-man`. Then `change-your-mind`. Then `say-what-you-mean`. Then `catch-the-fluent-claim`. Then `how-to-think-capstone`. Do not skip to the capstone because it sounds like an ending. The ending is a walk you already practiced. If you skip, you will clap, fight, or paste. The names are there so you can notice the skip.
+
+Payment stays pulled. No child data on the site. Does not make AI safe. Does not host a kids chatbot. The parent is the teacher.
+
+If a sitting page and this booklet ever disagree, the live sitting wins for the week’s activity; this booklet is the spine you can hold. Do not invent a seventh slug. Do not convert the old three-sitting unit. The six are live. Walk them.
+
+The elementary band uses LOOK / ASK / TRY / NOT YET as the four marks. Keep those marks in this band when the claim is small enough for eyes. Use WHAT COUNTS / WHAT WOULD BREAK IT when the claim is a paragraph. Same pause. Different paper.
+
+High and adult raise the cost: contested terms, confident wrong answers, DO DIFFERENTLY on Tuesday. You do not need those pages to start. You need one marked claim this week. Paper first. Human first. Guide second. Evaluate always. Parent in the loop.
+
+That is enough instruction. The rest is a page you write. If this file is longer than your patience, skip to Chapter 1 and write one claim. The length is for the house that wants a spine. The sitting is for the house that wants a check.
+
+Write the claim. Name what would count. Keep the burden on the claimant. Hear until a sign. Label the jersey or name the breaker. Freeze the word. Catch the costume. Walk the loop on paper. Then talk. Then, if you still need it, ask a guide where you were unfair. Close the guide.
+
+End of the middle band. Do not applaud the finish. Check it.
+
+Sitting 1 remains `/learn/emerging/thinking/claim-and-check`. Little sitting 1 remains `/learn/little/thinking/claim-and-check`. Same unit. Same names. Different paper.
+
+Paper first. The guide waits. Human first.
+
+Evaluate always. Parent in the loop.
+
+Does not make AI safe.
+
+
+## Scholarly notes for 15–18
+
+**Peirce and inquiry.** Peirce’s 1877 essay is not a pep talk about “keeping an open mind.” It is about how communities settle belief when doubt is uncomfortable. Your job at 15–18 is to notice when you settle because the sentence was fluent, not because inquiry ended. That is chapter 1 and chapter 5 wearing history.
+
+**Mill and steel-man.** *On Liberty* ch. 2 argues that even true opinions die into dogma if they are not contested. Steel-manning is the kitchen version: you do not need a parliament. You need a page the other person could sign. If you only steel-man views you already like, you are doing manners.
+
+**Popper scaled, not weaponized.** Falsifiability is a criterion for scientific theories. It is not a trick for humiliating a classmate’s identity or faith. If a claim pretends to be a map (phones, grades, “studies show”), it owes a breaker. If it is a jersey, label the jersey. Mixing those is how people get cruel in comment sections.
+
+**Wittgenstein without the slogan.** “Meaning is use” is easy to quote and hard to practice. Write the use in this argument. If the word slides from description to verdict, the slide is the argument. Interrupt it. That is chapter 4.
+
+**Kahneman and fluency.** Cognitive ease is not evidence. A model is a fluency machine. Your catch is not cynicism. It is refusing to let ease pay a burden. Read a methods paragraph the same way you read a recap.
+
+**Durant and habit.** The proverb is Durant’s restatement, 1926. Aristotle’s *Ethics* II.1 is about virtue as habit formed by action. The capstone’s point is the same: a loop you do not walk is not a loop you have. Paper is the action.
+
+**Research Prompt (use once).** Walk to Mill, *On Liberty*, chapter 2, long enough to quote a second sentence besides the one in this booklet. Write how it does or does not match a group-chat fight you actually had. Do not use a model as the walk.
+
+
+## Practice protocols (high)
+
+1. **Burden sheet (once this week).** Take one assigned reading or one model paragraph. Write CLAIM / COUNTS / BREAKER / WHO PAYS. Time-box twenty minutes. If SHOWING is empty, stop. Empty is a catch. Turn in the sheet, not a fluent rewrite.
+
+2. **Sign test (once this week).** Steel-man a view you dislike on a school issue, 8–12 lines. Find a person who holds it (or a teacher standing in) and ask whether they would sign. Rewrite until yes or stop at three tries. Then write the reply. Guide only hunts leftovers.
+
+3. **Breaker or jersey (once this week).** One belief. One line. If you write “it’s complicated,” put the breaker inside the complication or relabel jersey.
+
+4. **Freeze (once this week).** One essay or thread. TERM / SENSE A / SENSE B / SLIDE. If there is no slide, write NONE and pick a different paragraph. Do not force a slide so the worksheet looks complete.
+
+5. **Costume audit (once this week).** Three fluent paragraphs: one ad, one model, one of yours. Mark ONLY STYLE vs SHOWING. At least one empty SHOWING or you did not look.
+
+6. **Loop + DO (capstone).** One disagreement. Paper loop. DO DIFFERENTLY on Tuesday or MAP DID NOT MOVE. Specific or honest freeze. If a model writes this, throw it out.
+
+### Reflect
+
+Where do you skip a name when you are winning? Write the skip. That is the curriculum.
+
+## Debates you will meet
+
+- **Can a language model reason?** Treat “reason” as a house word. Freeze it. If it means “produce valid-looking steps,” models can. If it means “pay a burden in the world,” they cannot unless you walk. Do not let the word slide mid-paragraph.
+- **Is steel-manning civility or surrender?** Mill’s claim is that untested opinion becomes dogma. Signing a page is not changing sides. If a community punishes the sign, that community is running jerseys. Label it.
+- **Does falsifiability apply to history or ethics?** Often no, not as Popper meant it. Do not weaponize a science criterion against a person. Do apply breakers to claims that pretend to be maps.
+- **Is fluency a moral failing?** No. It is a cognitive ease. Catching it is a pause. Sneering at it is another costume.
+
+Walk to one primary page this month. Not a summary. Mill ch. 2 or Peirce 1877 or a methods section of a paper you actually cited. The walk is the showing.
+
+## Worked objections (high)
+
+**“This is just English class.”** English class already asked you to define terms and not straw-man. This pack adds: keep the burden on the claimant when the claimant is a model, and label jerseys so you do not treat faith or loyalty as failed labs. If your English teacher already does this, good. You still need it on a feed.
+
+**“I’ll lose the argument.”** You might. Thinking is not a trophy. A signed steel-man plus a breaker is a map. A roast is a jersey. Choose.
+
+**“I don’t have time.”** Twelve to eighteen minutes, once per sitting. If you do not have that, skip the week. Refusal is complete. Do not generate the packet to fake the week.
+
+**“The model is clearer than I am.”** Yes. Clarity is not showing. Walk anyway. Use the model as a leftover-hunter after the page exists.
+
+Frankfurt’s *On Bullshit* (1986) is adult reading: bullshit as speech without regard for truth. You may hear it in fluent homework. You do not need the whole book to catch a costume. If you read it, walk to the page. Do not quote a model’s Frankfurt.
+
+Harry Frankfurt, *On Bullshit* (Princeton, 1986): use in chapter 5 if you walk. Not required. Not a sitting slug.
+
+## Emerging-band notes on each sitting
+
+**1. Claim and check.** Your assignments increasingly reward finished prose. So do models. The counter-habit is a sentence that could be false plus a breaker. If you cannot name the breaker, you are not writing a thesis. You are writing a mood. Teachers may still give you an A. This house still wants the breaker.
+
+**2. Steel-man.** Group chats punish charity. Do the sign test privately. If you cannot get a sign, do not post. Mill is not asking you to be nice. He is asking you not to know only your side.
+
+**3. Change your mind.** College-application essays love performed growth. Then / saw / now can become a costume. If the map did not move, write that. Honesty beats a conversion narrative.
+
+**4. Say what you mean.** Seminar words (violence, harm, data, science) slide. Freeze them. If a paper’s conclusion rides on the slide, the paper is a performance. Say so on your outline before you write.
+
+**5. Catch the fluent claim.** Model essays will be better dressed than yours. Catch costume vs showing in theirs and in yours. Empty showing is a catch. Do not invent sources to fill the column.
+
+**6. Capstone.** One disagreement. Paper. DO or freeze. If you cannot say it without the doc, it is not yours yet. Rewrite until you can, or stop.
+
+The emerging sitting pages use ritual practice-reflect. Duration is longer than young. Tools may include parent-approved files. Still: paper first. The guide waits.
+
+## What gold is not
+
+Gold is not a thin text convert. Gold is not a 3-sitting booklet. Gold is not a generated loop. Gold, for this pack, is six Assist-ready sittings live 200, then four-band PDF+`.md` at floors 25/45/60/60 with unique still-lifes and multi-MB illustrated PDFs. You, the student, do not owe gold. You owe one marked page. The house owes the walk.
+
+If this file is long, it is because the middle spine was kept and the emerging cost was added. Skip to the sitting page if you need the week’s activity. This booklet is the spine you can hold without a screen.
+
+Start at `/learn/emerging/thinking/claim-and-check`. Paper first. The guide waits. Human first. Evaluate always. Parent in the loop. Does not make AI safe.
+
+
+## Second walks (high)
+
+Walk 1: Take a model-written paragraph on a low-stakes topic (weather, a public sports score). Mark CLAIM / SHOWING / ONLY STYLE. Verify one factual bit with a second source that is not a model. Write whether the model paid the burden.
+
+Walk 2: Take an assigned essay prompt. Circle the load-bearing word. Write IN THIS PROMPT, X means ____ in a sentence that could be false. Outline only after that sentence exists.
+
+Walk 3: Steel-man a rule you dislike at school in language the adult who made it would sign. Then write your reply. If you cannot get the sign even in imagination after three tries, you are still cartooning the adult. Rewrite or stop.
+
+Walk 4: Name a belief you will keep as a jersey this year. Write the word JERSEY. Name a belief you will treat as a map. Write the breaker. Keep the labels honest for a month.
+
+Walk 5: Catch your own draft. Print it. Mark costumes. Empty showing stays empty. Do not ask a model to “add evidence” until you know what showing would be.
+
+Walk 6: Capstone on paper with a person in the room. Not a comment section. If it gets hot, stop.
+
+These walks are the Practice set. They are not extra sittings. Do not invent slugs.
+
+## On citing well
+
+If you quote Mill, quote Mill. If you quote a model quoting Mill, you have a costume. Walk to chapter 2 of *On Liberty*. One extra sentence besides the booklet’s. That is the Research Prompt. It is the only research prompt in this band. The other chapters use Reflect.
+
+If you quote Popper, do not use him to grade a person’s worth. Use him to ask whether a map-claim has a breaker.
+
+If you quote Wittgenstein, write a use, not a vibe.
+
+If you quote Kahneman, catch ease in a paragraph you almost believed.
+
+If you quote Durant, name Durant. Do not say Aristotle said the proverb in English.
+
+If you quote Peirce, remember he is writing about communities of inquiry, not about winning a thread.
+
+Citation without a walk is chapter 5’s costume. You already know this. The walk is the showing.
+
+## Fluency, school, and the labor you cannot skip
+
+School will keep asking for finished pages. Models will keep offering them. The labor you cannot skip is the part that makes a page yours: a claim that could be false, a check you can name, a person who could sign the other view, a breaker or a jersey, a frozen word, a catch of costume. If those are missing, the page can still get an A. It is still not thinking in the sense this pack uses.
+
+You are old enough to feel that as unfair. It is unfair if the grade is the only map. This house can keep a second map: did the loop happen on paper. That second map is not on the report card. It is still the one that travels.
+
+When you are tired, two names. CLAIM. WHAT COUNTS. When you have eighteen minutes, the capstone. When a week is tender, refusal. The sittings will still be there. The model will still be willing. You do not have to match its willingness.
+
+Emerging duration is about forty minutes on the academy clock. You do not have to fill forty. You have to fill paper. Close the guide when the leftover-hunt is done. Do not let it write the reply.
+
+That is the high band. Start at `/learn/emerging/thinking/claim-and-check`. Paper first. The guide waits.
+
+## Closing for emerging readers
+
+You will be asked to sound finished. This pack asks you to sound checkable. Those are not the same request. When they conflict, keep checkable. A lower grade with a breaker is still a map. A higher grade with only fluency is still a costume.
+
+If you remember six names, good. If you remember two, CLAIM and WHAT COUNTS, also good. Add names when a fight, a share, or a grade shows up. Paper first. The guide waits.
+
+About WisdomForge again, because the end of a long file forgets the lede: the booklet is the text. The parent is the teacher. The guide is optional. Not a hosted kids chatbot. Does not make AI safe. Payment pulled. No child data on the site.
+
+The six slugs are the spine. Do not invent a seventh. Do not convert the old three. Live sittings already 200. This manuscript is the high band of the four-band pack.
+
+## Integrity recap (high)
+
+Do not paste a classmate into a model. Do not generate the loop. Do not cite “AI said it was wrong” as a catch. Do not weaponize Popper against a person. Do not attribute Durant’s proverb to Aristotle. Do not skip paper because the chat was faster. Do not invent sittings.
+
+If a sitting page and this booklet disagree on the week’s activity, the live sitting wins. This file is the spine.
+
+End of high band.
+
+The Research Prompt is Mill, *On Liberty*, chapter 2, a second sentence besides the booklet quote, matched to a real group-chat or classroom fight. If you cannot walk to Mill this month, write NOT YET and do not fake the walk with a model summary. Fake walks are chapter 5 costumes. You already know.
+
+Paper first. The guide waits. Human first. Evaluate always. Parent in the loop. Does not make AI safe.
+
+Sitting path: `/learn/emerging/thinking/claim-and-check` → `steel-man` → `change-your-mind` → `say-what-you-mean` → `catch-the-fluent-claim` → `how-to-think-capstone`.
+
+Last line for high: a fluent complete packet is still a costume if the sentences are not yours. A short honest page is a map. Choose the map.
+
+About this book, restated: six sittings live, four bands, booklet is the text, parent is the teacher, guide optional. Not the Hour books. Not Operator titles. Not a seventh sitting.
+
+End.
+
+Appendix — six names on one card (high): 1 claim 2 sign 3 breaker or jersey 4 freeze the word 5 costume or showing 6 loop on paper. Print the card. Skip names that do not apply. Do not skip 1. Do not skip paper.
+
+If a teacher forbids outside worksheets, use the sitting page only. This booklet is optional spine. The academy pages are the assigned path.
+
+Final: `/learn/emerging/thinking/claim-and-check`.
+
+Colophon: WisdomForge *How to Think* high band. Sittings by the academy lesson factory `expand()` in `thinking.ts`. Booklet prose Airia. Quotes Peirce, Mill, Popper, Wittgenstein, Kahneman, Durant as cited. Still-lifes unique, no portraits of persons or children, no letters in the art. PDF+`.md` only — no EPUB. Liam publishes. Aiona fail-closes thin.
+
+Paper first. The guide waits.
+
+High floor is 60 KB. This band should sit at or above it without padding slogans. If you are still reading, you already have the six names. Use them on a page that is yours.
+
+Slug list for copy-paste: claim-and-check, steel-man, change-your-mind, say-what-you-mean, catch-the-fluent-claim, how-to-think-capstone. Unit title: How to Think. Subject: thinking.
+
+Download names after Liam maps: how-to-think-{elementary,middle,high,adult}.{pdf,md}. No EPUB. No payment CTA.
+
+A last distinction: skepticism is a mood; checking is a move. This pack teaches the move. If you leave with only the mood, you will sneer at smooth sentences and still not write a claim. Write the claim. That is the high band’s last instruction.
+
+Paper first. The guide waits. Choose the map.
+
+End of file. Use sitting 1 this week.
+
+Does not make AI safe. Not a hosted kids chatbot. Parent in the loop.
+
+Payment stays pulled. No EPUB. Four-band PDF+markdown only.
+
+Unique still-lifes. No portraits of persons or children. No letters in the art.
+
+Walk the path. Paper first.
+
+The guide waits.
+ End.
