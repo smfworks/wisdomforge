@@ -160,8 +160,10 @@ function walkMarkdown(dir) {
 
 function buildIndex() {
   if (!existsSync(CONTENT_DIR)) {
-    console.error(`Content directory not found: ${CONTENT_DIR}`);
-    process.exit(1);
+    // Vercel / CI has no Harry packs on disk. Use the committed index.
+    console.log(`Content directory not found: ${CONTENT_DIR}`);
+    console.log("Skipping rebuild; public/search-index.json must already be committed.");
+    process.exit(0);
   }
 
   const files = walkMarkdown(CONTENT_DIR);
