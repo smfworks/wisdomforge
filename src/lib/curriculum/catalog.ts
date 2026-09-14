@@ -241,8 +241,8 @@ export const catalog: CatalogUnit[] = [
     title: "Specify the Agent",
     status: "ready",
     bands: ["little", "young", "emerging", "adult"],
-    weeks: "1 flagship sitting",
-    blurb: "Soul, tools, refuse-list. Autonomy is a design choice.",
+    weeks: "6 sittings (little/young); flagship all bands",
+    blurb: "Soul, tools, refuse-list. Autonomy is a design choice. Paper first. Do not build tonight.",
   },
   {
     id: "cs-eval",

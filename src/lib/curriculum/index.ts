@@ -23,6 +23,7 @@ import { lettersLittleLessons } from "./lessons/letters-little";
 import { historyLittleLessons } from "./lessons/history-little";
 import { mathLittleLessons } from "./lessons/math-little";
 import { languageSpeakLessons } from "./lessons/language-speak";
+import { csSpecifyLessons } from "./lessons/cs-specify";
 import { coreLessons } from "./lessons/core";
 import type { BandId, Lesson, SubjectId } from "./types";
 import { lessonKey } from "./types";
@@ -76,6 +77,7 @@ const groups: Lesson[][] = [
   historyLittleLessons as Lesson[],
   mathLittleLessons as Lesson[],
   languageSpeakLessons as Lesson[],
+  csSpecifyLessons as Lesson[],
   coreLessons as Lesson[],
 ];
 
