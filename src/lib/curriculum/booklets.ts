@@ -130,6 +130,14 @@ const LESSON_TO_FIGURE: Record<string, string> = {
   "catch-the-fluent-claim": "how-to-think",
   "how-to-think-capstone": "how-to-think",
 
+  // ── Say It Yourself / Voice (6 sittings × four bands)
+  "say-it-yourself": "say-it-yourself",
+  "hear-then-say": "say-it-yourself",
+  "one-phrase-yours": "say-it-yourself",
+  "ask-out-loud": "say-it-yourself",
+  "catch-the-ghost-speaker": "say-it-yourself",
+  "speak-first-capstone": "say-it-yourself",
+
   // ── How the Greeks Thought (in-forge — add mappings when lessons ship)
   // ── Faith & Reason (in-forge — add mappings when lessons ship)
 };
@@ -266,6 +274,7 @@ export function figureDisplayName(figure: string): string {
     "show-the-path": "Show the Path",
     "education-in-the-age-of-ai": "Education in the Age of AI",
     "how-to-think": "How to Think",
+    "say-it-yourself": "Say It Yourself",
     student: "The student",
     "parent-operator": "The parent-operator",
   };
