@@ -114,6 +114,14 @@ const LESSON_TO_FIGURE: Record<string, string> = {
   "proof-social": "show-the-path",
   "show-path-capstone": "show-the-path",
 
+  // ── Education in the Age of AI (6 sittings × four bands)
+  "tool-not-mind": "education-in-the-age-of-ai",
+  "try-first": "education-in-the-age-of-ai",
+  "confidently-wrong": "education-in-the-age-of-ai",
+  "agents-need-permission": "education-in-the-age-of-ai",
+  "keep-your-name": "education-in-the-age-of-ai",
+  "sitting-with-a-guide": "education-in-the-age-of-ai",
+
   // ── How to Think (6 sittings × four bands)
   "claim-and-check": "how-to-think",
   "steel-man": "how-to-think",
@@ -256,6 +264,7 @@ export function figureDisplayName(figure: string): string {
     "taste-is-a-muscle": "Taste Is a Muscle",
     "rhetoric-in-the-age-of-fluency": "Rhetoric in the Age of Fluency",
     "show-the-path": "Show the Path",
+    "education-in-the-age-of-ai": "Education in the Age of AI",
     "how-to-think": "How to Think",
     student: "The student",
     "parent-operator": "The parent-operator",
