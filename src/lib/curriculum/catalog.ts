@@ -200,6 +200,15 @@ export const catalog: CatalogUnit[] = [
     blurb: "The Constitution answering Fed 54 and Dred Scott. Section 1 in four clauses. Gettysburg as speech, not instrument. Ugly clauses named. Writing is not keeping.",
   },
   {
+    id: "hist-little",
+    subject: "history",
+    title: "Look First — History for Little Thinkers",
+    status: "ready",
+    bands: ["little"],
+    weeks: "6 sittings",
+    blurb: "Look at a real thing first. Who held it. Then not now. Two tellers. Keep the piece. Tell it back.",
+  },
+  {
     id: "letters-little",
     subject: "english",
     title: "Stories and Voices — Letters for Little Thinkers",
