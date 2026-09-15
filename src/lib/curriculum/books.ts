@@ -2145,6 +2145,57 @@ export const scienceForHomeschoolingBook: Book = {
   ],
 };
 
+export const scienceForLittleThinkersBook: Book = {
+  slug: "science-for-little-thinkers",
+  title: "Science for Little Thinkers",
+  subtitle: "The Science Hour",
+  summary:
+    "The science hour at the table is the whole program: lookable before explanation, one good question you wait for, a drawing that is the data. A parent who is not a scientist can run that hour for five-to-ten — ice, leaf, ramp, weather card — if a generated ice-melt paragraph is not allowed to pass as looking.",
+  editorialPrinciple:
+    "Observe before explain. Fair test light. Place by skill, not by birthday. The child holds the notebook; the parent holds the key.",
+  chronology: "2026",
+  totalWordTarget: "~54,000 words",
+  readingTime: "~4 hours · 201 pages",
+  authors: ["Michael Gannotti"],
+  status: "published",
+  audiobookPlanned: true,
+  coverImage: "/images/books/science-for-little-thinkers-cover.jpg",
+  pdfHref: "/downloads/science-for-little-thinkers.pdf",
+  epubHref: "/downloads/science-for-little-thinkers.epub",
+  mdHref: "/downloads/science-for-little-thinkers.md",
+  catalogSubject: "science",
+  academySubject: "science",
+  hubHref: "/subjects/science",
+  hubLabel: "Science subject hub",
+  showBooklets: false,
+  figures: [
+    {
+      slug: "parent-teacher",
+      name: "The parent-teacher",
+      dates: "now",
+      tradition: "Science hour",
+      coreQuestion: "Can you hear a name-first rush?",
+      distinctiveVoice: "One adult, a lookable on the table — not a lab down the hall.",
+    },
+  ],
+  chapters: [
+    { number: 0, label: "Welcome", title: "Welcome", question: "What is the science hour still for at five to ten?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 1, label: "How to Use", title: "How to Use This Book This Week", question: "What can you run on a Tuesday?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 2, label: "Five Things", title: "If You Only Remember Five Things", question: "What must hold if the rest is ignored?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 3, label: "The Hour", title: "The Science Hour", question: "What does a session of looking and trying actually look like?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 4, label: "Chapter 1", title: "What science looks like at 5–10", question: "Is a vocabulary list the work?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 5, label: "Chapter 2", title: "Looking and drawing what you saw", question: "Is the drawing the data?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 6, label: "Chapter 3", title: "Try it: one change at a time", question: "Can we tell for sure if two things changed?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 7, label: "Chapter 4", title: "Living or not; needs and life cycles light", question: "Can they sort living from not by a need they can see?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 8, label: "Chapter 5", title: "Weather window and sky patterns", question: "Is the weather card vs yesterday, or a forecast lecture?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 9, label: "Chapter 6", title: "Light, path, push and pull", question: "Is force fuel, or a push they can see?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 10, label: "Chapter 7", title: "Talking and writing science", question: "Whose sentence is the exit crumb?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 11, label: "Chapter 8", title: "Short assessments and progress checks", question: "What did today’s looking teach tomorrow?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 12, label: "Chapter 9", title: "Records", question: "What still has to leave the house?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 13, label: "Chapter 10", title: "Resources", question: "Which program fits this hour, and which does not?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+  ],
+};
+
 export const teachingWorldLanguagesBook: Book = {
   slug: "teaching-world-languages",
   title: "Teaching World Languages for Homeschooling",
@@ -2270,6 +2321,7 @@ export const books: Book[] = [
   mathForEmergingAdultsBook,
   mathRefresherForAdultsBook,
   scienceForHomeschoolingBook,
+  scienceForLittleThinkersBook,
   englishForHomeschoolingBook,
   englishForLittleThinkersBook,
   englishForYoungMindsBook,
