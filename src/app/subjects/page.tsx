@@ -25,7 +25,7 @@ export default function SubjectsIndex() {
                   <p className="mt-2 text-sm text-muted">{s.promise}</p>
                   <p className="mt-3 text-sm text-fg">{s.aiSpine}</p>
                   <p className="mt-3 text-xs text-faint">
-                    {ready} sittings ready · more in the forge
+                    {ready} sittings ready · more coming
                   </p>
                 </div>
               </Link>

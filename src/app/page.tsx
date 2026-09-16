@@ -12,7 +12,7 @@ export default function Home() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/images/wisdomforge-hero.png"
-            alt="Socrates in the forge"
+            alt="Socrates"
             className="absolute inset-0 h-full w-full object-cover object-left opacity-80"
           />
         </div>
