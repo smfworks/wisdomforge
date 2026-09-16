@@ -138,6 +138,14 @@ const LESSON_TO_FIGURE: Record<string, string> = {
   "catch-the-ghost-speaker": "say-it-yourself",
   "speak-first-capstone": "say-it-yourself",
 
+  // ── Citizens — Constitution & Declaration (6 sittings × young+)
+  "words-before-story": "citizens",
+  "declaration-rhetoric": "citizens",
+  "constitution-design": "citizens",
+  "missing-voices-founding": "citizens",
+  "amendment-process": "citizens",
+  "citizens-capstone": "citizens",
+
   // ── How the Greeks Thought (in-forge — add mappings when lessons ship)
   // ── Faith & Reason (in-forge — add mappings when lessons ship)
 };
@@ -275,6 +283,7 @@ export function figureDisplayName(figure: string): string {
     "education-in-the-age-of-ai": "Education in the Age of AI",
     "how-to-think": "How to Think",
     "say-it-yourself": "Say It Yourself",
+    citizens: "Citizens",
     student: "The student",
     "parent-operator": "The parent-operator",
   };
