@@ -130,7 +130,7 @@ export function LessonView({ lesson }: { lesson: Lesson }) {
           </h2>
           <p className="mt-2 text-sm text-muted">
             A synthetic session transcript on this sitting — no real child
-            data. See the guide hold the ritual before you pair a Hermes
+            data. See the guide hint first before you pair a Hermes
             profile.
           </p>
           <ul className="mt-4 space-y-2">

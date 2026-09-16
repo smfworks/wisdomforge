@@ -20,7 +20,7 @@ export const subjects: SubjectDef[] = [
   {
     id: "philosophy",
     name: "Wisdom & Philosophy",
-    short: "The forge",
+    short: "Classics",
     promise: "The Stoics and the examined life, rewritten for the age in the chair.",
     aiSpine:
       "The booklet is the text. The guide asks; it does not recite. Inner freedom is not an app setting.",

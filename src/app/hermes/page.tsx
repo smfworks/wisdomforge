@@ -44,7 +44,7 @@ export default function HermesPage() {
       </section>
 
       <section className="mt-12">
-        <h2 className="font-display text-2xl text-fg">Band contracts</h2>
+        <h2 className="font-display text-2xl text-fg">What each age may use</h2>
         <ul className="mt-4 space-y-4">
           {bands.map((b) => (
             <li key={b.id} className="rounded-lg bg-raised p-4 shadow-[var(--shadow-border)]">

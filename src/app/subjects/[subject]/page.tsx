@@ -45,7 +45,7 @@ export default function SubjectHub() {
               <p className="text-xs text-faint">{b.ages}</p>
               <p className="font-medium text-fg">{b.name}</p>
               <p className="mt-1 text-xs font-medium tracking-wide text-accent uppercase">
-                {n > 0 ? `Assist-ready · ${n}` : "In the forge"}
+                {n > 0 ? `Ready · ${n} lessons` : "Not ready yet"}
               </p>
             </li>
           );
@@ -87,7 +87,7 @@ export default function SubjectHub() {
             <div className="flex flex-wrap items-baseline justify-between gap-2">
               <h3 className="font-medium text-fg">{u.title}</h3>
               <span className="text-xs text-accent">
-                {u.status === "ready" ? "Ready" : "In the forge"}
+                {u.status === "ready" ? "Ready" : "Not ready yet"}
               </span>
             </div>
             <p className="mt-1 text-sm text-muted">{u.blurb}</p>
@@ -109,7 +109,7 @@ export default function SubjectHub() {
                 <span className="ml-2 text-sm font-sans font-normal text-faint">{b.ages}</span>
               </h3>
               {list.length === 0 ? (
-                <p className="mt-3 text-sm text-muted">In the forge for this band.</p>
+                <p className="mt-3 text-sm text-muted">No lessons for this age yet.</p>
               ) : (
                 <ul className="mt-3 space-y-2">
                   {list.map((l) => {
@@ -129,7 +129,7 @@ export default function SubjectHub() {
                               {hydrated && familyBand === b.id ? " · your band" : ""}
                             </span>
                             <span className="inline-flex shrink-0 items-center rounded-sm bg-accent/10 px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-wide text-accent">
-                              Assist-ready
+                              Ready
                             </span>
                           </span>
                           {preview ? (

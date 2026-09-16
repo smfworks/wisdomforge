@@ -165,7 +165,7 @@ export default function Home() {
             </Link>
           </div>
           <p className="mt-2 max-w-xl text-muted">
-            AI use is a practice inside the lesson, not a separate app. Each subject has a ready flagship sitting and a longer path in the forge.
+            AI use is a practice inside the lesson, not a separate app. Each subject has a first lesson you can do tonight, then more sittings if you want them.
           </p>
           <ul className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
             {subjects.map((s) => (
@@ -193,9 +193,9 @@ export default function Home() {
             </Link>
           </div>
           <p className="mt-2 max-w-xl text-muted">
-            Synthetic session transcripts — no real child data. Watch the guide
-            hold the ritual: hint, not answer. Correct the misreading, not the
-            student. Try This before any AI.
+            Sample transcripts — no real child data. Watch the guide hint first,
+            not give the answer. Correct the misreading, not the student. Do the
+            activity before any AI.
           </p>
           <ul className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {[

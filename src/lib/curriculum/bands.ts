@@ -49,9 +49,9 @@ export const bands: BandDef[] = [
     promise:
       "Full depth. The operating model: inspect, test, refuse. Teach without handing a child your own agent.",
     aiRule:
-      "You are the operator. Child profiles stay fresh, band-locked, and tool-poor. Official Hermes docs win if a command goes stale. Never clone your profile into a child's.",
+      "You are the operator. Give the child a new, simpler profile for their age — or no profile. Do not copy yours. Official Hermes docs win if a command is out of date.",
     hermes:
-      "Adult profile is the workshop. Child profiles are separate. Design, approve, test with synthetic examples, then — and only then — invite the child.",
+      "The adult profile is yours. Child profiles are separate. Design, approve, test with fake examples, then invite the child.",
   },
 ];
 
