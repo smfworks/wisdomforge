@@ -3,9 +3,6 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { bands } from "@/lib/curriculum/bands";
-import { useForge } from "@/lib/progress";
-import { useHydrated } from "@/lib/use-hydrated";
 import { cn } from "@/lib/utils";
 
 const links = [
@@ -41,9 +38,6 @@ function XIcon() {
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
-  const hydrated = useHydrated();
-  const band = useForge((s) => s.band);
-  const bandDef = hydrated ? bands.find((b) => b.id === band) : undefined;
 
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-bg/92 backdrop-blur-sm">
@@ -71,21 +65,12 @@ export function SiteHeader() {
         </nav>
 
         <div className="flex items-center gap-2">
-          {bandDef ? (
-            <Link
-              href={`/ages/${bandDef.id}`}
-              className="hidden min-h-10 items-center rounded-md px-3 text-xs text-muted shadow-[var(--shadow-border)] sm:inline-flex"
-            >
-              {bandDef.ages} · {bandDef.name}
-            </Link>
-          ) : (
-            <Link
-              href="/start"
-              className="hidden min-h-10 items-center rounded-md bg-accent px-3 text-sm font-medium text-accent-fg sm:inline-flex"
-            >
-              Choose a band
-            </Link>
-          )}
+          <Link
+            href="/start"
+            className="hidden min-h-10 items-center rounded-md bg-accent px-3 text-sm font-medium text-accent-fg sm:inline-flex"
+          >
+            Choose an age
+          </Link>
           <button
             type="button"
             className="inline-flex size-11 items-center justify-center rounded-md text-fg lg:hidden"

@@ -54,37 +54,37 @@ export default function Home() {
           </ul>
         </div>
 
-        <h2 className="font-display text-3xl text-fg">Three layers, one system</h2>
+        <h2 className="font-display text-3xl text-fg">How it works</h2>
         <p className="mt-2 max-w-xl text-muted">
-          Each layer does one job. The parent is the operator.
+          Start on this website. The Hermes guides are optional. You run them.
         </p>
 
-        <article className="mt-10 grid gap-4 border-t border-accent py-8 sm:grid-cols-[5.5rem_1fr_auto] sm:items-start sm:gap-6">
+        <article className="mt-10 grid gap-4 border-t border-accent py-8 sm:grid-cols-[5.5rem_1fr] sm:items-start sm:gap-6">
           <p className="font-display text-4xl leading-none text-accent">01</p>
           <div>
-            <h3 className="font-display text-2xl text-fg">The academy</h3>
+            <h3 className="font-display text-2xl text-fg">This website</h3>
             <p className="mt-2 max-w-xl text-muted">
-              This site. Sittings across ten subjects and four bands. No accounts. No child data.
+              Pick an age, pick a subject, do a short lesson (a sitting). Print the booklet. No account. Nothing about your child is stored here.
             </p>
-            <Link href="/subjects" className="mt-3 inline-flex text-sm text-accent hover:text-fg">
-              Browse sittings →
+            <p className="mt-2 max-w-xl text-sm text-muted">
+              How to start: Start tonight’s sitting → choose 5–10, 11–14, 15–18, or adult → one lesson.
+            </p>
+            <Link href="/start" className="mt-3 inline-flex text-sm text-accent hover:text-fg">
+              Start tonight’s sitting →
             </Link>
           </div>
-          <span className="mt-1 inline-flex w-fit items-center rounded-full border border-accent px-2.5 py-1 text-[10px] font-medium tracking-[0.14em] text-accent uppercase">
-            Assist-ready
-          </span>
         </article>
 
         <article className="grid gap-4 border-t border-accent py-8 sm:grid-cols-[5.5rem_1fr] sm:items-start sm:gap-6">
           <p className="font-display text-4xl leading-none text-accent">02</p>
           <div>
-            <h3 className="font-display text-2xl text-fg">The adult kit</h3>
+            <h3 className="font-display text-2xl text-fg">Optional parent guide</h3>
             <p className="mt-2 max-w-xl text-muted">
-              The parent-operated Hermes profile. It prepares the sitting. It serves the parent — never the child directly.
+              A Hermes profile you run, to prep the sitting. It talks to you, not to the child.
             </p>
             <div className="mt-3 flex flex-col gap-1.5 sm:flex-row sm:gap-4">
               <Link href="/hermes" className="inline-flex text-sm text-accent hover:text-fg">
-                Set up the guide →
+                How to set up the parent guide →
               </Link>
               <a
                 href="https://github.com/smfworks/hermes-ai-team"
@@ -101,9 +101,9 @@ export default function Home() {
         <article className="grid gap-4 border-t border-accent py-8 sm:grid-cols-[5.5rem_1fr] sm:items-start sm:gap-6">
           <p className="font-display text-4xl leading-none text-accent">03</p>
           <div>
-            <h3 className="font-display text-2xl text-fg">The child profile</h3>
+            <h3 className="font-display text-2xl text-fg">Optional child guide</h3>
             <p className="mt-2 max-w-xl text-muted">
-              Fresh. Band-locked. Tools off. Never a clone of the adult. The parent builds it, approves it, and reviews every session.
+              A separate profile you build for their age. Never a copy of yours. You approve every session.
             </p>
             <a
               href="https://github.com/smfworks/wisdomforge-kids-Hermes-profiles"
@@ -117,9 +117,9 @@ export default function Home() {
         </article>
 
         <div className="border-t border-accent pt-8">
-          <h2 className="font-display text-2xl text-fg">Choose a band</h2>
+          <h2 className="font-display text-2xl text-fg">Choose an age</h2>
           <p className="mt-2 max-w-xl text-muted">
-            Permissions, not IQ. When they age out, redesign. Do not silently stretch the old profile.
+            Four age groups. Pick the one that matches who is sitting tonight. When they grow up, pick the next one — do not reuse a younger profile.
           </p>
           <ul className="mt-6 flex flex-wrap gap-x-6 gap-y-3">
             {bands.map((b) => (
