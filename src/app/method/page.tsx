@@ -13,18 +13,18 @@ export default function Method() {
       </p>
 
       <section className="mt-12">
-        <h2 className="font-display text-2xl text-fg">A sitting</h2>
+        <h2 className="font-display text-2xl text-fg">A lesson</h2>
         <ol className="mt-4 list-decimal space-y-3 pl-5 text-muted">
           <li>Parent reads the briefing (five minutes, child not yet in the room).</li>
-          <li>Read the lesson. Little Thinkers are read to. Everyone else reads.</li>
-          <li>Try this — with hands, paper, a timer. No model yet.</li>
-          <li>Open the lesson guide or a band-locked Hermes profile. Hint only.</li>
-          <li>Evaluate what the guide got wrong. Mark the sitting. Ask the dinner question later.</li>
+          <li>Read the lesson. Ages 5–10 are read to. Everyone else reads.</li>
+          <li>Try this — with hands, paper, a timer. No AI yet.</li>
+          <li>Optional: open the lesson guide or a Hermes profile for that age. Hint only.</li>
+          <li>Check what the guide got wrong. Mark the lesson done. Ask the dinner question later.</li>
         </ol>
       </section>
 
       <section className="mt-12">
-        <h2 className="font-display text-2xl text-fg">Four bands, four rituals</h2>
+        <h2 className="font-display text-2xl text-fg">Four ages, four house rules</h2>
         <ul className="mt-4 space-y-3 text-muted">
           <li>
             <span className="text-fg">5–10 Ask a Grown-Up.</span> Conversation only. A grown-up in the room.
@@ -61,7 +61,7 @@ export default function Method() {
 
       <div className="mt-12 flex flex-col gap-3 sm:flex-row">
         <Button asChild>
-          <Link href="/start">Start a sitting</Link>
+          <Link href="/start">Start a lesson</Link>
         </Button>
         <Button asChild variant="secondary">
           <Link href="/demos">See a demo</Link>

@@ -15,7 +15,7 @@ export default function HermesPage() {
       <p className="text-xs font-medium tracking-widest text-accent uppercase">Hermes</p>
       <h1 className="mt-3 font-display text-4xl text-fg">A guide you inspect. Not a chatbot we host.</h1>
       <p className="mt-5 text-lg text-muted">
-        WisdomForge lessons work with zero AI. Hermes is optional: a parent-operated, band-locked profile that sits beside the booklet. It does not make AI safe. You may refuse it.
+        Lessons work with no AI. Hermes is optional: a profile you run on your computer, for one age group, beside the printed lesson. It does not make AI safe. You may skip it.
       </p>
 
       <section className="mt-12 rounded-xl bg-surface p-5 shadow-[var(--shadow-border)]">
@@ -81,7 +81,7 @@ export default function HermesPage() {
           <li className="rounded-lg bg-raised p-4 shadow-[var(--shadow-border)]">
             <p className="text-xs text-accent uppercase">Little Thinkers · Young Minds · Emerging Adults</p>
             <p className="mt-1 text-sm text-fg">
-              Band-locked child profiles for ages 5–10, 11–14, and 15–18. Fresh profiles only — never clone an adult profile. Includes START-HERE.md, BANDS.md, and DECISIONS.md.
+              Child profiles for ages 5–10, 11–14, and 15–18. New profiles only — never copy an adult profile. Includes START-HERE.md, BANDS.md, and DECISIONS.md.
             </p>
             <a
               className="mt-2 inline-flex text-sm text-accent hover:underline"

@@ -15,14 +15,14 @@ export default function Start() {
   return (
     <main className="mx-auto max-w-3xl px-4 py-14">
       <p className="text-xs font-medium tracking-[0.28em] text-accent uppercase">Start</p>
-      <h1 className="mt-3 font-display text-4xl text-fg sm:text-5xl">Who is in the chair?</h1>
+      <h1 className="mt-3 font-display text-4xl text-fg sm:text-5xl">Pick an age</h1>
       <p className="mt-4 max-w-xl text-lg text-muted">
-        Pick a band. You will land on the first Autonomous AI sitting — the spine of the academy. You can switch subjects after.
+        Choose 5–10, 11–14, 15–18, or adult. You will start the first Autonomous AI lesson. You can switch subjects after.
       </p>
 
       {hydrated && lastKey ? (
         <p className="mt-6 text-sm text-muted">
-          Last sitting: <span className="text-fg">{lastKey}</span>
+          Last lesson: <span className="text-fg">{lastKey}</span>
         </p>
       ) : null}
 
@@ -44,7 +44,7 @@ export default function Start() {
                   <h2 className="font-display text-2xl text-fg">{b.name}</h2>
                   <p className="mt-2 text-sm text-muted">{b.promise}</p>
                   <p className="mt-3 text-xs text-faint">
-                    {first ? `First sitting: ${first.title} · ${first.durationMin} min` : b.sitting}
+                    {first ? `First lesson: ${first.title} · ${first.durationMin} min` : b.sitting}
                   </p>
                 </div>
               </Link>
@@ -55,7 +55,7 @@ export default function Start() {
 
       <div className="border-t border-accent pt-8">
         <Button variant="ghost" asChild>
-          <Link href="/method">Read the method first</Link>
+          <Link href="/method">Read how a lesson works</Link>
         </Button>
       </div>
     </main>

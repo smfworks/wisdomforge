@@ -58,7 +58,7 @@ export default function ProgressPage() {
       ) : (
         <div className="mt-10">
           <Button asChild>
-            <Link href="/start">Start a sitting</Link>
+            <Link href="/start">Start a lesson</Link>
           </Button>
         </div>
       )}

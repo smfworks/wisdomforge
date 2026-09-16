@@ -35,10 +35,10 @@ export default function Library() {
       <p className="text-xs font-medium tracking-[0.28em] text-accent uppercase">Library</p>
       <h1 className="mt-3 font-display text-4xl text-fg sm:text-5xl">The library</h1>
       <p className="mt-4 max-w-2xl text-lg text-muted">
-        An expanding library of units. Ready means a parent can run the sitting tonight. In the forge means the catalog is honest about what is still being written.
+        An expanding library of units. Ready means a parent can run the lesson tonight. Still being written means the catalog is honest about what is unfinished.
       </p>
       <p className="mt-4 text-sm text-faint">
-        {ready} ready · {forge} in the forge
+        {ready} ready · {forge} still being written
       </p>
 
       {/* Subject filter chips */}
@@ -146,7 +146,7 @@ export default function Library() {
                     <h2 className="font-display text-xl text-fg">{u.title}</h2>
                   </div>
                   <span className="text-xs tracking-wide text-accent uppercase">
-                    {u.status === "ready" ? "Ready" : "In the forge"}
+                    {u.status === "ready" ? "Ready" : "Still being written"}
                   </span>
                 </div>
                 <p className="mt-2 text-sm text-muted">{u.blurb}</p>
