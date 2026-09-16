@@ -29,6 +29,9 @@ export function SiteFooter() {
           <Link href="/progress" className="min-h-11 py-2 text-muted hover:text-fg">
             Progress
           </Link>
+          <Link href="/support" className="min-h-11 py-2 text-muted hover:text-fg">
+            Support Us
+          </Link>
         </div>
       </div>
       <div className="border-t border-border">

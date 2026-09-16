@@ -14,6 +14,7 @@ const links = [
   { href: "/method", label: "The method" },
   { href: "/hermes", label: "Hermes" },
   { href: "/about", label: "About" },
+  { href: "/support", label: "Support Us" },
 ] as const;
 
 function MenuIcon() {
