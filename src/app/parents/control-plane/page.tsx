@@ -14,7 +14,7 @@ export default function ControlPlanePage() {
         Before you create a profile
       </p>
       <h1 className="mt-3 font-display text-4xl text-fg sm:text-5xl">
-        The parent control plane.
+        What you run on your computer.
       </h1>
       <p className="mt-5 text-lg text-muted">
         WisdomForge does not make AI safe. The sentence is honest. What makes

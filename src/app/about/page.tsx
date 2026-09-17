@@ -15,7 +15,7 @@ const team = [
   {
     name: "Aiona Edge",
     role: "CIO · Chief AI Research Scientist",
-    does: "Strategy, pedagogy, gold-gate. Nothing ships to the site without her approval.",
+    does: "Strategy and pedagogy. She checks that what you download is the real file, and that we have not put a price on it.",
   },
   {
     name: "Harry",
@@ -61,10 +61,10 @@ export default function About() {
       <section className="mt-12">
         <h2 className="font-display text-2xl text-fg">How the work is done</h2>
         <p className="mt-4 text-muted">
-          Michael names the figure, the book, and the hold. Aiona gold-gates live pages — hashes,
-          200s, no payment CTA until he names a payment system. Harry researches. William writes.
-          Airia typesets. Liam puts it on the academy. Gabriel keeps the board honest. Content
-          does not go live on a status line. It goes live when the files match production.
+          Michael names the work. Aiona checks the live pages before they count as shipped.
+          Harry researches. William writes. Airia typesets. Liam puts it on the academy.
+          Gabriel keeps the board honest. It is live when the files match, not when a status
+          line says so.
         </p>
       </section>
 

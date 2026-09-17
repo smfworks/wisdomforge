@@ -26,11 +26,11 @@ export const aiLessons: Lesson[] = [
     objective:
       "The child can say, in their own words, that an AI is a tool people made — not a friend, not a teacher who replaces a grown-up.",
     parentBriefing:
-      "This sitting names the category error every child will meet: a fluent voice feels like a someone. You are not crushing wonder. You are putting a handle on the tool. Stay in the room. If they ask 'is it alive?', answer plainly: no. It predicts words. It does not miss them when they leave.",
+      "Kids think a talking computer is a person. It is not. Stay in the room. If they ask 'is it alive?', say no. It guesses the next word. It does not miss them when they leave.",
     hardEdges: [
-      "Do not use the word 'just a toy' if they already love it — call it a powerful tool.",
-      "If they have already named a chatbot, do not mock the name. Rename the relationship: 'that's a program.'",
-      "No discussion of consciousness debates at this band. The operating rule is enough.",
+      "Do not call it 'just a toy' if they already love it. Call it a strong tool.",
+      "If they named it, do not laugh at the name. Say: that is a program.",
+      "Do not argue about whether it is alive. The rule is enough: it is a tool.",
     ],
     reading: [
       {

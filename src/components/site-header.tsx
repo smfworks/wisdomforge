@@ -8,13 +8,18 @@ import { cn } from "@/lib/utils";
 const links = [
   { href: "/start", label: "Start a lesson" },
   { href: "/subjects", label: "Subjects" },
-  { href: "/library", label: "Library" },
-  { href: "/demos", label: "Demos" },
   { href: "/books", label: "Books" },
+  { href: "/about", label: "About" },
+] as const;
+
+const moreLinks = [
+  { href: "/parents", label: "For parents" },
+  { href: "/demos", label: "Demos" },
   { href: "/method", label: "The method" },
   { href: "/hermes", label: "Hermes" },
-  { href: "/about", label: "About" },
-  { href: "/support", label: "Support Us" },
+  { href: "/library", label: "Lessons" },
+  { href: "/support", label: "Support" },
+  { href: "/progress", label: "This device" },
 ] as const;
 
 function MenuIcon() {
@@ -97,18 +102,16 @@ export function SiteHeader() {
                 {l.label}
               </Link>
             ))}
-            <Link href="/parents" className="flex min-h-11 items-center text-base text-fg" onClick={() => setOpen(false)}>
-              For parents
-            </Link>
-            <Link href="/demos" className="flex min-h-11 items-center text-base text-fg" onClick={() => setOpen(false)}>
-              Demos
-            </Link>
-            <Link href="/books" className="flex min-h-11 items-center text-base text-fg" onClick={() => setOpen(false)}>
-              Books
-            </Link>
-            <Link href="/progress" className="flex min-h-11 items-center text-base text-fg" onClick={() => setOpen(false)}>
-              Family progress
-            </Link>
+            {moreLinks.map((l) => (
+              <Link
+                key={l.href}
+                href={l.href}
+                className="flex min-h-11 items-center text-base text-fg"
+                onClick={() => setOpen(false)}
+              >
+                {l.label}
+              </Link>
+            ))}
           </div>
         </nav>
       ) : null}

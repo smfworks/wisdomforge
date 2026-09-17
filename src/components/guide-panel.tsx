@@ -96,7 +96,21 @@ export function GuidePanel({ lesson }: { lesson: Lesson }) {
       <p className="mt-2 text-xs text-faint">{remaining} turns left this sitting. User-started only. Never on page load.</p>
 
       <div className="mt-6">
-        <SittingBridge lesson={lesson} />
+        {lesson.band === "little" || lesson.band === "young" ? (
+          <details>
+            <summary className="cursor-pointer text-sm font-medium text-fg">
+              For the computer
+            </summary>
+            <p className="mt-2 text-xs text-muted">
+              Optional. Pair a Hermes guide on your machine. The lesson above does not need this.
+            </p>
+            <div className="mt-4">
+              <SittingBridge lesson={lesson} />
+            </div>
+          </details>
+        ) : (
+          <SittingBridge lesson={lesson} />
+        )}
       </div>
     </section>
   );

@@ -24,10 +24,19 @@ export function SiteFooter() {
             For parents
           </Link>
           <Link href="/library" className="min-h-11 py-2 text-muted hover:text-fg">
-            Library
+            Lessons
+          </Link>
+          <Link href="/demos" className="min-h-11 py-2 text-muted hover:text-fg">
+            Demos
+          </Link>
+          <Link href="/books" className="min-h-11 py-2 text-muted hover:text-fg">
+            Books
+          </Link>
+          <Link href="/support" className="min-h-11 py-2 text-muted hover:text-fg">
+            Support
           </Link>
           <Link href="/progress" className="min-h-11 py-2 text-muted hover:text-fg">
-            Progress
+            This device
           </Link>
           <Link href="/support" className="min-h-11 py-2 text-muted hover:text-fg">
             Support Us

@@ -6,7 +6,7 @@ import { subjects } from "@/lib/curriculum/subjects";
 export const metadata: Metadata = {
   title: "Books — WisdomForge",
   description:
-    "Academy teaching-manuals by subject, then operator books for parents who already run Hermes. A sitting is the weeknight path.",
+    "Long books you can print. Short lessons are under Start a lesson.",
 };
 
 function BookCard({ book }: { book: (typeof books)[number] }) {
@@ -62,10 +62,10 @@ export default function BooksPage() {
         Books
       </p>
       <h1 className="mt-3 font-display text-4xl text-fg sm:text-5xl">
-        The longer arguments.
+        Long books you can print.
       </h1>
       <p className="mt-5 text-lg text-muted">
-        Academy teaching-manuals sit with the subject they serve. Operator books are for parents who already run Hermes — not week-1 on the parent shelf. Empty subjects stay off this page until a title lands.
+        These are the long manuals. Short lessons are under Start a lesson. Academy books sit with their subject. Operator books are for parents who already run Hermes. Empty subjects stay off this page until a title lands.
       </p>
 
       <div className="mt-6 rounded-lg border-l-2 border-accent bg-surface p-4 shadow-[var(--shadow-border)]">

@@ -32,10 +32,10 @@ export default function Library() {
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-14">
-      <p className="text-xs font-medium tracking-[0.28em] text-accent uppercase">Library</p>
-      <h1 className="mt-3 font-display text-4xl text-fg sm:text-5xl">The library</h1>
+      <p className="text-xs font-medium tracking-[0.28em] text-accent uppercase">Lessons</p>
+      <h1 className="mt-3 font-display text-4xl text-fg sm:text-5xl">Short lessons</h1>
       <p className="mt-4 max-w-2xl text-lg text-muted">
-        An expanding library of units. Ready means a parent can run the lesson tonight. Still being written means the catalog is honest about what is unfinished.
+        A sitting is one short lesson — about 20 to 40 minutes. These are not the long books. Ready means you can run it tonight. Still being written means we have not finished it yet.
       </p>
       <p className="mt-4 text-sm text-faint">
         {ready} ready · {forge} still being written

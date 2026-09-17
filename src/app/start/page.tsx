@@ -17,7 +17,7 @@ export default function Start() {
       <p className="text-xs font-medium tracking-[0.28em] text-accent uppercase">Start</p>
       <h1 className="mt-3 font-display text-4xl text-fg sm:text-5xl">Pick an age</h1>
       <p className="mt-4 max-w-xl text-lg text-muted">
-        Choose 5–10, 11–14, 15–18, or adult. You will start the first Autonomous AI lesson. You can switch subjects after.
+        A sitting is one short lesson — about 20 to 40 minutes. Choose 5–10, 11–14, 15–18, or adult. You will start the first Autonomous AI lesson. You can switch subjects after.
       </p>
 
       {hydrated && lastKey ? (
@@ -26,7 +26,7 @@ export default function Start() {
         </p>
       ) : null}
 
-      <ul className="mt-12">
+      <ul className="mt-8">
         {bands.map((b) => {
           const first = firstLesson(b.id, "ai");
           const href = first
@@ -36,7 +36,7 @@ export default function Start() {
             <li key={b.id} className="border-t border-accent">
               <Link
                 href={href}
-                className="grid gap-2 py-7 sm:grid-cols-[7.5rem_1fr] sm:items-start sm:gap-8"
+                className="grid gap-1 py-4 sm:grid-cols-[7.5rem_1fr] sm:items-start sm:gap-8"
                 onClick={() => setBand(b.id)}
               >
                 <p className="text-xs tracking-[0.18em] text-accent uppercase">{b.ages}</p>
