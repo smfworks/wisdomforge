@@ -10,6 +10,7 @@ const links = [
   { href: "/subjects", label: "Subjects" },
   { href: "/books", label: "Books" },
   { href: "/about", label: "About" },
+  { href: "/support", label: "Support Us" },
 ] as const;
 
 const moreLinks = [
@@ -18,7 +19,6 @@ const moreLinks = [
   { href: "/method", label: "The method" },
   { href: "/hermes", label: "Hermes" },
   { href: "/library", label: "Lessons" },
-  { href: "/support", label: "Support" },
   { href: "/progress", label: "This device" },
 ] as const;
 
