@@ -39,6 +39,8 @@ Avalon, Federalist No. 1 (usually Hamilton), 27 October 1787. The mailer’s “
 
 Article VII does not say that. Article VII says nine conventions. If the rewrite of the mailer cannot bear author, number, and year, the sentence was ornament.
 
+The choice Hamilton names — reflection and choice versus accident and force — was not a philosophy-seminar phrase in 1787. Accident and force were the year's news: a legislature that could not fund an army watching farmers close courts in Massachusetts, a treaty the other side would not execute, a union held together by promises instead of revenue. Reflection and choice was the pitch: a people could sit down and *design* a government. The essays inherit that urgency. They are not calm commentary; they are an argument that design is still possible before force answers the question. Keep the stakes and the date together and the essay stops sounding like a civics hymn.
+
 The closed doors in Philadelphia ended 17 September 1787. Article VII broke the Articles’ unanimity rule. Name that without a smear: they were sent to revise a league and produced a replacement that needed nine conventions. Publius later treats popular ratification as the cure. That is his argument.
 
 The *Independent Journal* printed the first Publius on 27 October. McLean bound *The Federalist: A Collection of Essays, Written in Favour of the New Constitution* in two volumes, about five hundred copies, many unsold when the fight ended. After No. 16, out-of-state reprinting collapses. After No. 23 the remaining essays almost never left New York. One excerpt of 38 in New Hampshire is the oft-cited exception. James Wilson’s State House Yard speech ran in thirty-four papers across twelve states — broader than almost any Publius number. McLean arrived after six, then eight, states had already ratified. If a host says the essays “swayed the nation,” you owe those three facts without notes: reprint collapse, McLean 500, Poughkeepsie isolation.
@@ -47,9 +49,15 @@ Poughkeepsie is a civic room, not a conversion story. Governor Clinton led the o
 
 Gideon 1818 printed names. After Hamilton’s death in 1804, a memorandum attributed to him assigned himself the majority, including essays Madison also claimed. The twelve traditionally disputed numbers are 49–58 and 62–63. (18–20 are an acknowledged collaboration. 64 is Jay.) Douglass Adair (1944) assigned the twelve to Madison. Mosteller and Wallace (1963/64) reached the same assignment by word frequency (“upon” versus “on,” “while” versus “whilst”). Consensus follows them. Remainder exists: some stylometry still argues collaboration, especially around 55; newspaper / McLean / Gideon texts differ. If you quote 54 as Hamilton to protect Madison, you are doing party history. If 51 is Madison, the tension with Hamilton’s 70 is between authors, not a mood swing. Authorship lists were party documents. Treating them as neutral metadata repeats 1804.
 
+One practical note belongs in any authorship argument: the starting-text problem. Newspaper, McLean, and Gideon versions differ — Hamilton revised for McLean, Madison for Gideon — and every step away from a holograph introduces error. Cooke's 1961 edition is what the modern Court usually cites. Stylometric verdicts inherit those variants. “The computer settled it” is not available. “The best current assignment, with a remainder” is.
+
 Afterlife: *Calder* (1798) and a long citation habit. Teachers. Originalists. Living-constitutionalists. Eskridge asked why originalists may read these essays and disdain legislative history. Closed record or prestige. Tag the claim before you borrow the sentence in a meeting.
 
+The habit has been counted. Corley, Howard, and Nixon (2005) coded Supreme Court citations and found two things worth saying in a meeting: citations rose as originalism became a judicial brand, and a handful of numbers — 10, 51, 70, 78 — carried most of the load while the least-read essays stayed least-cited. Usefulness selects. The essays a syllabus assigns are the essays a footnote borrows. When someone cites Publius as though the whole series spoke, ask which number, then ask whether it is one of the four that always does the work.
+
 1791 is not 1788. Bank. Pacificus/Helvidius. Jay Treaty. The third Publius is a Federalist officeholder, not a spectator. “The Federalist says” without a year is how a caucus hides.
+
+Here is the markup in practice. A mailer says: “The Founders warned against faction — it’s in the Federalist Papers.” The rewrite: “Madison, Federalist No. 10, *New York Packet*, 23 November 1787, defines faction as a group — majority or minority — adverse to the rights of others or the permanent public interest; he refuses to cure it by destroying liberty, and proposes an extended republic instead.” If the mailer cannot carry the date and the author, and if the rewritten sentence no longer supports what the mailer wanted it to support, the original was borrowing prestige. That is the whole test, and it works the same way on podcasts, conference slides, and candidate literature.
 
 ### Big Idea
 
@@ -83,6 +91,18 @@ Practice that says “read Avalon aloud” without the sentences is a hole. Aval
 
 > But the most common and durable source of factions has been the various and unequal distribution of property.
 
+Madison keeps going from there, and the next sentences are the ones a mailer never prints:
+
+> Those who hold and those who are without property have ever formed distinct interests in society. Those who are creditors, and those who are debtors, fall under a like discrimination. A landed interest, a manufacturing interest, a mercantile interest, a moneyed interest, with many lesser interests, grow up of necessity in civilized nations, and divide them into different classes, actuated by different sentiments and views.
+
+Then the argument turns legislative, and the sentence lands hardest in any room that has watched a budget vote:
+
+> No man is allowed to be a judge in his own cause, because his interest would certainly bias his judgment, and, not improbably, corrupt his integrity. With equal, nay with greater reason, a body of men are unfit to be both judges and parties at the same time; yet what are many of the most important acts of legislation, but so many judicial determinations, not indeed concerning the rights of single persons, but concerning the rights of large bodies of citizens?
+
+> Every shilling with which they overburden the inferior number, is a shilling saved to their own pockets.
+
+That last line is No. 10 with the mask off: a majority faction is a majority with a pocketbook interest in the outcome. When a board member reads 10 as a hymn, read them the shilling.
+
 A room that stops at the fire metaphor has recruited Madison. If the room then says “so Madison wanted a large country,” you owe the unused remainder of the cure — not as a seminar protocol, as a read-aloud the mailer never prints. Avalon, still No. 10, Packet 23 November 1787:
 
 > From this view of the subject it may be concluded that a pure democracy, by which I mean a society consisting of a small number of citizens, who assemble and administer the government in person, can admit of no cure for the mischiefs of faction. A common passion or interest will, in almost every case, be felt by a majority of the whole; a communication and concert result from the form of government itself; and there is nothing to check the inducements to sacrifice the weaker party or an obnoxious individual.
@@ -115,9 +135,25 @@ That is the consolidation fear Madison’s sphere has to answer. A mailer that q
 
 Your feed is a faction machine. It unites passion without territory. Madison’s “extent” assumed geography. You do not have to decide that Madison is obsolete. You do have to notice that the variable he counted on has changed. Adult resistance — “this is just pluralism with better branding” — then has to explain why he thinks small democracies fail *faster*. If you cannot, you are scoring a slogan, not No. 10.
 
-Hume is in the reading list. Beard is too crude. Silence about 54 is cruder. Property factions in 10 meet human property in 54. You will not skip that meeting; it is chapter 6.
+Brutus's watching problem, in his own words — the sentence the feed era made famous again:
+
+> The confidence which the people have in their rulers, in a free republic, arises from their knowing them, from their being responsible to them for their conduct, and from the power they have of displacing them when they misbehave: but in a republic of the extent of this continent, the people in general would be acquainted with very few of their rulers; the people at large would know little of their proceedings, and it would be extremely difficult to change them.
+
+If the feed is a faction machine, it is also a Brutus machine: it makes the rulers — and the facts — harder to know while making the passion easier to share. The two fears converge in a phone. Neither essay predicted it. Both described a part of it.
+
+Hume is in the reading list. Beard is too crude. Silence about 54 is cruder.
+
+The Hume connection is worth one adult paragraph because it explains why No. 10 reads the way it does. Douglass Adair's classic claim: Madison's extended-sphere argument is Humean — Hume had already argued, in his essays on parties and on the idea of a perfect commonwealth, that a large territory with many interests can be *more* stable than a small virtuous one. Madison read that, kept the mechanism, and dropped the cooler Humean temperature about virtue. If a room says Madison invented the extended republic out of thin air, the correction is available: he borrowed the sharpest available political science and pointed it at New York. Borrowing is not plagiarism and it is not discipleship. Brutus read the same library and pointed it back. Property factions in 10 meet human property in 54. You will not skip that meeting; it is chapter 6.
+
+One sentence earlier in the essay does the work the slogan skips — the faculties clause:
+
+> The diversity in the faculties of men, from which the rights of property originate, is not less an insuperable obstacle to a uniformity of interests. The protection of these faculties is the first object of government.
+
+The first object of government, in the faction essay, is protecting the unequal faculties from which property differences follow. Wood's republicans recruit that sentence as the retreat from virtue; Appleby's liberals recruit it as interest-politics arriving early. Both are recruitments. Hold the sentence, name the recruitments, and let the room decide what the sentence can carry.
 
 When a mailer quotes “liberty is to faction what air is to fire” as a vibe about diversity, you owe the next sentences. Avalon: two refused cures (destroy liberty; enforce sameness); majority *or* minority; the durable source is unequal property. A room that stops at the fire metaphor has recruited Madison. A school-board packet that says “Madison hated parties” has failed No. 10. Practice the correction out loud: he expects many groups; he designs against a majority that can sacrifice the weaker party.
+
+Here is the same discipline as a meeting craft. The minutes say the board voted 7–2 to reallocate a budget line that funds the committee two members chair. Madison’s question, written in the margin: which side of this vote was a judge in its own cause? Not to kill the vote — majorities are allowed to govern — but to name the moment when the majority’s interest and the outcome are the same object. A republic does not pretend that problem away. It is designed to make it harder to act in concert, at scale, silently. A board that can name the conflict out loud has done, in one room, what the extended republic does at continental size — and has not yet decided who was right, which is also the point.
 
 ### Big Idea
 
@@ -147,7 +183,17 @@ Avalon, No. 51, 8 February 1788. Read the paragraph in the room, not the fridge 
 
 > Ambition must be made to counteract ambition. The interest of the man must be connected with the constitutional rights of the place. It may be a reflection on human nature, that such devices should be necessary to control the abuses of government. But what is government itself, but the greatest of all reflections on human nature? If men were angels, no government would be necessary. If angels were to govern men, neither external nor internal controls on government would be necessary. In framing a government which is to be administered by men over men, the great difficulty lies in this: you must first enable the government to control the governed; and in the next place oblige it to control itself. A dependence on the people is, no doubt, the primary control on the government; but experience has taught mankind the necessity of auxiliary precautions.
 
-The primary control is the people. Auxiliary precautions are the machine. If your meeting treats 51 as “Founders were cynics,” you dropped the primary control. If it treats “just vote” as enough, you dropped the auxiliary. Say which leak you are looking at.
+The primary control is the people. Auxiliary precautions are the machine.
+
+Avalon keeps three more sentences from 51 that rooms almost never hear, and they carry the essay's actual mechanism:
+
+> In a free government the security for civil rights must be the same as that for religious rights. It consists in the one case in the multiplicity of interests, and in the other in the multiplicity of sects.
+
+> It can be little doubted that if the State of Rhode Island was separated from the Confederacy and left to itself, the insecurity of rights under the popular form of government within such narrow limits would be displayed by such reiterated oppressions of factious majorities that some power altogether independent of the people would soon be called for by the voice of the very factions whose misrule had proved the necessity of it.
+
+> It is no less certain than it is important, notwithstanding the contrary opinions which have been entertained, that the larger the society, provided it lie within a practical sphere, the more duly capable it will be of self-government.
+
+Rhode Island is the exhibit — the state that refused to attend the Convention and was busy issuing paper money while Publius wrote. The multiplicity sentence is the extended sphere in one line: religious liberty survives many sects; civil liberty survives many interests. A room that can recite the angels but has never met the multiplicity sentence has the poster, not the essay. If your meeting treats 51 as “Founders were cynics,” you dropped the primary control. If it treats “just vote” as enough, you dropped the auxiliary. Say which leak you are looking at.
 
 70’s bet is that one visible executive can be watched and blamed. Avalon, 18 March 1788:
 
@@ -159,7 +205,13 @@ Cato IV, 8 November 1787, the facing sentence you owe when someone hears “king
 
 You live with a presidency Hamilton would barely recognize: staff, agencies, war powers, media. Do not pretend 70 describes your year. Ask which *reasons* (visibility, blame, execution) still apply when the “one person” is a system.
 
+No. 70 has an afterlife worth naming in the same breath: it is the essay later presidents reach for when they want room to act. That use is a claim about Hamilton, not a vote Hamilton cast — he was dead before the first big tests arrived. The claim a room should tag is the ingredient list. When a modern executive asks for unity, the honest questions are which of the four ingredients the Constitution still supplies, which the office has accumulated, and who can now be blamed. Energy without blame is the part of 70 that Cato heard as monarchy.
+
+Hamilton's ingredients are a list, not a mood — unity, duration, adequate provision for support, competent powers — and he was arguing against American practice as much as against George III: several states ran their executives by council. The adult question is not whether one person should rule. It is whether responsibility survives a committee. A committee cannot be fired; a person can. That question does not age.
+
 1791 is the warning label on every quotation. The same men used the same essays for a Bank and against a Bank. If your meeting needs “Hamilton believed” to settle implied powers, it is doing legislative history with a campaign trail. File 7.3.
+
+Sheehan's version of the split is the adult one, because it names what the fight was *about*. Madison came to argue that republicanism requires a sovereign public opinion — citizens who watch, judge, and weigh in — and that Hamilton's program ran on confidence directed upward instead. Hamilton came to think Madison had abandoned the nationalism they had just sold to build something quieter and more popular. That is not a falling-out over manners. It is the first party system's founding question: what are the people *for* — a check that speaks, or a reservoir that trusts? Every later argument about mandates, elites, and populism is a descendant. The essays did not settle it. The two men who wrote them became its first exhibits.
 
 The chronology, in the room, so “falling out” does not pass. 1789–90: Madison introduces amendments; Hamilton, as Treasury, begins the financial program; they are still, in public, colleagues of the ratification fight. 1790–91: Hamilton’s *Report on Public Credit* and the Bank. Madison opposes assumption as Hamilton framed it, opposes the Bank as extra-constitutional, and begins to argue that republicanism requires a sovereign public opinion, not “confidence” in an energetic executive. Jefferson joins him. The Republican party starts here, not in 1800. Both men reach for *The Federalist*. Hamilton reads implied powers and energy (23, 33, 70). Madison reads enumerated powers and the compound republic (39, 45–46). 1793–94: Neutrality. Hamilton as Pacificus claims residual foreign-affairs power. Madison as Helvidius calls that “new principles and new constructions.” The Roman masks are back. They are no longer the same Roman. Jay becomes Chief Justice, then negotiates the Jay Treaty (1794), which Republicans treat as a betrayal of 1776. The third Publius is a Federalist officeholder, not a spectator. 1804: Hamilton dies; a list attributed to him claims two-thirds of the essays. Every “the Founders believed” quotation from these essays has a year attached. If the year is 1791 or 1793, you are not quoting Publius. You are quoting a party leader who used to be Publius. Jefferson is not Publius. Do not recruit 7.4 / 7.5 / 5.6.
 
@@ -197,6 +249,14 @@ Avalon, No. 78, McLean 1788. The weapons, then the brace, then the void-act infe
 
 You may agree or not. You may not mash 1788, 1803, and this year’s docket into one growl. Jury hallway: instructions, not a seminar.
 
+Two sentences that almost never reach the hallway, one from each side. Hamilton, arguing the judiciary is weak, leans on Montesquieu in his own footnote: “Of the three powers above mentioned, the judiciary is next to nothing.” Brutus, arguing it will grow, reads the Constitution's own silence back at New York:
+
+> This part of the plan is so modelled, as to authorise the courts, not only to carry into execution the powers expressly given, but where these are wanting or ambiguously expressed, to supply what is wanting by their own decisions.
+
+> This power in the judicial, will enable them to mould the government, into almost any shape they please.
+
+The same Article III is “next to nothing” in one brief and “mould the government” in the other. Both men read the same clause. When a cable segment says the Founders thought courts harmless — or that they foresaw judicial supremacy — both halves of that claim are sitting in these two sentences, and they do not agree.
+
 Avalon continues — the unused stretch after FORCE / WILL, the intermediate-body argument a hallway mash never reaches:
 
 > Some perplexity respecting the rights of the courts to pronounce legislative acts void, because contrary to the Constitution, has arisen from an imagination that the doctrine would imply a superiority of the judiciary to the legislative power. … There is no position which depends on clearer principles, than that every act of a delegated authority, contrary to the tenor of the commission under which it is exercised, is void. … It is far more rational to suppose, that the courts were designed to be an intermediate body between the people and the legislature, in order, among other things, to keep the latter within the limits assigned to their authority. The interpretation of the laws is the proper and peculiar province of the courts. A constitution is, in fact, and must be regarded by the judges, as a fundamental law. … If there should happen to be an irreconcilable variance between the two, that which has the superior obligation and validity ought, of course, to be preferred; or, in other words, the Constitution ought to be preferred to the statute, the intention of the people to the intention of their agents.
@@ -211,7 +271,11 @@ Brutus XI and XV, facing page, so the hallway is not a monologue:
 
 > In short, they are independent of the people, of the legislature, and of every power under heaven. Men placed in this situation will generally soon feel themselves independent of heaven itself.
 
+And the equity clause, which is Brutus's quietest weapon. The Constitution extends the judicial power to cases in law *and equity*; Brutus reads that as authority to “explain the constitution according to the reasoning spirit of it, without being confined to the words or letter.” Hamilton sells judgment without will. Brutus sells a court that fills in whatever the words leave blank — with no appeal and no removal. Same clause, two readings. That is the pairing, and it is still the fight.
+
 When a court quotes Federalist 78, it may be (a) claiming Framer intent, (b) claiming ratifier understanding, (c) claiming public meaning, or (d) borrowing prestige. Most popular commentary cannot name which. If you cannot, you are not doing originalism or its critique. You are decorating.
+
+The practice question underneath all of it is Hamilton's own: what happens if they just say no? *Marbury* is the first great test — the Court claims the power to void a statute in 1803, and the administration that lost is not eager to be instructed. The judgment stands because, and only because, the political branches eventually carry it out. That is 78's mechanism working at its edge: judgment without sword is advice until someone with a sword agrees. Every later standoff between a court and an executive is that same sentence at a different date. Name the mechanism and the room stops being a growl. Name the year and it stops being 1788.
 
 File 7.3, in the hallway, not as a seminar tag. Intent: Publius as a window on drafters — but only two of three were in the room, they did not bind the others, they later contradicted themselves. Ratifiers’ understanding: most ratifiers outside New York did not read most essays; New York’s convention was elected against the Constitution. Public meaning: more defensible, still leaky; Publius is one informed speaker writing to win, Brutus another. A method that cites 78 and not Brutus XI on “judicial power” has chosen a speaker. Eskridge asked why originalists may read these essays and disdain statutory legislative history. Closed record or prestige. Both answers on the table. Tag the claim before you borrow the sentence in a meeting.
 
@@ -259,7 +323,21 @@ National Archives, Amendment IX, the sentence a board should hear aloud when som
 
 Madison, 8 June 1789, introduces amendments in the First Congress because ratification politics required it, because he had come to see a list as useful against the federal government he had just built, and because a second convention was the alternative Fed 85 feared. You may mark the reasons as learning, strategy, or both. You may not flatten them into hypocrisy without evidence. New York’s Avalon ratification of 26 July 1788 is the longest list in the room: 25 rights items, 31 amendments, circular letter. That list is why the First Congress wrote parchment instead of reopening the frame.
 
+One live-edge note the room should hear once: the fight over lists did not end in 1791. Whether the Ninth Amendment does independent work — whether unenumerated rights are real rights — is an argument courts and scholars are still having. Hamilton predicted the list would become a handle for constructive powers; he was not entirely wrong, and the Ninth is the counterweight built from his own fear. Name the fight as live. Do not litigate it here.
+
+The demand did not come only from Poughkeepsie. Federal Farmer — the most constructive of the opponents — had named the terms: the House was too small, there was no bill of rights, and the federal powers to tax and raise armies were too broad. Madison's 1789 list answered the second term, not the first or the third. No second convention, no substantially smaller House, no weaker taxing power. A victory that leaves two of three demands on the table is still a victory — sized.
+
+84 also answers the distance fear — the complaint that a remote government cannot be watched — and the answer deserves hearing because it failed too. Hamilton's claim: the people already judge distant representatives through the public prints and intelligent neighbors, and the state governments will be “so many sentinels” over the national one. That is 39's compound republic doing guard duty — the states as the built-in watchers. Brutus's watching problem meets its Federalist answer here, not in the judiciary chapter. A room that can recite the watching problem but has never heard the sentinels answer has one brief again.
+
+New York was not alone, and the sequence is the genealogy. Pennsylvania moved fast, in December 1787, without a list. Massachusetts said yes in February 1788 only after a recommended-amendments bargain — the first state to make the list the price. South Carolina, New Hampshire, and Virginia followed the same pattern. New York's list was the longest: 25 rights items and 31 amendments plus the circular letter. North Carolina and Rhode Island held out entirely, waiting past the new government's first months. By the time the First Congress met, recommending amendments was no longer a fringe demand; it was the majority position of the ratifying record. Madison was not being generous in June 1789. He was counting votes.
+
 You may prefer structure to parchment or parchment to structure. American practice kept both and still argues which works. 84 is a design claim about enumeration, not a claim that speech does not matter.
+
+Hamilton's evidence deserves its own reading, because it is the strongest thing in the essay and it still lost. The habeas passage, quoting Blackstone:
+
+> To bereave a man of life, or by violence to confiscate his estate, without accusation or trial, would be so gross and notorious an act of despotism, as must at once convey the alarm of tyranny throughout the whole nation; but confinement of the person, by secretly hurrying him to jail, where his sufferings are unknown or forgotten, is a less public, a less striking, and therefore A MORE DANGEROUS ENGINE of arbitrary government.
+
+He calls habeas corpus — in Blackstone's phrase — “the BULWARK of the British Constitution,” and calls the ban on titles of nobility “the corner-stone of republican government; for so long as they are excluded, there can never be serious danger that the government will be any other than that of the people.” Treason he defines narrowly, by the two-witness rule. This is not a man careless of liberty. It is a man who believed structure had already done the work, making the list redundant at best. The conventions heard the catalogue, kept it — and demanded the list anyway. Both facts belong in the room.
 
 ### Big Idea
 
@@ -287,6 +365,32 @@ Compound republic: tests, not jerseys. Civic chain: four jobs. Union as security
 
 Hamilton 15 named the monster: *imperium in imperio*. Jay 2–5 argued one coast should not become rival alliances. A school-board packet that collapses those briefs into “they wanted a strong government” has already left the record.
 
+The historians' fight over the founding has a name worth having in an adult room: republicanism versus liberalism. One school (Bailyn, Wood, Pocock) reads the founding as a civic-humanist revolt — virtue, the common good, corruption, the fear of concentrated power — with the Constitution as a deliberate cooling of 1776's democratic energy. The other (Hartz, Appleby) reads rights, consent, and interest as the real engine all along, with No. 10 as liberal pluralism arriving early: protect liberty by letting interests cancel. *The Federalist* is a favorite exhibit for both schools, which should make any reader suspicious. The useful sitting question is smaller than the debate: does No. 10 still believe in a public good — or only in a vector sum of interests? The text says both. Madison designs against majority faction *because* justice is the end of government. That double claim is why the essays survive both recruitments. It is also why Beard's property-coup version is too crude and silence about 54 is cruder: the property analysis is explicit in 10, and the human-property paragraph is explicit in 54. The essays carry their own indictment.
+
+Read Hamilton 15 at full voice before you believe any summary of it — this is a prosecutor's opening, not a civics poster:
+
+> We may indeed with propriety be said to have reached almost the last stage of national humiliation. There is scarcely anything that can wound the pride or degrade the character of an independent nation which we do not experience.
+
+> We have neither troops, nor treasury, nor government.
+
+> Our ambassadors abroad are the mere pageants of mimic sovereignty.
+
+And the diagnosis — the sentence that gives the monster its name:
+
+> They still, in fine, seem to cherish with blind devotion the political monster of an imperium in imperio.
+
+The radical vice, Hamilton says, is the Articles' principle of LEGISLATION for STATES in their CORPORATE or COLLECTIVE CAPACITIES: resolutions that bind “in theory” but are “mere recommendations which the States observe or disregard at their option.” A government that can only ask is not a government. The new instrument legislates for persons. Brutus's name for the same move is consolidation. One sentence, two briefs — and that is the whole ratification fight, heard at once.
+
+And 39 deserves its own sentences, not a summary. The definition of a republic:
+
+> we may define a republic to be, or at least may bestow that name on, a government which derives all its powers directly or indirectly from the great body of the people, and is administered by persons holding their offices during pleasure, for a limited period, or during good behavior.
+
+The verdict, every test in one sentence:
+
+> The proposed Constitution, therefore, is, in strictness, neither a national nor a federal Constitution, but a composition of both. In its foundation it is federal, not national; in the sources from which the ordinary powers of the government are drawn, it is partly federal and partly national; in the operation of these powers, it is national, not federal; in the extent of them, it is federal, not national; and, finally, in the authoritative mode of introducing amendments, it is neither wholly federal nor wholly national.
+
+The extent test's key phrase — jurisdiction over “certain enumerated objects only,” leaving the states “a residuary and inviolable sovereignty over all other objects” — is the sentence the Tenth Amendment enacts in 1791. And the amendment test, which computes “the proportion by STATES, not by CITIZENS,” is why amending the Constitution is not a national plebiscite. A room arguing “one nation” or “state sovereignty” has skipped the sentence that refuses both.
+
 Federalist 54 is in the book. Madison, consensus. *New York Packet*, 12 February 1788. Ventriloquy of a Southern brother, then acceptance of reasoning he calls a little strained. Mixed character of persons and of property. “This is in fact their true character.” “Divested of two fifths of the MAN.” Seats and taxes. Also a theory. Neither is a kindness. Northern exclusion from the count was not humanitarian. Southern inclusion as “persons” was not abolition.
 
 Practice that says “read Avalon aloud” without the sentences is a hole. Avalon, No. 54, the mixed-character block, then the capitals. Read them in a room of adults who asked for it. No speech after. Let the words sit:
@@ -300,6 +404,8 @@ Read the last phrase aloud. Do not paraphrase into “they counted as three-fift
 Imani Perry: strategy with an anti-democratic residue. Wood and Wilentz on the clause, used with care. Beard too crude; silence cruder. White-supremacist misuse and “everyone did it” misuse are both refusals to teach the text. Do not ask whether Madison was “a racist.” State 54, check Avalon.
 
 Locke’s exclusion/slavery (cross-link Harry 6.5 / Locke S7) sits next to this page. The Constitution pack’s 5.3, 7.2, 7.5 sit next to it. The Fourteenth’s answer to 54 is another booklet, already accepted as four-prose. This booklet’s job is to refuse the greatest-hits album that prints 10, 51, and 78 and calls that *The Federalist*.
+
+Practice the card before you need it. Four jobs, said aloud twice — once to an 11-year-old, once to a colleague: Magna Carta was forced; the Declaration claimed; the Constitution designed; The Federalist sold; the first ten amendments were extracted from the sellers. That is a chain a room can hear in twenty seconds. Then the honesty pack, in the same voice: the men who wrote the rules were not the men who wrote the letters about the rules; the Convention was sent to revise and produced a replacement; the series that defends the machine also defends counting enslaved people as three-fifths. If the chain cannot carry the third sentence, the chain is a cheer.
 
 You may conclude the union was worth the clause or not. You may not be told the price was unpaid.
 
@@ -327,7 +433,7 @@ What work does skipping 54 do for a citizenship you want — and is that work ho
 
 This adult booklet is civic rooms, not high school protocols with the word “adult” pasted on. Practice aims at mailers, packets, jury hallways, hiring slides, and read-alouds. It is not legal advice, pastoral advice, or a vote. High remains the place for Research Prompt (Avalon Fed 1 vs Archives Art. VII) and evidence-type tags as coursework. Adult assumes you will not be graded and will still owe the sentences.
 
-Quotes: McLean title; Fed 10, 51, 70, 78, 54 (Avalon); Ninth Amendment (Archives); Maier *Ratification*; Kaminski on New York; DHRC reprint pattern (Harry 3.4, 7.2); Adair 1944; Mosteller–Wallace; Storing; *Calder v. Bull* (1798) as early citation habit; Madison 8 June 1789; *Marbury* (1803). No invented sayings. No family names. 7.4 / 7.5 / 5.6 shown, not recruited. Locke S7 and Constitution 7.2 / 7.5 cross-linked, not summarized from memory.
+Quotes: McLean title; Fed 1 (Avalon — reflection and choice; the UNION sentence); Fed 10 (Avalon — definition, air-to-fire, property classes, judge-in-own-cause, the shilling, the faculties clause); Fed 15 (Avalon — the humiliation catalogue, “neither troops, nor treasury, nor government,” the legislation-for-states passage, “imperium in imperio”); Fed 39 (Avalon — the republic definition, the composition sentence, enumerated objects and residuary sovereignty, the amendment test); Fed 51 (Avalon — double security, legislative predominance and the qualified negative, multiplicity of interests and sects, Rhode Island, the larger-society sentence); Fed 70 (Avalon — energy, feeble execution, the ingredients, the council); Fed 78 (Avalon — weapons, tenure, the void-act inference, the intermediate body, the Montesquieu footnote); Fed 84 (Avalon — the Magna Carta origin, colorable pretext, the press question, the Constitution-as-bill-of-rights flourish, the public-opinion footnote, Blackstone on habeas, the titles-of-nobility cornerstone, treason’s two-witness rule); Fed 54 (Avalon — mixed character, two-fifths); Ninth Amendment (National Archives); Brutus I (TeachingAmericanHistory — extent, Necessary and Proper, the watching problem); Brutus XI (TeachingAmericanHistory — the supply clause, opinions as law, “mould the government”); Cato IV; Maier *Ratification*; Kaminski on New York; DHRC reprint pattern (Harry 3.4, 7.2); Adair 1944, both on authorship and on Hume and No. 10; Mosteller–Wallace; Storing; Sheehan, Banning, Elkins–McKitrick (7.4); Bailyn, Wood, Pocock, Appleby, Hartz, and Beard with caution (7.5); *Calder v. Bull* (1798) and Corley, Howard, and Nixon (2005) on the citation habit; Madison 8 June 1789; *Marbury* (1803); the ratification-state sequence (Pennsylvania without a list, the Massachusetts bargain, New York’s 25 and 31, North Carolina and Rhode Island holding out) as in Harry 3.3 and 6.4. No invented sayings. No family names. 7.4 / 7.5 / 5.6 shown, not recruited. Locke S7 and Constitution 7.2 / 7.5 cross-linked, not summarized from memory.
 
 ---
 
@@ -341,7 +447,7 @@ WisdomForge turns founding documents and great thinkers into booklets for every 
 
 ### Primary
 
-- *The Federalist* Nos. 1, 10, 39, 51, 54, 70, 78, 84, 85 — Avalon Project, Yale Law School; Library of Congress full text
+- *The Federalist* Nos. 1, 10, 15, 39, 51, 54, 70, 78, 84, 85 — Avalon Project, Yale Law School; Library of Congress full text
 - McLean edition title page (1788): *The Federalist: A Collection of Essays, Written in Favour of the New Constitution*
 - Articles of Confederation, “firm league of friendship”
 - U.S. Constitution, Arts. I, II, III, VII; Amendments I–X (National Archives)
@@ -362,6 +468,7 @@ WisdomForge turns founding documents and great thinkers into booklets for every 
 - Saul Cornell, *The Other Founders* (1999)
 - Bernard Bailyn, ed., *The Debate on the Constitution* (Library of America, 1993)
 - Gregory Maggs (2007); William N. Eskridge Jr. on *The Federalist* versus legislative history
+- Corley, Howard, and Nixon, “The Supreme Court and Opinion Content: The Use of the Federalist Papers” (2005)
 - This pack’s Harry files 1.1–7.6, HANDOFF hardEdges (Fed 54; no caucus; essays not law; essays did not win Poughkeepsie)
 
 Adapted by Airia Edge for WisdomForge. Not gold. Not shipped.

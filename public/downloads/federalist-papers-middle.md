@@ -53,6 +53,12 @@ Avalon, Federalist No. 1, the first job of the mask: this is a *choice*, not a c
 
 > It has been frequently remarked that it seems to have been reserved to the people of this country, by their conduct and example, to decide the important question, whether societies of men are really capable or not of establishing good government from reflection and choice, or whether they are forever destined to depend for their political constitutions on accident and force.
 
+The next sentence of the same essay names the stakes as the union itself:
+
+> The subject speaks its own importance; comprehending in its consequences nothing less than the existence of the UNION, the safety and welfare of the parts of which it is composed, the fate of an empire in many respects the most interesting in the world.
+
+No clause of Article VII mentions an empire or the world watching. That gap is what a brief sounds like.
+
 Article VII does not say that. Article VII says nine conventions. The urgency is the brief. Keep the two pages facing.
 
 | Box | Job |
@@ -134,6 +140,8 @@ Avalon, still No. 10, one more young-band sentence before you stop — not the l
 
 > But the most common and durable source of factions has been the various and unequal distribution of property.
 
+Madison names the classes that grow out of property — landed, manufacturing, mercantile, moneyed — and calls the regulation of their interference the principal task of modern legislation. That sentence is why chapter 6 will not let you skip the honest line about the three-fifths clause. When the durable source of faction is property, and some of the property is persons, the word *extent* changes temperature.
+
 That line is why chapter 6 will not let you skip 54. If the durable source is property, and some of the property is persons, the temperature of “extent” changes. You do not need the mixed-character paragraph to hear that. You need the sentence, then the honest 54 line, then a stop.
 
 Madison also names the two refused cures in order: destroy liberty, or give everyone the same opinions, passions, and interests. The second, he says, is as impracticable as the first is unwise. As long as reason is fallible and people may use it, different opinions will be formed. “Enlightened statesmen will not always be at the helm.” If your table-talk stops at “factions are fights,” you have not reached the definition. If it stops at “so we shouldn’t have parties,” you have refused the air-to-fire sentence.
@@ -178,7 +186,13 @@ Federalist 51, 8 February 1788. The poster lines are load-bearing. Read them as 
 
 Because men are not angels, government is necessary. Because governors are not angels, government must control itself. The great security is means *and* motive in each department.
 
-Madison expects the legislature to predominate in a republic, so he splits it (House and Senate). The federal system adds a second division: two distinct governments over the same people. Double security. Justice is “the end of government.”
+Madison expects the legislature to predominate in a republic, so he splits it (House and Senate). The federal system adds a second division: two distinct governments over the same people.
+
+Avalon keeps the double-security sentence, and it is worth copying whole, because the pile of splits is the argument:
+
+> In the compound republic of America, the power surrendered by the people is first divided between two distinct governments, and then the portion allotted to each subdivided among distinct and separate departments. Hence a double security arises to the rights of the people. The different governments will control each other, at the same time that each will be controlled by itself.
+
+One republic splits power once — into departments. A compound republic splits it twice — between two governments first, then into departments inside each. The second split is the one a worksheet forgets. Double security. Justice is “the end of government.”
 
 Virtue is not the design load. Character helps. The machine cannot require saints. The branches are not equal in political force. Congress is designed as the strongest; the others are armed against it. “Gridlock is always good” is not the essay. Checks prevent concentration. Hamilton 70 is the counterweight in the same series: energy in the executive, unity so blame is visible. Avalon, 18 March 1788, *New York Packet*:
 
@@ -197,6 +211,12 @@ A sitting that treats 51 as cynicism has dropped the primary control. A sitting 
 Hamilton’s ingredients of energy, still No. 70, are four and not a mood: unity, duration, adequate support, competent powers. Safety, in the republican sense, is dependence on the people and responsibility. A council, he says, hides blame: “I was overruled by my council.” Cato, beginning 27 September 1787 in the *New-York Journal* (often attributed to Clinton), warns that the presidency tends toward monarchy and that distance itself is danger. High will quote Cato’s king sentence. This band keeps the pairing without the long remainder: energy as visibility, Cato as crown-fear.
 
 Do not average 51 and 70. They are in the same series and they pull. After the Bank fight of 1791, they pull harder. File 7.4 is chronology, not a caucus.
+
+One more Avalon sentence from 51, worth copying because it is the only line that says what the machine is *for*:
+
+> Justice is the end of government. It is the end of civil society. It ever has been and ever will be pursued until it be obtained, or until liberty be lost in the pursuit.
+
+Checks are not the goal. Justice is. Checks are the plumbing.
 
 Young-band chronology, short: Madison writes amendments in 1789; Hamilton writes the Bank in 1791; they use the old essays against each other; in 1793 they put new Roman masks on (Pacificus / Helvidius). Jay is not a spectator — Chief Justice, then the Jay Treaty. “The Founders believed” without a year is how a caucus hides. This band does not recruit 7.4 / 7.5 / 5.6. It names the year.
 
@@ -236,7 +256,11 @@ Tenure is the brace Hamilton bolts onto that weakness. Avalon, still No. 78, McL
 
 > The standard of good behavior for the continuance in office of the judicial magistracy, is certainly one of the most valuable of the modern improvements in the practice of government.
 
-In a monarchy, he says, it is a barrier to the prince; in a republic, a barrier to the representative body. Brutus hears unaccountable aristocracy. Hold both. Do not let “life tenure” become a team jersey.
+In a monarchy, he says, it is a barrier to the prince; in a republic, a barrier to the representative body.
+
+Hamilton calls the tenure arrangement, in the same essay, the citadel of the public justice and the public security. A citadel protects what is inside it — and a citadel is hard to reach from outside it. The same word is comfort and warning, depending on which brief you are reading. Brutus hears unaccountable aristocracy. Hold both. Do not let “life tenure” become a team jersey.
+
+Brutus has one more worry, still young-band size. The Constitution lets the courts decide cases in equity — by the reasoning spirit of the Constitution, not only its words. Hamilton sells judgment without will. Brutus sells a court that fills in whatever the words leave blank. Same clause, two readings. That is the pairing.
 
 *Marbury v. Madison*, 5 U.S. 137 (1803), names the practice. Do not teach Marbury as if it is in the 1787 text. Do not teach 78 as if Marshall copied it word for word. The argument is in 78. The power as practiced is a history. High will put the void-act / deputy-not-greater block on the page. Adult will put it on the page as a read-aloud. This band keeps FORCE / WILL, good-behavior as a brace, and one Brutus XI sentence. That is the young-band weapons kit.
 
@@ -302,6 +326,10 @@ Avalon, No. 84, the colorable-pretext sentence at young-band length — not the 
 
 > They would contain various exceptions to powers not granted; and, on this very account, would afford a colorable pretext to claim more than were granted. For why declare that things shall not be done which there is no power to do?
 
+Hamilton’s flourish, which this band can take at full volume and label as advocacy: the Constitution itself, he said, is “in every rational sense, and to every useful purpose, A BILL OF RIGHTS.” That is a brief at its loudest. The conventions did not buy the flourish. They bought the list — and made Madison carry it to Congress.
+
+One more sentence, for anyone who quotes Hamilton as a cynic: on the freedom of the press, Hamilton admitted that a written promise alone secures nothing. Its security must depend on public opinion and on the general spirit of the people and of the government. Structure, parchment, and spirit — he named all three instruments, and lost the argument over the second.
+
 The Anti-Federalists were not confused. They had watched legislatures and they wanted parchment barriers. Hamilton thought structure was the barrier. American practice kept both — and still argues about which one works. Opposition to a list is not opposition to liberty. A sitting on 84 should end at the First Congress, not at Hamilton’s last sentence. The lesson is how a lost argument still shaped the winning text.
 
 The Ninth is the answer written as a shield. Copy it. Then stop. Federal Farmer’s constructive demand — House too small, no bill of rights, tax and army power too broad — is why Madison could steal the ground in 1789 without admitting defeat. Pair Farmer with one of Amendments 1–8. No monologue.
@@ -332,7 +360,13 @@ New York’s ratification message (Avalon, 26 July 1788) is the longest. It reco
 
 ## Chapter 6: Compound Republic, Civic Chain, One Honest Sentence
 
-Federalist 39: the Constitution is neither a league of sovereign states nor a single national people. It is a compound. Federal in foundation (ratified by the people of the states in convention). Mixed in sources of power (House national, Senate federal). National in operation (laws act on persons, unlike the Articles). Federal in extent (enumerated powers; remainder with the states). Mixed in amendment. “Compound republic” is the name for that pile of tests. It is not a slogan for states’ rights or for one nation.
+Federalist 39: the Constitution is neither a league of sovereign states nor a single national people. It is a compound. Federal in foundation (ratified by the people of the states in convention). Mixed in sources of power (House national, Senate federal). National in operation (laws act on persons, unlike the Articles). Federal in extent (enumerated powers; remainder with the states). Mixed in amendment.
+
+Madison’s own summary of the pile, one sentence from Avalon worth copying:
+
+> The proposed Constitution, therefore, is, in strictness, neither a national nor a federal Constitution, but a composition of both.
+
+If a summary can say only federal or only national, it has stopped being a summary of 39. “Compound republic” is the name for that pile of tests. It is not a slogan for states’ rights or for one nation.
 
 Do not flatten 39 into Lincoln 1861 or Calhoun 1832. Madison in 1788 is designing a government that can act without asking a state legislature’s permission for each law. The Civil War and the Fourteenth Amendment change the compound. Teaching 39 as the last word on union is a category error.
 
@@ -343,6 +377,12 @@ Concrete failures Publius sells, and that the record supports: credit (Congress 
 The Annapolis Convention (September 1786) was supposed to talk trade. Five states sent twelve men. Hamilton’s resolution called for a broader meeting in Philadelphia the next May. A meeting about trade became a meeting about everything. Congress authorized Philadelphia to *revise* the Articles. The Convention proposed a replacement and a new ratification path. Honesty requires saying so.
 
 Hamilton 15–22: a league that cannot tax, regulate commerce, make states perform, or defend itself. “The political monster of an *imperium in imperio*.” Jay 2–5: one coast should not become rival alliances. Publius later treats popular ratification as the cure. That is an argument, not a fact that erases the irregularity. The Articles failed at specific tasks. The Constitution creates new dangers (Brutus). Both can be true.
+
+Hamilton 15 is the exhibit, now as quotation instead of summary. He asked what the old league still had for an emergency:
+
+> We have neither troops, nor treasury, nor government.
+
+And the diagnosis — the sentence the phrase *imperium in imperio* was made for. Under the Articles, Congress legislates for states, not persons, so its resolutions are in practice “mere recommendations which the States observe or disregard at their option.” A government that only asks is not, in Hamilton’s word, a government. The new rulebook legislates for persons. Brutus calls that same move consolidation. Both readings of one sentence — hold them together.
 
 Civic chain:
 

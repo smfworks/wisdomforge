@@ -53,7 +53,9 @@ The first essay’s job, on Avalon, is to name the stakes as a *choice*, not as 
 
 Mark restatement, hope, and extra against Article VII. The extras are advocacy.
 
-Reprint history is load-bearing, not color. After No. 16, out-of-state reprinting collapses. After No. 23, sixty-two essays almost never leave New York. One excerpt of 38 in New Hampshire is the oft-cited exception. James Wilson’s State House Yard speech ran in thirty-four newspapers across twelve of thirteen states. Some 250 other pieces appeared in six or more states. McLean’s volumes arrived after six, then eight, states had already ratified, and after remaining delegates had been chosen. Maggs notes the reverse possibility: the ratification debates may have influenced *The Federalist* as much as the other way around. Residual case: urban New York readers saw them; late conventions were handed bound copies; Hamilton organized the series because Brutus was landing blows. Slight is not zero. Slight is not “swayed the nation.”
+Reprint history is load-bearing, not color. After No. 16, out-of-state reprinting collapses. After No. 23, sixty-two essays almost never leave New York. One excerpt of 38 in New Hampshire is the oft-cited exception. James Wilson’s State House Yard speech ran in thirty-four newspapers across twelve of thirteen states. Some 250 other pieces appeared in six or more states. McLean’s volumes arrived after six, then eight, states had already ratified, and after remaining delegates had been chosen. Maggs notes the reverse possibility: the ratification debates may have influenced *The Federalist* as much as the other way around. Residual case: urban New York readers saw them; late conventions were handed bound copies; Hamilton organized the series because Brutus was landing blows. Slight is not zero.
+
+The citation habit has a shape, once counted. *Calder v. Bull* (1798) is the early marker; Story’s generation reached for favorite numbers; when political scientists counted (Corley, Howard, and Nixon, 2005), citations rose with originalism-as-method and a handful of numbers — 10, 51, 70, 78 — did a disproportionate share of the work while the least-read essays stayed least-cited. Usefulness selects. A syllabus and a footnote are the same instrument at different speeds. Cite it as a pattern (this pack 6.3), not as a vibe about courts. Slight is not “swayed the nation.”
 
 ### Big Idea
 
@@ -111,7 +113,13 @@ Avalon continues. Property classes, then the majority-faction problem the republ
 
 > Those who hold and those who are without property have ever formed distinct interests in society. Those who are creditors, and those who are debtors, fall under a like discrimination. A landed interest, a manufacturing interest, a mercantile interest, a moneyed interest, with many lesser interests, grow up of necessity in civilized nations, and divide them into different classes, actuated by different sentiments and views. The regulation of these various and interfering interests forms the principal task of modern legislation, and involves the spirit of party and faction in the necessary and ordinary operations of the government. … It is in vain to say that enlightened statesmen will be able to adjust these clashing interests, and render them all subservient to the public good. Enlightened statesmen will not always be at the helm. … The inference to which we are brought is, that the CAUSES of faction cannot be removed, and that relief is only to be sought in the means of controlling its EFFECTS. … If a faction consists of less than a majority, relief is supplied by the republican principle, which enables the majority to defeat its sinister views by regular vote. … When a majority is included in a faction, the form of popular government, on the other hand, enables it to sacrifice to its ruling passion or interest both the public good and the rights of other citizens. To secure the public good and private rights against the danger of such a faction, and at the same time to preserve the spirit and the form of popular government, is then the great object to which our inquiries are directed.
 
-The protocol is the last sentence: public good *and* private rights *and* popular form. Drop any one and you have a different essay. Brutus drops the claim that extent can do that work.
+The protocol is the last sentence: public good *and* private rights *and* popular form. Drop any one and you have a different essay.
+
+One more Avalon sentence belongs here because two schools lean on it. The faculties clause:
+
+> The diversity in the faculties of men, from which the rights of property originate, is not less an insuperable obstacle to a uniformity of interests. The protection of these faculties is the first object of government.
+
+Read it twice. The first object of government, in the faction essay, is protecting the unequal faculties from which property differences follow. Wood’s republicans recruit it as the retreat from virtue; Appleby’s liberals recruit it as interest-politics arriving early. Both are recruitments. The sentence is also the hinge to chapter 6: when the durable source of faction is property, and the law makes some persons property, the extended-republic theory is not a neutral machine. You do not need a verdict to teach the hinge. You need the sentence. Brutus drops the claim that extent can do that work.
 
 Avalon, the unused remainder — the cure, not a second copy of the definition. Pure democracy versus republic. Two great points of difference. Representation refines. Greater sphere. Do not stop at causes and effects.
 
@@ -161,7 +169,15 @@ Federalist 51, 8 February 1788, Madison by consensus. The machine assumes imperf
 
 > Ambition must be made to counteract ambition. The interest of the man must be connected with the constitutional rights of the place.
 
-Means and motive in each department. Legislature predominates, so split it. Federalism adds a second split: two governments over the same people. Double security. Justice is the end of government. Not three equal branches. Not “gridlock is always good.”
+Means and motive in each department. Legislature predominates, so split it. Federalism adds a second split: two governments over the same people. Double security. Justice is the end of government. Not three equal branches.
+
+Avalon, No. 51, the double-security passage at full length — because compound republic is a wiring claim, not a slogan:
+
+> There are, moreover, two considerations particularly applicable to the federal system of America, which place that system in a very interesting point of view. First. In a single republic, all the power surrendered by the people is submitted to the administration of a single government; and the usurpations are guarded against by a division of the government into distinct and separate departments. In the compound republic of America, the power surrendered by the people is first divided between two distinct governments, and then the portion allotted to each subdivided among distinct and separate departments. Hence a double security arises to the rights of the people. The different governments will control each other, at the same time that each will be controlled by itself.
+
+> In republican government, the legislative authority necessarily predominates. The remedy for this inconveniency is to divide the legislature into different branches; and to render them, by different modes of election and different principles of action, as little connected with each other as the nature of their common functions and their common dependence on the society will admit. … An absolute negative on the legislature appears, at first view, to be the natural defense with which the executive magistrate should be armed. But perhaps it would be neither altogether safe nor alone sufficient. On ordinary occasions it might not be exerted with the requisite firmness, and on extraordinary occasions it might be perfidiously abused.
+
+Two failure modes for an absolute veto, in one sentence: too soft on ordinary occasions, perfidious on extraordinary ones. That is the reasoning that produced a qualified negative. A protocol that quotes the angels and stops has skipped the wiring. Not “gridlock is always good.”
 
 Federalist 70, Hamilton: Avalon, *New York Packet*, 18 March 1788. Energy is not a mood. It is a list, then a claim about blame:
 
@@ -184,6 +200,8 @@ Cato IV, *New York Journal*, 8 November 1787 (often attributed to Clinton). Name
 That is the crown-fear Hamilton’s energy sentence has to answer. Read them against each other, not as wrong-then-right.
 
 Scholarly paragraph, short: Sheehan and Elkins/McKitrick on the 1790s — Madison coming to think Hamilton wanted a submissive citizenry; Hamilton coming to think Madison had abandoned the nationalist program they had just sold. File 7.4. Not a caucus. A chronology.
+
+Banning complicates the chronology in the useful direction: the Madison of 1787–88 is a nationalist — the Virginia Plan, the congressional veto over state laws he lost, the extended republic — and the Madison of 1791 opposes the Bank as extra-constitutional. Change of mind, coalition-all-along, or both is a live debate with evidence on each side (7.4). The protocol is to name which account you are using when you say Madison believed, instead of averaging the 1788 man and the 1793 man into one position. That is the same discipline chapter 1 applies to the mask.
 
 Avalon, No. 51, the paragraph classrooms steal. Read the sentence *before* the angels, or you get a poster:
 
@@ -243,6 +261,14 @@ Brutus XI, still unused if you stop at “opinions as law”: equity, the spirit
 
 Hamilton’s “merely judgment” meets Brutus’s “reason and spirit.” That is the facing page. Do not sequence them as wrong then right.
 
+Brutus XI’s first move, before the opinions-as-law sentence, is the supply clause:
+
+> This part of the plan is so modelled, as to authorise the courts, not only to carry into execution the powers expressly given, but where these are wanting or ambiguously expressed, to supply what is wanting by their own decisions.
+
+> This power in the judicial, will enable them to mould the government, into almost any shape they please.
+
+Hamilton’s own footnote in 78 leans the other way, on Montesquieu: “Of the three powers above mentioned, the judiciary is next to nothing.” The authority Hamilton cites to prove weakness is the clause Brutus reads to prove growth. A protocol that cites either without the other has chosen a speaker.
+
 Originalism fight (7.3), one tight paragraph. Intent: Publius as window on drafters — but only two of three were in the room, they did not bind the others, they later contradicted themselves. Ratifiers’ understanding: most ratifiers outside New York did not read most essays; New York’s convention was elected against the Constitution. Public meaning: more defensible, still leaky; Publius is one informed speaker writing to win, Brutus another. A method that cites 78 and not Brutus XI on “judicial power” has chosen a speaker. Eskridge’s puzzle: why read *The Federalist* and disdain statutory legislative history? Closed record versus prestige. Both answers on the table. Do not let “use Fed 78 to interpret Article III” pass if the student cannot name which of the three claims they are making.
 
 Avalon, No. 78, McLean 1788 — book fame. The weapons paragraph in full enough to test a model:
@@ -250,6 +276,12 @@ Avalon, No. 78, McLean 1788 — book fame. The weapons paragraph in full enough 
 > Whoever attentively considers the different departments of power must perceive, that, in a government in which they are separated from each other, the judiciary, from the nature of its functions, will always be the least dangerous to the political rights of the Constitution; because it will be least in a capacity to annoy or injure them. The Executive not only dispenses the honors, but holds the sword of the community. The legislature not only commands the purse, but prescribes the rules by which the duties and rights of every citizen are to be regulated. The judiciary, on the contrary, has no influence over either the sword or the purse; no direction either of the strength or of the wealth of the society; and can take no active resolution whatever. It may truly be said to have neither FORCE nor WILL, but merely judgment; and must ultimately depend upon the aid of the executive arm even for the efficacy of its judgments.
 
 Consequences Hamilton draws in the next breath: weakest department; cannot attack the other two with success; therefore all possible care to enable it to defend itself; general liberty not endangered from that quarter *so long as* the judiciary remains distinct from legislature and executive. The “so long as” is the load-bearing hedge. Brutus XI–XV denies the hedge will hold. Tenure during good behavior, in Hamilton, is a brace for weakness and a barrier to the representative body’s encroachments. In Brutus it is unaccountable aristocracy with equity and no appeal. Put the two hedges on one page.
+
+One more consequence from the same stretch, because brace and citadel are different metaphors and both are in the essay:
+
+> …nothing can contribute so much to its firmness and independence as permanency in office, this quality may therefore be justly regarded as an indispensable ingredient in its constitution, and, in a great measure, as the citadel of the public justice and the public security.
+
+A brace supports a weak thing. A citadel protects it and walls it off. Hamilton needs the first meaning against the legislature and the second against Brutus. The protocol question is which meaning the text can carry.
 
 Avalon continues into the void-act argument — the paragraph people mash with *Marbury*:
 
@@ -293,6 +325,8 @@ He lost. Massachusetts, South Carolina, New Hampshire, Virginia, New York ratifi
 
 Ninth Amendment: enumeration shall not be construed to deny or disparage others retained by the people — Hamilton’s second point as a shield. Tenth: compound-republic reservation. I–VIII: parchment Federal Farmer and Brutus demanded. Storing: Federalist frame, Anti-Federalist amendments. They lost the vote and won 1–10. They did not win a second convention or a substantially smaller House. Do not turn a splice into a knockout.
 
+The 1787 text’s own rights-catalogue, which 84 leans on and a protocol can check in one minute: habeas corpus shall not be suspended “unless when in cases of rebellion or invasion the public safety may require it”; no bill of attainder or ex post facto law; no title of nobility; trial of all crimes, except impeachment, by jury in the state and district where committed; treason defined narrowly — conviction only “on the testimony of two witnesses to the same overt act, or on confession in open court” — with no corruption of blood. Hamilton’s point: these are real limits. The conventions’ answer: these are procedure, not the great powers. Both readings are on the record, which is why the fight did not end with the catalogue.
+
 Genealogy of American rights: 1776, state constitutions, ratification fight, 1791. Not Publius as sole source. “Hamilton opposed rights” is a slide. “Hamilton thought a list the wrong instrument; Madison wrote the list; the Ninth is their compromise” is the protocol.
 
 Avalon, No. 84, the origin story and the danger sentence. He begins with kings, then claims the people surrendered nothing:
@@ -300,6 +334,16 @@ Avalon, No. 84, the origin story and the danger sentence. He begins with kings, 
 > It has been several times truly remarked that bills of rights are, in their origin, stipulations between kings and their subjects, abridgements of prerogative in favor of privilege, reservations of rights not surrendered to the prince. Such was MAGNA CHARTA, obtained by the barons, sword in hand, from King John. … Here, in strictness, the people surrender nothing; and as they retain every thing they have no need of particular reservations. “WE, THE PEOPLE of the United States, to secure the blessings of liberty to ourselves and our posterity, do ORDAIN and ESTABLISH this Constitution for the United States of America.” Here is a better recognition of popular rights, than volumes of those aphorisms which make the principal figure in several of our State bills of rights. …
 
 > I go further, and affirm that bills of rights, in the sense and to the extent in which they are contended for, are not only unnecessary in the proposed Constitution, but would even be dangerous. They would contain various exceptions to powers not granted; and, on this very account, would afford a colorable pretext to claim more than were granted. For why declare that things shall not be done which there is no power to do? Why, for instance, should it be said that the liberty of the press shall not be restrained, when no power is given by which restrictions may be imposed?
+
+Two more 84 sentences a protocol needs. The flourish:
+
+> The truth is, after all the declamations we have heard, that the Constitution is itself, in every rational sense, and to every useful purpose, A BILL OF RIGHTS.
+
+And the footnote Hamilton attaches to the press question — his real theory of rights in one line:
+
+> its security, whatever fine declarations may be inserted in any constitution respecting it, must altogether depend on public opinion, and on the general spirit of the people and of the government. And here, after all, as is intimated upon another occasion, must we seek for the only solid basis of all our rights.
+
+Structure, spirit, parchment — three instruments. Hamilton bet on the first two. The conventions forced the third. The Ninth used the third to guard against the second. Tag the instrument before you borrow the sentence.
 
 The press example is the tell. Americans demanded the sentence anyway. Madison wrote it. The Ninth tried to stop the colorable-pretext reading. Civic chain joint: Hamilton uses Magna Carta as a *kingly* document to say lists do not fit a people’s constitution. WisdomForge’s Magna Carta booklet treats the charter as a later store of maxims. Both uses are afterlives. Do not flatten them.
 
@@ -327,7 +371,27 @@ If parchment barriers are “just words,” why did the conventions refuse to ra
 
 Federalist 39, Madison: not league, not consolidation. Tests — foundation federal; sources mixed; operation national (laws on persons); extent federal (enumeration); amendment mixed. Compound republic. Flattening 39 into “one nation” or “state sovereignty” fails the integrity check in 1.3. Not the Articles. Not 1865. Not Calhoun.
 
+Three sentences from Avalon to quote instead of summarize. The definition:
+
+> we may define a republic to be, or at least may bestow that name on, a government which derives all its powers directly or indirectly from the great body of the people, and is administered by persons holding their offices during pleasure, for a limited period, or during good behavior.
+
+The verdict:
+
+> The proposed Constitution, therefore, is, in strictness, neither a national nor a federal Constitution, but a composition of both. In its foundation it is federal, not national; in the sources from which the ordinary powers of the government are drawn, it is partly federal and partly national; in the operation of these powers, it is national, not federal; in the extent of them, it is federal, not national; and, finally, in the authoritative mode of introducing amendments, it is neither wholly federal nor wholly national.
+
+And the extent test’s key phrase — “enumerated objects only,” leaving the states “a residuary and inviolable sovereignty over all other objects” — is the sentence the Tenth Amendment enacts in 1791. A five-test table built from those three sentences is sourced. A slogan built from the words compound republic is not.
+
 Hamilton 15–22 and Jay 2–5: union as security, credit, commerce. *Imperium in imperio*. Requisitions are requests. Shays is the exhibit; historians may say the threat was used; still ask what Congress could *do*. Convention exceeded the charge. Publius treats popular ratification as cure. Argument, not eraser.
+
+Avalon, No. 15 — the essay this pack has been quoting secondhand, now in its own words:
+
+> The great and radical vice in the construction of the existing Confederation is in the principle of LEGISLATION for STATES or GOVERNMENTS, in their CORPORATE or COLLECTIVE CAPACITIES, and as contradistinguished from the INDIVIDUALS of which they consist. … though in theory their resolutions concerning those objects are constitutionally binding on the members of the Union, yet in practice they are mere recommendations which the States observe or disregard at their option.
+
+> We have neither troops, nor treasury, nor government.
+
+> They still, in fine, seem to cherish with blind devotion the political monster of an imperium in imperio.
+
+The radical vice is legislation for states; the cure is legislation for persons; Brutus’s name for the same cure is consolidation. One sentence, two briefs. Hold both readings; that is the compound-republic fight in miniature.
 
 Civic chain: Magna Carta (forced charter → store of maxims); Declaration (claim of right, not a government); Constitution (machine); Federalist (brief). Both sides claimed 1776. Bill of Rights is the splice.
 

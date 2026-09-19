@@ -41,6 +41,8 @@ That is what happened in New York in 1787. The Constitution had already been dra
 
 Alexander Hamilton, James Madison, and John Jay started writing. They did not sign their real names. They signed **Publius**, a costume borrowed from a Roman republican. The costume did two jobs. It made the letters sound like a citizen talking to citizens. It hid the party.
 
+Roman names were the fashion of 1787. The other side used them too. One opponent called himself Brutus — a Roman famous for standing up to a king. Another called himself Cato. The newspaper fight was Romans against Romans, and the names were masks both ways.
+
 Hamilton wrote most of the letters. Madison wrote some that classrooms still remember. Jay wrote five, then illness took him out. They shared a goal in 1787: get New York to ratify. They did not share a later politics. By 1791 Hamilton and Madison were building opposite parties.
 
 The Convention sat behind closed doors. The draft was signed on 17 September 1787. The political problem then changed. It was no longer “what should the frame be?” It was “will enough states say yes?” Article VII said nine state conventions, not every state legislature. That was already a break with the Articles. Honesty names the break without turning the summer into a cartoon villain story.
@@ -137,7 +139,11 @@ Madison’s sentence that grown-ups steal for posters is this: ambition must be 
 
 He expected Congress to be the strongest in a republic. So he split Congress into two rooms: House and Senate. He also split the country into two governments over the same people: the United States and the states. Two governments, three jobs — a double watch.
 
+Why two watches? Because one watch can fall asleep. If the state governments miss a problem, the national government might catch it. If the national government grabs too much, the states have a reason to yell. A double watch is twice the chance that somebody notices.
+
 This is not a promise that nothing will ever get done. Hamilton, in another letter, wanted energy — a government that can actually finish a job. Checks are to stop one pile of power, not to freeze every sandwich line forever.
+
+So the machine has two speeds, and the men who built it did not agree on which speed matters more. Madison wanted ambition slowed down. Hamilton wanted energy — a government that finishes its jobs. Both wrote as Publius. The argument over the rules started inside the team that wrote the sales pitch.
 
 A child can practice this without a chart of 2026 news. Pick a family job: who decides bedtime, who packs lunch, who says the rule was broken. If one person does all three, say so. If the jobs are split, say who watches whom.
 
@@ -180,7 +186,11 @@ States taxed one another’s goods. New York’s port fees hit neighbors. Britai
 
 The meeting in Philadelphia was supposed to *revise* the Articles. The Convention proposed a replacement instead, and a new path to say yes: nine states, not every state legislature. Honesty names that. It is not a smear. It is the record.
 
+In 1786, before Philadelphia, a smaller meeting had already tried. It met at Annapolis to talk about trade between the states. Only five states sent anyone. Twelve men looked around the room and asked for a bigger meeting the next May. That is how the Philadelphia summer started — not with a plan, but with a failed meeting about trade.
+
 Publius sold union as safety, credit, and commerce — not as a patriotic song. The first letters are a brief against a league that cannot do the jobs of a government.
+
+Hamilton wrote the sharpest of those first letters. He asked what the old league still had for an emergency. His answer, in plain words: no troops, no treasury, and no real government — only requests the states could ignore. That is not a song about freedom. That is a bill collector’s complaint.
 
 A child does not need the court essay. The little-band omit list keeps Hamilton’s judiciary letter and Madison’s counting letter out of this booklet. What a child needs is the kitchen version: a team that cannot collect snack money cannot buy snacks. A country that cannot collect what it promised cannot keep promises.
 
@@ -223,7 +233,9 @@ He lost that political argument.
 
 Massachusetts, Virginia, New York, and other states said yes with recommended amendments. New York’s list was long. Madison, who had thought a list unnecessary in 1788, introduced amendments in the First Congress in 1789. They became the Bill of Rights in 1791.
 
-One of those sentences — the Ninth Amendment — says the list shall not be read as if it were all the rights the people kept. That is Hamilton’s worry, turned into a shield.
+One of those sentences — the Ninth Amendment — says the list shall not be read as if it were all the rights the people kept.
+
+Hamilton lost his argument and kept his point. The proof is inside the Constitution: his own fear, printed as a promise. That is Hamilton’s worry, turned into a shield.
 
 Hamilton did not “oppose rights.” He opposed a *list* as the main tool. The Anti-Federalists lost the ratification vote and won the first ten amendments. That is the pedagogical fact. Do not turn them into villains or into the only heroes.
 
@@ -232,6 +244,8 @@ A child can hold two papers. Paper A: the 1787 rule book without the list. Paper
 The genealogy of those promises runs through 1776, the state constitutions, the ratification fight, and 1791. Not through Publius as sole source. Little-band sentence for Hamilton’s worry: he thought the list might make people forget the rights not on the list. So they added a sentence that says the list is not all of them.
 
 Madison is both Publius and the man who introduced the list. That is not a cartoon of hypocrisy for a child. It is a person learning from the conventions he had to win. Teach the learning. Do not teach a smear.
+
+New York’s list of promises was the longest of any state. The side that lost the vote — 27 against 30 — still handed the country a list that became law. Losing the vote and winning the list happened in the same summer.
 
 ### Words to Remember
 
