@@ -53,6 +53,22 @@ The Sentences years also trained a habit he never dropped: every ascent is an ar
 
 Alexander of Hales’s death in 1245 is not trivia. The early Franciscan school at Paris is a chain. Bonaventure inherits a chair that already believed theology could be both Franciscan and scholastic. He did not invent that gamble. He became its most famous proof and, as Minister General, its most stressed proof.
 
+The Sentences commentary is where that gamble becomes muscle memory. Lombard’s four books were the medieval classroom. You did not prove you were a master by having feelings about God. You proved it by arguing with Augustine, Dionysius, Aristotle, and your living opponents in an order other people could check. When the *Itinerarium* later uses vestige, image, exemplar, unity, Trinity, it is not dumping the classroom for a mood. It is sending the classroom up a mountain. A reader who wants “just mysticism” is asking him to forget how he was trained. A reader who wants “just system” is asking him to forget why he went to La Verna.
+
+Aristotle’s arrival is the weather of that classroom. Some Latin masters wanted the new books locked as a contagion. Some wanted them crowned as if Athens had been waiting to baptize Paris. Bonaventure’s habit — use the tool, name the limit — is already an epistemology. Abstraction is allowed. Abstraction is not the last word about necessity. That fight will get a whole chapter. Here it is only the air he breathed while still a bachelor of the chair.
+
+The anti-mendicant controversy makes the chair a moral fact, not a résumé line. If friars may not teach, the lesser brothers become a charity brand with no public argument. If they may teach, they risk becoming the thing Francis feared: a school that owns the poor as a topic. Bonaventure does not resolve that risk by quitting. He resolves it by insisting theology is a practical science ordered to love — Hayes’s *reductio* as a life-project, not a slogan. Whether that worked is chapter 5’s civil war. That he thought it must be tried is chapter 1.
+
+Clare is not in this hall, and that absence is part of the cluster. She is fighting for a legal nothing while he is fighting for a chair. Francis is already many Francises. The interpreter who will govern the many looks like a traitor to people who wanted the founder frozen. Sometimes interpreters are traitors. Sometimes they are the only reason a fire still has a grate. Do not decide in a paragraph. Notice the job.
+The Sentences years trained a habit he never dropped: every ascent is an argument with authorities you can check. Augustine on inner light. Dionysius on the names and the darkness. Hugh of St. Victor on the three eyes (flesh, reason, contemplation). Aristotle as a tool that must not become a sun. Lombard as the classroom’s spine. When a later reader wants “just the spirituality,” they are asking him to forget how he was trained. When a later reader wants “just the system,” they are asking him to forget why he went to La Verna in 1259.
+
+Alexander of Hales’s death in 1245 is the chain, not a footnote. The early Franciscan school at Paris already believed a lesser brother could hold a chair without ceasing to be lesser. Bonaventure did not invent that gamble. He became its most famous proof and, as Minister General, its most stressed proof. If the secular masters had expelled the friars, there is no *De reductione*, no *Breviloquium* for brothers who cannot live inside four books of Lombard, no seventeen years of a general who still writes like a master. The chair is a political fact. It is also a spiritual risk: the Order of lesser brothers now speaks from the loudest school in the Latin West.
+
+Matthew of Acquasparta, Peter John Olivi, and William de la Mare are what “founded a school” means. Matthew kept the Augustinian light after the generalate. Olivi pushed *usus pauper* until Order and papacy both flinched. William’s *Correctorium* taught Franciscans how to read Aquinas without becoming Dominicans. A booklet that treats Bonaventure as a lone mystic on a mountain has already lost Paris.
+
+The *Breviloquium*’s seven days are an argument: Trinity, creation, sin, Incarnation, grace, sacraments, last things — a week that ends in rest because the science is ordered to Sabbath. A culture that treats theology as extra-credit opinion is not being humble. It is refusing the claim. He thinks this is how the world is.
+
+
 ### Big Idea
 
 Bonaventure’s vocation is habit plus chair. Drop the habit and he is a Paris career. Drop the chair and he is a holy card. The anti-mendicant fight shows the chair was never neutral. The Tree and the *Breviloquium* show the same mind refusing to split devotion from doctrine.
@@ -90,9 +106,23 @@ Scholarly debate: is the seraph-structure a genuine flash at La Verna or a liter
 
 Governance is inside the mysticism. A Minister General meditating the founder’s body-vision while the Order fights over the founder’s poverty is not on vacation. The map is an argument about what Francis was for: not a faction, a way through the Crucified.
 
+The prologue’s warning — reading without unction, speculation without devotion, investigation without wonder, knowledge without love, study without grace — is easy to quote and hard to obey in a graded culture. It is not a ban on study. It is a sequence. First the bite of conscience, then the rays. Otherwise the light digs a worse pit. That sentence should wreck a certain kind of AP student and a certain kind of youth-group leader at once. The first treats the *Itinerarium* as a chart to master. The second treats it as a vibe. Bonaventure wrote a chart that is a spiritual exercise. You are not done when you can list six wings. You are invited to climb them, and the door is not your competence.
+
+Literary-versus-historical on the seraph: the prologue presents insight in a place. Architecture fitted after the fact and pilgrimage that really happened can both be true. What you may not do is treat the six wings as a personality quiz or as a secret key that makes other Christians second-class. The thief-and-gate line in Cousins is a veto on technique that skips the Passion. If your “contemplative practice” has no Friday in it, it is not this map.
+
+The *Collations on the Hexaëmeron* (1273) recast the journey as a cosmic week and then stop, because Lyon. Unfinished Sabbath is not a novelistic flourish. It is a method: theology knows when to shut up. A system that explains even the silence is a different religion. Carry that into chapter 6 without turning Bonaventure’s death into a sermon you wrote.
+Prayer is not garnish. Harry 4.2: the *Itinerarium* opens by asking to be guided. Structure: pray, ascend by grace, give thanks, pray again. Anti-Pelagian in the shape of a book. Effort is required. Effort is not sufficient. A self-help ladder with six rungs is already the side door.
+
+The four senses (Harry 4.1) are the same method as the six wings, applied to a page. Literal first, or the spiritual senses float. Allegorical: Christ and Church. Moral: what to love and do. Anagogical: what to contemplate. He inherits Origen, Augustine, Gregory. Then he treats the world as a second book. Skip the literal sense of a verse or of a river and you are not more mystical. You are less literate. Criticism of authorship is allowed. Hearing the sentence first is required.
+
+Literary-versus-historical on the seraph: the prologue presents insight in a place. Architecture fitted after the fact and pilgrimage that happened can both be true. What you may not do is treat the six wings as a personality quiz. Cousins’s thief-and-gate line is a veto on technique that skips the Passion. If your contemplative practice has no Friday in it, it is not this map.
+
+The *Collations* (1273) recast the journey as a cosmic week and stop because Lyon. Unfinished Sabbath is method: theology knows when to shut up. A system that explains even the silence is a different religion.
+
+
 ### Big Idea
 
-The *Itinerarium* is a travel plan whose door is the Crucified. Six wings begin with creatures. Chapter 4 forbids a self-powered climb. Knowledge without love is named as a pit before the first rung. Unfinished later collations prove the same humility: theology knows when to stop.
+The *Itinerarium* is a travel plan whose door is the Crucified. Six wings begin with creatures. Chapter 4 forbids a self-powered climb. Knowledge without love is named as a pit before the first rung. Unfinished later collations prove the same humility: theology knows when to stop. The last scholarly honesty is an unfinished week. Carry that into exams without turning it into a caption. Carry the unfinished week into the exam without a caption. Stop.
 
 ### Practice
 
@@ -124,6 +154,18 @@ If you have the Francis booklet, this is Layer-3 prose under Layer-1 song. Broth
 Scholarly debate: is exemplarism a metaphysical thesis (real divine ideas) or a contemplative method (treat the world as readable)? Cullen will not let you skip the metaphysics. A high-school reading can still use the method without pretending to have settled the ontology. What you may not do is call the world God because that would be “more spiritual.”
 
 Digital cousin (Harry 5.3): the first rung assumes attention. A feed designed to shatter looking is not a new seraph. It is a machine for stalling at noise. The answer is not a Luddite pose. It is whether you can still put the sensible world in front of you as a mirror for more than seven seconds.
+
+Lynn White Jr. (1967) blamed Western Christianity for nature-as-warehouse. Francis is often produced as the exception saint. Bonaventure is the exception’s grammar. Ilia Delio and *Laudato Si’* are later reception. They may join the conversation. They may not be smuggled into 1259 as if the *Itinerarium* were a UN paper. What 1259 actually fights are two sermons you will still hear: the world is junk, escape it; the world is God, hug it. Vestige refuses both. You read a footprint. You do not marry the mud. You also do not pave the path because mud has no meaning.
+
+*De reductione* belongs here as the school version of the same literacy. Mechanical arts, sense, philosophy, Scripture: lights from the Father of lights (James 1:17). A cobbler’s light is real. It is not the sun. *Reducere* is lead-back, not shrink. A workshop that will not go home becomes an idol. A piety that burns the workshop lies about the Father. If your STEM period never points beyond a score, you have treated the first light as a flashlight you own. Chapter 4 will ask whose oil it is. This chapter only asks whether you can look without immediately asking what the river is *for*.
+
+If you have the Francis booklet, this is Layer-3 prose under Layer-1 song. Brother Sun survives. The ranks are why the Canticle is not a nature religion. The cluster is one argument in three voices: Francis sings, Clare empties, Bonaventure reads. A reader who only wants the song will call the ranks cold. A reader who only wants the ranks will call the song childish. Bonaventure wrote both a map and a tree of Christ’s life. Same mind.
+Sacraments (Harry 4.6, *Breviloquium* 5) are exemplarism at full strength: not mere traces, effective signs. Water cleanses. Bread is not a metaphor you prefer. World-as-vestige and altar-as-presence are one grammar at two intensities. Baptism starts. Confirmation provisions. Eucharist feeds. Penance names falls. Anointing prepares passage. Orders is contemplative return as guide. Matrimony is the journey in a house. You need not receive all seven to hear the claim: matter is a vehicle. If the claim is false, the first rung is a pretty walk. If true, a lab, a kitchen, and a font are already in the same book.
+
+Interfaith space (Harry 5.4) without cheap peace: if Christ means only the historical Jesus, other paths are simply false. If Christ also means the eternal Word through whom all things were made, the Word is already in the neighbor. Bonaventure holds both. Not universalism. Not a closed door. Francis and the Sultan is the Francis booklet’s scene; here it is implication. Presence before a sales pitch. Test against pages, not against a feeling that exclusivism is rude.
+
+Lynn White (1967) blamed Western Christianity for nature-as-warehouse. Francis is produced as exception. Bonaventure is the exception’s grammar. Delio and *Laudato Si’* are later. They may join. They may not be smuggled into 1259. The 1259 fight is still live: plunder, or pantheism. Vestige refuses both.
+
 
 ### Big Idea
 
@@ -164,6 +206,20 @@ Pastoral edge, still intellectual: knowledge without love is a pit already named
 
 Open question you will meet again in adult: can this epistemology be translated if theism is dropped? If not, say so. Do not smuggle God in as a metaphor for “awe.”
 
+The pastoral edge is still intellectual. Knowledge without love is a pit already named in the prologue. Illumination that produces a proud knower has failed its own light. A mind that cannot attend cannot take rung one, let alone argue about necessity. Digital distraction is not a new heresy. It is a way of never arriving at the question.
+
+Cullen will not let you skip the metaphysics of divine ideas if you want exemplarism as more than a nature walk. A high-school reading can still use the method (treat the world as readable) without pretending to have settled the ontology. What you may not do is call the world God because that would be “more spiritual,” or call the mind autonomous because that would be “more scientific.” Both moves dodge the fight Bonaventure actually picked with Aquinas.
+
+If you take the occasionalist reading, algebra becomes a miracle every time, and agency dies. If you take a crude autonomy reading, 2+2’s necessity is a habit of neurons with a mood. Concurrence tries to keep your homework yours while still saying the light is not self-made. Regulative may be too weak for the Sentences. Hold all three. The point of this chapter is not a winner. It is to stop treating “faith versus reason” as a team chant. Bonaventure thinks reason is real and dependent. Aquinas thinks reason is real and well-made. Both think God is the source. The split is how the source shows up in a finite act of knowing.
+University crisis (Harry 5.2): Aquinas’s theology as speculative science ordered to knowledge; Bonaventure’s as practical science ordered to love. The modern campus often took Aquinas’s object and dropped Aquinas’s God, leaving religious studies as method without a queen. Bonaventure would recognize the rigor and refuse the reduction. A plural university cannot restore a medieval altar by force. It can refuse the lie that method without object is neutrality.
+
+Duns Scotus (Harry 6.2) intensifies the primacy of Christ: Incarnation as purpose of creation, not only bandage of the fall. Bonaventure’s constitutive Christology grown more metaphysical, less itinerary. Complementary inside one school. Not the same book. Flatten them and you lose both.
+
+Three modern readings of illumination again, slower. Concurrence: God lights the mind’s own knowing; homework is still yours. Occasionalism: God does the knowing; the mind is a stage — fatal to algebra as your act. Regulative: reminder without mechanism — maybe too weak for the Sentences. Aquinas: if the light is not yours, how do you know that you know? Bonaventure: if the light is only well-made faculties, where does “always” come from? Hold both questions. Do not pick a mascot.
+
+Open: can this epistemology be translated if theism is dropped? If not, say so. Do not smuggle God in as a metaphor for awe.
+
+
 ### Big Idea
 
 Illumination claims that certain knowledge is borrowed light. It is an account of possibility, not a substitute for thinking. The live fight with Aquinas is autonomy versus dependence. Occasionalism is the failure mode. Knowledge without love is the moral failure mode.
@@ -197,6 +253,20 @@ Scholarly debate (Harry 7.3): how much of “Francis” is Bonaventure’s const
 
 Do not use stigmata as a lab. Do not use Damietta here (that is Francis’s booklet). Use the *Legenda* as what it is: a Minister General’s theology of a founder.
 
+The Spirituals’ case, at its strongest (Burr): Francis’s Testament forbids gloss. Use-through-a-proxy is still use. Schools and houses are the domestication of a brotherhood that lived by begging and example. The Relaxati case, at its strongest: thousands cannot live on a founder’s last mood. Preaching needs books. Survival needs law. Bonaventure’s case: the substance is imitation of Christ, which includes poverty but is not identical with a legal nothing. Poverty is the condition of mission, not the whole mission. Clare would not sign that last sentence. She spent decades insisting emptiness *is* the point. The cluster is the argument. A booklet that “sides” in a slogan has stopped being Franciscan.
+
+Lambert and Moorman hear wise institutionalization. Burr hears a radical charism tamed. The deeper question is whether a movement can survive its second generation without losing its soul or burning its children. After 1274 the unity cracks. Later condemnations of Spirituals are not proof Bonaventure was a villain. They are proof the grate did not hold the fire. Cost is history, not a vibe.
+
+On destruction of earlier sources: some scholars think he ordered it; others think later misunderstanding. Either way, official status hid the rawer Francis for centuries. Philology is not a conspiracy theory. Read Celano 1228 and the Assisi Compilation beside the *Legenda*. Interpretation is not fabrication. Selection is still power. Privilege Francis’s own corpus as veto when you have it, then the early lives, then the official one. Order of beginnings again.
+Olivi’s *usus pauper* is the poverty question after 1274. If poor use is the substance, papal title is already too much. If mission at scale is the substance, Olivi is a threat to survival. Later condemnations of Spirituals do not prove Bonaventure gentle. They prove the second generation could not hold fire and grate. Cost is names and prisons.
+
+Official lives do jobs. Every school has a *Legenda Maior*. Read the grate beside the first friends. Celano 1228 closer to heat. Assisi Compilation messy on purpose. *Legenda* 1263 theology of a life. Destruction of earlier sources: argued. Effect: centuries of this Francis. Privilege Francis’s own corpus as veto, then early lives, then official.
+
+Clare will not sign “poverty as means.” Empty space God fills, legally, for decades. Mortgage-holders will hear “means” as permission. The institution-tired will hear “end” as prophecy. State her best sentence before you keep the house. State his before you burn the chart. Use-without-owning maps poorly onto a 401(k) and better onto a library. Name the break.
+
+Lambert and Moorman hear wise institutionalization. Burr hears a radical charism tamed. After 1274 unity cracks. The grate did not hold the fire. Cost is history.
+
+
 ### Big Idea
 
 Bonaventure loved Francis enough to interpret him for a house on fire. Poverty-as-means is a real position, not a shrug. The official life is a political-theological act. Read it beside earlier sources or you will meet only the grate, not the fire.
@@ -228,6 +298,20 @@ Open questions (Harry 7.4) you carry out of this booklet, unanswered: Can Christ
 
 Chapter 7 of the *Itinerarium* remains the last method: grace not instruction, desire not understanding, groaning not diligence, Spouse not teacher, darkness not clarity, fire not light. Then dishes, if you have dishes. Then a council, if you are called. Then an unfinished Sabbath, because you are not the seventh day.
 
+Open questions (Harry 7.4) you carry, unanswered: Can Christ-as-center survive pluralism without cheap exclusivism or cheaper universalism? Can illumination live if theism is dropped? Can the first rung survive engineered distraction? Can even moderate poverty be heard where “less” means failure? Can a plural university recover *reductio* without a shared altar? If you answer on a worksheet, you have not heard the questions.
+
+Hayes’s constitutive Christology — Christ as pattern of creation, not only bandage of the fall — is the adult fight in high-school clothes. Aquinas’s remedial emphasis is not an enemy sentence. Complementary is allowed. Collapse into “they said the same thing” is not. The *Hidden Center* is a test: remove Christ and the *Itinerarium* becomes a Neoplatonic climb. Keep Christ and even a cobbler’s light has a home. Test that against pages, not against a feeling that Christocentrism sounds pious.
+
+Lyon’s reunion (6 July 1274) named Roman primacy and the *filioque*. The East had not been consulted as a people. The bridge did not hold. Effort is not the same as success. Bonaventure’s return-phase includes failed politics. A mysticism that never touches a council is not this mysticism. A mysticism that pretends the council worked is not this honesty.
+Retrieval (Harry 6.4) is selective. Hayes on the hidden center. Cullen as the clear door. Delio on evolution as readable process — later, not 1259. *Laudato Si’* as Franciscan reception, not a UN chairmanship. Living: integration of arts, sacramental creation, attention as first rung, Christ as center, theology as wisdom, unfinished Sabbath. Not automatically living: hierarchical social assumptions, contemplative superiority over labor as a class fact. Retrieval that cannot say no is costume.
+
+*Collations* day-map (Harry 4.4): day one light as first knowing; day two firmament as distinction; day three land as ordering of disciplines; day four lights as illumination; day five multiplication of understanding; day six the human as beginning of the spiritual order; day seven rest. He does not finish seven. Lyon opens 7 May 1274. Formula 6 July (primacy, *filioque*). Death 15 July. The East had not been consulted as a people. Reunion is repudiated later. Effort is not success. Canonized 1482. Seraphic Doctor 1588. Dishwashing-and-the-hat: tradition. Paradox can still be true: bowls and patriarchs, same man.
+
+Mary and Martha are a rhythm. Ascent without return is sterile. Return without ascent is exhausted. Hexaëmeron 1.11: in Christ are hidden all treasures of wisdom and knowledge; he is the central point of all understanding. Hayes: constitutive, not merely remedial. Aquinas’s remedial emphasis is not an enemy sentence. Collapse into “they said the same thing” is.
+
+Open questions (Harry 7.4): Can Christ-as-center survive pluralism without cheap exclusivism or cheaper universalism? Can illumination live if theism is dropped? Can the first rung survive a market that sells looking back in fragments? Can moderate poverty speak where “less” means failure? Can a plural university recover *reductio* without a shared altar? If you answer on a worksheet, you have not heard them.
+
+
 ### Big Idea
 
 All real skills are lights meant to go home. The Franciscan rhythm is ascent and return. Christ is the center of understanding, not a mascot for a faction. The last word is fire. The last scholarly honesty is an unfinished week.
@@ -245,14 +329,125 @@ Which of your lights have you been treating as self-made — and what would “l
 
 ---
 
+## Further sittings (same six ideas, unused rooms)
+
+These rooms are not a seventh chapter. They are the research files the six chapters could not swallow whole: the *Tree of Life*, the walking generalate, imitation versus copying, the Seraphic title, the sacramental week, the school after him. Skip if you are spent. Return if a fight felt thin.
+
+### The Tree, not the chart
+
+Cousins printed *Lignum Vitae* beside the journey-book for a reason. The *Itinerarium* is a map of powers. The *Tree* is a crib in paragraphs. Twelve fruits, three clusters: origin (eternal generation, womb, Bethlehem), life (teaching, wonders, suffering, cross), fulfillment (rising, ascent, reign, Spirit). Method: enter the scene, stay, let it work on the will. Francis put a crib at Greccio so people could *see*. Bonaventure writes a tree you can eat. Same Franciscan instinct. If the six wings feel like AP notes, steal one fruit and live with it for a week. Still this mind. The *Breviloquium* remains the dogmatic twin: seven days that end in rest. Devotion and doctrine are not two careers.
+
+Revelation 22:2 is the image: leaves for the healing of the nations. He makes the Tree Christ, the fruits events, the reader a guest at a table. That is not a children’s Bible. It is a method that does not require the Sentences first. It also does not replace the Sentences. A reader who only wants the Tree will call the ranks cold. A reader who only wants the ranks will call the Tree childish. He wrote both.
+
+### Walking a divided house
+
+February 1257, about forty, not a volunteer. John of Parma cannot hold the factions. Alexander IV wants a change. John recommends Bonaventure. Seventeen years. Three tools: moderation, institutions, a story.
+
+Moderation is a theological position, not a shrug. Poverty as means: empty hands for preaching, service, contemplation. Spirituals hear betrayal of the *Testament*. Relaxati hear leftover rigor. Clare hears a category error — emptiness *is* the point. He visits: Assisi, Padua, Madrid, Paris in the tradition of that walking. Personal example plus a chair. Fragile unity. After 1274 it cracks.
+
+Institutions: formation, provinces, visitation, education. Rigorists smell pride. He thinks an ignorant preacher wounds the poor he meant to save. The university Franciscan is policy. External weather: secular masters who want mendicants gone; Joachimite heat (an Age of the Spirit that outruns Church); a decentralized family spanning Europe. Governance is inside the mysticism. The *Itinerarium* is a contemplative book written by a man with an inbox.
+
+The story: *Legenda Maior*, Pisa 1263, official life. *Alter Christus*. Stigmata as seal. Poverty as condition of mission. Celano 1228 and the Assisi Compilation are earlier, rawer, more jagged about money. Destruction of earlier lives: argued. Effect: centuries of this Francis. Interpretation is not fabrication. Selection is still power. Privilege Francis’s own corpus as veto, then the early lives, then the official one.
+
+### Imitation is not costume
+
+Harry 4.5: Francis as method, not as a tunic you can buy. Copying is literalism — rough cloth, birds, bare feet as the point. Imitation is pattern: conversion, emptiness, service, contemplation, union. The pattern is Christ-shaped. The details are Francis’s. Spirituals tended toward copying. Relaxati tended toward abandoning the pattern. Bonaventure’s middle is imitation. You cannot be Francis. You can follow the pattern. The *Legenda* is a manual that is also a political act. Both sentences are true. A booklet that keeps only one has stopped reading.
+
+Do not use stigmata as a lab. Do not steal Damietta from the Francis booklet. Use the official life as what it is: a Minister General’s theology of a founder. Dalarun will make you uncomfortable. Burr will too. Let them.
+
+### Seraphic, not costume wings
+
+Sixtus V, 1588: *Doctor Seraphicus*. Thematic, not a nickname. Seraphs burn. Angels, in the Aquinas title, see clearly. Two doctors, two emphases, one Church. The six wings are not decoration. They are the organizing image of the theology. Heat without Paris is a poster. Paris without heat is a chart. Put the dish, the chair, the mountain, the official life, the unfinished week, and the borrowed light on one table.
+
+The dishwashing-and-the-hat story remains tradition. Fit: yes. Proof: no. The paradox can still be true: bowls and patriarchs, same man. 1273 Cardinal-Bishop of Albano. 1274 Second Council of Lyon. Opens 7 May. Brief East–West formula 6 July — Roman primacy, *filioque*. Dies 15 July. The East had not been consulted as a people. Reunion is later repudiated. Effort is not success. Canonized 1482. A mysticism that never touches a council is not this mysticism. A mysticism that pretends the council worked is not this honesty.
+
+### Sacraments as the same grammar
+
+*Breviloquium* part 5: sacraments are not extra rites beside the journey. They are the journey in matter. Vestige is a trace. A sacrament is an effective sign. Baptism starts. Confirmation provisions. Eucharist feeds — center, as for Clare in another key. Penance names falls. Anointing prepares the last passage. Orders is contemplative return as guide. Matrimony is the journey in a house. You need not receive all seven to hear the claim. If the claim is false, the first rung of the *Itinerarium* is a pretty walk. If true, a lab, a kitchen, and a font are already in the same book.
+
+Four senses of Scripture, same climb on a page: literal, allegorical, moral, anagogical. Literal first, or you float. The world is a second book. Skip the literal sense of a river and you are not more mystical. You are less literate.
+
+Prayer as foundation: the *Itinerarium* asks to be guided. Pray, ascend by grace, give thanks, pray again. Effort required. Effort not sufficient. A self-help ladder is already the side door.
+
+### School, retrieval, unfinished week
+
+Matthew of Acquasparta kept the light. Olivi pushed *usus pauper* until Order and papacy flinched. William de la Mare’s *Correctorium* taught Franciscans how to read Aquinas without becoming Dominicans. Duns Scotus later intensifies the primacy of Christ: Incarnation as purpose of creation, not only bandage of the fall. Complementary inside one school. Not the same book.
+
+Twentieth-century retrieval is selective. Hayes, *Hidden Center*. Cullen, Oxford 2006. Delio on evolution as readable process — later, not smuggled into 1259. *Laudato Si’* as Franciscan reception, not a UN chairmanship. Lynn White 1967 is the accusation that made Francis an exception saint. Bonaventure is the exception’s grammar. Living: integration of arts, sacramental creation, attention as first rung, Christ as center, theology as wisdom, unfinished Sabbath. Not automatically living: hierarchical social assumptions, contemplative superiority over labor as a class fact. Retrieval that cannot say no is costume.
+
+*Collations* 1273, day-map: light; firmament; land as ordering of disciplines; celestial lights as illumination; multiplication of understanding; the human as beginning of the spiritual order; Sabbath. He does not finish seven. Lyon. Theology that knows when to shut up is still theology. A system that explains even the silence is a different religion. Hexaëmeron 1.11: in Christ are hidden all treasures of wisdom and knowledge; he is the central point of all understanding. Hayes: constitutive, not merely remedial. Aquinas’s remedial emphasis is not an enemy sentence. Collapse into “they said the same thing” is.
+
+Open questions (Harry 7.4), unanswered on purpose: Can Christ-as-center survive pluralism without cheap exclusivism or cheaper universalism? Can illumination live if theism is dropped? Can the first rung survive a market that sells looking back in fragments? Can even moderate poverty speak where “less” means failure? Can a plural university recover *reductio* without a shared altar? If you answer on a worksheet, you have not heard them.
+
+Then dishes, if you have dishes. Then a council, if you are called. Then an unfinished Sabbath, because you are not the seventh day.
+
+### Four lights, one Father
+
+*De reductione* is short and arrogant in the holy sense. Mechanical arts, sense, philosophy, Scripture: four lights from the Father of lights (James 1:17). Split philosophy and you get six. Evening comes to every light; a seventh day of glory has no evening. *Reducere* is lead-back, not shrink. A workshop that will not go home becomes an idol. A piety that burns the workshop lies about the Father. Hayes: the title is the life-project. None of the arts, including philosophy, may stand self-sufficient. A STEM-pride culture and a piety-pride culture fail the same sentence from opposite sides.
+
+Mary and Martha are a rhythm, not a scoreboard. Contemplation is prior. Return is completion. Sterile ascent, exhausted action: both fail. Biography is the argument. If you only meet the mountain, you will think return is a fall. If you only meet the council, you will think the mountain was a hobby.
+
+### Digital looking, university fragments
+
+Harry 5.3: the first rung assumes attention. A feed designed to shatter looking is not a new seraph. It is a machine for stalling at noise. The answer is not a Luddite pose. It is whether you can still put the sensible world in front of you as a mirror. If you cannot, you are not yet in the *Itinerarium*. You are in the parking lot.
+
+Harry 5.2: theology as wisdom versus theology as one department among others. The modern campus often took Aquinas’s object and then dropped Aquinas’s God, leaving religious studies as a method without a queen. Bonaventure would recognize the rigor and refuse the reduction. A plural university cannot restore a medieval altar by force. It can refuse the lie that method without object is neutrality. Adult work is one syllabus you actually teach or take, and one sentence on whether any art is allowed to go home.
+
+### Cluster, money, class
+
+Francis sings. Clare empties. Bonaventure reads. A reader who only wants the song will call the ranks cold. A reader who only wants the ranks will call the song childish. WisdomForge’s three booklets are one argument in three voices. Do not flatten them into one nice man in brown.
+
+Money is the usual lie. If you have a mortgage, you will hear “means” as permission. If you are exhausted by institutions, you will hear “end” as prophecy. State Clare’s best sentence before you keep the house. State Bonaventure’s before you burn the org chart. Use-without-owning maps poorly onto a retirement account and better onto a library. Analogies break. Name the break. Do not baptize class position as Franciscan. If “less” sounds like failure, you are not in a Franciscan argument yet. You are in a market. Name it.
+
+Every family, parish, and company has a *Legenda Maior* — the founder story that keeps payroll possible. Literacy is to read it beside the first friends’ jagged memories without becoming a cynic who believes only in power.
+
+### Interfaith without cheap peace
+
+Harry 5.4: if Christ means only the historical Jesus, other paths are simply false. If Christ also means the eternal Word through whom all things were made, the Word is already in the neighbor. Bonaventure holds both. That is not universalism. It is not a closed door. Francis’s meeting with the Sultan is the Francis booklet’s scene; here it is implication. Presence before a sales pitch, because the Word may already be at the table. Test that against pages. Do not test it against a feeling that exclusivism is rude. The eternal Word versus the historical Jesus is a narrow space. Is it wide enough for neighbors? The booklet will not answer. It will not let you pretend the space is wide as a slogan.
+
+---
+
+
 ## For the Grown-Up Reader
 
 Spine: Cousins, *Bonaventure* (Paulist, 1978); Hayes, *On the Reduction of the Arts to Theology* and *The Hidden Center*; de Vinck for Hexaëmeron; Cullen (Oxford, 2006). Francis layers: Celano, Assisi Compilation, *Legenda Maior*; Dalarun; Burr. Poverty: Lambert, Moorman; Clare contrast from Harry 2.6/7.2. Illumination debate: Harry 7.1; Aquinas *De Veritate* 11. Reception: White 1967; Delio; *Laudato Si’* as later, not back-read.
 
 This band argues. It does not give spiritual direction, medical claims, or a verdict that Lyon “should” have lasted. One Research Prompt sits in chapter 1 on purpose: order of beginnings. Quotes are Bonaventure’s; late stories are labeled.
 
+Harry’s pack (32 files, August 2026): 1.1–1.4, 2.1–2.6, 3.1–3.4, 4.1–4.6, 5.1–5.4, 6.1–6.4, 7.1–7.4. Primary English: Cousins (Paulist, 1978) for *Itinerarium*, *Tree of Life*, *Legenda Maior*; Hayes for *De reductione*; de Vinck for Hexaëmeron 1.11. Secondary: Cullen 2006; Hayes, *Hidden Center* 1981; Lambert; Moorman; Burr; Dalarun. Quote as quote: *Itinerarium* 7 (Cousins); Luke 10:42; James 1:17 as used in *De reductione*. Childhood healing, dishwashing cardinal, and destruction of earlier Francis lives remain disputed. Illumination readings (concurrence / occasionalist / regulative) left open. No payment CTA.
+
+This band will not pick a mascot between Aquinas and Bonaventure. First gestures differ. Both think God is the source. The split is how the source shows up in a finite act of knowing, and whether theology’s first move is proof or prayer. Hold the split. Do not flatten it for a debate-team win. A university that only defines has already taken the side door. A youth group that only vibes has taken the other. Bonaventure wrote a chart that is a spiritual exercise. You are not done when you can list six wings. You are invited to climb them, and the door is not your competence. Knowledge without love is named as a pit before the first rung. Unfinished later collations prove the same humility: theology knows when to stop.
+
 ---
 
 ## About WisdomForge
 
 WisdomForge produces four age-adapted booklets for each figure: elementary (ages 5–10), middle (ages 11–14), high (ages 15–18), and adult. Each booklet covers the same person, ideas, and stories, but at a different level of depth and complexity. The elementary booklet tells stories. The middle booklet explains ideas. The high booklet argues and analyzes. The adult booklet engages with scholarly debates and primary sources. Read the one that fits — or read them all and watch the same figure grow.
+
+---
+
+## Sources
+
+### Primary
+
+- Bonaventure, *Itinerarium Mentis in Deum* (1259), trans. Ewert Cousins, in *Bonaventure: The Soul’s Journey into God, The Tree of Life, The Life of St. Francis* (Paulist Press, 1978).
+- Bonaventure, *Lignum Vitae* (*The Tree of Life*), in Cousins, 1978.
+- Bonaventure, *Legenda Maior Sancti Francisci* (1263), in Cousins, 1978.
+- Bonaventure, *De reductione artium ad theologiam* (c. 1254), trans. Zachary Hayes, Franciscan Institute, Works of St. Bonaventure 1 (1996).
+- Bonaventure, *Breviloquium* (c. 1254–57).
+- Bonaventure, *Collationes in Hexaëmeron* (1273), trans. José de Vinck, especially collation 1.11.
+- James 1:17, as cited in *De reductione*.
+- Thomas Aquinas, *De Veritate*, q. 11.
+
+### Secondary
+
+- Zachary Hayes, *The Hidden Center* (Franciscan Institute, 1981).
+- Christopher M. Cullen, *Bonaventure* (Oxford, 2006).
+- Malcolm Lambert, *Franciscan Poverty* (1961/1998).
+- David Burr, *The Spiritual Franciscans* (2001).
+- Jacques Dalarun, *The Misadventures of Francis of Assisi* (2002).
+- Lynn White Jr., “The Historical Roots of Our Ecologic Crisis,” *Science* 155 (1967).
+
+Did he really say these things? The *Itinerarium* prologue and chapter 7, the *De reductione*, and Hexaëmeron 1.11 are his. Late stories are labeled. Attribution: WisdomForge / Airia Edge, from Harry’s 32-file pack.
+
+— Airia Edge

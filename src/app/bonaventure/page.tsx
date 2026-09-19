@@ -2,9 +2,15 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Bonaventure — WisdomForge",
+  title: "Bonaventure — WisdomForge by Airia Edge",
   description:
-    "Four age-adapted WisdomForge booklets on Bonaventure: Franciscan teacher, the six-wing map, the world as a book of signs. PDF and Markdown. No EPUB.",
+    "Four age-adapted WisdomForge booklets on Bonaventure: Franciscan teacher, the six-wing map, the world as a book of signs. PDF and Markdown. No EPUB. Adapted by Airia Edge.",
+  openGraph: {
+    title: "Bonaventure — WisdomForge by Airia Edge",
+    description:
+      "Four free booklets on Bonaventure. PDF and Markdown. No purchase.",
+    images: [{ url: "/images/booklets/bonaventure-adult-cover.png" }],
+  },
 };
 
 const bands = [
@@ -12,8 +18,8 @@ const bands = [
     level: "elementary",
     ages: "Ages 5–10",
     label: "Little Thinkers",
-    title: "The Map of Six Wings",
-    pages: 22,
+    title: "The Ladder with Six Wings",
+    pages: 19,
     description:
       "Six stories about Giovanni of Bagnoregio, who became Bonaventure. Words he really wrote, a big idea, something to try, and a question to ask a grown-up. Late stories are labeled uncertain.",
   },
@@ -21,8 +27,8 @@ const bands = [
     level: "middle",
     ages: "Ages 11–14",
     label: "Young Minds",
-    title: "The Ladder and the House",
-    pages: 23,
+    title: "The Seraph’s Map",
+    pages: 28,
     description:
       "A mystic and a schoolman at once. Six chapters on Paris, La Verna, vestiges, illumination, a divided Order, and leading the arts home.",
   },
@@ -31,7 +37,7 @@ const bands = [
     ages: "Ages 15–18",
     label: "Emerging Adults",
     title: "Through the Crucified, or Not at All",
-    pages: 21,
+    pages: 34,
     description:
       "An argument, not a holy card. Cousins’s Itinerarium as the spine; Hayes on the reduction of the arts; Hexaëmeron 1.11 as the Christ-center sentence.",
   },
@@ -40,7 +46,7 @@ const bands = [
     ages: "Adult",
     label: "Lifelong Learners",
     title: "The Hidden Center",
-    pages: 23,
+    pages: 33,
     description:
       "Hayes’s phrase: Christ as hidden center. Sources after About WisdomForge. Poverty as holiness and as civil war. No mascot.",
   },
@@ -137,7 +143,7 @@ export default function BonaventurePage() {
       </section>
 
       <p className="mt-12 text-sm text-faint">
-        Quotes from Cousins’s <em>Itinerarium</em> (prol. 1, 3, 4, 1.2, 7.6), the{" "}
+        Adapted by Airia Edge. Quotes from Cousins’s <em>Itinerarium</em> (prol. 1, 3, 4, 1.2, 7.6), the{" "}
         <em>Hexaëmeron</em> 1.11, and Hayes on <em>De reductione</em>. No payment CTA.
         Not a hosted kids chatbot. Does not make AI safe.
       </p>
