@@ -37,6 +37,10 @@ Eventually, Pythagoras left Samos. The ruler of the island was a cruel man named
 
 People loved Pythagoras so much that they told amazing stories about him. They said he could remember his past lives. They said he had a golden thigh. They said he could be in two places at once. Some of these stories are probably not true — but they show us how much his followers respected him.
 
+Here is a puzzle about those stories. The people who wrote them down never met Pythagoras! Some wrote a hundred years after he died. Others waited eight hundred years — as long ago as the year 1200 is for us. And the writers loved Pythagoras so much that they wanted him to sound amazing. So imagine someone telling a story about your great-great-great-grandfather, and every storyteller making him a little more wonderful. How much of it would still be true? That is the puzzle historians face. Here is how they solve it: when very different people — even people who disliked Pythagoras — tell the same story, that story is probably true.
+
+His school had a rule for new students that would surprise you: when you joined, you couldn't speak. Not for a day or a week — for years, some stories say. You listened. You watched. You followed the rules of the community before you were allowed to ask questions. It sounds strange, but the idea underneath was simple: learn to listen well before you try to talk wisely. The Pythagoreans believed that the deepest lessons went in through the ears and the habits first.
+
 **Words to Remember**
 *The wise person travels to learn, and returns to teach.*
 
@@ -78,7 +82,11 @@ His students leaned closer.
 
 He drew a circle around the whole triangle. "One plus two plus three plus four equals ten. Ten is the perfect number. It's where you start counting over. Ten fingers, ten toes, ten dots in the sacred triangle."
 
+One more thing made the school unusual: girls and women could join. In most of ancient Greece, that was almost unheard of. Pythagoras taught that the soul has no gender — a soul is a soul, and any soul that loves wisdom can pursue it. Some women of the school, like Theano, became famous teachers themselves.
+
 The students stared at the ten dots in the sand. The firelight flickered over them. In that simple triangle, they could see the whole universe — from a single point to the vastness of space, all built from numbers.
+
+The Pythagoreans loved playing games with pebbles. Lay pebbles out in rows and numbers reveal secrets. One pebble, then three more, then five, then seven — and every time, the pebbles snap into perfect squares: one, four, nine, sixteen. The odd numbers build the squares! Lay them in pairs instead and you get long rectangles. To the Pythagoreans this was not a coincidence. Odd numbers acted like limit — they had a middle and stopped cleanly. Even numbers acted like the unlimited — you could split them in half forever. Square, orderly odd. Stretchy, endless even. The game of pebbles was the universe in miniature.
 
 Pythagoras smiled. "Everything in the world follows this pattern. The stars, the seasons, the trees, the sea. Numbers are not something we made up. They are the secret code the universe is written in. When you understand numbers, you understand the world."
 
@@ -105,6 +113,8 @@ One morning, Pythagoras was walking through the market in Croton. He passed a bl
 Pythagoras rushed inside. He weighed each hammer and discovered something amazing: the hammers that sounded beautiful together had weights that followed simple number patterns. One hammer was twice as heavy as another (2:1). One was one and a half times as heavy (3:2). One was one and a third times as heavy (4:3).
 
 He ran home and stretched strings across a wooden frame. He plucked a string and listened to the note. Then he stretched another string to exactly half the length. When he plucked it, the note was the same — just higher! The two notes sounded beautiful together. He tried other ratios: 3:2 made another beautiful sound. 4:3 made a third.
+
+Here is a secret about that hammer story: it probably did not happen exactly that way. Try it yourself — a heavy hammer and a light hammer striking the same anvil make nearly the same sound. The ring lives in the anvil, not the hammer. But the string part is completely real. Halve a string and the note truly jumps an octave. The story got the discovery right, even though it got the hammers wrong. That happens a lot in history: a true discovery wearing a made-up story like a costume.
 
 "Music is numbers!" Pythagoras cried. "Beautiful sounds come from simple number ratios. The whole world of music is built on mathematics!"
 
@@ -142,7 +152,11 @@ His students were amazed. Pythagoras taught something that was very unusual in a
 
 Because the soul lives many lives, Pythagoras taught that we should be kind to all living things. The dog in the market might have the soul of a person. The bird in the tree might have been your grandmother. Every living thing deserves respect, because every living thing has a soul that is on the same journey as yours.
 
-Pythagoras said he could remember his own past lives. He said he had been a warrior named Euphorbus in the Trojan War. He said he remembered dying and being reborn, again and again. Whether these memories were real or not, the idea changed how his followers lived. If your soul is eternal, then the choices you make in this life matter — not just for now, but for the journey that continues after your body is gone.
+The school also had rules that still puzzle people. The strangest one: don't eat beans. Why? Nobody knows for sure — and people have been guessing for two thousand years. Some said beans looked like gates to the world below. Some said beans might hold little souls. Some said the rule was about something else entirely. The Pythagoreans kept the rule even without explaining it, which teaches us something about the school itself: some rules you follow first and understand later, through the living of them.
+
+Pythagoras said he could remember his own past lives. He said he had been a warrior named Euphorbus in the Trojan War. He said he remembered dying and being reborn, again and again.
+
+The old stories say he remembered more than one life. Before the warrior, he had been a messenger of the gods. After Troy, he lived again as a quiet man who healed the sick, and then as a fisherman on the island of Delos. In every life, the stories say, he kept his memory — the same soul, trying on new bodies the way you try on new clothes. Whether these memories were real or not, the idea changed how his followers lived. If your soul is eternal, then the choices you make in this life matter — not just for now, but for the journey that continues after your body is gone.
 
 "How do you purify the soul?" a student asked.
 
@@ -193,6 +207,8 @@ Hippodamus stared at the triangle. In ten dots, he could see space, music, and t
 
 From that day, Hippodamus carried the tetractys in his mind. When he was sad, he drew it in the sand and remembered that the universe is ordered. When he was confused, he looked at its symmetry and remembered that there is structure in all things. When he was lonely, he remembered that the same pattern that built the stars built him too.
 
+Knowing the tetractys was like carrying a secret badge. If you could draw it, count its rows, and say what it meant, other Pythagoreans knew you were one of them. It was a password made of dots — a promise that said: I too believe the universe is built from numbers.
+
 **Words to Remember**
 *By the tetractys, the source of ever-flowing nature.* — The Pythagorean Oath
 
@@ -225,9 +241,13 @@ Pythagoras taught that living well is like playing music. You don't just play th
 
 The Pythagoreans also believed in community. They shared property, ate together, and supported each other. "Friendship is equality," Pythagoras taught. Not that everyone is exactly the same — but that in a true friendship, the giving and receiving are balanced. No one takes too much. No one gives too much. The relationship is in harmony.
 
+And all those odd little rules — no meat, no beans, no stirring the fire with a knife — were like a sports team's drills. From outside, the drills look strange. But each drill builds a skill: listening, patience, self-control. The rules were practice for the soul.
+
 And they believed in listening — not just to each other, but to the cosmos itself. The harmony of the spheres is always playing. The patterns of the universe are always there. Most people are too busy, too noisy, too distracted to hear them. The Pythagorean practice was to slow down, pay attention, and listen for the hidden music in everything.
 
 "Your life is an instrument," Pythagoras told his students. "Tune it every day. Play it with care. And listen — always listen — for the harmony that runs through all things."
+
+The story of the community has a hard chapter, and honest books don't skip it. The Pythagoreans became powerful in their city — advising leaders, holding offices — and powerful people without Pythagorean ideas grew jealous and angry. One man, named Cylon, had been turned away from the school and never forgave it. A mob set fire to a house where the Pythagoreans were meeting, and many died. The communities were broken up. But here is the part worth remembering: the survivors carried the ideas everywhere they went, and the ideas outlived the fires. Burning a building could not burn a theorem.
 
 **Words to Remember**
 *Do not neglect to tune the strings of your life. The music you make is the life you live.*
