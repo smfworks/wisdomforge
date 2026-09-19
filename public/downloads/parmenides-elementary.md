@@ -39,6 +39,8 @@ His mother smiled. "The sea is there. The sky is there. What else would there be
 
 But Parmenides wasn't sure that what you see is the same as what is real. The water looked blue, but when he cupped it in his hands, it was clear. The sun looked small enough to hold, but his teacher said it was bigger than the whole earth. His eyes told him one thing and his mind told him another. Which one should he trust?
 
+It's a question you can test yourself, right now. Look at a straight stick or straw standing in a glass of water. At the waterline, it looks bent. Now take it out. Straight! The stick never changed — the *looking* changed. So eyes can hand you a picture that isn't true. Parmenides noticed that this happens not just with sticks, but with almost everything — and he never stopped wondering which of his pictures to trust.
+
 One night, Parmenides had a dream. Or maybe it was more than a dream. In it, he was carried in a chariot pulled by wise horses — horses that knew where they were going before he did. He wasn't driving. He was being taken.
 
 The horses galloped down a road that glowed like moonlight on water. Fire bloomed from the chariot's wheels. The air hummed with music, like a pipe playing a note you could feel in your chest but couldn't quite hear.
@@ -56,6 +58,10 @@ On the other side, a goddess was waiting. She took his hand and smiled. "Welcome
 Parmenides woke up with his heart pounding. The dream felt more real than his bed, more real than the morning light coming through the window. He picked up a piece of charcoal and began to write. He wrote in the old poetic style, the way the storytellers wrote about heroes and gods. But what he wrote was not a story about gods. It was a story about truth.
 
 He called it "On Nature." And it changed everything.
+
+He called it that because *nature* means "the way things are" — and the poem claims to tell you the way things *really* are, underneath the way they look.
+
+Here is something amazing about that poem: we have lost almost all of it. Parmenides wrote maybe 800 lines. Today, about 150 lines survive. How? For hundreds of years, the poem itself was lost. But other writers — teachers and philosophers who loved it — copied their favorite parts into their own books. A teacher who lived a thousand years later copied the longest pieces. So we still have the most important parts, like stones from a castle, because people carried them, piece by piece, in their own pockets.
 
 **Words to Remember**
 *What is, is. And what is not, is not.* — Parmenides
@@ -89,6 +95,8 @@ Parmenides tried. He squeezed his eyes shut and tried to think about nothing.
 He couldn't do it.
 
 Every time he tried to think about nothing, he was thinking about something. Even "empty" is something. Even "dark" is something. The moment you try to think about nothing, it becomes something you are thinking about.
+
+Try this trick with your hand. Point at a dragon. You can't — there's no dragon to point at. Now point at the place where a dragon would be. See? You're pointing at a spot on the floor, or the wall, or a chair. A place is something. Even the empty air is something. You can point near nothing, around nothing, at nothing — but never *at* nothing. That's what the goddess meant: there is no "there" there.
 
 "That's the secret," the goddess said. "You cannot think about what is not. You can only think about what is. So if you want to find the truth, you have to start with 'it is.' That's the only road that goes anywhere."
 
@@ -144,6 +152,8 @@ Parmenides sat with this. It sounded strange. The world he could see was full of
 "Think of it like a puzzle," the goddess said. "The picture on the box is whole and complete. When you dump the pieces out, they look broken and scattered. But the real picture — the one on the box — was never broken. The pieces just make it hard to see."
 
 Parmenides looked at the world differently after that. The world he saw was like the scattered puzzle pieces. Somewhere underneath, there was a whole, complete picture. You just couldn't see it with your eyes. You had to think your way to it.
+
+One more thing about the perfect ball. The goddess said it is "from the middle equal every way." That means no side of it is special. No side is the front. No side is the best. Nothing sticks out and nothing is left over. If you walked all the way around it — if you could — you would never find a seam or a favorite side. It is finished everywhere at once.
 
 **Words to Remember**
 *What is real is whole, complete, and unchanging — like a perfect circle.* — Parmenides
@@ -227,6 +237,8 @@ Zeno picked up another pebble and held it in his palm. He looked at it for a lon
 
 "That's the beginning of wisdom," Parmenides said.
 
+Zeno became famous for puzzles that defended his teacher's idea. Here is the best one. A tortoise gets a head start in a race against the fastest runner in Greece. The runner sprints to where the tortoise was — but by the time he arrives, the tortoise has crawled a little farther. So he runs to that new spot — and again the tortoise has moved. If you cut the race into smaller and smaller pieces, the runner is always catching up to where the tortoise *was*. Zeno's puzzle made it look like the runner could never pass the tortoise at all. Of course he does — you've seen races end. Zeno wasn't trying to stop races. He was showing that cutting distance into pieces forever makes your head spin — and that even silly-looking puzzles can hide serious ideas about whether things really move.
+
 This was Parmenides' great gift to the world: the idea that thinking is more powerful than looking. That reason can see things that eyes can't. That the truth is not always what you see — sometimes it's what you figure out when you sit still and think.
 
 **Words to Remember**
@@ -251,6 +263,8 @@ Word of Parmenides' poem traveled across the sea to Athens. There, a young man n
 Plato took Parmenides' idea — that what is truly real doesn't change — and built his whole philosophy on it. Plato said there are two worlds: the world we see, which is always changing, and the world of Forms, which never changes. The world of Forms is the real world. The world we see is like a shadow of it.
 
 Sound familiar? It should. Plato got that idea from Parmenides.
+
+Plato's student Aristotle took a different road. He said: wait — maybe "being" can mean more than one thing. A caterpillar is one thing and not-yet another. An acorn is a seed now and an oak tree later, without popping out of nothing. Aristotle tried to make room for change without breaking Parmenides' rule that nothing comes from nothing. Philosophers still argue about whether he pulled it off.
 
 Hundreds of years later, more thinkers picked up Parmenides' thread. René Descartes, in the 1600s, sat by a fire and thought: "What can I be absolutely sure of?" He doubted everything his eyes told him, everything his ears heard, everything his feelings suggested. And in the end, he found one thing he couldn't doubt: "I think, therefore I am." Thinking proves that something is. That's Parmenides' idea, wearing new clothes.
 
