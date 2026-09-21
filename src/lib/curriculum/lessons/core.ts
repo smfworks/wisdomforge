@@ -231,7 +231,7 @@ export const coreLessons: Lesson[] = [
         title: "Source Before Summary",
         dek: "A model that compresses the past will flatten the people in it. Check the source.",
         objective: "The student reads a short primary source, writes a claim, then compares a model summary to the source.",
-        parentBriefing: "One letter, law, or diary page. The original WisdomForge Constitution unit is still in the forge; this sitting trains the muscle it will need.",
+        parentBriefing: "One letter, law, or diary page. The original WisdomForge Constitution unit is not written yet; this sitting trains the muscle it will need.",
         hardEdges: ["Context matters; don't pretend a scrap is the whole war.", "Don't use graphic atrocity as a first source."],
         reading: [{ heading: "Compression is a moral act", body: "Every summary chooses who stays in the frame. Models choose by likelihood, not by justice. If you read the summary first, you will not notice who was deleted. Read the scrap. Write what it actually says. Then let a tool summarize and hunt the deletion. That hunt is historical thinking. It is also how you stay a citizen." }],
         bigIdea: "Whoever summarizes first decides who counts. Don't let a model go first.",

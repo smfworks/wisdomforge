@@ -178,7 +178,7 @@ export const federalistLessons = [
               "Label four piles: Convention notes (Madison, unpublished until 1840), Constitution (1787 text), Federalist essays (1787–88), later citation (Court, classroom, party). Write the job of each pile in one sentence.",
               "Open Article II and Federalist 70. Mark where Hamilton adds 'energy' the clause does not spell out. Label the add: restatement, hope, or extra.",
               "Write the parent reply you will actually use: 'The essays explain. They do not enact.' Then add the hard question: 'If they come apart, which one is the law?'",
-              "Note for later: Federalist 54 and the three-fifths clause. The series is not silent on slavery. Sitting 6 will flag it; Harry's S7 will go deeper. Do not pretend the silence.",
+              "Note for later: Federalist 54 and the three-fifths clause. The series is not silent on slavery. Sitting 6 will flag it; a later sitting will go deeper. Do not pretend the silence.",
             ],
           },
         ],
@@ -791,7 +791,7 @@ export const federalistLessons = [
         objective:
           "The parent can teach 78 from the sentences, keep Marbury in 1803, refuse the 'Federalist is law' myth, and let Brutus's judicial brief speak without a sneer.",
         parentBriefing:
-          "The civics-test answer leads with Marbury. This sitting leads with 78, then Brutus, then Article III, then Marbury as history of a practice. The parent should be able to recast neither force nor will, tenure as brace, constitutional supremacy as the people's binding of their agents, and the relocation of the 'judges superior to Congress' objection. Then Brutus: interpretation of national powers by an unappealable life-tenured bench. Then the myth from Harry's 5.4: courts must follow Publius. Correction: advocacy, cited when useful. Originalism and living constitutionalism both have a use for 78; neither use is the law. If the household wants to argue about the modern Court, make them pass through Hamilton's premise (no sword, no purse) and Madison's means (appointment, amendment, the other branches). 'The Court is the most dangerous branch now' is a claim that 78's premise failed or that the others surrendered their means. Which? Do not let a model choose a team.",
+          "The civics-test answer leads with Marbury. This sitting leads with 78, then Brutus, then Article III, then Marbury as history of a practice. The parent should be able to recast neither force nor will, tenure as brace, constitutional supremacy as the people's binding of their agents, and the relocation of the 'judges superior to Congress' objection. Then Brutus: interpretation of national powers by an unappealable life-tenured bench. Then the myth that courts must follow Publius. Correction: advocacy, cited when useful. Originalism and living constitutionalism both have a use for 78; neither use is the law. If the household wants to argue about the modern Court, make them pass through Hamilton's premise (no sword, no purse) and Madison's means (appointment, amendment, the other branches). 'The Court is the most dangerous branch now' is a claim that 78's premise failed or that the others surrendered their means. Which? Do not let a model choose a team.",
         hardEdges: [
           "Do not teach Marbury as a 1787 clause or 78 as Marshall's script.",
           "Do not let a model treat Federalist quotations as amendments.",
@@ -800,7 +800,7 @@ export const federalistLessons = [
         reading: [
           {
             heading: "The 1788 claim",
-            body: "Least dangerous is about capacity to annoy. Sword and purse are the weapons. Judgment is not a weapon in Hamilton's picture; it depends on the executive arm even for efficacy. Tenure is therefore not a crown. It is a brace so a weak department is not awed by the strong ones. Constitutional preference follows from a limited constitution being meaningless if the legislature may ignore it. The people bound their agents. Courts keep the binding. Whether that inference is necessary is the scholarly fight (Harry's S7). Whether it is in the newspaper brief is not a fight. It is.",
+            body: "Least dangerous is about capacity to annoy. Sword and purse are the weapons. Judgment is not a weapon in Hamilton's picture; it depends on the executive arm even for efficacy. Tenure is therefore not a crown. It is a brace so a weak department is not awed by the strong ones. Constitutional preference follows from a limited constitution being meaningless if the legislature may ignore it. The people bound their agents. Courts keep the binding. Whether that inference is necessary is the deeper scholarly fight. Whether it is in the newspaper brief is not a fight. It is.",
           },
           {
             heading: "Brutus as quality control",
@@ -808,7 +808,7 @@ export const federalistLessons = [
           },
           {
             heading: "What citation is",
-            body: "Footnotes look like authority. The Supreme Court has quoted Publius since the 1790s. That is a fact about American legal culture. It is not a clause. When your student, or a pundit, or a model, says 'the Federalist is law,' the reply is Harry's: show me the clause, then the essay; if they come apart, which one is the law? Using 78 as original-public-meaning evidence is an argument with a method. Using 78 as a mascot for whatever the current Court is doing is the party myth from 5.6. Which essay, which year, which man?",
+            body: "Footnotes look like authority. The Supreme Court has quoted Publius since the 1790s. That is a fact about American legal culture. It is not a clause. When your student, or a pundit, or a model, says 'the Federalist is law,' the reply is simple: show me the clause, then the essay; if they come apart, which one is the law? Using 78 as original-public-meaning evidence is an argument with a method. Using 78 as a mascot for whatever the current Court is doing is the party myth from 5.6. Which essay, which year, which man?",
           },
         ],
         bigIdea:
@@ -1023,7 +1023,7 @@ export const federalistLessons = [
           },
           {
             heading: "Who won",
-            body: "Ratification: Federalists. Parchment rights: Anti-Federalists. Judiciary design: mostly Federalists, which is why sitting 4 still needs Brutus. Executive energy: contested forever, which is why 70 still has Cato as a shadow. WisdomForge does not assign a caucus to Publius and does not assign a halo to Brutus. It puts 84 next to the First Congress. If a guest at the table says the Anti-Federalists were simply wrong, the reply is Harry's: name one thing in the Constitution that is there because they demanded it.",
+            body: "Ratification: Federalists. Parchment rights: Anti-Federalists. Judiciary design: mostly Federalists, which is why sitting 4 still needs Brutus. Executive energy: contested forever, which is why 70 still has Cato as a shadow. WisdomForge does not assign a caucus to Publius and does not assign a halo to Brutus. It puts 84 next to the First Congress. If a guest at the table says the Anti-Federalists were simply wrong, the reply is simple: name one thing in the Constitution that is there because they demanded it.",
           },
         ],
         bigIdea:
@@ -1090,7 +1090,7 @@ export const federalistLessons = [
           "Capstone. Four documents, four jobs. Magna Carta: a feudal contract extracted at Runnymede that later generations read as the rule of law. Declaration: a public claim of right and a right of revolution. Constitution: a designed machine, including compromises the unit on the Constitution already named. Federalist: the brief that sold the machine in New York newspapers. The chain is not a hymn. The Convention exceeded the Articles' amendment rule — honesty, not debunking. The series is not silent on slavery: Federalist 54 defends counting enslaved people as three-fifths for representation. Ugly and teachable; do not pretend silence. Do not recruit Publius to a caucus. Which essay, which year, which man — and what did he do in 1791? Compound republic (39) and union-versus-confederacy (15–22, Jay 2–5) belong here as the argument that a large country could be one republic without being one consolidated people. Madison's tests in 39: federal in foundation, national in operation, mixed in the houses. Do not flatten into 'one nation' or 'state sovereignty.'",
         hardEdges: [
           "Do not recruit Publius to a modern party. Which essay, which year, which man?",
-          "Do not skip slavery. Fed 54 on three-fifths is in the series. Flag it. Do not sermonize it as if S7 had already been written.",
+          "Do not skip slavery. Fed 54 on three-fifths is in the series. Flag it. Do not sermonize it as if that later sitting had already been written.",
           "The Convention exceeded its charge. The people, through ratification, are Publius's later cure for the irregularity. Name both.",
         ],
         reading: [
@@ -1100,7 +1100,7 @@ export const federalistLessons = [
           },
           {
             heading: "What the brief was selling, and what it hid",
-            body: "Publius sold union against a league that could not tax, could not make states perform, and could not defend itself. Hamilton called a sovereignty over sovereignties a political monster. Jay said a connected country should not become rival alliances. Madison in 39 said the result was a compound republic — federal in how it was born and how far its powers go, national in how its laws touch persons, mixed in House and Senate. Do not flatten that into 'one nation' or 'the states are still sovereign.' Both slogans fail 39. And do not pretend the series is silent on slavery. Federalist 54, in the Madison column of the disputed-authorship era, defends the three-fifths clause. It is ugly. It is teachable. This sitting flags it so no one leaves thinking Publius never touched the subject. Harry's later files will go deeper. Honesty about the Convention belongs here too: they were sent to amend the Articles and they replaced them. Publius is selling a replacement. Anti-Federalists called that a coup against the amendment rules. Both sentences can sit on the same page.",
+            body: "Publius sold union against a league that could not tax, could not make states perform, and could not defend itself. Hamilton called a sovereignty over sovereignties a political monster. Jay said a connected country should not become rival alliances. Madison in 39 said the result was a compound republic — federal in how it was born and how far its powers go, national in how its laws touch persons, mixed in House and Senate. Do not flatten that into 'one nation' or 'the states are still sovereign.' Both slogans fail 39. And do not pretend the series is silent on slavery. Federalist 54, in the Madison column of the disputed-authorship era, defends the three-fifths clause. It is ugly. It is teachable. This sitting flags it so no one leaves thinking Publius never touched the subject. A later sitting will go deeper. Honesty about the Convention belongs here too: they were sent to amend the Articles and they replaced them. Publius is selling a replacement. Anti-Federalists called that a coup against the amendment rules. Both sentences can sit on the same page.",
           },
         ],
         bigIdea:
@@ -1151,11 +1151,11 @@ export const federalistLessons = [
         objective:
           "The student can apply Madison's tests in 39, state the union-versus-confederacy brief without romance, place the unit on the civic chain, and flag Fed 54 and the exceeded mandate.",
         parentBriefing:
-          "Capstone for emerging adults. Three loads. One: 39's tests (foundation federal, House national / Senate federal, operation national, extent federal, amendment mixed). Flattening into Calhoun or Lincoln is a category error; Madison in 1788 is designing a government that can act on persons without asking a state legislature's permission for each law. Two: the first third of The Federalist is not 10/51/78. It is a brief against the Articles — requisitions as requests, trade wars, foreign scorn, Shays' Rebellion as exhibit whether or not Publius is fair to it. Union is a security argument before it is a nationalist romance. Three: the chain plus the hard edges — exceeded mandate, Fed 54, no party ownership. Harry continues S3/S4/S6/S7; they enrich. Do not block. Do not pretend the missing files mean silence on slavery or on 1791.",
+          "Capstone for emerging adults. Three loads. One: 39's tests (foundation federal, House national / Senate federal, operation national, extent federal, amendment mixed). Flattening into Calhoun or Lincoln is a category error; Madison in 1788 is designing a government that can act on persons without asking a state legislature's permission for each law. Two: the first third of The Federalist is not 10/51/78. It is a brief against the Articles — requisitions as requests, trade wars, foreign scorn, Shays' Rebellion as exhibit whether or not Publius is fair to it. Union is a security argument before it is a nationalist romance. Three: the chain plus the hard edges — exceeded mandate, Fed 54, no party ownership. Later sittings on historical context, applications, connections, and debates will enrich. Do not block. Do not pretend the missing files mean silence on slavery or on 1791.",
         hardEdges: [
           "Not the Articles, not 1865, not Calhoun. 39 is a pile of tests.",
           "The Convention exceeded its charge. Honesty.",
-          "Fed 54 is ugly and in the series. Flag. S7 will go deeper.",
+          "Fed 54 is ugly and in the series. Flag. A later sitting will go deeper.",
           "Do not recruit Publius.",
         ],
         reading: [
@@ -1169,7 +1169,7 @@ export const federalistLessons = [
           },
           {
             heading: "The chain, the silence that isn't, the mascot",
-            body: "Charter extracted (1215 and its afterlife). Claim published (1776 and its afterlife). Machine designed (1787). Brief sold (1787–88). Amendments extracted from the sellers (1791). That is the civic chain on this site with this unit snapped on. Two refusals at the end. One: the series is not silent on slavery. Federalist 54 defends the three-fifths clause as a compromise between treating enslaved people as persons and as property. It is ugly. It is in the pack. Flag it; Harry's S7 will teach it. Two: The Federalist is not a conservative document or a progressive one. Hamilton became the Federalist Party. Madison became Jefferson's ally. Cherry-picking numbers (10, 51, 70, 78) is the method of the mascot. Which essay, which year, which man in 1791?",
+            body: "Charter extracted (1215 and its afterlife). Claim published (1776 and its afterlife). Machine designed (1787). Brief sold (1787–88). Amendments extracted from the sellers (1791). That is the civic chain on this site with this unit added to it. Two refusals at the end. One: the series is not silent on slavery. Federalist 54 defends the three-fifths clause as a compromise between treating enslaved people as persons and as property. It is ugly. It is in the pack. Flag it; the later sittings in this unit teach it. Two: The Federalist is not a conservative document or a progressive one. Hamilton became the Federalist Party. Madison became Jefferson's ally. Cherry-picking numbers (10, 51, 70, 78) is the method of the mascot. Which essay, which year, which man in 1791?",
           },
         ],
         bigIdea:
@@ -1222,7 +1222,7 @@ export const federalistLessons = [
         objective:
           "The parent can teach the civic chain as four genres, 39 as tests, the exceeded mandate without debunking, Fed 54 as a flag, and Publius as unread when used as a caucus.",
         parentBriefing:
-          "This is the sitting that snaps the Federalist unit onto Magna Carta, Declaration, and Constitution. Teach genres, not a storybook of agreement. Extracted charter. Published claim. Designed machine. Sold brief. Then the price: Amendments 1–10. 39 keeps the compound from collapsing into later wars. 15–22 and Jay keep union from becoming romance: Publius sells peace, credit, commerce, and the capacity to do the jobs of a government. How strong is the fight with Brutus. The Convention exceeded the Articles' amendment rule; ratification is the claimed cure; both belong in the parent's mouth. Fed 54: do not skip; do not let sitting 6 become the slavery unit; flag for S7. Party myth: Hamilton's party is not Madison's 1791; cherry-picking is the method. Theological humility's civic cousin, said once more: we teach the arguments, not the team. Gold gate remains Aiona; catalog stays in-forge until she says otherwise.",
+          "This is the sitting that connects the Federalist unit to Magna Carta, the Declaration, and the Constitution. Teach genres, not a storybook of agreement. Extracted charter. Published claim. Designed machine. Sold brief. Then the price: Amendments 1–10. 39 keeps the compound from collapsing into later wars. 15–22 and Jay keep union from becoming romance: Publius sells peace, credit, commerce, and the capacity to do the jobs of a government. How strong is the fight with Brutus. The Convention exceeded the Articles' amendment rule; ratification is the claimed cure; both belong in the parent's mouth. Fed 54: do not skip; do not let sitting 6 become the slavery unit; flag it; a later sitting goes deeper. Party myth: Hamilton's party is not Madison's 1791; cherry-picking is the method. Theological humility's civic cousin, said once more: we teach the arguments, not the team.",
         hardEdges: [
           "Do not recruit Publius to a modern caucus.",
           "Do not skip slavery. Fed 54 is in the series. Flag. Do not pretend silence.",
@@ -1240,14 +1240,14 @@ export const federalistLessons = [
           },
           {
             heading: "Silence, mascots, leftover work",
-            body: "Federalist 54 defends three-fifths as a compromise between person and property. The series is not silent. This sitting flags; it does not pretend to finish. Harry's S7 is the deeper file. Until it exists, honesty is the flag, not a lecture you do not have. The mascot move — Publius as conservative scripture or progressive ancestor — dies on contact with 1791. Which essay, which year, which man? If they cannot answer, they have a mascot. Leftover work the parent should know about: S3 historical context, S4 applications, S6 connections, S7 debates, including authorship fights and originalism-as-method. Those enrich. They do not block what these six sittings already teach: brief not machine, 10 vs Brutus, 51 as wiring, 78 vs Brutus, 84 lost, chain without a cheer.",
+            body: "Federalist 54 defends three-fifths as a compromise between person and property. The series is not silent. This sitting flags; it does not pretend to finish. A later sitting will go deeper. Until it exists, honesty is the flag, not a lecture you do not have. The mascot move — Publius as conservative scripture or progressive ancestor — dies on contact with 1791. Which essay, which year, which man? If they cannot answer, they have a mascot. Leftover work the parent should know about: later sittings on historical context, applications, connections, and debates, including authorship fights and originalism-as-method. Those enrich. They do not block what these six sittings already teach: brief not machine, 10 vs Brutus, 51 as wiring, 78 vs Brutus, 84 lost, chain without a cheer.",
           },
         ],
         bigIdea:
           "The chain is four genres plus a concession. The compound is tests. The replacement exceeded its charge. The series is not silent. The mask is not a party.",
         tryThis: [
           {
-            title: "Teach the snap-on",
+            title: "Teach the chain",
             minutes: 40,
             steps: [
               "One card, four jobs, one concession. Say it aloud as you would to an 11-year-old, then as you would to another parent.",
@@ -1262,7 +1262,7 @@ export const federalistLessons = [
         transfer: [
           { label: "Thinking", note: "Four piles were sitting 1. The chain is those piles laid along time. Same discipline." },
           { label: "AI", note: "Ask for 'the Founders' philosophy.' The mash is the fail. Demand documents, jobs, names, dates." },
-          { label: "History", note: "This unit snaps onto hist-magna-carta, hist-declaration, hist-constitution. Liam's hubs can pick it up once a catalog row exists. Gold gate is Aiona." },
+          { label: "History", note: "This unit connects to the Magna Carta, Declaration, and Constitution units. Same chain, next link." },
         ],
         ifTheySay: [
           {
@@ -1275,13 +1275,13 @@ export const federalistLessons = [
           },
         ],
         integrity:
-          "Four genres. 39 as tests. Exceeded mandate named. 54 flagged. No recruitment. No model verdict on whether Publius was right. Read the essays. Harry's S3–S7 enrich later.",
+          "Four genres. 39 as tests. Exceeded mandate named. 54 flagged. No recruitment. No model verdict on whether Publius was right. Read the essays. The later sittings in this unit go deeper.",
         aiLab: {
           setup: "After the try-this.",
           childDoes:
             "Ask the model to place the Federalist on a timeline with Magna Carta, the Declaration, and the Constitution. Score: four jobs? Brutus present? 1791 present? 54 or three-fifths mentioned if it claims completeness? Party ownership refused?",
           evaluate: [
-            "Can they teach the snap-on without a storybook mash?",
+            "Can they teach the chain without a storybook mash?",
             "Can they run 39 and name the irregularity?",
             "Do they flag 54 and kill the mascot?",
           ],

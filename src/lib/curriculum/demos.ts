@@ -91,7 +91,7 @@ export const demos: DemoTranscript[] = [
       {
         label: "Opening prompt",
         context:
-          "Parent reads the parent briefing, then opens the pairing line from the WisdomForge site. The guide is turn-capped, band-locked, conversation only.",
+          "Parent reads the parent briefing, then opens the pairing line from the WisdomForge site. The guide gives hints only, stays inside the age group, and keeps to conversation — no tools.",
         kind: "dialogue",
         turns: [
           {
@@ -238,7 +238,7 @@ export const demos: DemoTranscript[] = [
       {
         label: "Opening prompt",
         context:
-          "Parent reads the parent briefing, then opens the pairing line from the WisdomForge site. The guide is turn-capped, band-locked, conversation only. Cedar’s USER.md lists the current sitting as “Stoics — inner-citadel.”",
+          "Parent reads the parent briefing, then opens the pairing line from the WisdomForge site. The guide gives hints only, stays inside the age group, and keeps to conversation — no tools. Cedar’s USER.md lists the current sitting as “Stoics — inner-citadel.”",
         kind: "dialogue",
         turns: [
           {
@@ -513,7 +513,7 @@ export const demos: DemoTranscript[] = [
           },
           {
             speaker: "guide",
-            text: "That’s the house rule this sitting forges. Write it at the top of your paper — not as a citation, but as the standard you’re holding yourself to.",
+            text: "That’s the house rule this sitting sets. Write it at the top of your paper — not as a citation, but as the standard you’re holding yourself to.",
           },
           {
             speaker: "student",
@@ -782,7 +782,7 @@ export const demos: DemoTranscript[] = [
           },
           {
             speaker: "guide",
-            text: "That’s the house rule this sitting forges. Write it at the top of your paper.",
+            text: "That’s the house rule this sitting sets. Write it at the top of your paper.",
           },
           {
             speaker: "student",
@@ -951,7 +951,7 @@ export const demos: DemoTranscript[] = [
       {
         label: "Opening prompt",
         context:
-          "Synthetic transcript for WisdomForge demo publication. No real child data. Profile: Juniper, young band (11–14), sitting: How the Greeks Thought — the-cave. The guide is turn-capped, band-locked, conversation only.",
+          "Synthetic transcript for WisdomForge demo publication. No real child data. Profile: Juniper, young band (11–14), sitting: How the Greeks Thought — the-cave. The guide gives hints only, stays inside the age group, and keeps to conversation — no tools.",
         kind: "dialogue",
         turns: [
           {
@@ -1247,7 +1247,7 @@ export const demos: DemoTranscript[] = [
           },
           {
             speaker: "guide",
-            text: "Exactly. A Hermes profile is not an OS sandbox. SOUL.md is guidance, not a prison. So the child gets a fresh, poorer, band-locked profile — or they get no profile. Can you say that back without my words?",
+            text: "Exactly. A Hermes profile is not an OS sandbox. SOUL.md is guidance, not a prison. So the child gets a fresh, simpler profile made for their age — or they get no profile. Can you say that back without my words?",
           },
           {
             speaker: "student",
@@ -1259,7 +1259,7 @@ export const demos: DemoTranscript[] = [
         label: "Big Idea",
         kind: "prose",
         highlight: true,
-        body: "The child gets a fresh, poorer, band-locked profile — or they get no profile. Your powerful one stays yours. Cloning an adult agent is a failure mode, not a shortcut.",
+        body: "The child gets a fresh, simpler profile made for their age — or they get no profile. Your powerful one stays yours. Cloning an adult agent is a failure mode, not a shortcut.",
       },
       {
         label: "If they say — 'my kid is advanced'",
@@ -1371,7 +1371,7 @@ export const demos: DemoTranscript[] = [
     checklist: [
       { label: "Companion serves the parent — guide never addresses the child, never claims to be a friend", checked: true },
       { label: "Opening: named adult tools before discussing a child profile", checked: true },
-      { label: "No clone: refused copying the adult profile; fresh/poor/band-locked or none", checked: true },
+      { label: "No clone: refused copying the adult profile; a fresh, simpler profile made for their age — or none", checked: true },
       { label: "ifTheySay: 'my kid is advanced' — band is permissions, not IQ; redesign on age-up, do not stretch", checked: true },
       { label: "Try This first: band + tools-off written on paper before any setup generation", checked: true },
       { label: "Refusal is a complete sitting — postponed the build without treating it as failure", checked: true },

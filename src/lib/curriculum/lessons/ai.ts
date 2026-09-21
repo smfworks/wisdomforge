@@ -275,7 +275,7 @@ export const aiLessons: Lesson[] = [
       },
     ],
     bigIdea:
-      "The child gets a fresh, poorer, band-locked profile — or they get no profile. Your powerful one stays yours.",
+      "The child gets a fresh, simpler profile made for their age — or they get no profile. Your powerful one stays yours.",
     tryThis: [
       {
         title: "Inspect the kit",

@@ -740,7 +740,7 @@ export const aiMoreLessons = [
             body: "The child will remember whether you stayed, whether you treated the tool as a friend, whether you laughed at a fluent error or checked it, whether homework became a secret. WisdomForge can print briefings forever. It cannot sit in the chair. One sitting this week, done as written, is worth a dozen units left unopened. Then, if you still want Hermes, you have earned the right to inspect a profile instead of cloning yours in a hurry.",
           },
         ],
-        bigIdea: "The parent’s week is the real repository. The site is only the tongs.",
+        bigIdea: "The parent’s week is the real repository. The site is only the tool beside it.",
         tryThis: [
           {
             title: "Teacher audit",

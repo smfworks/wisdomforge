@@ -835,7 +835,7 @@ export const hermesAiForBeginnersBook: Book = {
   summary:
     "A practical guide to installing, configuring, and running Hermes Agent — the open-source agent that lives on your machine. Skills Hub, memory, browser, terminal, cron, and the difference between Hermes the agent and Hermes the models. Edition note: August 2026. Official install is install.sh, install.ps1, or the Desktop app — not pip into system Python.",
   editorialPrinciple:
-    "Run the agent. Do not worship it. The book is a how-to, not a promise that the model is safe. Parent-operated profiles stay band-locked. No hosted kids chatbot.",
+    "Run the agent. Do not worship it. The book is a how-to, not a promise that the model is safe. Parent-operated profiles are made fresh for each age group, with fewer tools than yours. No hosted kids chatbot.",
   chronology: "2026",
   totalWordTarget: "~95,000 words",
   readingTime: "~8 hours · 364 pages",

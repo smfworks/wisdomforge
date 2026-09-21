@@ -701,7 +701,7 @@ export const aiAgents2Lessons = [
         dinnerQuestion:
           "When did I close the agent this week, and did the child see it?",
         transfer: [
-          { label: "Parenting", note: "Modeling is the only curriculum that actually lands. The words are the tongs." },
+          { label: "Parenting", note: "Modeling is the only curriculum that actually lands. Your words are the tool they hold." },
           { label: "All of WisdomForge", note: "The close is the cadence that makes every other sitting safe." },
         ],
         ifTheySay: [
