@@ -2196,6 +2196,56 @@ export const scienceForLittleThinkersBook: Book = {
   ],
 };
 
+export const scienceRefreshForAdultsBook: Book = {
+  slug: "science-refresh-for-adults",
+  title: "Science Refresh for Adults",
+  subtitle: "The Science Refresh Hour",
+  summary:
+    "Usable science literacy is ordinary adult work: a feed card that says study shows, a workplace slide, a pharmacy label with a rate, a weather page. A working adult who is not a scientist can run that hour on a train or after work — if a caption is not allowed to pass as the study, and a model précis is not allowed to pass as an observation.",
+  editorialPrinciple:
+    "Evidence before feed. Observe before explain. A denser claim with a named source and a named limit. Adulthood is not a science birthday.",
+  chronology: "2026",
+  totalWordTarget: "~53,000 words",
+  readingTime: "~3.5 hours · 175 pages",
+  authors: ["Michael Gannotti"],
+  status: "published",
+  audiobookPlanned: true,
+  coverImage: "/images/books/science-refresh-for-adults-cover.jpg",
+  pdfHref: "/downloads/science-refresh-for-adults.pdf",
+  epubHref: "/downloads/science-refresh-for-adults.epub",
+  mdHref: "/downloads/science-refresh-for-adults.md",
+  catalogSubject: "science",
+  academySubject: "science",
+  hubHref: "/subjects/science",
+  hubLabel: "Science subject hub",
+  showBooklets: false,
+  figures: [
+    {
+      slug: "parent-teacher",
+      name: "The working adult",
+      dates: "now",
+      tradition: "Science refresh hour",
+      coreQuestion: "Can you hear a caption offered as the study?",
+      distinctiveVoice: "You, holding the evidence — not a lab down the hall.",
+    },
+  ],
+  chapters: [
+    { number: 0, label: "Welcome", title: "Welcome", question: "What is the science refresh hour still for?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 1, label: "How to Use", title: "How to Use This Book This Week", question: "What can you run on a Tuesday?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 2, label: "Five Things", title: "If You Only Remember Five Things", question: "What must hold if the rest is ignored?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 3, label: "The Hour", title: "The Science Refresh Hour", question: "What does a session of usable looking actually look like?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 4, label: "Chapter 1", title: "What science literacy looks like for adults", question: "Is a job a science bicycle?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 5, label: "Chapter 2", title: "Observe and record", question: "What do you notice before you explain?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 6, label: "Chapter 3", title: "Feed vs study", question: "Is a caption the study?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 7, label: "Chapter 4", title: "Systems looking", question: "Where is the boundary of this system?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 8, label: "Chapter 5", title: "Fair tests", question: "Can we tell for sure?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 9, label: "Chapter 6", title: "Life, matter, motion, Earth soft as Hour vehicles", question: "Is kitchen fizz Chemistry credit?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 10, label: "Chapter 7", title: "Talking and writing a denser claim", question: "Does the claim name a source and a limit?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 11, label: "Chapter 8", title: "Keeping track", question: "What still has to leave the house?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 12, label: "Chapter 9", title: "Resources", question: "Which program fits this hour, and which does not?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+  ],
+};
+
 export const teachingWorldLanguagesBook: Book = {
   slug: "teaching-world-languages",
   title: "Teaching World Languages for Homeschooling",
@@ -2322,6 +2372,7 @@ export const books: Book[] = [
   mathRefresherForAdultsBook,
   scienceForHomeschoolingBook,
   scienceForLittleThinkersBook,
+  scienceRefreshForAdultsBook,
   englishForHomeschoolingBook,
   englishForLittleThinkersBook,
   englishForYoungMindsBook,
