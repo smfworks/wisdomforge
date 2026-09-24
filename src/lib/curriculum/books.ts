@@ -1382,6 +1382,57 @@ export const artForHomeschoolingBook: Book = {
   ],
 };
 
+export const artForLittleThinkersBook: Book = {
+  slug: "art-for-little-thinkers",
+  title: "Art for Little Thinkers",
+  subtitle: "The Art Hour",
+  summary:
+    "The art hour at the table is the whole program: object before the name, child's mark on the child's page before polish. A parent who is not a studio artist can run that hour for five-to-ten — mug, leaf, fat crayon, two tempera puddles — if a generated image is not allowed to pass as the child's work.",
+  editorialPrinciple:
+    "Look before name. Make before polish. Place by skill, not by birthday. The child holds the tool; the parent holds the key.",
+  chronology: "2026",
+  totalWordTarget: "~55,000 words",
+  readingTime: "~4 hours · 196 pages",
+  authors: ["Michael Gannotti"],
+  status: "published",
+  audiobookPlanned: true,
+  coverImage: "/images/books/art-for-little-thinkers-cover.jpg",
+  pdfHref: "/downloads/art-for-little-thinkers.pdf",
+  epubHref: "/downloads/art-for-little-thinkers.epub",
+  mdHref: "/downloads/art-for-little-thinkers.md",
+  catalogSubject: "art",
+  academySubject: "art",
+  hubHref: "/subjects/art",
+  hubLabel: "Art subject hub",
+  showBooklets: false,
+  figures: [
+    {
+      slug: "parent-teacher",
+      name: "The parent-teacher",
+      dates: "now",
+      tradition: "Art hour",
+      coreQuestion: "Whose mark is on the page?",
+      distinctiveVoice: "One adult, two ages at one table — not a studio down the hall.",
+    },
+  ],
+  chapters: [
+    { number: 0, label: "Welcome", title: "Welcome", question: "What is the art hour still for at five to ten?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 1, label: "How to Use", title: "How to Use This Book This Week", question: "What can you run on a Tuesday?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 2, label: "Five Things", title: "If You Only Remember Five Things", question: "What must hold if the rest is ignored?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 3, label: "The Hour", title: "The Art Hour", question: "What does a session of looking and making actually look like?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 4, label: "Chapter 1", title: "What art looks like at 5–10", question: "Is a coloring packet the work?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 5, label: "Chapter 2", title: "Looking at art and objects", question: "Can they notice before the name?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 6, label: "Chapter 3", title: "Mark-making and line", question: "Whose mark is on the page?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 7, label: "Chapter 4", title: "Color and paint light", question: "Is mixing a lecture, or two puddles?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 8, label: "Chapter 5", title: "Collage, print, and paper", question: "Can they tear and glue a scrap story?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 9, label: "Chapter 6", title: "Clay and 3-D soft", question: "What happens when a wall falls?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 10, label: "Chapter 7", title: "Talking and writing about art", question: "Whose sentence is the exit crumb?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 11, label: "Chapter 8", title: "Short assessments and progress checks", question: "What did today's looking teach tomorrow?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 12, label: "Chapter 9", title: "Records", question: "What still has to leave the house?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 13, label: "Chapter 10", title: "Resources", question: "Which program fits this hour, and which does not?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+  ],
+};
+
 export const englishForHomeschoolingBook: Book = {
   slug: "english-for-homeschooling",
   title: "English for Homeschooling",
@@ -2384,6 +2435,7 @@ export const books: Book[] = [
   englishForEmergingAdultsWithDyslexiaBook,
   teachingWorldLanguagesBook,
   artForHomeschoolingBook,
+  artForLittleThinkersBook,
   computerScienceForAllAgesBook,
   stoicsBook,
   churchFathersBook,
