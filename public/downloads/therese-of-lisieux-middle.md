@@ -19,6 +19,7 @@ chapter_images:
 
 ## About This Book
 
+
 Thérèse Martin lived a short life in a small cloister and then became one of the most read spiritual writers of the modern Church. That sentence can sound like a poster. This booklet tries to keep the facts on the table.
 
 She was born in 1873 in Alençon, entered the Carmel of Lisieux at fifteen, and died of tuberculosis in 1897 at twenty-four. She wrote under obedience. After her death her sisters compiled *Story of a Soul*. The first printed book was smoother than her notebooks. Later, the Institute of Carmelite Studies published a critical English edition (John Clarke, OCD, 1996) that keeps the three manuscripts more distinct. This booklet follows that trail as Harry's research pack lays it out.
@@ -64,6 +65,12 @@ The Martin daughters' vocations (Marie, Pauline, Léonie, Céline, Thérèse) ca
 | Thérèse's Manuscript A | Childhood, Rome, early Carmel, told later | First. She is the witness, already shaping memory. |
 | Family letters / Lisieux sanctuary timeline | Dates, Zélie, Louis, Les Buissonnets | Check the calendar against the feeling. |
 | Later holy cards | Roses, smiles, no night | Devotion. Not a documentary. |
+
+The customary age was not a whim. Communities that take children too early have a record, and enclosure is lifelong. Thérèse was fourteen at the audience, fifteen at the door. The later yes does not erase the reason for the no. It means, in this case, the Church decided the exception.
+
+Louis's mind was already failing around the Rome months. He would later be institutionalized. Thérèse wrote to a father who could not always read. Hiddenness begins as family fact. When she later calls God Father, the word has a history in her body. Do not turn that into "girl lost mother, invented God." Do not reverse it into "pure theology, no grief."
+
+Zélie's letters, as the pack describes them, mix health, money, and souls in the same paragraph. Louis loved nature and travel. Neither parent is plaster. The 2015 couple-canonization is a claim about lay holiness the Carmelite daughter did not cancel. If you use Thérèse to despise ordinary marriages, you are not reading the soil.
 
 ### Big Idea
 
@@ -119,6 +126,14 @@ Manuscript B is dated 1896, after the first blood. The elevator is not a healthy
 | John of the Cross | Night as purification | Night as loss of feeling, love remaining |
 | Bonaventure | Itinerarium, stages | Elevator: the lift is mercy, not a sixth wing |
 
+She found the elevator while reading Scripture, not while designing a brand. "Whoever is a little one, let him come to me" is the hint she names (Manuscript B). The arms of Jesus do the lifting. If you remove Christ, you get a self-help slogan. That is not her sentence.
+
+Manuscript B is dated 1896, after the first blood. "Become even smaller" includes not being able to climb, literally. The Little Way is a theology of grace, not a coloring book. Effort still happens — Rome, the smile, writing under obedience — but effort is response, not payment.
+
+Pelagianism, in school language: you can save yourself by trying hard enough. She is allergic to that. The cheap version of her teaching says: don't bother. The real version says: bother, then refuse to treat the bother as a bill God must pay.
+
+Achievement culture will hear "little" as anti-ambition or as an excuse. Both hearings are available. Pack file 5.1 treats the Little Way as a critique of productivity as the measure of a soul. That critique can become quietism. Quietism is not her infirmary. Homework still exists. Holiness-as-GPA does not.
+
 ### Big Idea
 
 The Little Way is not a beginner track under the "real" saints. It is a claim about how holiness happens: gift first, trust as the shape of work, no scoreboard that makes God a boss.
@@ -153,6 +168,10 @@ Teresa of Avila emphasizes the peak of union. Thérèse emphasizes the plateau o
 
 If you live in a family, a team, a class, you already have a small Carmel whether you wanted one or not. The Little Way either works in that hallway or it is literature.
 
+The Carmelite conversation belongs in this chapter, not only in a later one. Teresa of Avila wrote seven mansions. John of the Cross wrote a night that strips comfort. Thérèse does not throw those books out. She says she cannot climb the stair they assume. Francis lives poverty. Clare fights for a rule. Bonaventure maps a journey. Thérèse names an elevator. Conversation, not ranking. Do not steal their chapters.
+
+Sacristy work, painting, feast-day poems: she had crafts. The Little Way is not anti-skill. It is anti-using skill as a ladder God must notice.
+
 The Lisieux house was observant and poor by the standards of a nineteenth-century French Carmel, not a spa. Cold. Fatigue. Noise in choir. An unfriendly face. Thérèse's answers, the pack insists, are small: patience, kindness, a smile when she felt like crying. Heroic fasting would have been a different spirituality and, in her health, a different kind of theater.
 
 "Little things" can be twisted into a cult of fussiness: folding napkins as if God were a hotel inspector. Her claim is the opposite of fuss. The thing is little. The love is not. If the love is missing, the napkin is just a napkin, and that is fine; it does not become holy by being described in a booklet.
@@ -162,6 +181,12 @@ A fair school objection: forced smiling at someone who is cruel is how bullies w
 The grille is a picture. People on the other side of a wall still belong to you. Digital life makes a fake grille: you can mute, block, curate. Sometimes that is wisdom. Thérèse's enclosure removed the mute button on purpose. Do not copy enclosure as a personality. Do copy the question: which relationships have you muted only because they fail to entertain you?
 
 Sacristy work, painting, feast-day poems: she had crafts. The Little Way is not anti-skill. It is anti-using skill as a ladder God must notice. You can be good at drawing and still be little. You can be bad at drawing and still be little. The drawing is not the proof.
+
+A fair school objection: forced smiling at someone who is cruel is how bullies win. Correct. Thérèse's sister is not described as an abuser. She is described as irritating. The practice is for friction, not for violence. If someone is hurting you, you get help. You do not smile them into stopping. That line is load-bearing.
+
+The grille is a picture. People on the other side of a wall still belong to you. Digital life makes a fake grille: mute, block, curate. Sometimes that is wisdom. Thérèse's enclosure removed the mute button on purpose. Do not copy enclosure as a personality. Do copy the question: which relationships have you muted only because they fail to entertain you?
+
+Stoicism, in another WisdomForge booklet, teaches acceptance of what you cannot change. Thérèse's move is adjacent and different: love what you cannot avoid. Acceptance without love becomes freeze. Love without acceptance becomes a campaign to renovate everyone at the table. Keep the verbs from collapsing.
 
 ### Big Idea
 
@@ -209,6 +234,16 @@ Digital age parallel, used carefully: a feed can train you to need a hit of feel
 
 If this chapter has made anyone in the room quieter in a bad way, stop and tell an adult. Reading about darkness is not the same as being in it. Being in it is not a WisdomForge assignment.
 
+The intellectual edge matters. She reports temptation that there is no heaven, that death is nothingness. That is not only "I feel sad." That is "the sentence I used to live by has gone dark." The will, in her telling, still chooses. The intellect cannot feel the truth of what it still says. Pack 2.2 insists on that distinction.
+
+Nevin's last-years book is named so you know the months exist. It is not this week's assigned novel. The pack points; this band does not pretend you already read him. Fear is in the record.
+
+John of the Cross wrote nights as purification. Thérèse's night is not a seminar on his books. It is a dying woman telling the truth in Manuscript C. Nevin's *The Last Years of Saint Therese* is the secondary door for the months holy cards skip. He is not scripture.
+
+Is the night necessary for everyone? John often treats nights as structural. Other saints do not report them. Hers is hers. Do not assign it as a stage gate for a grade. Dry prayer in the chapel (the sleeping child in the father's boat) is the small form. The eighteen months are the large form. Do not mash them.
+
+Digital parallel, used carefully: a feed trains you to need a hit of feeling. Dry prayer is almost the opposite muscle. It is not "quit social media and become a nun." It is noticing how addicted you are to consolation, including religious consolation.
+
 ### Big Idea
 
 Faith can lose its feeling and still be faith. Feeling-loss is not automatically a disease, and a disease is not automatically a mystic night. Hold the difference.
@@ -255,6 +290,14 @@ Feminism, briefly, because middle readers will smell the trap: a young woman in 
 
 Achievement culture: the Little Way is a protest against holiness-as-GPA. It is not a protest against doing your homework. Mix those up and you get a spiritual excuse for sloth, which she would not have recognized as childhood.
 
+The Act of Oblation is dated 9 June 1895, before the worst medical chapter. She is not bargaining after the diagnosis has already won. She is offering a life. The later illness then reads, in her theology, as the offering being taken. You are allowed to find that sentence frightening. You are not allowed to turn it into "God gave her TB as a prize."
+
+She writes that merciful love needs souls too; justice "extends only over the earth"; mercy "reaches to the heavens" (Act of Oblation, as the pack cites it). Genre: prayer, not a policy paper. A courtroom God who only pays wages cannot explain a child who brings nothing. A mercy God who never judges can explain too much, including cruelty.
+
+Pack 7.3 names three hijacks: abuse, poverty, illness. WisdomForge line for this band: do not tell an abused person their pain is redemptive while the abuse continues. Do not tell a poor person poverty is a sacrament so the rich can relax. Do not tell a sick person to skip treatment. Offering applies to what remains after you have fought what should be fought.
+
+Feminism, because this band will smell the trap: a young woman in enclosure, dying, offering herself, can be used to tell girls to disappear. The pack's counter is agency. She asked a pope. She wrote theology. She was named Doctor (third woman, youngest, 19 October 1997). If a teacher uses Thérèse to make you smaller so they can be larger, they are misquoting her. Choosing the small is not the same as being sentenced to it.
+
 ### Big Idea
 
 Mercy outranks the wage-system picture of God. That does not make harm good. You may offer what you cannot stop. You may not bless what you should stop.
@@ -299,6 +342,14 @@ Doctor of the Church in 1997 is late. The title means the Church judged her teac
 
 Open question the adult band will keep: is the Little Way universal wisdom that happens to wear a Carmelite habit, or is it Catholic to the root and only analogically useful outside? This band plants the question. It does not harvest it.
 
+Manuscript A (1895) looks back. Manuscript B (1896), after first blood, finds elevator and vocation. Manuscript C (1897) is the night, written dying. Pauline (Mother Agnes) and Céline compiled *Histoire d'une Âme* for 30 September 1898. Rearrangement, headings, softening. The sweet Little Flower is partly that editorial weather. ICS 1996 is the counter-weather. Love edits. Readers still have to know which layer they are in.
+
+Was she ordinary? Ordinary means (no visions, unrecognized in-house, accessible practices) and extraordinary insight (Doctor, speed of canonization, literary afterlife, von Balthasar's "mission") can sit together. Pack 7.2 offers that split. You may find it too neat. It is still more honest than "anyone could have written this" or "she was a secret celebrity all along."
+
+Open questions this band plants and does not harvest (pack 7.4): Is the Little Way usable by people with power, or only by the hidden? Is the night necessary? Can small-act love sit with structural justice, or does it deflect? Is this Catholic particularity with human resonance, or a human wisdom in a habit? Integrity: Catholic source, human echo, no mash-up that pretends the Act of Oblation is mindfulness.
+
+The Theresian revival (pack 6.4) moved from devotion toward the night and the notebooks. That rereading is why this booklet sounds less like 1925 holy cards. It is also a fashion. Fashions in saints are real. The notebooks remain.
+
 ### Big Idea
 
 Hidden love can still be a public vocation, but only if we keep the manuscripts from turning into merchandise. The heart image is a job description, not a brand.
@@ -320,6 +371,119 @@ Hidden love can still be a public vocation, but only if we keep the manuscripts 
 *Carry this: Where is your actual place in a body — not the place you would post?*
 
 ---
+
+
+## Source notes for this band (pack-anchored)
+
+These notes are not a seventh chapter. They keep unused pack material from becoming padding: dates, debates, and the sentences this band still owes.
+
+### The three manuscripts, not a smoothie
+
+Manuscript A (1895) is Pauline's request: childhood, Rome, early Carmel, warm and retrospective. Manuscript B (1896) is a letter to Marie after Good Friday blood: elevator, 1 Corinthians, vocation to love. Manuscript C (1897) is Mother Marie de Gonzaga's request, infirmary, fits: the night. Compilation 30 September 1898. ICS Clarke 1996 restores the seams. When a quote sounds too sweet, check the layer.
+
+### Rome without a miracle
+
+20 November 1887. Protocol broken. Leo's maybe. Bishop of Bayeux. Mother Marie de Gonzaga. 9 April 1888. Louis already declining. Persistence is not grabbing. Littleness is not passivity. If someone tells you the Little Way means never wanting anything, this is the counterexample.
+
+### Carmelite conversation in one table
+
+| Teacher | Peak language | Thérèse's counter-move |
+|-----|---------------|------------------------|
+| Teresa of Avila | Seven mansions, union | Daily round as content, not only setting |
+| John of the Cross | Night as purification | Night as loss of feeling, love remaining |
+| Bonaventure | *Itinerarium*, stages | Elevator: the lift is mercy, not a sixth wing |
+
+Francis lives poverty. Clare fights for a rule. Do not steal their booklets. Conversation, not ranking.
+
+### Digital attention, analog practice
+
+Pack 5.4: the Little Way is a discipline of attention — one thing, done with love. A feed is always next. This site is digital. The practice is analog. Put the phone down for five minutes because you chose to, not because a booklet moralized you. Notice what you reach for.
+
+### Achievement and comparison
+
+Pack 5.1: value as output is the trap. Comparison is the other trap. Do one thing nobody will praise. Notice whether the motive was the audience. Homework still exists. Holiness-as-GPA does not.
+
+### Safeguards, copied because middle readers meet them
+
+Offering is voluntary. Suffering is given, not staged. Community cares for the body. Offering is for others. Do not tell an abused person to stay. Do not tell a poor person poverty is a sacrament. Do not tell a sick person to skip a doctor. Night is not a diagnosis. Diagnosis is not a night. Tell an adult if sadness lasts.
+
+### What this band will not harvest
+
+Is the Little Way for people with power? Is the night necessary? Does small-act love deflect from justice? Catholic source or human wisdom in a habit? Planted in chapter 6. Harvested, if at all, in the high and adult bands — and even there, held.
+
+### Quotes this band actually used
+
+Elevator and spiritual-childhood definition: Manuscript B / pack 2.1. Annoying-nun smile and little things: Manuscript A. Darkness lines: Manuscript C / letters as the pack cites them. Act of Oblation: 9 June 1895. "I shall be Love": Manuscript B. Leo's reply: Manuscript A as she narrates Rome. Last words: pack 3.5. No invented rose-oracle.
+
+## Dates you can check (middle band)
+
+Feeling is not a calendar. Check these against a grown-up with a real source (Clarke, a sanctuary timeline, or the pack).
+
+1858 Louis and Zélie marry. Nine children; four die; five daughters live. 2 January 1873 Thérèse born in Alençon. 28 August 1877 Zélie dies. Move to Les Buissonnets. 1882 Pauline enters Carmel. November 1887 Rome with Louis and Céline. 20 November she speaks to Leo XIII; he says if it is God's will. 9 April 1888 she enters at fifteen. 1889–1892 Louis in an asylum at Caen. 29 July 1894 he dies; she cannot go to the funeral. September 1894 Céline enters. 1895 Manuscript A. 9 June 1895 Act of Oblation. Good Friday 1896 first blood. 1896 Manuscript B (elevator, vocation). 1896–97 night. Summer 1897 Manuscript C. 30 September 1897 she dies at twenty-four. 30 September 1898 the book. 1925 saint. 1927 co-patron of missions. 1996 ICS Clarke edition. 19 October 1997 Doctor. 2015 parents canonized as a couple.
+
+If a holy card has no night, no cough, no maybe, and no editors, it is a card.
+
+### Examination that is not a sin-scoreboard
+
+Pack 4.1: her nightly review asked where she failed to love, not only what she did wrong. That is the mercy framework in a household practice. Try it once. Do not perform it at breakfast.
+
+### Present moment, two verbs
+
+Stoic booklet: accept what happens. Thérèse: love in what happens. Same clock, different verb. Do not mash.
+
+### Small act, named
+
+A pin, a smile, a food she did not like, without a speech. Available. Not easy to keep the intention. Not a skip-homework pass.
+
+
+
+## One more middle page from files 4.1–4.2
+
+The Little Way is a practice, not a poster. Small act: available to you this afternoon. Intention: harder than the act. Present moment: not "think about later holiness." Examination: where did I fail to love? — different from a sin-scoreboard, same evening.
+
+Dry prayer: sit. Do not collect a feeling. A child in a boat can sleep and still be with the father. If that sounds like an excuse to nap through chapel, you have missed "showing up."
+
+Louis's asylum years belong next to Rome. Littleness that never pays cost is a poster.
+
+### Poetry is not a secret diary
+She wrote poems and little plays for feast days (pack 1.3). That does not make her a different saint. It makes her a nun with crafts. Do not quote a play as if it were the night.
+
+### Pin, smile, food
+Pack 4.1's examples are small on purpose. If you upgrade them to "be a leader," you climbed the stair.
+
+### Two Septembers
+Death 30 September 1897. Book 30 September 1898. Historical rhyme. Not a miracle of dates. Not invisible either.
+
+### 2015
+Louis and Zélie named saints as a couple. Holiness in a marriage. Do not use Thérèse to despise ordinary families. Do not use the parents to make Carmel look like quitting.
+
+
+## Sources this band actually used
+
+Clarke ICS 1996 for the notebooks. Act of Oblation 9 June 1895. Leo as she tells Rome in Manuscript A. Letters to Bellière and Roulland as the pack cites them. Nevin for the last years (named, not assigned as homework). von Balthasar for "mission" as a word you should know exists. John Paul II, 19 October 1997. Pack files 2.1–2.6, 3.1–3.6, 4.1–4.6, 5.1–5.4, 7.1–7.4. No invented rose-sayings. No operator family names.
+
+If a quote in a chapter sounded too smooth, you are probably in 1898 weather. Ask which manuscript. If no one can say, you have reception, which is allowed, and you should say so.
+
+Caen 1889–1892 belongs next to the elevator. A father who cannot read is not a footnote.
+
+
+## Léonie
+
+Five daughters. Léonie's path was bumpier than holy cards. You do not need her full life in this booklet. You need the sentence so Thérèse is not an only child of piety. The Martin house produced five religious lives and a lot of loss. That is enough family fact for this band.
+
+
+## 5:30
+
+The Lisieux Carmel rose at 5:30. That is not romance. It is sleep, cold, and psalms. The Little Way had to work before breakfast or it was a sentence for later.
+
+
+## Grille
+
+Visitors spoke through a grille. A wall with a gap. People still belong to you on the other side. That is the picture. Not a personality.
+
+
+A grille is not a phone mute.
+
 
 ## For the Grown-Up Reader
 

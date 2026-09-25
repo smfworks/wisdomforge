@@ -27,17 +27,22 @@ You will meet her as a child who lost her mother, as a teenager who spoke to a p
 
 Carmel is not a castle. It is a small monastery. The nuns stay inside on purpose so they can pray and work without running from town to town. Thérèse entered at fifteen and died there at twenty-four. Nine years is not a long life. It was long enough to write pages people still argue with.
 
+The usual age for Carmel was older — twenty-one in the old custom, later sixteen. She was fourteen when she asked a pope. The community had reasons not to take a child into a lifelong house. A maybe is not a no. A maybe is also not a miracle. She went home and asked the bishop. She asked the prioress. That is how the door opened: ordinary offices, not a movie ending.
+
 These six stories use words she really wrote, or words other people wrote down about her. A grown-up can help with the hard parts. If a chapter talks about sickness or a sad empty feeling, read it with someone. The questions at the end of each chapter are not tests. They are doors.
 
 How to use the booklet: read a chapter aloud if you like. Stop at Words to Remember. Say the plain English line. Try one activity, not all three. Carry the grown-up question to supper. You do not have to finish in one sitting. Thérèse did not finish holiness in one sitting either.
+
+Louis was a watchmaker. Zélie made lace. They had tried religious life and been turned away. Nine children, four died, five daughters lived. That is the family, not a holy-card couple with one famous child.
+
 
 ---
 
 ## Chapter 1: The Girl Who Spoke to the Pope
 
-Thérèse was born on a winter day, January 2, 1873, in a town called Alençon. Her father, Louis, made watches and jewelry. Her mother, Zélie, made lace and ran a small business. They had already lost children. They loved the ones who lived with a kind of careful love, the way you hold a cup that has already been dropped once.
+Thérèse was born on a winter day, January 2, 1873, in a town called Alençon. Her father, Louis, made watches and jewelry. Her mother, Zélie, made lace and ran a small business. Both of them had once tried to enter religious houses and been turned away. They married in 1858. They had nine children. Four died very young. Five daughters lived: Marie, Pauline, Léonie, Céline, and Thérèse. Later the Church named Louis and Zélie saints together as a married couple (2015). That matters: holiness is not only for people behind monastery walls.
 
-When Thérèse was four, her mother died of cancer. Four is young to lose a mother. The family moved to Lisieux, to a house called Les Buissonnets, to be near relatives. Pauline, an older sister, became a second mother. Then Pauline went into Carmel, the house of prayer. Thérèse felt the loss again, like a door shutting twice. She was a bright, sensitive student. Feelings sat close to the skin.
+When Thérèse was four, her mother died of cancer (28 August 1877). Four is young to lose a mother. The family moved to Lisieux, to a house called Les Buissonnets, to be near Zélie's brother. Pauline, an older sister, became a second mother. Then Pauline went into Carmel in 1882. Thérèse was nine. She felt the loss again, like a door shutting twice. She studied at home and at the Benedictine school. She was bright. Feelings sat close to the skin. Léonie's path into religious life was bumpier than holy cards like to show. Thérèse was not an only child of piety.
 
 She wanted to go into Carmel too, even though she was still a child. The usual age was older — twenty-one in the old custom, later sixteen, still not fourteen. In November 1887 she traveled to Rome with her father and her sister Céline. They went through Paris, Milan, Venice, Bologna, Loreto. Churches. Crowds. Stone. Thérèse had a plan.
 
@@ -85,6 +90,8 @@ She wanted to be holy, but the old books talked about climbing a long stairway o
 
 She looked in the Bible. She found words about little ones coming to God. Then she wrote an image that people still remember. She said she was too little to climb the rough stairway. The elevator that would lift her was the arms of Jesus. She did not need to grow up first. She needed to stay little, even become smaller.
 
+She wrote that picture in Manuscript B, in 1896, after she had already coughed blood. It is not only a healthy girl's cute machine. Her religious name was Sister Thérèse of the Child Jesus *and of the Holy Face*. Child and the suffering face of Jesus. Sweet and hard. Same person. If you only remember a statue with roses, you have cut the name in half.
+
 An elevator is not laziness. A child in an elevator still wants to go up. The child still asks. The lifting is done by someone stronger. If the child pretends to be the engine, the picture breaks.
 
 This is the Little Way. You do not earn God's love like a prize at a fair. You bring what you actually are, including the parts that are not impressive, and you trust Love to come down. The nuns around her were still washing dishes. That is where the picture had to work, or it was only a pretty sentence.
@@ -107,6 +114,8 @@ Plain English: A child does not pretend to be the parent. A child trusts, and st
 
 The Little Way is not a baby version of the real spiritual life. It is a different picture of how love works: God comes down. You do not have to finish the stairs first.
 
+You still do your work. You still ask. You still smile when a smile is honest. You do not treat the work as a bill God must pay. A child who never asks is not her picture. A child who pretends to be the engine of the elevator is not her picture either.
+
 ### Try This
 
 1. Build a paper elevator and a paper staircase. Put a small paper person in the elevator. Tell someone why Thérèse liked that picture.
@@ -121,7 +130,9 @@ When have you needed help you could not earn? How did it feel to receive it?
 
 ## Chapter 3: The Smile She Did Not Feel
 
-Carmel was small. You cannot hide from people in a small house. The nuns did not leave. Visitors spoke through a grille. Winter was cold. Choir was long. One sister, Thérèse wrote, had "the unhappy faculty of displeasing me in everything." The sister was not a villain in a story. She just rubbed Thérèse the wrong way. Voice. Walk. Look. Every meeting felt like a pebble in a shoe.
+Carmel was small. The Lisieux house had been there since 1838. About twenty-five nuns. You cannot hide from people in a small house. The nuns did not leave. Visitors spoke through a grille. Winter was cold. Choir was long. One sister, Thérèse wrote, had "the unhappy faculty of displeasing me in everything." The sister was not a villain in a story. She just rubbed Thérèse the wrong way. Voice. Walk. Look. Every meeting felt like a pebble in a shoe.
+
+If someone is being cruel or hurting you, this chapter is not the rule. You tell a grown-up. You get help. A smile is for a pebble, not for a fist. Thérèse's sister was irritating. That is a different sentence from dangerous.
 
 Thérèse could not move to another town. Enclosure means you stay. That sounds harsh. For her it was also the point: the same faces, the same psalms, the same work, until love had nowhere to hide.
 
@@ -173,6 +184,8 @@ This is hard. It is not a game. It is not "pretend you are sad." Thérèse did n
 
 A woman who later took Thérèse's name, Mother Teresa of Calcutta, also wrote about a long darkness while she still served poor people. The two stories are not the same life. They rhyme. Darkness can sit next to work. That does not make darkness a contest.
 
+Think of three circles that can all be true at once: a sick body, a sad or empty feeling, and a choice to trust. Mixing them into one word helps nobody. A doctor belongs to the body circle. A grown-up belongs to all three. This booklet does not give homework in the dark.
+
 If a child feels sad for a long time, or scared in a heavy way, that is a time for a grown-up and, if needed, a doctor. Thérèse's dark night is not a homework assignment. It is part of her story.
 
 ### Words to Remember
@@ -215,7 +228,7 @@ She used strong old words: victim, holocaust, consume. Those words mean a gift c
 
 This booklet will not tell a sick child that pain is a gift. Pain should be told to a grown-up. Doctors exist for a reason. Thérèse's teaching is narrower: if suffering is already in the room, love can still be offered. That is different from calling harm good. Nobody should stay in harm that can be stopped.
 
-She also thought of other people: missionaries far away, people who did not know they were loved. Hidden prayer, she believed, could still be for the world. Her last words, the pack says, were "My God, I love you." Simple. Not a trick. A child telling the Father the last true sentence.
+She also thought of other people: missionaries far away, people who did not know they were loved. Hidden prayer, she believed, could still be for the world. The first blood came on Good Friday 1896. By July 1897 she was in the infirmary most of the time. She died 30 September 1897. She was twenty-four. Her last words, the pack says, were "My God, I love you." Simple. Not a trick. A child telling the Father the last true sentence. The disease was not a prize. The last sentence is love, not a cheer for germs.
 
 ### Words to Remember
 
@@ -251,9 +264,9 @@ A heart is hidden. If you take it out to show it off, it cannot do its job. Thé
 
 She wrote letters to two missionary brothers she was given to pray for: Fr. Maurice Bellière, who was going toward Africa, and Fr. Adolphe Roulland, who was going toward China. She never walked their roads. She still wrote as if their work and her hidden work belonged together. Years later the Church named her co-patron of the missions with Francis Xavier, who had traveled far. The pairing sounds odd until you remember the heart and the feet.
 
-After she died, her sisters Pauline and Céline gathered her writings into a book, *Story of a Soul*, published in 1898. It went around the world. People called her the Little Flower. In 1925 the Church named her a saint. In 1997 she was named a Doctor of the Church, a teacher. The girl who felt too small for the stairs became a teacher of the little way. Her parents, Louis and Zélie, were later named saints together as a married couple.
+She wrote three notebooks, not one smoothie. Manuscript A (1895) looks back at childhood and Rome. Manuscript B (1896) finds the elevator and the vocation to love. Manuscript C (1897) is the night, written while she was dying. After she died, her sisters Pauline and Céline gathered the writings into a book, *Story of a Soul*, published 30 September 1898. They smoothed some edges. Later, scholars printed the notebooks more plainly (ICS English edition, John Clarke, OCD, 1996). Both facts can be true: the world met her through a book, and the book has a history.
 
-Her sisters edited the first book to make it smoother. Later scholars printed the original notebooks more plainly. Both facts can be true: the world met her through a book, and the book has a history.
+People called her the Little Flower. In 1925 the Church named her a saint. In 1927 she was named co-patron of the missions with Francis Xavier, who had traveled far. In 1997 she was named a Doctor of the Church, a teacher. The girl who felt too small for the stairs became a teacher of the little way. Her parents, Louis and Zélie, were later named saints together as a married couple. A rose in a picture is a flower. It is not a magic machine. This booklet does not invent a shower-of-roses saying.
 
 She is not a doll. She is a person who asked a pope, smiled at a difficult sister, prayed when prayer was dry, and tried to be love in a hidden place.
 
@@ -280,6 +293,13 @@ Hidden love is still real work. You do not have to be on a stage to belong to a 
 What hidden work in our family or church keeps things alive, the way a heart does?
 
 ---
+
+Carmel was founded in 1838. About twenty-five nuns. They rose early, prayed, washed, gardened. Nobody hung a sign that said future teacher of the Church.
+
+## A last true thing
+
+Thérèse's name in Carmel was of the Child Jesus and of the Holy Face. Sweet and the hard look of pain. Same person. If a picture only shows roses, ask a grown-up what the picture left out. Then stop. You do not have to collect every sad fact tonight.
+
 
 ## For the Grown-Up Reader
 
