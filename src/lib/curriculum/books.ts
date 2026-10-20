@@ -2654,6 +2654,57 @@ export const languagesForLittleThinkersBook: Book = {
   ],
 };
 
+export const languagesForYoungMindsBook: Book = {
+  slug: "languages-for-young-minds",
+  title: "Languages for Young Minds",
+  subtitle: "The Language Hour",
+  summary:
+    "You don't need to speak the language to help an 11- to 14-year-old learn it well. This book gives your family a daily Language Hour in five steps: take in language your student mostly understands, make words stay, then use them with real people and check what they can do. Along the way your student takes the lead, with clear, calm rules for tutors, online safety, and AI tools.",
+  editorialPrinciple:
+    "Understand first; then try it for real; check what you can do; a little every day.",
+  chronology: "2026",
+  totalWordTarget: "~63,000 words",
+  readingTime: "~4.5 hours · 153 pages",
+  authors: ["Michael Gannotti"],
+  status: "published",
+  audiobookPlanned: true,
+  coverImage: "/images/books/languages-for-young-minds-cover.jpg",
+  pdfHref: "/downloads/languages-for-young-minds.pdf",
+  epubHref: "/downloads/languages-for-young-minds.epub",
+  mdHref: "/downloads/languages-for-young-minds.md",
+  catalogSubject: "language",
+  academySubject: "language",
+  hubHref: "/subjects/language",
+  hubLabel: "Language subject hub",
+  showBooklets: false,
+  figures: [
+    {
+      slug: "parent-teacher",
+      name: "The parent-teacher",
+      dates: "now",
+      tradition: "Language hour",
+      coreQuestion: "What can you actually do in the language now?",
+      distinctiveVoice: "One adult, a daily Language Hour at the kitchen table — and the student increasingly in the lead.",
+    },
+  ],
+  chapters: [
+    { number: 0, label: "Welcome", title: "Welcome", question: "Why is a daily Language Hour worth it at 11–14, even if the parent doesn't speak the language?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 1, label: "How to Use", title: "How to Use This Book This Week", question: "How do we choose a language, place our student, and run our first week starting Monday?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 2, label: "Five Things", title: "If You Only Remember Five Things", question: "If we forget everything else, which five habits keep language learning on track at this age?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 3, label: "The Hour", title: "The Language Hour", question: "What happens in each of the five steps of a Language Hour, and who runs it as our student grows?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 4, label: "Chapter 1", title: "What Language Learning Looks Like at 11–14: Goals, Can-Do Statements, and Choosing (or Continuing) Your Language", question: "What can our student honestly expect to do in a year, and how do \"I can\" goals help us choose and track the language?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 5, label: "Chapter 2", title: "Taking It In: Listening, Watching, and Understanding More Than You Can Say", question: "Why does understanding come first, and how do we find listening our student mostly understands?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 6, label: "Chapter 3", title: "Words That Stay: Vocabulary, Chunks, and Practice That Sticks", question: "How do we help new words stick for months instead of days?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 7, label: "Chapter 4", title: "Real Reading: Easy Books, Everyday Texts, and New Scripts", question: "How do we build a real reading habit, including in a new script, without it turning into decoding drills?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 8, label: "Chapter 5", title: "Conversations for Real: Asking, Answering, and Keeping It Going", question: "How does a nervous 11- to 14-year-old learn to keep a real conversation going?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 9, label: "Chapter 6", title: "Writing to Someone: Journals, Messages, and the Patterns You Notice", question: "How does writing to a real reader help our student notice how the language works?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 10, label: "Chapter 7", title: "People and Places: Tutors, Exchanges, Heritage Homes, and Your Community", question: "How do we bring real speakers into our student's learning while keeping them safe?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 11, label: "Chapter 8", title: "Tools and AI: Dictionaries, Translators, Apps, and Chatbots — Under the Terms and Checked", question: "Where do dictionaries, translators, apps, and chatbots help, and how do we keep them from doing the learning?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 12, label: "Chapter 9", title: "Records, Portfolio, and Transcript", question: "What should we keep so a stranger can see what our student can actually do in the language?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 13, label: "Chapter 10", title: "Resources", question: "How do we choose courses, readers, and help that fit our student, starting with people and the library?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+  ],
+};
+
 export const computingForLittleThinkersBook: Book = {
   slug: "computing-for-little-thinkers",
   title: "Computing for Little Thinkers",
@@ -2947,6 +2998,7 @@ export const books: Book[] = [
   englishForEmergingAdultsWithDyslexiaBook,
   teachingWorldLanguagesBook,
   languagesForLittleThinkersBook,
+  languagesForYoungMindsBook,
   artForHomeschoolingBook,
   artForLittleThinkersBook,
   artForYoungMindsBook,
