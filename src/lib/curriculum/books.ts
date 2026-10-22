@@ -2705,6 +2705,57 @@ export const languagesForYoungMindsBook: Book = {
   ],
 };
 
+export const languagesForEmergingAdultsBook: Book = {
+  slug: "languages-for-emerging-adults",
+  title: "Languages for Emerging Adults",
+  subtitle: "The Language Hour",
+  summary:
+    "A warm, practical guide for a parent-mentor and a 15- to 18-year-old learning any world language, including ASL. The teen runs a daily Language Hour (Set the Target, Take It In, Work With It, Use It for Real, Check and Log) and builds a year that counts: honest timelines, listening at real speed, words and patterns that stay, real reading and new scripts, speaking and writing with real people, safe ways out into the world, tools and AI used under their terms, and credit, transcripts and proof a stranger can trust.",
+  editorialPrinciple:
+    "Take in more than you need; use it with real people; check it honestly; own the plan.",
+  chronology: "2026",
+  totalWordTarget: "52,603 words",
+  readingTime: "~4 hours · 135 pages",
+  authors: ["Michael Gannotti"],
+  status: "published",
+  audiobookPlanned: true,
+  coverImage: "/images/books/languages-for-emerging-adults-cover.jpg",
+  pdfHref: "/downloads/languages-for-emerging-adults.pdf",
+  epubHref: "/downloads/languages-for-emerging-adults.epub",
+  mdHref: "/downloads/languages-for-emerging-adults.md",
+  catalogSubject: "language",
+  academySubject: "language",
+  hubHref: "/subjects/language",
+  hubLabel: "Language subject hub",
+  showBooklets: false,
+  figures: [
+    {
+      slug: "parent-teacher",
+      name: "The parent-teacher",
+      dates: "now",
+      tradition: "Language hour",
+      coreQuestion: "Is your teen running the Hour, and can they show you what they can do now?",
+      distinctiveVoice: "One parent-mentor and a teen who runs a daily Language Hour, with real people every week and a monthly look at the evidence.",
+    },
+  ],
+  chapters: [
+    { number: 0, label: "Welcome", title: "Welcome", question: "Why should a teen run their own language year, and what will this book never promise?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 1, label: "How to Use", title: "How to Use This Book This Week", question: "What does the first week look like, and how do we place our teen by evidence rather than grade?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 2, label: "Five Things", title: "If You Only Remember Five Things", question: "If we remember only five things, which five?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 3, label: "The Hour", title: "The Language Hour", question: "What happens in a Language Hour, and how does it flex for short, full and long days?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 4, label: "Chapter 1", title: "Goals, honest timelines, and your own plan", question: "What can our teen actually do now, how long does a language really take, and what is the plan?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 5, label: "Chapter 2", title: "Listening at real speed", question: "How does a teen learn to understand the language at real speed?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 6, label: "Chapter 3", title: "Words and patterns that stay", question: "How do words and grammar patterns stay for good instead of fading after the quiz?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 7, label: "Chapter 4", title: "Reading for real, including new scripts", question: "How does a teen move from graded readers to real texts, including a brand-new script?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 8, label: "Chapter 5", title: "Speaking with people", question: "How does a teen get from a rehearsed script to real conversation, and what do they do when they get stuck?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 9, label: "Chapter 6", title: "Writing that connects and argues", question: "How does writing grow from a message to a real person into a sourced argument?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 10, label: "Chapter 7", title: "Out in the world", question: "How does a teen use the language with real people, from tutors to community to exchanges, safely?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 11, label: "Chapter 8", title: "Tools and AI", question: "When should a teen reach for an app, a translator or AI, and how do they check what it says?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 12, label: "Chapter 9", title: "Credit, transcript and proof", question: "How do we turn a year of language work into credit, a transcript and proof others will trust?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 13, label: "Chapter 10", title: "Resources", question: "Which resources fit our teen, our language and our budget, and where do we start for free?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+  ],
+};
+
 export const computingForLittleThinkersBook: Book = {
   slug: "computing-for-little-thinkers",
   title: "Computing for Little Thinkers",
@@ -2999,6 +3050,7 @@ export const books: Book[] = [
   teachingWorldLanguagesBook,
   languagesForLittleThinkersBook,
   languagesForYoungMindsBook,
+  languagesForEmergingAdultsBook,
   artForHomeschoolingBook,
   artForLittleThinkersBook,
   artForYoungMindsBook,
