@@ -150,7 +150,7 @@ export const fathersLessons: Lesson[] = [
         bigIdea: "The existence of God can be proved in five ways. That is the claim Aquinas makes. Hume, Kant, and later readers do not accept it.",
         tryThis: [{ title: "Read the claim and both objections", minutes: 10, steps: ["Read aloud: \"I answer that, The existence of God can be proved in five ways.\"", "Name the five ways in his order, using only the names on this page.", "Read both objections. Do not skip either one.", "Stop. The parent asks whether the claim still stands, and the parent holds the answer. Do not ask a model."] }],
         dinnerQuestion: "Aquinas says the existence of God can be proved in five ways. After both objections, do we accept the claim?",
-        transfer: [],
+        transfer: [{ label: "Thinking", note: "Telling a reason someone gives from a proof that settles the matter is a skill used everywhere." }],
         ifTheySay: [
           { heard: "He was not really offering proofs.", reply: "That line does not stay. He writes: \"The existence of God can be proved in five ways.\" Hume, Kant, and later readers do not accept the claim. The parent holds whether we do." },
           { heard: "Hume and Kant already answered this article.", reply: "Neither text names this article. What they refuse is the claim that argument proves the existence of God. Philo and Cleanthes are speakers in a dialogue. No later reader is named here, because none was opened." },
@@ -368,7 +368,7 @@ export const fathersLessons: Lesson[] = [
         bigIdea: "God is one what and three whos. The Nicene letter is not Basil of Caesarea's formula.",
         tryThis: [{ title: "Say the sentence", minutes: 8, steps: ["The parent says, with no Greek: God is one what and three whos: one being, and the Father, the Son, and the Holy Spirit.", "The student says that same sentence back, still with no Greek.", "The parent states the one fact in English: the Nicene letter is not Basil of Caesarea's formula.", "Stop. Greek stays in the parent aside. The parent holds any question past the sentence. Do not ask a model."] }],
         dinnerQuestion: "Can we say the sentence with no Greek in it, and can we say that the Nicene letter is not Basil of Caesarea's formula?",
-        transfer: [],
+        transfer: [{ label: "Parenting", note: "Careful words matter when people disagree about something they cannot fully picture." }],
         ifTheySay: [
           { heard: "The Cappadocians argued about one preposition.", reply: "Do not say that. A letter is not a preposition. The one-letter summary belongs to the Nicene letter. Basil's formula is one shared what and three particular whos. Those are not the same argument." },
           { heard: "So it is 1+1+1=3, not 1.", reply: "The sentence is not that sum. God is one what and three whos: one being, and the Father, the Son, and the Holy Spirit. The parent holds anything past that sentence." },
