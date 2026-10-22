@@ -7,6 +7,7 @@ import { bands } from "@/lib/curriculum/bands";
 import { SUBJECT_IDS, type BandId } from "@/lib/curriculum/types";
 import { useForge } from "@/lib/progress";
 import { useHydrated } from "@/lib/use-hydrated";
+import { bookletForBand } from "@/lib/curriculum/booklets";
 
 export default function SubjectHub() {
   const params = useParams<{ subject: string }>();
@@ -117,6 +118,10 @@ export default function SubjectHub() {
                     const preview = firstSentence.length > 100
                       ? firstSentence.slice(0, 97).trim() + "…"
                       : firstSentence;
+                    const showReady =
+                      l.subject === "philosophy"
+                      ? bookletForBand(l.slug, l.band) !== null
+                      : true;
                     return (
                       <li key={l.slug}>
                         <Link
@@ -128,9 +133,11 @@ export default function SubjectHub() {
                               {l.number}. {l.title}
                               {hydrated && familyBand === b.id ? " · your band" : ""}
                             </span>
+                            {showReady ? (
                             <span className="inline-flex shrink-0 items-center rounded-sm bg-accent/10 px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-wide text-accent">
                               Ready
                             </span>
+                            ) : null}
                           </span>
                           {preview ? (
                             <span className="mt-0.5 block text-xs text-muted">{preview}</span>
