@@ -10,7 +10,7 @@ import { lessonKey } from "@/lib/curriculum/types";
 import { ritualLabel } from "@/lib/labels";
 import { useForge } from "@/lib/progress";
 import { useHydrated } from "@/lib/use-hydrated";
-import { bookletLinksForLesson, figureDisplayName } from "@/lib/curriculum/booklets";
+import { bookletForBand, bookletLinksForLesson, figureDisplayName } from "@/lib/curriculum/booklets";
 import { demosForLesson } from "@/lib/curriculum/demos";
 
 export function LessonView({ lesson }: { lesson: Lesson }) {
@@ -165,7 +165,13 @@ export function LessonView({ lesson }: { lesson: Lesson }) {
       </section>
 
       {(() => {
-        const links = bookletLinksForLesson(lesson.slug, lesson.band);
+        const oneBand = lesson.subject === "philosophy";
+        const matched = oneBand ? bookletForBand(lesson.slug, lesson.band) : null;
+        const links = oneBand
+          ? matched
+            ? [matched]
+            : null
+          : bookletLinksForLesson(lesson.slug, lesson.band);
         if (!links) return null;
         const figure = figureDisplayName(links[0].figure);
         const currentLabel =
@@ -178,7 +184,8 @@ export function LessonView({ lesson }: { lesson: Lesson }) {
             <p className="text-xs font-medium tracking-wide text-accent uppercase">Booklet</p>
             <h2 className="mt-1 font-display text-2xl text-fg">Download the {figure} booklet</h2>
             <p className="mt-2 text-sm text-muted">
-              The full text behind this sitting. Printable PDF, plus Markdown for a Hermes agent. Pick the level that fits.
+              The full text behind this sitting. Printable PDF, plus Markdown for a Hermes agent.
+              {oneBand ? "" : " Pick the level that fits."}
             </p>
             <ul className="mt-4 space-y-2">
               {links.map((link) => {

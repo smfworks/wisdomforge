@@ -37,6 +37,13 @@ const STATUS_STYLES: Record<string, string> = {
   outlined: "text-faint",
 };
 
+const BOOKLET_LEVELS: { level: string; label: string }[] = [
+  { level: "elementary", label: "Elementary" },
+  { level: "middle", label: "Middle" },
+  { level: "high", label: "High School" },
+  { level: "adult", label: "Adult" },
+];
+
 export default async function BookPage({
   params,
 }: {
@@ -261,26 +268,33 @@ export default async function BookPage({
           Booklet downloads
         </p>
         <p className="mt-1 text-sm text-muted">
-          Each figure has a printable PDF and agent-readable Markdown booklet in four reading levels — elementary, middle, high school, and adult. Adult files are here; the other levels are on the sitting pages.
+          Each figure has a printable PDF and agent-readable Markdown booklet in four reading levels — elementary, middle, high school, and adult. All four levels are on this page. A sitting links only the level for that age.
         </p>
-        <div className="mt-3 flex flex-wrap gap-3">
+        <div className="mt-3 flex flex-col gap-4">
           {book.figures.map((fig) => (
-            <span key={fig.slug} className="inline-flex flex-wrap gap-2">
-              <a
-                href={`/downloads/${fig.slug}-adult.pdf`}
-                download
-                className="inline-flex items-center gap-2 rounded-md bg-bg px-3 py-1.5 text-xs text-fg shadow-[var(--shadow-border)] transition-colors hover:bg-surface"
-              >
-                {figureDisplayName(fig.slug)} PDF →
-              </a>
-              <a
-                href={`/downloads/${fig.slug}-adult.md`}
-                download
-                className="inline-flex items-center gap-2 rounded-md bg-bg px-3 py-1.5 text-xs text-fg shadow-[var(--shadow-border)] transition-colors hover:bg-surface"
-              >
-                Markdown →
-              </a>
-            </span>
+            <div key={fig.slug}>
+              <p className="text-sm font-medium text-fg">{figureDisplayName(fig.slug)}</p>
+              <div className="mt-2 flex flex-wrap gap-2">
+                {BOOKLET_LEVELS.map((band) => (
+                  <span key={band.level} className="inline-flex flex-wrap gap-2">
+                    <a
+                      href={`/downloads/${fig.slug}-${band.level}.pdf`}
+                      download
+                      className="inline-flex items-center gap-2 rounded-md bg-bg px-3 py-1.5 text-xs text-fg shadow-[var(--shadow-border)] transition-colors hover:bg-surface"
+                    >
+                      {band.label} PDF →
+                    </a>
+                    <a
+                      href={`/downloads/${fig.slug}-${band.level}.md`}
+                      download
+                      className="inline-flex items-center gap-2 rounded-md bg-bg px-3 py-1.5 text-xs text-fg shadow-[var(--shadow-border)] transition-colors hover:bg-surface"
+                    >
+                      {band.label} Markdown →
+                    </a>
+                  </span>
+                ))}
+              </div>
+            </div>
           ))}
         </div>
       </section>
