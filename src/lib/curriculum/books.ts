@@ -2756,6 +2756,57 @@ export const languagesForEmergingAdultsBook: Book = {
   ],
 };
 
+export const languagesRefreshForAdultsBook: Book = {
+  slug: "languages-refresh-for-adults",
+  title: "Languages Refresh for Adults",
+  subtitle: "The Language Refresh Hour",
+  summary:
+    "A warm, practical guide for an adult coming back to a language from school, learning the language of their family, or starting something new, with ASL and other languages welcome. You run a Language Refresh Hour of your own (Set the Target, Take It In, Work With It, Use It for Real, Check and Log) in the 15 to 90 minutes your week really allows. The book helps you set honest goals and a plan small enough to keep, listen at real speed, make words and patterns stay, read and write for real, speak with people, and step out into your community safely. It also covers tools and AI used on your terms, and records and credentials you can trust. Nothing in it promises fluency; it shows you what to try this week and how to check yourself honestly.",
+  editorialPrinciple:
+    "Take in more than you need; use it with real people; check it honestly; keep the plan small enough to keep.",
+  chronology: "2026",
+  totalWordTarget: "58,551 words",
+  readingTime: "~4 hours · 138 pages",
+  authors: ["Michael Gannotti"],
+  status: "published",
+  audiobookPlanned: true,
+  coverImage: "/images/books/languages-refresh-for-adults-cover.jpg",
+  pdfHref: "/downloads/languages-refresh-for-adults.pdf",
+  epubHref: "/downloads/languages-refresh-for-adults.epub",
+  mdHref: "/downloads/languages-refresh-for-adults.md",
+  catalogSubject: "language",
+  academySubject: "language",
+  hubHref: "/subjects/language",
+  hubLabel: "Language subject hub",
+  showBooklets: false,
+  figures: [
+    {
+      slug: "parent-teacher",
+      name: "The working adult",
+      dates: "now",
+      tradition: "Language refresh hour",
+      coreQuestion: "Is your Language Refresh Hour small enough to keep, and did you use the language with a real person this week?",
+      distinctiveVoice: "You are the learner and you run the Hour. If a partner, friend or parent is studying alongside you, you can share a card box and quiz each other, but nothing in the book depends on it.",
+    },
+  ],
+  chapters: [
+    { number: 0, label: "Welcome", title: "Welcome", question: "Why is this book written for you, the learner, and what will it never promise?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 1, label: "How to Use", title: "How to Use This Book This Week", question: "How do you use this book this week, and how do you place yourself by your own baseline rather than by what you studied in school?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 2, label: "Five Things", title: "If You Only Remember Five Things", question: "If you remember only five things, which five?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 3, label: "The Hour", title: "The Language Refresh Hour", question: "What happens in a Language Refresh Hour, and how does it flex from a commute to a weekend?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 4, label: "Chapter 1", title: "Coming Back to a Language: Honest Goals and a Plan You'll Keep", question: "What do you really want this language for, how long does it honestly take, and what is a plan small enough to keep?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 5, label: "Chapter 2", title: "Listening at Real Speed", question: "How do you learn to understand the language at real speed?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 6, label: "Chapter 3", title: "Words and Patterns That Stay", question: "How do words and grammar patterns stay for good instead of fading after the lesson?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 7, label: "Chapter 4", title: "Reading for Real, Including New Scripts", question: "How do you move from graded readers to real texts, including a brand-new script?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 8, label: "Chapter 5", title: "Speaking with People", question: "How do you get from a rehearsed line to a real conversation, and what do you do when you get stuck?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 9, label: "Chapter 6", title: "Writing That Connects", question: "How does your writing grow from a three-line note to a message someone answers?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 10, label: "Chapter 7", title: "Out in the World", question: "How do you find real people to use the language with, and do it safely?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 11, label: "Chapter 8", title: "Tools and AI", question: "When should you reach for an app, a translator or AI, and how do you check what it says?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 12, label: "Chapter 9", title: "Records and Proof", question: "What counts as an honest record of your progress, and which tests, credits and certificates are worth knowing about?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 13, label: "Chapter 10", title: "Resources", question: "Which resources fit your language, your time and your budget, and where do you start for free?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+  ],
+};
+
 export const computingForLittleThinkersBook: Book = {
   slug: "computing-for-little-thinkers",
   title: "Computing for Little Thinkers",
@@ -3051,6 +3102,7 @@ export const books: Book[] = [
   languagesForLittleThinkersBook,
   languagesForYoungMindsBook,
   languagesForEmergingAdultsBook,
+  languagesRefreshForAdultsBook,
   artForHomeschoolingBook,
   artForLittleThinkersBook,
   artForYoungMindsBook,
