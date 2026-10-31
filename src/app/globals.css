@@ -6,7 +6,8 @@
   --color-raised: #1a1a22;
   --color-fg: #f3eadc;
   --color-muted: #b5a48c;
-  --color-faint: #8a7a68;
+  /* Small text on raised (#1a1a22), the lightest surface this token uses. Keep ≥ 4.5:1. */
+  --color-faint: #91816f;
   --color-accent: #c9a96e;
   --color-accent-fg: #0a0a0f;
   --color-border: #2a2a35;
