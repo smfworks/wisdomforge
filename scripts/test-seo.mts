@@ -130,6 +130,33 @@ describe("Book JSON-LD", () => {
       const citation = bookNode.citation as Record<string, unknown> | Record<string, unknown>[];
       const citationUrls = (Array.isArray(citation) ? citation : [citation]).map((item) => item.url);
       assert.deepEqual(citationUrls, cited.map((note) => note.href));
+      const article = graph.find(
+        (node) => typesOf(node).includes("BlogPosting") || typesOf(node).includes("Article"),
+      );
+      assert.ok(article);
+      assert.ok(typesOf(article).includes("BlogPosting"));
+      assert.ok(typesOf(article).includes("Article"));
+      assert.notEqual(article["@id"], bookNode["@id"]);
+      assert.equal(article.headline, book.title);
+      assert.equal(article.datePublished, bookNode.datePublished);
+      assert.equal(article.dateModified, bookNode.dateModified);
+      const articlePage = article.mainEntityOfPage as Record<string, unknown>;
+      assert.equal(articlePage["@type"], "WebPage");
+      assert.equal(articlePage["@id"], page["@id"]);
+      const articlePublisher = article.publisher as Record<string, unknown>;
+      assert.equal(articlePublisher.name, "SMF Works");
+      const articleAuthor = article.author as Record<string, unknown>;
+      assert.equal(articleAuthor["@type"], "Person");
+      assert.equal(articleAuthor.name, author.name);
+      assert.equal(articleAuthor.url, "https://smfwisdomforge.com/about");
+      assert.equal(articleAuthor.jobTitle, MICHAEL_ROLE);
+      assert.equal(articleAuthor.worksFor, undefined);
+      assert.equal(article.abstract, bookLead(book));
+      const articleCitation = article.citation as Record<string, unknown> | Record<string, unknown>[];
+      const articleUrls = (Array.isArray(articleCitation) ? articleCitation : [articleCitation]).map(
+        (item) => item.url,
+      );
+      assert.deepEqual(articleUrls, cited.map((note) => note.href));
       const crumbs = graph.find((node) => typesOf(node).includes("BreadcrumbList"));
       assert.ok(crumbs);
       const faq = graph.find((node) => typesOf(node).includes("FAQPage"));
@@ -141,6 +168,26 @@ describe("Book JSON-LD", () => {
         entities.map((entity) => entity.acceptedAnswer.text),
         visible.map((qa) => qa.answer),
       );
+    }
+  });
+
+  it("emits Book and BlogPosting on every book page", () => {
+    for (const book of books) {
+      const graph = bookJsonLd(book)["@graph"] as Record<string, unknown>[];
+      const bookNode = graph.find((node) => typesOf(node).includes("Book"));
+      const article = graph.find((node) => typesOf(node).includes("BlogPosting"));
+      assert.ok(bookNode, book.slug);
+      assert.ok(article, book.slug);
+      assert.ok(typesOf(bookNode).includes("LearningResource"), book.slug);
+      assert.ok(typesOf(article).includes("Article"), book.slug);
+      assert.equal(article.headline, bookNode.headline);
+      assert.equal(article.datePublished, bookNode.datePublished);
+      assert.equal(article.dateModified, bookNode.dateModified);
+      assert.deepEqual(article.author, bookNode.author);
+      assert.deepEqual(article.publisher, bookNode.publisher);
+      assert.deepEqual(article.mainEntityOfPage, bookNode.mainEntityOfPage);
+      const publisher = article.publisher as Record<string, unknown>;
+      assert.equal(publisher.name, "SMF Works");
     }
   });
 
