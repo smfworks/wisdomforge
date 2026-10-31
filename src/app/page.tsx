@@ -1,11 +1,14 @@
 import Link from "next/link";
+import { JsonLd } from "@/components/json-ld";
 import { bands } from "@/lib/curriculum/bands";
 import { paths, subjects } from "@/lib/curriculum/subjects";
+import { HOME_FAQS, HOW_IT_WORKS_ANSWER, homeFaqJsonLd, homeQuestionAnswer } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
     <main>
+      <JsonLd data={homeFaqJsonLd()} />
       {/* Split hero — sketch 002 spine, sketch 003 sentences */}
       <section className="grid min-h-[min(100dvh,52rem)] lg:grid-cols-2">
         <div className="relative min-h-[42vh] bg-black lg:min-h-0">
@@ -55,9 +58,7 @@ export default function Home() {
         </div>
 
         <h2 className="font-display text-3xl text-fg">How it works</h2>
-        <p className="mt-2 max-w-xl text-muted">
-          Start on this website. The Hermes guides are optional. You run them.
-        </p>
+        <p className="mt-2 max-w-xl text-muted">{HOW_IT_WORKS_ANSWER}</p>
 
         <article className="mt-10 grid gap-4 border-t border-accent py-8 sm:grid-cols-[5.5rem_1fr] sm:items-start sm:gap-6">
           <p className="font-display text-4xl leading-none text-accent">01</p>
@@ -210,6 +211,9 @@ export default function Home() {
                 >
                   <p className="text-xs text-accent uppercase">{d.unit}</p>
                   <h3 className="mt-1 font-medium text-fg">{d.title}</h3>
+                  {homeQuestionAnswer(d.title) ? (
+                    <p className="mt-2 text-sm leading-relaxed text-muted">{homeQuestionAnswer(d.title)}</p>
+                  ) : null}
                   <p className="mt-2 text-sm text-muted">{d.band}</p>
                 </Link>
               </li>
@@ -230,6 +234,34 @@ export default function Home() {
               </article>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="border-t border-border">
+        <div className="mx-auto max-w-6xl px-4 py-14">
+          <h2 className="font-display text-3xl text-fg">Common questions</h2>
+          <div className="mt-8 max-w-3xl space-y-8">
+            {HOME_FAQS.map((faq) => (
+              <div key={faq.question}>
+                <h3 className="font-display text-2xl text-fg">{faq.question}</h3>
+                <p className="mt-2 leading-relaxed text-muted">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+          <p className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm">
+            <Link href="/start" className="text-accent hover:text-fg">
+              Start a sitting
+            </Link>
+            <Link href="/books" className="text-accent hover:text-fg">
+              Books
+            </Link>
+            <Link href="/hermes" className="text-accent hover:text-fg">
+              Hermes kits
+            </Link>
+            <Link href="/about" className="text-accent hover:text-fg">
+              About
+            </Link>
+          </p>
         </div>
       </section>
     </main>

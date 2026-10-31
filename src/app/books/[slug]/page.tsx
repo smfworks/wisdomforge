@@ -1,10 +1,13 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { Byline } from "@/components/byline";
+import { JsonLd } from "@/components/json-ld";
 import { books, bookBySlug } from "@/lib/curriculum/books";
 import { figureDisplayName } from "@/lib/curriculum/booklets";
 import { lessonsBySubject } from "@/lib/curriculum";
 import type { BandId } from "@/lib/curriculum/types";
+import { bookJsonLd, bookLead, chapterDirectAnswer, isQuestionHeading } from "@/lib/seo";
 
 export function generateStaticParams() {
   return books.map((b) => ({ slug: b.slug }));
@@ -64,8 +67,16 @@ export default async function BookPage({
     relatedByBand.set(l.band, list);
   }
 
+  const lead = bookLead(book);
+  const questionAnswers = new Map(
+    book.chapters
+      .filter((chapter) => isQuestionHeading(chapter.title))
+      .map((chapter) => [chapter.number, chapterDirectAnswer(book, chapter)]),
+  );
+
   return (
     <main className="mx-auto max-w-4xl px-4 py-10 sm:py-14">
+      <JsonLd data={bookJsonLd(book)} />
       <nav className="text-sm text-muted">
         <Link href="/books" className="hover:text-fg">Books</Link>
         <span className="mx-2 text-faint">/</span>
@@ -94,7 +105,9 @@ export default async function BookPage({
           </p>
           <h1 className="mt-2 font-display text-4xl text-fg sm:text-5xl">{book.title}</h1>
           <p className="mt-2 text-lg text-muted">{book.subtitle}</p>
-          <p className="mt-6 max-w-2xl leading-relaxed text-muted">{book.summary}</p>
+          <Byline authors={book.authors} />
+          <p className="mt-6 max-w-2xl leading-relaxed text-muted">{lead}</p>
+          <p className="mt-3 max-w-2xl leading-relaxed text-muted">{book.summary}</p>
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             {book.pdfHref ? (
               <a
@@ -212,6 +225,11 @@ export default async function BookPage({
                 <div>
                   <p className="text-xs text-faint">{ch.label}</p>
                   <h3 className="font-display text-xl text-fg">{ch.title}</h3>
+                  {questionAnswers.get(ch.number) ? (
+                    <p className="mt-2 text-sm leading-relaxed text-muted">
+                      {questionAnswers.get(ch.number)}
+                    </p>
+                  ) : null}
                 </div>
                 <span className={`text-xs font-medium ${STATUS_STYLES[ch.status] ?? "text-faint"}`}>
                   {CHAPTER_STATUS_LABELS[ch.status] ?? ch.status}

@@ -1,31 +1,41 @@
-"use client";
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { JsonLd } from "@/components/json-ld";
+import { findLesson, lessons } from "@/lib/curriculum";
+import { learningResourceJsonLd } from "@/lib/seo";
+import { LearnClient } from "./learn-client";
 
-import { notFound, useParams } from "next/navigation";
-import { LessonView } from "@/components/lesson-view";
-import { findLesson, lessonKey } from "@/lib/curriculum";
-import { useForge } from "@/lib/progress";
-import { useEffect } from "react";
+type Props = {
+  params: Promise<{ band: string; subject: string; slug: string }>;
+};
 
-export default function LearnPage() {
-  const params = useParams<{ band: string; subject: string; slug: string }>();
-  const { band, subject, slug } = params;
+export function generateStaticParams() {
+  return lessons.map((lesson) => ({
+    band: lesson.band,
+    subject: lesson.subject,
+    slug: lesson.slug,
+  }));
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { band, subject, slug } = await params;
   const lesson = findLesson(band, subject, slug);
-  const setLast = useForge((s) => s.setLast);
-  const setBand = useForge((s) => s.setBand);
+  if (!lesson) return { title: "Sitting — WisdomForge" };
+  return {
+    title: `${lesson.title} — WisdomForge`,
+    description: lesson.dek.slice(0, 160),
+  };
+}
 
-  useEffect(() => {
-    if (!lesson) return;
-    setLast(lessonKey(lesson));
-    setBand(lesson.band);
-  }, [lesson, setBand, setLast]);
-
-  if (!lesson) {
-    notFound();
-  }
+export default async function LearnPage({ params }: Props) {
+  const { band, subject, slug } = await params;
+  const lesson = findLesson(band, subject, slug);
+  if (!lesson) notFound();
 
   return (
-    <main>
-      <LessonView lesson={lesson} />
-    </main>
+    <>
+      <JsonLd data={learningResourceJsonLd(lesson)} />
+      <LearnClient />
+    </>
   );
 }
