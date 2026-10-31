@@ -3062,6 +3062,57 @@ export const computerScienceForAllAgesBook: Book = {
   ],
 };
 
+export const philosophyHoursStoicsBook: Book = {
+  slug: "philosophy-hours-stoics",
+  title: "Philosophy Hours: Teaching the Stoics",
+  subtitle: "The Philosophy Hour",
+  summary:
+    "A warm, practical guide to teaching the Stoics at home or in a small group, with one book for four tracks: ages 5 to 10, 11 to 14, 15 to 18, and the adult learner and the parent beside you. You run a Philosophy Hour of your own (Settle the Mind, Read a Little, Think It Through, Try It on Real Life, Look Back) in the minutes your week really allows, using 100 short practice cards, 98 of them screen-free. The chapters take up what is yours and what isn't, the gap between what happens and the story we tell about it, one good thing worth working at, the people beside you, morning and evening practices, hard feelings, short discussions, and records and resources. It never promises that philosophy fixes anything; it shows you what to try this week and how to look back honestly.",
+  editorialPrinciple:
+    "Notice what is yours; do it well; be good to the people beside you; look back honestly.",
+  chronology: "2026",
+  totalWordTarget: "57,167 words",
+  readingTime: "~4 hours · 137 pages",
+  authors: ["Michael Gannotti"],
+  status: "published",
+  audiobookPlanned: true,
+  coverImage: "/images/books/philosophy-hours-stoics-cover.jpg",
+  pdfHref: "/downloads/philosophy-hours-stoics.pdf",
+  epubHref: "/downloads/philosophy-hours-stoics.epub",
+  mdHref: "/downloads/philosophy-hours-stoics.md",
+  catalogSubject: "philosophy",
+  academySubject: "philosophy",
+  hubHref: "/subjects/philosophy",
+  hubLabel: "Philosophy subject hub",
+  showBooklets: false,
+  figures: [
+    {
+      slug: "parent-teacher",
+      name: "The parent-teacher",
+      dates: "now",
+      tradition: "Philosophy hour",
+      coreQuestion: "Did every learner say one true thing aloud this week, and did you look back together?",
+      distinctiveVoice: "You are the parent or teacher who runs the Hour. Every chapter has a page for each age band, and the adult learner's page is written for you too, so you can practice beside the children instead of only supervising.",
+    },
+  ],
+  chapters: [
+    { number: 0, label: "Welcome", title: "Welcome", question: "Who is this book for, and what will it never promise?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 1, label: "How to Use", title: "How to Use This Book This Week", question: "How do you use this book this week, with learners of different ages at one table?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 2, label: "Five Things", title: "If You Only Remember Five Things", question: "If you remember only five things, which five?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 3, label: "The Hour", title: "The Philosophy Hour", question: "What happens in a Philosophy Hour, and how does it stretch or shrink to fit the day?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 4, label: "Chapter 1", title: "Meet the School: Five Voices and an Honest Word About \"Stoic\"", question: "Who were the Stoics, and what does \"Stoic\" really mean?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 5, label: "Chapter 2", title: "What Is Yours, and What Isn't", question: "What is yours to do, and what isn't?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 6, label: "Chapter 3", title: "Between What Happens and What You Tell Yourself", question: "What happens between an event and the story you tell yourself about it?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 7, label: "Chapter 4", title: "One Good Thing: Virtue, Four Ways", question: "What is the one good thing worth working at, and what does it look like in four ways?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 8, label: "Chapter 5", title: "The People Beside You", question: "How do you treat the people beside you well, even when it is hard?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 9, label: "Chapter 6", title: "Morning and Evening Practices", question: "What morning and evening practices are small enough to keep?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 10, label: "Chapter 7", title: "Hard Feelings: Anger, Fear, Grief and the Rest", question: "How do you meet anger, fear and grief without pretending, and when do you bring in a person?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 11, label: "Chapter 8", title: "Thinking Together: Running a Short Discussion", question: "How do you run a short discussion that lets everyone think, and use AI tools safely?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 12, label: "Chapter 9", title: "Records and Reflection", question: "What counts as an honest record of learning, and what stays private?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+    { number: 13, label: "Chapter 10", title: "Resources", question: "Which resources fit your family and your budget, and where do you start for free?", voices: ["parent-teacher"], wordTarget: "complete", status: "complete" },
+  ],
+};
+
 export const books: Book[] = [
   autonomousAiEducationBook,
   hermesAiForBeginnersBook,
@@ -3113,6 +3164,7 @@ export const books: Book[] = [
   computingForYoungMindsBook,
   computingForEmergingAdultsBook,
   computingRefreshForAdultsBook,
+  philosophyHoursStoicsBook,
   stoicsBook,
   churchFathersBook,
 ];
