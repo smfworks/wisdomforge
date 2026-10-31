@@ -37,16 +37,16 @@ export function authorDisplayName(raw: string): string {
 
 export function personAuthor(raw: string): Record<string, string> {
   const name = authorDisplayName(raw);
+  const person: Record<string, string> = {
+    "@type": "Person",
+    name,
+    url: `${SITE_ORIGIN}/about`,
+  };
   if (name === MICHAEL_NAME) {
-    return {
-      "@type": "Person",
-      "@id": `${SITE_ORIGIN}/#founder`,
-      name,
-      url: `${SITE_ORIGIN}/about`,
-      jobTitle: MICHAEL_ROLE,
-    };
+    person["@id"] = `${SITE_ORIGIN}/#founder`;
+    person.jobTitle = MICHAEL_ROLE;
   }
-  return { "@type": "Person", name };
+  return person;
 }
 
 export function publisherOrganization(): Record<string, string> {
@@ -58,13 +58,101 @@ export function publisherOrganization(): Record<string, string> {
   };
 }
 
-export function bookLead(book: Pick<Book, "title" | "subtitle">): string {
-  const subtitle = book.subtitle.replace(/\s+/g, " ").trim().replace(/\.+$/, "");
-  if (/\bbeginners?\b/i.test(book.title)) {
-    const topic = subtitle.replace(/^your complete guide to\s+/i, "").toLowerCase().replace(/\bai\b/g, "AI");
-    return `${book.title} is a beginner's guide to ${topic}.`;
+function splitSentences(text: string): string[] {
+  return text
+    .replace(/\s+/g, " ")
+    .trim()
+    .split(/(?<=[.!?])\s+(?=[A-Z“"'])/)
+    .map((sentence) => sentence.trim())
+    .filter(Boolean);
+}
+
+function ensurePeriod(sentence: string): string {
+  const trimmed = sentence.replace(/\s+/g, " ").trim();
+  if (/[.!?]["”']?$/.test(trimmed)) return trimmed;
+  return `${trimmed}.`;
+}
+
+const FINITE_VERB =
+  /\b(is|are|was|were|has|have|had|do|does|did|don't|don’t|doesn't|doesn’t|can|could|will|would|may|might|must|shall|should|teaches|gives|helps|runs|means|holds|puts|keeps|makes|lets|covers|names|starts|builds|works|reconstructs|answers|shows|leaves|treats|uses|needs|takes|sits|opens|follows|includes|requires|describes|lives|looks|hears)\b/i;
+
+/** Noun-phrase leftovers such as "Edition note: August 2026." are not answers. */
+function isFragment(sentence: string): boolean {
+  if (/^edition note\b/i.test(sentence)) return true;
+  if (/^This (book|teaching-manual)\b/i.test(sentence)) return false;
+  if (bookNounPhrase(sentence)) return false;
+  return !FINITE_VERB.test(sentence) && !/\b\w+ed\b/i.test(sentence);
+}
+
+/** "A practical guide…", not "A parent who…" or "A weekly hour builds…". */
+function bookNounPhrase(sentence: string): boolean {
+  return /^(A|An)\s+(?:warm,\s+)?(?:practical\s+)?(?:teaching\s+)?(?:illustrated\s+)?(guide|manual|path|book|reader|self-study)\b/i.test(
+    sentence,
+  );
+}
+
+function definesBook(title: string, sentence: string): boolean {
+  if (sentence.toLowerCase().startsWith(title.toLowerCase())) return true;
+  if (bookNounPhrase(sentence)) return true;
+  if (/^This teaching-manual is (?!not\b)/i.test(sentence)) return true;
+  if (/^This book is (?!not\b)/i.test(sentence)) return true;
+  if (/^This book (helps|gives)\b/i.test(sentence)) return true;
+  return false;
+}
+
+function asDefinition(title: string, sentence: string): string {
+  if (sentence.toLowerCase().startsWith(title.toLowerCase())) return ensurePeriod(sentence);
+  if (bookNounPhrase(sentence)) {
+    return ensurePeriod(`${title} is ${sentence.charAt(0).toLowerCase()}${sentence.slice(1)}`);
   }
-  return `${book.title} is a WisdomForge book: ${subtitle}.`;
+  if (/^This teaching-manual is /i.test(sentence)) {
+    return ensurePeriod(sentence.replace(/^This teaching-manual/i, title));
+  }
+  if (/^This book (is|helps|gives)\b/i.test(sentence)) {
+    return ensurePeriod(sentence.replace(/^This book/i, title));
+  }
+  return ensurePeriod(sentence);
+}
+
+function untiePronoun(sentence: string): string {
+  if (/^It /i.test(sentence)) return sentence.replace(/^It /, "This book ");
+  return sentence;
+}
+
+/**
+ * One or two sentences under the book title.
+ * The wording comes from that book's summary. No dates or statistics are added here.
+ */
+export function bookLead(book: Pick<Book, "title" | "subtitle" | "summary">): string {
+  const sentences = splitSentences(book.summary).filter((sentence) => !isFragment(sentence));
+  if (sentences.length === 0) {
+    const subtitle = book.subtitle.replace(/\s+/g, " ").trim().replace(/\.+$/, "");
+    return `${book.title} is ${subtitle}.`;
+  }
+
+  const opening = splitSentences(book.summary)[0];
+  const definitionSource = sentences.find((sentence) => definesBook(book.title, sentence));
+  const nounOpening =
+    opening && opening !== definitionSource && isFragment(opening) && !/^edition note\b/i.test(opening)
+      ? ensurePeriod(`${book.title} is ${opening.charAt(0).toLowerCase()}${opening.slice(1)}`)
+      : "";
+  const definition = definitionSource ? asDefinition(book.title, definitionSource) : nounOpening;
+  const answer = sentences.find((sentence) => {
+    if (definitionSource && sentence === definitionSource) return false;
+    if (/^This (book|teaching-manual) is not\b/i.test(sentence)) return false;
+    return true;
+  });
+
+  if (definition && answer) return `${definition} ${ensurePeriod(untiePronoun(answer))}`;
+  if (definition) return definition;
+
+  const first = sentences[0];
+  const named = first.toLowerCase().includes(book.title.toLowerCase())
+    ? ensurePeriod(first)
+    : ensurePeriod(`In ${book.title}, ${first.charAt(0).toLowerCase()}${first.slice(1)}`);
+  const second = sentences.find((sentence) => sentence !== first && !/^This (book|teaching-manual) is not\b/i.test(sentence));
+  if (second) return `${named} ${ensurePeriod(untiePronoun(second))}`;
+  return named;
 }
 
 function firstSentence(text: string): string {
@@ -181,19 +269,32 @@ export function bookJsonLd(book: Book) {
   const url = absoluteUrl(path);
   const authors = (book.authors.length > 0 ? book.authors : [MICHAEL_NAME]).map(personAuthor);
   const qas = bookQuestionAnswers(book);
+  const citations = (book.citations ?? []).map((note) => ({
+    "@type": "CreativeWork",
+    name: note.source,
+    url: note.href,
+  }));
   const graph: object[] = [
     {
-      "@type": "Book",
+      "@type": ["Book", "LearningResource"],
       "@id": `${url}#book`,
       url,
       name: book.title,
+      headline: book.title,
       description: book.summary,
+      abstract: bookLead(book),
       image: bookImage(book),
       inLanguage: "en",
       datePublished: SITE_UPDATED,
       dateModified: SITE_UPDATED,
       author: authors.length === 1 ? authors[0] : authors,
       publisher: publisherOrganization(),
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": url,
+      },
+      learningResourceType: "Book",
+      ...(citations.length > 0 ? { citation: citations.length === 1 ? citations[0] : citations } : {}),
     },
     breadcrumbList([
       { name: "Home", path: "/" },
