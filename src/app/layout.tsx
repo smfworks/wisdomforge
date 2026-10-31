@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fraunces, Source_Sans_3 } from "next/font/google";
 import "./globals.css";
+import { SiteJsonLd } from "@/components/site-json-ld";
 import { SiteShell } from "@/components/site-shell";
 
 const fraunces = Fraunces({
@@ -20,7 +21,13 @@ export const metadata: Metadata = {
   title: "WisdomForge — Education in the Age of AI",
   description:
     "A parent-operated academy for education in the age of AI. Four age bands, every subject, responsible autonomous AI use woven through the sitting.",
+  alternates: {
+    canonical: "./",
+  },
   openGraph: {
+    type: "website",
+    url: "./",
+    siteName: "WisdomForge",
     title: "WisdomForge",
     description: "A parent-operated academy for the age of AI.",
     images: ["/images/wisdomforge-hero.png"],
@@ -38,6 +45,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#0a0a0f" />
       </head>
       <body>
+        <SiteJsonLd />
         <SiteShell>{children}</SiteShell>
       </body>
     </html>

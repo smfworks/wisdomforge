@@ -6,6 +6,8 @@ export const metadata: Metadata = {
   description:
     "Four age-adapted WisdomForge booklets on Bonaventure: Franciscan teacher, the six-wing map, the world as a book of signs. PDF and Markdown. No EPUB. Adapted by Airia Edge.",
   openGraph: {
+    type: "website",
+    url: "./",
     title: "Bonaventure — WisdomForge by Airia Edge",
     description:
       "Four free booklets on Bonaventure. PDF and Markdown. No purchase.",

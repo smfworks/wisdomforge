@@ -9,10 +9,11 @@ export const metadata: Metadata = {
     "A voluntary tip jar for SMF WisdomForge: parent-operated, AI-supported philosophy and education outreach — booklets, audio, and video for ages 5 to adult. Not tuition. Not a product purchase. Materials stay free either way.",
   alternates: { canonical: "/support" },
   openGraph: {
+    type: "website",
+    url: "/support",
     title: "Support WisdomForge",
     description:
       "A voluntary tip jar for SMF WisdomForge. Parent-operated philosophy and education outreach for ages 5 to adult. Not tuition, not a product purchase. Materials stay free.",
-    url: "/support",
     images: ["/images/wisdomforge-hero.png"],
   },
 };

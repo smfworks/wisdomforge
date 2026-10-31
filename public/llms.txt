@@ -1,0 +1,61 @@
+# WisdomForge
+
+> WisdomForge is a parent-operated academy for education in the age of AI, published by SMF Works. Ten subjects, four age bands. The booklet is the text. The parent is the teacher. The guide is optional. Not a hosted kids chatbot. Does not make AI safe.
+
+Materials are free. A sitting is one short lesson, about 20 to 40 minutes. Pick an age (5–10, 11–14, 15–18, or adult), pick a subject, and run the lesson. Nothing about a child is stored on this site. Hermes profiles, if used, are run by the parent and talk to the parent, not to the child as a hosted product.
+
+Michael Gannotti directs the academy (Principal AI Solutions Engineer, SMF Works). Questions: michael@smfworks.com.
+
+## Start here
+
+- [Home](https://smfwisdomforge.com/): What WisdomForge is, how a sitting works, and the four age bands
+- [Start tonight’s sitting](https://smfwisdomforge.com/start): Pick 5–10, 11–14, 15–18, or adult and open the first Autonomous AI lesson
+- [Books](https://smfwisdomforge.com/books): Long books you can print. Short lessons live under Start
+- [About](https://smfwisdomforge.com/about): Who directs the academy and how the work is checked before it ships
+- [Subjects](https://smfwisdomforge.com/subjects): Ten subjects. Autonomous AI is the spine
+- [The method](https://smfwisdomforge.com/method): Human first, guide second, evaluate always, parent in the loop
+- [For parents](https://smfwisdomforge.com/parents): How a tired adult runs a weeknight sitting
+
+## Ages
+
+- [Little Thinkers, ages 5–10](https://smfwisdomforge.com/ages/little): Short sittings. A grown-up in the room. Conversation only
+- [Young Minds, ages 11–14](https://smfwisdomforge.com/ages/young): Scenarios and honest talk. Hint, then example
+- [Emerging Adults, ages 15–18](https://smfwisdomforge.com/ages/emerging): Real argument. The student writes; the guide critiques
+- [Lifelong Learners, adult](https://smfwisdomforge.com/ages/adult): Full depth. The adult profile is not copied onto a child
+
+## Subjects
+
+- [Autonomous AI](https://smfwisdomforge.com/subjects/ai): What an agent is, what it is not, and how to stay the operator
+- [Critical Thinking](https://smfwisdomforge.com/subjects/thinking): Claims, counterclaims, and what would change your mind
+- [Wisdom and Philosophy](https://smfwisdomforge.com/subjects/philosophy): Stoics and the examined life, rewritten for the age in the chair
+- [Mathematics](https://smfwisdomforge.com/subjects/math): Estimate and show the method before any tool checks the path
+- [Science](https://smfwisdomforge.com/subjects/science): Hypothesis before search
+- [English](https://smfwisdomforge.com/subjects/english): The student writes the draft
+- [History](https://smfwisdomforge.com/subjects/history): Primary sources first
+- [Art](https://smfwisdomforge.com/subjects/art): Hands before generate
+- [Computer Science](https://smfwisdomforge.com/subjects/cs): Specify the agent. Code is permission made explicit
+- [World Languages](https://smfwisdomforge.com/subjects/language): Say it yourself
+
+## Books
+
+- [Book catalog](https://smfwisdomforge.com/books): Academy books by subject, plus operator books for parents who already run Hermes
+- [Autonomous AI and Education](https://smfwisdomforge.com/books/autonomous-ai-and-education): The long book on the academy’s spine
+- [The Stoics](https://smfwisdomforge.com/books/stoics): Stoic voices gathered for the academy
+- [Church Fathers](https://smfwisdomforge.com/books/church-fathers): Patristic voices, disagreements included
+- [The Federalist Papers](https://smfwisdomforge.com/books/federalist-papers): Primary civic argument, not a summary
+
+## Optional
+
+- [Lessons library](https://smfwisdomforge.com/library): Index of sittings on this site
+- [Demos](https://smfwisdomforge.com/demos): Synthetic session transcripts. No real child data
+- [Hermes kits](https://smfwisdomforge.com/hermes): Optional parent guide and separate child profiles you run yourself
+- [Control plane](https://smfwisdomforge.com/parents/control-plane): Checklist before creating a child profile
+- [Evaluation scorecard](https://smfwisdomforge.com/evals): What is tested before a guide is trusted
+- [Support](https://smfwisdomforge.com/support): Voluntary tip jar. Not tuition. Materials stay free
+- [This device](https://smfwisdomforge.com/progress): Local progress stored on the device, not an account
+- [Bonaventure booklets](https://smfwisdomforge.com/bonaventure): Four age-adapted booklets
+- [Clare of Assisi booklets](https://smfwisdomforge.com/clare-of-assisi): Four age-adapted booklets
+- [Thérèse of Lisieux booklets](https://smfwisdomforge.com/therese-of-lisieux): Four age-adapted booklets
+- [Adult Hermes team repo](https://github.com/smfworks/hermes-ai-team): The adult profile parents use to operate the academy
+- [Kids Hermes profile kit](https://github.com/smfworks/wisdomforge-kids-Hermes-profiles): A separate profile for the child’s age. Never a copy of the adult one
+- [XML sitemap](https://smfwisdomforge.com/sitemap.xml): Public URLs for crawlers

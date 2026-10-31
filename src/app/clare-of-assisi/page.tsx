@@ -6,6 +6,8 @@ export const metadata: Metadata = {
   description:
     "Four age-adapted WisdomForge booklets on Clare of Assisi: the first Rule by a woman for women, the Privilege of Poverty, the pyx at the gate. PDF and Markdown. No EPUB. Adapted by Aiona Edge.",
   openGraph: {
+    type: "website",
+    url: "./",
     title: "Clare of Assisi — WisdomForge by Aiona Edge",
     description: "Four free booklets on Clare of Assisi. PDF and Markdown. No purchase.",
   },
