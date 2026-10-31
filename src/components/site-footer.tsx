@@ -46,7 +46,10 @@ export function SiteFooter() {
       <div className="border-t border-border">
         <p className="mx-auto max-w-6xl px-4 py-4 text-xs text-faint">
           Not a hosted kids chatbot. Does not make AI safe.{" "}
-          <Link href="/about" className="text-muted hover:text-fg">
+          <Link
+            href="/about"
+            className="text-muted underline decoration-accent decoration-1 underline-offset-2 hover:text-fg"
+          >
             About the team
           </Link>
           .
