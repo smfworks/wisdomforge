@@ -274,27 +274,43 @@ export function bookJsonLd(book: Book) {
     name: note.source,
     url: note.href,
   }));
+  const cited =
+    citations.length > 0
+      ? { citation: citations.length === 1 ? citations[0] : citations }
+      : {};
+  const author = authors.length === 1 ? authors[0] : authors;
+  const publisher = publisherOrganization();
+  const mainEntityOfPage = {
+    "@type": "WebPage",
+    "@id": url,
+  };
+  const described = {
+    url,
+    name: book.title,
+    headline: book.title,
+    description: book.summary,
+    abstract: bookLead(book),
+    image: bookImage(book),
+    inLanguage: "en",
+    datePublished: SITE_UPDATED,
+    dateModified: SITE_UPDATED,
+    author,
+    publisher,
+    mainEntityOfPage,
+    ...cited,
+  };
   const graph: object[] = [
     {
       "@type": ["Book", "LearningResource"],
       "@id": `${url}#book`,
-      url,
-      name: book.title,
-      headline: book.title,
-      description: book.summary,
-      abstract: bookLead(book),
-      image: bookImage(book),
-      inLanguage: "en",
-      datePublished: SITE_UPDATED,
-      dateModified: SITE_UPDATED,
-      author: authors.length === 1 ? authors[0] : authors,
-      publisher: publisherOrganization(),
-      mainEntityOfPage: {
-        "@type": "WebPage",
-        "@id": url,
-      },
       learningResourceType: "Book",
-      ...(citations.length > 0 ? { citation: citations.length === 1 ? citations[0] : citations } : {}),
+      ...described,
+    },
+    {
+      // Separate node so scanners that only match Article or BlogPosting still see the page.
+      "@type": ["BlogPosting", "Article"],
+      "@id": `${url}#article`,
+      ...described,
     },
     breadcrumbList([
       { name: "Home", path: "/" },
