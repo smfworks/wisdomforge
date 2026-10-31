@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { Byline } from "@/components/byline";
 import { GuidePanel } from "@/components/guide-panel";
 import { Button } from "@/components/ui/button";
 import { bandById } from "@/lib/curriculum/bands";
@@ -42,6 +43,7 @@ export function LessonView({ lesson }: { lesson: Lesson }) {
       </p>
       <h1 className="mt-2 font-display text-4xl text-fg sm:text-5xl">{lesson.title}</h1>
       <p className="mt-3 text-lg text-muted">{lesson.dek}</p>
+      <Byline authors={["Michael Gannotti"]} />
 
       <ul className="mt-6 flex flex-wrap gap-2 text-xs text-muted">
         <li className="rounded-md bg-raised px-3 py-2 shadow-[var(--shadow-border)]">{lesson.durationMin} min</li>

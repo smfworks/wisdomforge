@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { JsonLd } from "@/components/json-ld";
+import { aboutBreadcrumbJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "About — WisdomForge",
@@ -47,6 +49,7 @@ const team = [
 export default function About() {
   return (
     <main className="mx-auto max-w-3xl px-4 py-14">
+      <JsonLd data={aboutBreadcrumbJsonLd()} />
       <p className="text-xs font-medium tracking-widest text-accent uppercase">About</p>
       <h1 className="mt-3 font-display text-4xl text-fg sm:text-5xl">
         A parent-operated academy, built by a human and a team of Hermes AI.

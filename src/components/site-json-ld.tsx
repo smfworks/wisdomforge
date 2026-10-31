@@ -1,9 +1,10 @@
-import { ORG_NAME, SITE_NAME, SITE_ORIGIN, SITE_UPDATED } from "@/lib/site";
+import { JsonLd } from "@/components/json-ld";
+import { ORG_NAME, ORG_SAME_AS, SITE_NAME, SITE_ORIGIN, SITE_UPDATED } from "@/lib/site";
 
 const description =
   "A parent-operated academy for education in the age of AI. Four age bands, every subject, responsible autonomous AI use woven through the sitting.";
 
-const jsonLd = {
+export const siteJsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -11,6 +12,7 @@ const jsonLd = {
       "@id": `${SITE_ORIGIN}/#organization`,
       name: ORG_NAME,
       url: SITE_ORIGIN,
+      sameAs: [...ORG_SAME_AS],
       email: "michael@smfworks.com",
       description: `${ORG_NAME} publishes ${SITE_NAME}, a parent-operated academy for education in the age of AI.`,
       founder: { "@id": `${SITE_ORIGIN}/#founder` },
@@ -48,12 +50,5 @@ const jsonLd = {
 
 /** Site-wide structured data. Rendered from the root layout so the homepage HTML includes it. */
 export function SiteJsonLd() {
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{
-        __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
-      }}
-    />
-  );
+  return <JsonLd data={siteJsonLd} />;
 }
