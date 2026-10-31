@@ -105,8 +105,8 @@ export default async function BookPage({
           </p>
           <h1 className="mt-2 font-display text-4xl text-fg sm:text-5xl">{book.title}</h1>
           <p className="mt-2 text-lg text-muted">{book.subtitle}</p>
+          <p className="mt-4 max-w-2xl leading-relaxed text-muted">{lead}</p>
           <Byline authors={book.authors} />
-          <p className="mt-6 max-w-2xl leading-relaxed text-muted">{lead}</p>
           <p className="mt-3 max-w-2xl leading-relaxed text-muted">{book.summary}</p>
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             {book.pdfHref ? (
@@ -179,6 +179,31 @@ export default async function BookPage({
         <p className="text-xs text-faint">Authors</p>
         <p className="mt-1 text-sm text-fg">{book.authors.join(" · ")}</p>
       </div>
+
+      {book.citations && book.citations.length > 0 ? (
+        <section className="mt-8">
+          <h2 className="font-display text-3xl text-fg">Noted in this book</h2>
+          <ul className="mt-4 space-y-3">
+            {book.citations.map((note) => (
+              <li
+                key={note.href}
+                className="rounded-lg bg-surface p-4 shadow-[var(--shadow-border)]"
+              >
+                <p className="text-sm leading-relaxed text-fg">{note.text}</p>
+                <p className="mt-2 text-sm">
+                  <a
+                    href={note.href}
+                    className="text-accent hover:text-fg"
+                    rel="noopener noreferrer"
+                  >
+                    {note.source}
+                  </a>
+                </p>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
 
       {/* The Nine Voices */}
       <section className="mt-12">

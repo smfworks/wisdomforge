@@ -7,6 +7,13 @@
  * downloads for the figures they cover.
  */
 
+/** A fact already stated in the manuscript, with the source the manuscript names. */
+export type BookCitation = {
+  text: string;
+  source: string;
+  href: string;
+};
+
 export type BookChapter = {
   /** Chapter number (0 = introduction, 1-5 = main chapters, 6 = epilogue) */
   number: number;
@@ -62,6 +69,11 @@ export type Book = {
   chapters: BookChapter[];
   /** Authors */
   authors: string[];
+  /**
+   * Short sourced notes already in the manuscript.
+   * Omit when the manuscript does not give a figure and a URL.
+   */
+  citations?: BookCitation[];
   /** Production status */
   status: "in-production" | "published";
   /** Whether an audiobook is planned */
@@ -500,6 +512,18 @@ export const autonomousAiEducationBook: Book = {
   totalWordTarget: "~59,000 words",
   readingTime: "~4 hours · 189 pages",
   authors: ["Michael Gannotti"],
+  citations: [
+    {
+      text: "Among U.S. teens ages 13–17, 26 percent said they had used ChatGPT for schoolwork, up from 13 percent in 2023. That figure is chat use, not agent use.",
+      source: "Pew Research Center, 15 January 2025",
+      href: "https://www.pewresearch.org/short-reads/2025/01/15/about-a-quarter-of-us-teens-have-used-chatgpt-for-schoolwork-double-the-share-in-2023/",
+    },
+    {
+      text: "UNESCO’s 2023 Guidance for Generative AI in Education and Research recommends age 13 for independent classroom use of generative tools, and describes use of untested tools with children under 13 as not appropriate.",
+      source: "UNESCO, Guidance for Generative AI in Education and Research (2023)",
+      href: "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+    },
+  ],
   status: "published",
   audiobookPlanned: true,
   coverImage: "/images/books/autonomous-ai-and-education-cover.png",
@@ -840,6 +864,13 @@ export const hermesAiForBeginnersBook: Book = {
   totalWordTarget: "~95,000 words",
   readingTime: "~8 hours · 364 pages",
   authors: ["Michael Gannotti"],
+  citations: [
+    {
+      text: "The August 2026 edition points install at the official Nous installer — install.sh on Linux and macOS, install.ps1 on Windows, plus the Hermes Desktop app — and treats pip install into system Python as a pitfall, not a recommended path.",
+      source: "Hermes Agent documentation",
+      href: "https://hermes-agent.nousresearch.com/docs/",
+    },
+  ],
   status: "published",
   audiobookPlanned: true,
   coverImage: "/images/books/hermes-ai-for-beginners-cover.jpg",

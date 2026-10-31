@@ -69,16 +69,30 @@ describe("answer length", () => {
 });
 
 describe("book lead", () => {
-  it("opens with the title as one definition sentence", () => {
+  it("opens with one or two sentences that name the book", () => {
     for (const book of books) {
       const lead = bookLead(book);
-      assert.ok(lead.startsWith(book.title), lead);
-      assert.equal(lead.split(/[.!?]/).filter(Boolean).length, 1, lead);
-      assert.ok(lead.endsWith("."));
-      if (/\bbeginners?\b/i.test(book.title)) {
-        assert.match(lead, /beginner's guide to/i);
-      }
+      const sentences = lead.split(/(?<=[.!?])\s+(?=[A-Z“"'])/).filter(Boolean);
+      assert.ok(sentences.length >= 1 && sentences.length <= 2, `${book.slug}: ${sentences.length}\n${lead}`);
+      assert.ok(lead.includes(book.title), lead);
+      assert.match(lead, /[.!?]["”']?$/);
+      assert.equal(lead.includes("is a WisdomForge book:"), false, lead);
+      assert.equal(/\.\.|”\./.test(lead), false, lead);
+      assert.equal(/\bis a parent who\b/.test(lead), false, lead);
     }
+  });
+
+  it("answers the sampled pages from their own summaries", () => {
+    const autonomous = books.find((book) => book.slug === "autonomous-ai-and-education");
+    const hermes = books.find((book) => book.slug === "hermes-ai-for-beginners");
+    assert.ok(autonomous);
+    assert.ok(hermes);
+    const autonomousLead = bookLead(autonomous);
+    const hermesLead = bookLead(hermes);
+    assert.match(autonomousLead, /^Autonomous AI and Education is the hour at the table/);
+    assert.match(autonomousLead, /Performance is not learning/);
+    assert.match(hermesLead, /^Hermes AI for Beginners is a practical guide to installing/);
+    assert.match(hermesLead, /Official install is install\.sh/);
   });
 });
 
@@ -90,20 +104,32 @@ describe("Book JSON-LD", () => {
       const graph = bookJsonLd(book)["@graph"] as Record<string, unknown>[];
       const bookNode = graph.find((node) => typesOf(node).includes("Book"));
       assert.ok(bookNode);
+      assert.ok(typesOf(bookNode).includes("LearningResource"));
       assert.equal(bookNode.name, book.title);
+      assert.equal(bookNode.headline, book.title);
       assert.equal(bookNode.description, book.summary);
+      assert.equal(bookNode.abstract, bookLead(book));
       assert.equal(bookNode.inLanguage, "en");
       assert.equal(bookNode.datePublished, SITE_UPDATED);
       assert.equal(bookNode.dateModified, SITE_UPDATED);
       assert.match(String(bookNode.image), /^https:\/\/smfwisdomforge\.com\//);
+      const page = bookNode.mainEntityOfPage as Record<string, unknown>;
+      assert.equal(page["@type"], "WebPage");
+      assert.equal(page["@id"], `https://smfwisdomforge.com/books/${book.slug}`);
       const publisher = bookNode.publisher as Record<string, unknown>;
       assert.equal(publisher.name, ORG_NAME);
       assert.equal(publisher.name, "SMF Works");
       const author = bookNode.author as Record<string, unknown>;
       assert.equal(author["@type"], "Person");
       assert.equal(author.name, "Michael Gannotti");
+      assert.equal(author.url, "https://smfwisdomforge.com/about");
       assert.equal(author.jobTitle, MICHAEL_ROLE);
       assert.equal(author.worksFor, undefined);
+      const cited = book.citations ?? [];
+      assert.ok(cited.length > 0, book.slug);
+      const citation = bookNode.citation as Record<string, unknown> | Record<string, unknown>[];
+      const citationUrls = (Array.isArray(citation) ? citation : [citation]).map((item) => item.url);
+      assert.deepEqual(citationUrls, cited.map((note) => note.href));
       const crumbs = graph.find((node) => typesOf(node).includes("BreadcrumbList"));
       assert.ok(crumbs);
       const faq = graph.find((node) => typesOf(node).includes("FAQPage"));
@@ -125,6 +151,7 @@ describe("Book JSON-LD", () => {
         for (const key of FORBIDDEN_PERSON_KEYS) {
           assert.equal(node[key], undefined, `${String(node.name)} has ${key}`);
         }
+        assert.equal(node.url, "https://smfwisdomforge.com/about");
         if (node.name === "Michael Gannotti") {
           assert.equal(node.jobTitle, MICHAEL_ROLE);
         } else {
