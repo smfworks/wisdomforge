@@ -88,7 +88,13 @@ export default function SubjectHub() {
             <div className="flex flex-wrap items-baseline justify-between gap-2">
               <h3 className="font-medium text-fg">{u.title}</h3>
               <span className="text-xs text-accent">
-                {u.status === "ready" ? "Ready" : "Not ready yet"}
+                {u.status === "ready"
+                  ? "Ready"
+                  : u.readyBands?.length
+                    ? `Ready for ${u.readyBands
+                        .map((id) => bands.find((b) => b.id === id)?.name ?? id)
+                        .join(", ")} only`
+                    : "Not ready yet"}
               </span>
             </div>
             <p className="mt-1 text-sm text-muted">{u.blurb}</p>

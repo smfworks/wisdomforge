@@ -69,6 +69,7 @@ export const catalog: CatalogUnit[] = [
     subject: "philosophy",
     title: "Faith & Reason",
     status: "in-forge",
+    readyBands: ["emerging"],
     bands: ["emerging", "adult"],
     weeks: "10 sittings",
     blurb: "Church Fathers through Aquinas. Belief that can think. Parent theological humility notes.",
