@@ -93,6 +93,8 @@ export type CatalogUnit = {
   subject: SubjectId;
   title: string;
   status: UnitStatus;
+  /** Bands marked ready while the unit as a whole is still in-forge. */
+  readyBands?: BandId[];
   bands: BandId[];
   weeks: string;
   blurb: string;
