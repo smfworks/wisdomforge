@@ -150,6 +150,26 @@ const LESSON_TO_FIGURE: Record<string, string> = {
   // ── Faith & Reason (in-forge — add mappings when lessons ship)
 };
 
+/**
+ * Lessons whose booklet is one all-ages PDF rather than four level PDFs.
+ * Maps a lesson slug to the file slug in public/downloads/.
+ */
+const LESSON_TO_ALL_AGES: Record<string, string> = {
+  // ── CS — Systems: Rules for a Helper
+  "specify-the-agent": "computer-science-for-all-ages",
+};
+
+function allAgesLink(slug: string): BookletLink | null {
+  const file = LESSON_TO_ALL_AGES[slug];
+  if (!file) return null;
+  return {
+    href: `/downloads/${file}.pdf`,
+    mdHref: `/downloads/${file}.md`,
+    label: "All ages",
+    figure: file,
+  };
+}
+
 /** Maps a band to the PDF level suffix used in filenames. */
 const BAND_TO_LEVEL: Record<BandId, string> = {
   little: "elementary",
@@ -194,6 +214,8 @@ export function bookletLinksForLesson(
   slug: string,
   currentBand: BandId,
 ): BookletLink[] | null {
+  const allAges = allAgesLink(slug);
+  if (allAges) return [allAges];
   const figure = figureForLesson(slug);
   if (!figure) return null;
 
@@ -222,6 +244,8 @@ export function bookletForBand(
   slug: string,
   band: BandId,
 ): BookletLink | null {
+  const allAges = allAgesLink(slug);
+  if (allAges) return allAges;
   const figure = figureForLesson(slug);
   if (!figure) return null;
 
@@ -284,6 +308,7 @@ export function figureDisplayName(figure: string): string {
     "how-to-think": "How to Think",
     "say-it-yourself": "Say It Yourself",
     citizens: "Citizens",
+    "computer-science-for-all-ages": "Computer Science for All Ages",
     student: "The student",
     "parent-operator": "The parent-operator",
   };
