@@ -238,7 +238,7 @@ export const greeksLessons: Lesson[] = [
         transfer: [{ label: "AI", note: "A model can tell you how it works (material, formal, efficient). It can't tell you what it's for. That's the final cause — yours." }, { label: "Science", note: "Modern science dropped the final cause. Aristotle said without it, you have a manual, not understanding." }],
         ifTheySay: [{ heard: "Why do I need four causes — can't I just say 'it's a table'?", reply: "You can. But if someone asks 'why does the table exist?' you need the final cause — to hold things. If they ask 'what made it?' you need the efficient cause. Each cause answers a different question. That's why there are four." }],
         integrity: "Do not ask the model 'what is a person for?' That's the final cause — the one question that's yours to answer.",
-        aiLab: { setup: "After the four causes.", childDoes: "Ask the model: 'What are the four causes of a tree?' Check: does it get the final cause right? A model often struggles with 'what's it for.'", evaluate: ["Did they answer all four causes?", "Did they notice the final cause is the hardest?"] },
+        aiLab: { setup: "Off.", childDoes: "None.", evaluate: ["Did they answer all four causes?", "Did they notice the final cause is the hardest?"] },
       },
       emerging: {
         title: "Aristotle's Architecture of Explanation",
