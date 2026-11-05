@@ -186,7 +186,7 @@ export const catalog: CatalogUnit[] = [
     id: "hist-federalist",
     subject: "history",
     title: "The Federalist — The Brief That Sold the Machine",
-    status: "in-forge",
+    status: "ready",
     bands: ["young", "emerging", "adult"],
     weeks: "6 sittings",
     blurb: "A New York sales campaign, not the Constitution. Faction vs Brutus, ambition, judgment without sword, the lost argument for a bill of rights, and the civic chain.",
