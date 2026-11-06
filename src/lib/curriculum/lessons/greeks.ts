@@ -292,7 +292,7 @@ export const greeksLessons: Lesson[] = [
         transfer: [{ label: "AI", note: "A model can give you a rule. The right amount in this situation is judgment — yours." }, { label: "SEL", note: "Self-regulation is the practice of finding the mean in real time." }],
         ifTheySay: [{ heard: "So I should always do the middle thing?", reply: "No. The middle of jumping off a cliff and not jumping is still a bad idea. The mean is about the right thing in the right way — not about being mild all the time. Sometimes the right amount is a lot." }],
         integrity: "Do not ask the model how much is enough. The right amount is the judgment Aristotle said can't be automated.",
-        aiLab: { setup: "After the exercise.", childDoes: "Describe a situation to the model. Ask: 'What's the courageous thing to do?' Then ask: 'Is that too much, too little, or just right for this specific situation?'", evaluate: ["Did they identify the extremes?", "Did they notice the mean is contextual?"] },
+        aiLab: { setup: "Off.", childDoes: "None.", evaluate: ["Did they identify the extremes?", "Did they notice the mean is contextual?"] },
       },
       emerging: {
         title: "The Golden Mean and the Limits of Rules",
