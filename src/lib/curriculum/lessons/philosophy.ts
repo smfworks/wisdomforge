@@ -420,7 +420,7 @@ export const philosophyLessons: Lesson[] = [
         title: "Everyone Is Family",
         dek: "Zeno said the whole world is one big city and everyone is your neighbor. Even people far away.",
         objective: "The child can draw expanding circles from themselves to the whole world and name one person in each circle.",
-        parentBriefing: "Zeno invented the word 'cosmopolitan' — citizen of the world. For little thinkers: start with who's in your house, then your street, then your school, then your town, then the whole world. Everyone is family in a big way. Keep it simple and visual — circles growing outward.",
+        parentBriefing: "For little thinkers: start with who's in your house, then your street, then your school, then your town, then the whole world. Everyone is family in a big way. Keep it simple and visual — circles growing outward.",
         hardEdges: ["Don't make 'everyone is family' into 'strangers are safe.' Cosmopolitan means shared humanity, not shared trust. Grown-ups still check.", "Don't skip the practical step — caring about faraway people starts with caring about nearby people."],
         reading: [{ heading: "The big circle", body: "Zeno had a big idea: the whole world is one city. Not separate countries with walls. One big city. And every person in it is your neighbor. He drew circles — you in the middle, then your family, then your friends, then your town, then your country, then everyone. The work is to pull the faraway circles closer. Not to love strangers more than your family — but to remember they're family too, just farther away. A talking tool can tell you about people far away. But caring starts with the people in your room." }],
         bigIdea: "The world is one big family. Start caring close to home and grow outward.",
@@ -433,7 +433,7 @@ export const philosophyLessons: Lesson[] = [
       },
       young: {
         title: "The World City",
-        dek: "Zeno invented cosmopolitanism — but does 'citizen of the world' actually work, or is it a beautiful idea that breaks on contact with real differences?",
+        dek: "Does 'citizen of the world' actually work, or is it a beautiful idea that breaks on contact with real differences?",
         objective: "The student can explain oikeiosis (expanding circles of care) and identify one tension between local loyalty and global concern.",
         parentBriefing: "This is where idealism meets reality. Zeno said everyone is a citizen of the world. That's inspiring. It's also hard. Does caring about everyone far away mean caring less about people nearby? Let them wrestle with that tension — it's the right question.",
         hardEdges: ["Don't make cosmopolitanism sound easy. Caring about everyone is not the same as being able to help everyone. The Stoic practice is expanding your reach, not feeling guilty about the distance.", "Don't use 'citizen of the world' to dismiss local community. The circles start at the center — you. Local roots are not narrow. They're the foundation for wider care."],
