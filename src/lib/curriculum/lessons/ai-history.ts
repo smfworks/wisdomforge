@@ -79,7 +79,7 @@ export const aiHistoryLessons: Lesson[] = [
         transfer: [{ label: "AI", note: "A model produces the right words. Does it understand them? This is the question." }, { label: "Thinking", note: "Rule-following vs. understanding — a 45-year debate." }],
         ifTheySay: [{ heard: "But the room DOES understand — as a system!", reply: "That's the Systems Reply, and it's one of the most famous objections. Searle's response: if the person memorizes the whole rulebook, the system is entirely inside their head — and they still understand nothing. What do you think?" }],
         integrity: "Do not ask the model whether it understands. That's asking the room whether it understands — the answer is circular.",
-        aiLab: { setup: "After the exercise.", childDoes: "Ask the model: 'Do you understand what I'm saying?' Then ask: 'Or are you following rules?' Compare the two answers.", evaluate: ["Did they retell the thought experiment correctly?", "Did they notice the circularity of asking the model?"] },
+        aiLab: { setup: "Off.", childDoes: "None.", evaluate: ["Did they retell the thought experiment correctly?", "Did they notice the circularity of asking the model?"] },
       },
       emerging: {
         title: "The Person in the Room",
